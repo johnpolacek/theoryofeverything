@@ -9,7 +9,7 @@ export default function Sidebar() {
           <span>everything</span>
         </a>
         <ol className="flex flex-col gap-4 p-8">
-          <li><a href="#meaning-of-life">Meaning of Life</a></li>
+          <li><a href="#meaning-of-life">Life</a></li>
           <li><a href="#consciousness">Consciousness</a></li>
           <li><a href="#our-universe">Our Universe</a></li>
           <li><a href="#time">Time</a></li>

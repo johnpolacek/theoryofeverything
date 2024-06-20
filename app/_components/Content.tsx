@@ -16,8 +16,8 @@ export default function Content() {
         self-awareness.
         </p>
         <p>
-        As humans, we exhibit consciousness by being self-aware and capable of
-        profound observation and interaction with the environment as we perceive it.
+        Humans exhibit consciousness by being self-aware and capable of 
+        profound observation and interaction with our environment.
         </p>
       </Section>
 
@@ -30,8 +30,8 @@ export default function Content() {
 
       <Section id="time" title="Time">
         <p>
-        Consider beings, with unlimited lifespan and near-instantaneous
-        communication, perceiving time as an additional spatial dimension.
+        Consider beings with an unlimited lifespan and near-instantaneous communication, 
+        perceiving time as an additional spatial dimension.
         </p>
         <p>
         They would see past, present, and future simultaneously, experiencing a
@@ -58,20 +58,20 @@ export default function Content() {
         <p>
         Infinity represents the idea that dimensions extend endlessly without any
         finite boundaries. In the case of any given dimension, infinity can serve
-        as a wrapper function to allows a higher dimensional consciousness to
+        as a wrapper function to allow a higher dimensional consciousness to
         collapse the infinite into something that can be observed in totality.
         </p>
         <p>
-        In the case of ourselves, as four-dimensional beings, we have the
-        potential to observe the entirety of three dimensional space due to the
-        fourth dimension of time, our own infinity wrapper function around space.
+        As four-dimensional beings, we have the potential to observe the entirety 
+        of three-dimensional space through the fourth dimension of time, 
+        our own infinity wrapper function around space.
         </p>
       </Section>
 
       <Section id="black-holes" title="Black Holes">
         <p>
         Black holes represent regions of spacetime where gravity is so intense
-        that not even light escape, making its interior opaque to us. Their
+        that not even light escape, making their interior opaque to us. Their
         singularities represent infinities wrapped into a finite structure in our
         universe.
         </p>
@@ -84,40 +84,42 @@ export default function Content() {
 
       <Section id="aliens" title="Aliens">
         <p>
-        The Fermi Paradox questions the lack of detected extraterrestrial life.
+        The Fermi Paradox questions the lack of detected extraterrestrial life, 
+        despite the vastness of the universe.
         </p>
         <p>
         One explanation is that advanced civilizations transcend into higher
         dimensions, becoming undetectable.
         </p>
         <p>
-        Another explanation could be that higher-dimensional have designed a
-        universe with rules that make intelligent life either alone or so rare as
-        to be effectively isolated as part of a grand experiment or even for their
-        own entertainment.
+        Another explanation could be that higher-dimensional beings have designed 
+        a universe with rules that make intelligent life either alone or so rare 
+        as to be effectively isolated, as part of a grand experiment or even for 
+        their own entertainment.
         </p>
       </Section>
       
       <Section id="simulation" title="Are We In a Simulation?">
         <p>
         Whether our universe is a simulation or naturally occurring is irrelevant.
-        The core of existence is the cyclical process of creation and observation.
-        Consciousness transcends the specifics of reality’s nature.
+        The core of existence is the cyclical process of creation and observation 
+        by increasingly higher levels of consciousness. The distinction between 
+        artificial and natural processes is an illusion.
         </p>
       </Section>
       
       <Section id="god" title="Does God Exist?">
         <p>
         Regardless of any label we choose to assign, an ultimate 
-        consciousness, empowered with omniscience, omnipotence, and omnipresence, 
+        consciousness empowered with omniscience, omnipotence, and omnipresence 
         is a fundamental aspect of the nature of reality.
         </p>
       </Section>
 
       <Section id="why" title="Why Are We Here?">
         <p>
-        At the highest dimension, all possible realities condense into a point
-        revealing the cyclic nature of existence, where infinite complexity
+        At the highest dimension, all possible realities condense into a point, 
+        revealing the cyclic nature of existence, where infinite complexity 
         reduces to a singularity. The most advanced consciousness ultimately
         creates itself by observing all lower dimensions, over and over again.
         </p>

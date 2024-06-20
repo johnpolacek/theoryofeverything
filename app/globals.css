@@ -4,6 +4,10 @@
 
 html {
   scroll-behavior: smooth;
-  line-height: 1.8;
+  line-height: 1.66;
   text-wrap: pretty;
+}
+
+p {
+  line-height: 1.66;
 }

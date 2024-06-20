@@ -7,11 +7,11 @@ export default function Home() {
 	return (
 		<div className="flex">
 			<Sidebar />
-			<main className="grow">
+			<div className="grow">
 				<Header />
 				<Content />
 				<Footer />
-			</main>
+			</div>
 		</div>
 	);
 }
