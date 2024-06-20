@@ -36,7 +36,8 @@ export default function Content() {
         <p>
         They would see past, present, and future simultaneously, experiencing a
         form of omniscience. To such beings, our universe's timeline would be
-        observable in its entirety.
+        observable in its entirety. This can help us understand what it might 
+        be like to exist in a higher dimension.
         </p>
       </Section> 
       
@@ -107,7 +108,7 @@ export default function Content() {
       
       <Section id="god" title="Does God exist?">
         <p>
-        Regardless of any label we choose to assign, an ultimate dimensional 
+        Regardless of any label we choose to assign, an ultimate 
         consciousness, empowered with omniscience, omnipotence, and omnipresence, 
         is a fundamental aspect of the nature of reality.
         </p>
@@ -115,13 +116,13 @@ export default function Content() {
 
       <Section id="why" title="Why?">
         <p>
-        At the highest dimensions, all possible realities condense into a point
-        where everything that can happen is included.
+        At the highest dimension, all possible realities condense into a point
+        containing everything that can happen.
         </p>
         <p>
         This reveals the cyclic nature of existence, where infinite complexity
         reduces to a singularity. The most advanced consciousness ultimately
-        creates itself by observing all lower dimensions.
+        creates itself by observing all lower dimensions, over and over again.
         </p>
         <p>Life exists to create life, perpetuating infinitely.</p>
       </Section>
