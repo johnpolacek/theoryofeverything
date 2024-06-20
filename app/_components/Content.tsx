@@ -2,7 +2,7 @@ import Section from "./Section";
 
 export default function Content() {
   return (
-    <>
+    <main>
       <Section id="meaning-of-life" title="The Meaning of Life">
         <p>
         Life exists to create and observe, mutually intertwined and reciprocal
@@ -106,7 +106,7 @@ export default function Content() {
         </p>
       </Section>
       
-      <Section id="god" title="Does God exist?">
+      <Section id="god" title="Does God Exist?">
         <p>
         Regardless of any label we choose to assign, an ultimate 
         consciousness, empowered with omniscience, omnipotence, and omnipresence, 
@@ -114,18 +114,15 @@ export default function Content() {
         </p>
       </Section>
 
-      <Section id="why" title="Why?">
+      <Section id="why" title="Why Are We Here?">
         <p>
         At the highest dimension, all possible realities condense into a point
-        containing everything that can happen.
-        </p>
-        <p>
-        This reveals the cyclic nature of existence, where infinite complexity
+        revealing the cyclic nature of existence, where infinite complexity
         reduces to a singularity. The most advanced consciousness ultimately
         creates itself by observing all lower dimensions, over and over again.
         </p>
         <p>Life exists to create life, perpetuating infinitely.</p>
       </Section>
-    </>
+    </main>
   )
 }

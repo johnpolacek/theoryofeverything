@@ -1,6 +1,6 @@
 export default function Sidebar() {
   return (
-    <aside className="w-full h-full max-w-[210px]">
+    <aside className="hidden xl:block w-full h-full max-w-[210px]">
       <nav className="fixed w-full h-full max-w-[210px] top-0 left-0 border-r border-black/10 border-dashed">
         <a href="#home" className="flex flex-col items-center justify-center py-8 border-b border-black/10 border-dashed h-[160px]">
           <span className="text-xs">a</span>
