@@ -1,4 +1,5 @@
 import Section from "./Section";
+import Holos from "./Holos";
 
 export default function Content() {
   return (
@@ -132,11 +133,11 @@ export default function Content() {
         reduces to a singularity. The most advanced consciousness ultimately
         creates itself by observing all lower dimensions, over and over again.
         </p>
-        <p>Life exists to create life, perpetuating infinitely.</p>
+        <p>Life exists to create and observe life, perpetuating infinitely.</p>
       </Section>
 
-      <Section id="rabbit-hole">
-        <h3 className="font-regular italic text-xl">...Down the Rabbit Hole</h3>
+      <Section id="holos">
+        <Holos />
       </Section>
     </main>
   )
