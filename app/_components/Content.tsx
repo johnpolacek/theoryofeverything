@@ -22,9 +22,9 @@ export default function Content() {
       </Section>
 
       <Section id="our-universe" title="Our Universe">
-        <p>Our universe originated from a singular point in the Big Bang, expanding towards
-        infinity. We perceive three spatial dimensions while moving
-        unidirectionally through the fourth dimension, time.
+        <p>Our universe originated from a singular point in the Big Bang, 
+        expanding towards infinity. We perceive three spatial dimensions 
+        while moving unidirectionally through the fourth dimension, time.
         </p>
       </Section>
 
@@ -36,8 +36,8 @@ export default function Content() {
         <p>
         They would see past, present, and future simultaneously, experiencing a
         form of omniscience. To such beings, our universe's timeline would be
-        observable in its entirety. This can help us understand what it might 
-        be like to exist in a higher dimension.
+        observable in its entirety. By imagining such an entity, we can better 
+        understand what it might be like to exist in a higher dimension.
         </p>
       </Section> 
       
@@ -99,7 +99,7 @@ export default function Content() {
         </p>
       </Section>
       
-      <Section id="simulation" title="Are We In a Simulation?">
+      <Section id="simulation" title="Simulation">
         <p>
         Whether our universe is a simulation or naturally occurring is irrelevant.
         The core of existence is the cyclical process of creation and observation 
@@ -108,11 +108,20 @@ export default function Content() {
         </p>
       </Section>
       
-      <Section id="god" title="Does God Exist?">
+      <Section id="god" title="God">
         <p>
         Regardless of any label we choose to assign, an ultimate 
         consciousness empowered with omniscience, omnipotence, and omnipresence 
         is a fundamental aspect of the nature of reality.
+        </p>
+      </Section>
+
+      <Section id="love" title="Love">
+        <p>
+        Defined as a feeling of strong affection for another, love emerges 
+        as a byproduct of the continuous processes of creation and observation, 
+        reinforcing the interconnectedness of all conscious entities and 
+        contributing to the stability and evolution of reality.
         </p>
       </Section>
 
@@ -124,6 +133,10 @@ export default function Content() {
         creates itself by observing all lower dimensions, over and over again.
         </p>
         <p>Life exists to create life, perpetuating infinitely.</p>
+      </Section>
+
+      <Section id="rabbit-hole">
+        <h3 className="font-regular italic text-xl">...Down the Rabbit Hole</h3>
       </Section>
     </main>
   )
