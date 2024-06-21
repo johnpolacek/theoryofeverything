@@ -67,17 +67,17 @@ export default function Content() {
 
       <Section id="infinity" title="Infinity">
         <p>
-          Infinity represents the idea that dimensions extend endlessly without any finite boundaries. In the case of any given dimension, infinity can serve as a wrapper function at a higher
-          dimension to collapse the infinite into something that can be observed in totality.
+          Infinity represents the concept of dimensions extending endlessly without any finite boundaries. In the context of a given dimension, it is possible to use higher-dimensional perspectives to
+          transform infinite structures into finite, observable entities.
         </p>
         <p>
-          By wrapping an infinite sequence or expanse within a higher-dimensional framework, it becomes possible to perceive and analyze the entire structure at once. This concept suggests that what
-          appears infinite and unbounded in one dimension can be rendered finite and comprehensible when viewed from a higher-dimensional perspective.
+          By employing higher-dimensional frameworks, an infinite sequence or expanse can be encapsulated, allowing for the perception and analysis of the entire structure in its entirety. This
+          concept suggests that what appears infinite and unbounded in one dimension can be rendered finite and comprehensible when viewed from a higher-dimensional vantage point.
         </p>
         <p>
-          For example, as four-dimensional beings we have the potential to observe the entirety of three-dimensional space through the fourth dimension of time, our own infinity wrapper function
-          around space. This allows us to observe the progression and totality of spatial events over time, effectively transforming our perception of infinite sequences of spatial configurations into
-          a coherent whole.
+          For instance, as four-dimensional beings, we can observe the entirety of three-dimensional space through the temporal dimension, effectively using time as a higher-dimensional framework to
+          encapsulate spatial configurations. This allows us to perceive the progression and totality of spatial events over time, transforming our understanding of infinite sequences of spatial
+          configurations into a coherent and finite whole.
           <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-infinity">
             <sup>6</sup>
           </a>
