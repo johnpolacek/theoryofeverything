@@ -16,6 +16,12 @@ html {
   box-sizing: inherit;
 }
 
+.animate * {
+  transition:0.2s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 p {
   line-height: 1.66;
 }

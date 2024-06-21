@@ -17,7 +17,7 @@ export default function Sidebar() {
           <li><a href="#meaning-of-life">Life</a></li>
           <li><a href="#consciousness">Consciousness</a></li>
           <li><a href="#our-universe">Our Universe</a></li>
-          <li><a href="#time">Time</a></li>
+          <li><a href="#spacetime">Spacetime</a></li>
           <li><a href="#higher-dimensions">Higher Dimensions</a></li>
           <li><a href="#infinity">Infinity</a></li>
           <li><a href="#black-holes">Black Holes</a></li>
