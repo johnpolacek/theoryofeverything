@@ -60,7 +60,7 @@ export default function Sidebar() {
               <a href="#why">Why?</a>
             </li>
             <li>
-              <a className="block pt-6 flex items-center gap-1 -ml-0.5" href="#holos">
+              <a className="flex pt-6 items-center gap-1 -ml-0.5" href="#holos">
                 <img src="/icon.svg" alt="Asterisk in a Circle" className="w-4 h-4 scale-90" />
                 <span className="font-light">Holos</span>
               </a>
