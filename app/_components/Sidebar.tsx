@@ -22,7 +22,6 @@ export default function Sidebar() {
           <li><a href="#aliens">Aliens</a></li>
           <li><a href="#simulation">Simulation</a></li>
           <li><a href="#god">God</a></li>
-          <li><a href="#love">Love</a></li>
           <li><a href="#why">Why?</a></li>
           <li>
             <a className="block pt-6 flex items-center gap-1 -ml-0.5" href="#holos">

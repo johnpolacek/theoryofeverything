@@ -7,7 +7,7 @@ export default function Content() {
       <Section id="meaning-of-life" title="The Meaning of Life">
         <p>
         Life exists to create and observe, mutually intertwined and reciprocal
-        actions required for the manifestation of reality.
+        actions required for the manifestation of reality.<a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-life"><sup>1</sup></a>
         </p>
       </Section>
 
@@ -18,18 +18,22 @@ export default function Content() {
         </p>
         <p>
         Humans exhibit consciousness by being self-aware and capable of 
-        profound observation and interaction with our environment.
+        profound observation and interaction with our environment.<a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-consciousness"><sup>2</sup></a>
         </p>
       </Section>
 
       <Section id="our-universe" title="Our Universe">
         <p>Our universe originated from a singular point in the Big Bang, 
         expanding towards infinity. We perceive three spatial dimensions 
-        while moving unidirectionally through the fourth dimension, time.
+        while moving unidirectionally through the fourth dimension, time. 
+        </p>
+        <p>
+        Spacetime is a continuum where the three dimensions of space and 
+        time is curved and warped by the presence of mass and energy.<a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-universe"><sup>3</sup></a>
         </p>
       </Section>
 
-      <Section id="time" title="Time">
+      <Section id="spacetime" title="Spacetime">
         <p>
         Consider beings with an unlimited lifespan and near-instantaneous communication, 
         perceiving time as an additional spatial dimension.
@@ -38,7 +42,7 @@ export default function Content() {
         They would see past, present, and future simultaneously, experiencing a
         form of omniscience. To such beings, our universe's timeline would be
         observable in its entirety. By imagining such an entity, we can better 
-        understand what it might be like to exist in a higher dimension.
+        understand what it might be like to exist in a higher dimension.<a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-spacetime"><sup>4</sup></a>
         </p>
       </Section> 
       
@@ -51,7 +55,7 @@ export default function Content() {
         <p>
         Just as we control and transform the three dimensional environment around
         us, consciousness in higher dimensions can exert influence over lower
-        dimensions, forming an intricate and interconnected cosmic structure.
+        dimensions, forming an intricate and interconnected cosmic structure.<a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-dimensions"><sup>5</sup></a>
         </p>
       </Section>
       
@@ -59,13 +63,13 @@ export default function Content() {
         <p>
         Infinity represents the idea that dimensions extend endlessly without any
         finite boundaries. In the case of any given dimension, infinity can serve
-        as a wrapper function to allow a higher dimensional consciousness to
-        collapse the infinite into something that can be observed in totality.
+        as a wrapper function at a higher dimension to collapse the infinite into 
+        something that can be observed in totality.
         </p>
         <p>
         As four-dimensional beings, we have the potential to observe the entirety 
         of three-dimensional space through the fourth dimension of time, 
-        our own infinity wrapper function around space.
+        our own infinity wrapper function around space.<a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-infinity"><sup>6</sup></a>
         </p>
       </Section>
 
@@ -78,8 +82,8 @@ export default function Content() {
         </p>
         <p>
         For higher-dimensional beings, black holes would be as accessible as any
-        other region of space-time, including the ability to navigate through the
-        singularity and perceive the vast array of information contained within.
+        other region of spacetime, including the ability to navigate through the
+        singularity and perceive the vast array of information contained within.<a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-blackholes"><sup>7</sup></a>
         </p>
       </Section>
 
@@ -96,16 +100,16 @@ export default function Content() {
         Another explanation could be that higher-dimensional beings have designed 
         a universe with rules that make intelligent life either alone or so rare 
         as to be effectively isolated, as part of a grand experiment or even for 
-        their own entertainment.
+        their own entertainment.<a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-aliens"><sup>8</sup></a>
         </p>
       </Section>
       
       <Section id="simulation" title="Simulation">
         <p>
-        Whether our universe is a simulation or naturally occurring is irrelevant.
-        The core of existence is the cyclical process of creation and observation 
+        Whether our universe is a simulation or naturally occurring is irrelevant. 
+        The core of existence lies in the cyclical process of creation and observation 
         by increasingly higher levels of consciousness. The distinction between 
-        artificial and natural processes is an illusion.
+        processes that arise spontaneously and those that are designed is an illusion.<a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-simulation"><sup>9</sup></a>
         </p>
       </Section>
       
@@ -113,16 +117,7 @@ export default function Content() {
         <p>
         Regardless of any label we choose to assign, an ultimate 
         consciousness empowered with omniscience, omnipotence, and omnipresence 
-        is a fundamental aspect of the nature of reality.
-        </p>
-      </Section>
-
-      <Section id="love" title="Love">
-        <p>
-        Defined as a feeling of strong affection for another, love emerges 
-        as a byproduct of the continuous processes of creation and observation, 
-        reinforcing the interconnectedness of all conscious entities and 
-        contributing to the stability and evolution of reality.
+        is a fundamental aspect of the nature of reality.<a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-god"><sup>10</sup></a>
         </p>
       </Section>
 
@@ -133,7 +128,7 @@ export default function Content() {
         reduces to a singularity. The most advanced consciousness ultimately
         creates itself by observing all lower dimensions, over and over again.
         </p>
-        <p>Life exists to create and observe life, perpetuating infinitely.</p>
+        <p>Life exists to create and observe life, perpetuating infinitely.<a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-why"><sup>11</sup></a></p>
       </Section>
 
       <Section id="holos">
