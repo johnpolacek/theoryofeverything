@@ -7,8 +7,8 @@ export default function Holos() {
       </p>
       <p className="text-base">
         <span className="font-medium">Holos</span> is derived from the Greek word ὅλος, meaning whole, entire or complete. It is symbolized here by{" "}
-        <span className="inline-block scale-125 px-px relative -top-px">⊛</span>, representing the interconnected, unified and infinite structure of reality as formed through the reciprocal actions of
-        creation and observation.
+        <span className="inline-block scale-125 px-px relative -top-px">⊛</span>, representing the interconnected, unified, recursive and infinite structure of reality as formed through the reciprocal
+        actions of creation and observation.
       </p>
       <h4 id="footer-life" className="font-semibold pt-4">
         The Meaning of Life
