@@ -36,13 +36,13 @@ export default function Content() {
       <Section id="spacetime" title="Spacetime">
         <p>
         Consider beings with an unlimited lifespan and near-instantaneous communication, 
-        perceiving time as an additional spatial dimension.
+        perceiving time as an additional spatial dimension. These beings would not be limited by the unidirectional flow of time as we are.
         </p>
         <p>
-        They would see past, present, and future simultaneously, experiencing a
-        form of omniscience. To such beings, our universe's timeline would be
-        observable in its entirety. By imagining such an entity, we can better 
-        understand what it might be like to exist in a higher dimension.<a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-spacetime"><sup>4</sup></a>
+        Instead, they would perceive the curvature of spacetime comprehensively, seeing 
+        past, present, and future as a singular, cohesive structure observable in its 
+        entirety. By imagining such an entity, we can better understand what it might be 
+        like to exist in a higher dimension.<a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-spacetime"><sup>4</sup></a>
         </p>
       </Section> 
       
@@ -53,6 +53,13 @@ export default function Content() {
         physics.
         </p>
         <p>
+        In these theories, the additional dimensions are compactified or hidden 
+        from our direct observation, yet their influence permeates our 
+        lower-dimensional reality. These higher dimensions shape the physical laws 
+        and constants that govern our universe, influencing everything from the behavior 
+        of subatomic particles to gravitational interactions and the structure of the cosmos. 
+        </p>
+        <p>
         Just as we control and transform the three dimensional environment around
         us, consciousness in higher dimensions can exert influence over lower
         dimensions, forming an intricate and interconnected cosmic structure.<a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-dimensions"><sup>5</sup></a>
@@ -61,15 +68,25 @@ export default function Content() {
       
       <Section id="infinity" title="Infinity">
         <p>
-        Infinity represents the idea that dimensions extend endlessly without any
-        finite boundaries. In the case of any given dimension, infinity can serve
+        Infinity represents the idea that dimensions extend endlessly without any 
+        finite boundaries. In the case of any given dimension, infinity can serve 
         as a wrapper function at a higher dimension to collapse the infinite into 
-        something that can be observed in totality.
+        something that can be observed in totality. 
         </p>
         <p>
-        As four-dimensional beings, we have the potential to observe the entirety 
-        of three-dimensional space through the fourth dimension of time, 
-        our own infinity wrapper function around space.<a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-infinity"><sup>6</sup></a>
+        By wrapping an infinite sequence or expanse within a higher-dimensional 
+        framework, it becomes possible to perceive and analyze the entire structure 
+        at once. This concept suggests that what appears infinite and unbounded in 
+        one dimension can be rendered finite and comprehensible when viewed from a 
+        higher-dimensional perspective.
+        </p>
+        <p>
+        For example, as four-dimensional beings we have the potential to observe 
+        the entirety of three-dimensional space through the fourth dimension of time, 
+        our own infinity wrapper function around space. This allows us to observe 
+        the progression and totality of spatial events over time, effectively 
+        transforming our perception of infinite sequences of spatial configurations 
+        into a coherent whole.<a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-infinity"><sup>6</sup></a>
         </p>
       </Section>
 
@@ -81,9 +98,13 @@ export default function Content() {
         universe.
         </p>
         <p>
-        For higher-dimensional beings, black holes would be as accessible as any
-        other region of spacetime, including the ability to navigate through the
-        singularity and perceive the vast array of information contained within.<a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-blackholes"><sup>7</sup></a>
+        For higher-dimensional beings, black holes would be as accessible as any 
+        other region of spacetime, including the ability to navigate through the 
+        singularity and perceive the vast array of information contained within. 
+        This perspective aligns with the holographic principle, which posits that 
+        all the information contained within a black hole can be described on a 
+        lower-dimensional boundary, suggesting that higher-dimensional observation 
+        could unlock the mysteries hidden within these enigmatic objects.<a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-blackholes"><sup>7</sup></a>
         </p>
       </Section>
 
@@ -117,7 +138,21 @@ export default function Content() {
         <p>
         Regardless of any label we choose to assign, an ultimate 
         consciousness empowered with omniscience, omnipotence, and omnipresence 
-        is a fundamental aspect of the nature of reality.<a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-god"><sup>10</sup></a>
+        is a fundamental aspect of the nature of reality. 
+        </p>
+        <p>
+        Religious beliefs like panentheism, Brahman, and the Omega Point all point 
+        to a transcendent, all-encompassing consciousness that permeates and extends 
+        beyond the universe, suggesting a unified source of all existence and knowledge. 
+        </p>
+        <p>
+        Alternatively, atheism posits that such a consciousness does not exist, attributing 
+        the complexity and order of the universe to natural processes and random chance 
+        without invoking a higher power.
+        </p>
+        <p>
+        Ultimately, both of these perspectives can be equally valid sides of the same coin,
+        only differing in semantics and the framework used to describe the same universal truth.<a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-god"><sup>10</sup></a>
         </p>
       </Section>
 
