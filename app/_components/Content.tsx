@@ -104,7 +104,7 @@ export default function Content() {
         <p>One explanation is that advanced civilizations transcend into higher dimensions, becoming undetectable.</p>
         <p>
           Another explanation could be that higher-dimensional beings have designed a universe with rules that make intelligent life either alone or so rare as to be effectively isolated, as part of a
-          grand experiment or even for their own entertainment.
+          grand experiment or even for their own entertainment. According to the observer effect, this act of observing lower-dimensional life forms may even shape their existence.
           <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-aliens">
             <sup>8</sup>
           </a>
