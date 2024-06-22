@@ -14,7 +14,7 @@ export default function Content() {
       </Section>
 
       <Section id="consciousness" title="Consciousness">
-        <p>Consciousness is the ability to experience and shape the world with self-awareness.</p>
+        <p>An emergent property of life, consciousness is the ability to experience and shape the world with self-awareness.</p>
         <p>
           Humans exhibit consciousness by being self-aware and capable of profound observation and interaction with our environment.
           <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-consciousness">
@@ -67,12 +67,12 @@ export default function Content() {
 
       <Section id="infinity" title="Infinity">
         <p>
-          Infinity represents the concept of dimensions extending endlessly without any finite boundaries. In the context of a given dimension, it is possible to use higher-dimensional perspectives to
-          transform infinite structures into finite, observable entities.
+          Infinity represents the concept of dimensions extending endlessly without any finite boundaries. In the context of a given dimension, it is possible to use a higher-dimensional perspective
+          to transform infinite structures into finite, observable entities.
         </p>
         <p>
           By employing higher-dimensional frameworks, an infinite sequence or expanse can be encapsulated, allowing for the perception and analysis of the entire structure in its entirety. This
-          concept suggests that what appears infinite and unbounded in one dimension can be rendered finite and comprehensible when viewed from a higher-dimensional vantage point.
+          concept suggests that what appears infinite and unbounded in one dimension can be rendered finite and progressively comprehensible when viewed from a higher-dimensional vantage point.
         </p>
         <p>
           For instance, as four-dimensional beings, we can observe the entirety of three-dimensional space through the temporal dimension, effectively using time as a higher-dimensional framework to
@@ -104,7 +104,7 @@ export default function Content() {
         <p>One explanation is that advanced civilizations transcend into higher dimensions, becoming undetectable.</p>
         <p>
           Another explanation could be that higher-dimensional beings have designed a universe with rules that make intelligent life either alone or so rare as to be effectively isolated, as part of a
-          grand experiment or even for their own entertainment. According to the observer effect, this act of observing lower-dimensional life forms may even shape their existence.
+          grand experiment or even for their own entertainment. Applying the principle of the observer effect, this act of observing lower-dimensional life forms may even shape their existence.
           <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-aliens">
             <sup>8</sup>
           </a>
