@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { Bitter } from "next/font/google"
+import { Analytics } from "@vercel/analytics/react"
 import "./globals.css"
 
 const bitter = Bitter({ subsets: ["latin"] })
@@ -20,7 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={bitter.className}>{children}</body>
+      <body className={bitter.className}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   )
 }
