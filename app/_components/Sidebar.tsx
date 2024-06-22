@@ -25,7 +25,7 @@ export default function Sidebar() {
               <span>everything</span>
             </div>
           </a>
-          <ol className="flex flex-col h-full gap-4 pt-12 pb-16 justify-center items-center">
+          <ol className="flex flex-col h-full gap-4 pt-12 pb-16 justify-center items-center xl:justify-start">
             <li>
               <a href="#meaning-of-life">Life</a>
             </li>
