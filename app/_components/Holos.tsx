@@ -172,16 +172,22 @@ export default function Holos() {
         <sup className="relative top-2 pr-2">6</sup>
         <ul className="flex flex-col gap-2">
           <li>
-            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/AdS/CFT_correspondence">
-              AdS/CFT Correspondence
+            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Riemann_sphere">
+              Riemann Sphere
             </a>{" "}
-            Higher-dimensional information is encoded into a finite, observable form within lower dimensions.
+            Exemplifies how higher-dimensional perspectives transform infinite structures into finite, observable entities.
           </li>
           <li>
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/AdS/CFT_correspondence">
               Fractals
             </a>{" "}
             Mathematical sets that can represent infinite complexity within finite boundaries.
+          </li>
+          <li>
+            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/AdS/CFT_correspondence">
+              AdS/CFT Correspondence
+            </a>{" "}
+            Higher-dimensional information is encoded into a finite, observable form within lower dimensions.
           </li>
           <li>
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument">
