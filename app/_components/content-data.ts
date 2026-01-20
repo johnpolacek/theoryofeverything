@@ -82,6 +82,13 @@ export const sections: ContentSection[] = [
     ],
   },
   {
+    id: "extrapolation",
+    title: "A Note on Extrapolation",
+    paragraphs: [
+      "The following sections (Higher Dimensions, Black Holes, Aliens) move beyond established physics into interpretive synthesis. These concepts are not claims of empirical fact, but logical extrapolations constrained by the Holos axioms. They illustrate the \"possibility space\" that emerges when the principles of observation and relativity are applied to the unresolved paradoxes of the cosmos.",
+    ],
+  },
+  {
     id: "higher-dimensions",
     title: "Higher Dimensions",
     footerId: "footer-dimensions",

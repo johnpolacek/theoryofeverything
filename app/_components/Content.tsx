@@ -7,7 +7,7 @@ export default function Content() {
   return (
     <main>
       {sections.map((section) => (
-        <Section key={section.id} id={section.id} title={section.title}>
+        <Section key={section.id} id={section.id} title={section.title} variant={section.id === "extrapolation" ? "note" : undefined}>
           {section.paragraphs.map((paragraph, pIndex) => (
             <p key={`${section.id}-p-${pIndex}`}>
               {parseContent(paragraph, pIndex)}
