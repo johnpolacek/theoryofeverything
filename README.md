@@ -1,1 +1,1 @@
-[a Theory of Everything](https://theoryofeverything.fyi)
+[a Theory of Everything](https://atheoryofeverything.vercel.app)
