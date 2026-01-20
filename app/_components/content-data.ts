@@ -55,7 +55,7 @@ export const sections: ContentSection[] = [
     title: "Consciousness",
     footerId: "footer-consciousness",
     paragraphs: [
-      "An emergent property of life, consciousness is the ability to experience and shape the world with self-awareness.",
+      "Rather than a mere byproduct of biological complexity, consciousness is a fundamental quality manifested through life—the ability to experience and shape the world with awareness.",
       "Humans exhibit consciousness by being self-aware and capable of profound observation and interaction with our environment.[^3]",
     ],
   },
@@ -75,7 +75,7 @@ export const sections: ContentSection[] = [
     paragraphs: [
       "Consider beings with an unlimited lifespan and near-instantaneous communication, perceiving time as an additional spatial dimension. These beings would not be limited by the unidirectional flow of time as we are.",
       "Instead, they would perceive the curvature of spacetime comprehensively, seeing past, present, and future as a singular, cohesive structure observable in its entirety. By imagining such an entity, we can better understand what it might be like to exist in a higher dimension.",
-      'For a photon traveling at the speed of light, the spacetime interval is zero. This "Null Interval" effectively collapses the universe into a single point of contact, where emission and absorption occur simultaneously. To a higher-dimensional observer, a photon is not a moving particle, but a static geometric structure—a Null Geodesic—that permanently connects two points in spacetime like a seam.',
+      "For a photon traveling at the speed of light, the spacetime interval is zero, a “Null Interval”. While a photon does not possess subjective experience in a biological sense, geometrically, its path effectively collapses the universe into a single point of contact where emission and absorption occur simultaneously. To a higher-dimensional observer, a photon is not a moving particle, but a static geometric structure—a Null Geodesic—that permanently connects two points in spacetime like a seam.",
       "This structure suggests that time does not merely flow forward; it is a completed circuit. Experiments like the Quantum Eraser suggest that correlations are established across spacetime independent of linear duration. This reinforces the idea that the universe is a globally self-consistent block, where past and future are not sequential causes, but mutually defining parts of a singular geometric structure.[^5]",
     ],
   },
@@ -87,7 +87,8 @@ export const sections: ContentSection[] = [
       "Though we can't directly observe higher dimensions, mathematical models suggest their existence, offering solutions to longstanding problems in physics.",
       "In these theories, the additional dimensions are compactified or hidden from our direct observation, yet their influence permeates our lower-dimensional reality. These higher dimensions shape the physical laws and constants that govern our universe, influencing everything from the behavior of subatomic particles to gravitational interactions and the structure of the cosmos.",
       "Just as a 3D object casts a 2D shadow, our physical laws may be projections of a higher-dimensional geometry. Forces we perceive could be the vibrations of a unified single point in the 5th or 6th dimension, perceived by us as separate fields.",
-      "Just as we control and transform the three dimensional environment around us, consciousness in higher dimensions can exert influence over lower dimensions, forming an intricate and interconnected cosmic structure.[^6]",
+      "Just as we control and transform the three dimensional environment around us, consciousness in higher dimensions can exert influence over lower dimensions, forming an intricate and interconnected cosmic structure.",
+      "From our perspective, light is a mechanism of energy transfer. However, from a higher-dimensional perspective, a photon may function akin to an optic nerve. While the photon itself lacks biological subjectivity, it acts as the sensory interface for a higher-dimensional consciousness, transforming the mechanical interaction of the universe into a subjective experience of the whole.[^5]",
     ],
   },
   {
