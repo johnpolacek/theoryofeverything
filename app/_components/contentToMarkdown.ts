@@ -6,7 +6,7 @@ export function contentToMarkdown(): string {
       content: [
         "The following fundamental principles form the logical basis of this framework:",
         "**Relationality:** Reality is not absolute; it is defined by the relationships and interactions between entities (Holos[^1]).",
-        "**Manifestation:** Observation is not passive; it is a necessary condition for the collapse of probability into physical reality (Participatory Principle[^2]).",
+        "**Manifestation:** Observation is not merely mechanical interaction; it is the act of integrating information into an experience. While physical systems may undergo decoherence, reality is only fully realized when observed by a conscious entity (Participatory Principle[^2]).",
         "**Conservation:** Information is fundamental and conserved across all transformations, including those within singularities (Unitarity[^12]).",
         "**Unification:** Apparent infinities in lower dimensions are resolved into finite structures when observed from higher-dimensional perspectives (Projective Geometry[^6]).",
         "**Interface:** Consciousness is not a byproduct of matter, but the fundamental interface through which the universe experiences its own information (Panpsychism[^3]).",
@@ -17,7 +17,7 @@ export function contentToMarkdown(): string {
       title: "The Meaning of Life",
       content: [
         "Life exists to create and observe, mutually intertwined and reciprocal actions required for the manifestation of reality.",
-        'According to the Participatory Anthropic Principle, the universe is a "self-excited circuit" that requires observers to bring its laws into existence. This aligns with Biocentrism, which posits that biology is not a byproduct of the universe, but the force that organizes it. Without the act of observation to collapse the quantum wavefunction, the universe remains a state of undefined probability.[^2]',
+        'According to the Participatory Anthropic Principle, the universe is a "self-excited circuit" that requires observers to bring its laws into existence. This aligns with Biocentrism, which posits that biology is not a byproduct of the universe, but the force that organizes it. While standard physics attributes wavefunction collapse to environmental decoherence, this theory posits that decoherence is simply the external mechanism of an internal conscious event. A measurement not experienced is merely data; reality requires a conscious witness to transform probability into actualized existence.[^2]',
       ],
     },
     {
@@ -129,6 +129,7 @@ export function contentToMarkdown(): string {
         "[Relational Quantum Mechanics](https://en.wikipedia.org/wiki/Relational_quantum_mechanics) - The properties of quantum systems are not absolute but relative to the observer.",
         "[Participatory Anthropic Principle](https://en.wikipedia.org/wiki/Anthropic_principle) - The universe, as a condition of its existence, must be observed, thus implying one or more observers. The universe is a \"self-excited circuit\" that requires observers to bring its laws into existence.",
         "[Biocentrism](https://en.wikipedia.org/wiki/Biocentrism_(ethics)) - The philosophical perspective that biology is not a byproduct of the universe, but the force that organizes it. Life and consciousness are central to understanding the nature of reality.",
+        "[Von Neumann-Wigner Interpretation](https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Wigner_interpretation) - An interpretation of quantum mechanics in which consciousness is formulated as a necessary process for the quantum measurement process.",
       ],
     },
     {

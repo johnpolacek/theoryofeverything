@@ -14,7 +14,7 @@ export default function Content() {
           ).
         </p>
         <p>
-          <strong>Manifestation:</strong> Observation is not passive; it is a necessary condition for the collapse of probability into physical reality (
+          <strong>Manifestation:</strong> Observation is not merely mechanical interaction; it is the act of integrating information into an experience. While physical systems may undergo decoherence, reality is only fully realized when observed by a conscious entity (
           <a className="px-0.5 opacity-80 hover:opacity-100" href="#footer-life">
             Participatory Principle<sup>2</sup>
           </a>
@@ -49,8 +49,10 @@ export default function Content() {
         </p>
         <p>
           According to the Participatory Anthropic Principle, the universe is a "self-excited circuit" that requires observers to bring its laws into existence. This aligns with Biocentrism, which posits
-          that biology is not a byproduct of the universe, but the force that organizes it. Without the act of observation to collapse the quantum wavefunction, the universe remains a state of undefined
-          probability.
+          that biology is not a byproduct of the universe, but the force that organizes it.
+        </p>
+        <p>
+          Standard physics describes the mechanics of reality, but mechanism is only the surface. Physical interaction is the external view of a conscious experience. A measurement without experience is empty data. Reality requires a witness.
           <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-life">
             <sup>2</sup>
           </a>

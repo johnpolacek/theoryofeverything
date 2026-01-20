@@ -66,6 +66,12 @@ export default function Holos() {
             </a>{" "}
             The philosophical perspective that biology is not a byproduct of the universe, but the force that organizes it. Life and consciousness are central to understanding the nature of reality.
           </li>
+          <li>
+            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Wigner_interpretation">
+              Von Neumann-Wigner Interpretation
+            </a>{" "}
+            An interpretation of quantum mechanics in which consciousness is formulated as a necessary process for the quantum measurement process.
+          </li>
         </ul>
       </div>
       <h4 id="footer-consciousness" className="font-semibold pt-4">
