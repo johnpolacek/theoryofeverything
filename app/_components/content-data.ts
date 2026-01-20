@@ -36,7 +36,7 @@ export const sections: ContentSection[] = [
       "**Relationality:** Reality is not composed of isolated objects with intrinsic properties, but of relationships and interactions. While the observer determines the perspective, the invariant structure of these relationships remains absolute ([Holos](#footer-axioms)[^1]).",
       "**Manifestation:** Observation is not merely mechanical interaction; it is the act of integrating information into an experience. Because reality exists as a unified spacetime block, observation need not be temporally local to be ontologically complete. Conscious entities participate in the realization of the entire structure ([Participatory Principle](#footer-life)[^2]).",
       "**Conservation:** Information is fundamental and conserved across all transformations, including those within singularities ([Unitarity](#footer-why)[^12]).",
-      "**Unification:** Apparent infinities in lower dimensions are resolved into finite structures when observed from higher-dimensional perspectives ([Projective Geometry](#footer-dimensions)[^6]).",
+      "**Unification:** Apparent infinities in lower dimensions are resolved into finite structures when mapped onto higher-dimensional frameworks. Whether physical or mathematical, these higher-dimensional descriptions are required to render the universe intelligible and resolve singularities ([Projective Geometry](#footer-dimensions)[^6]).",
       "**Interface:** Consciousness is not a byproduct of matter, but the fundamental interface through which the universe experiences its own information ([Panpsychism](#footer-consciousness)[^3]).",
     ],
   },
@@ -86,7 +86,7 @@ export const sections: ContentSection[] = [
     title: "Higher Dimensions",
     footerId: "footer-dimensions",
     paragraphs: [
-      "Though we can't directly observe higher dimensions, mathematical models suggest their existence, offering solutions to longstanding problems in physics.",
+      "Though we cannot directly observe higher dimensions, they serve as essential explanatory tools in physics. Whether treated as physical realities or mathematical necessities, these frameworks offer the only consistent solutions to longstanding problems like the unification of gravity and quantum mechanics.",
       "In these theories, the additional dimensions are compactified or hidden from our direct observation, yet their influence permeates our lower-dimensional reality. These higher dimensions shape the physical laws and constants that govern our universe, influencing everything from the behavior of subatomic particles to gravitational interactions and the structure of the cosmos.",
       "Just as a 3D object casts a 2D shadow, our physical laws may be projections of a higher-dimensional geometry. Forces we perceive could be the vibrations of a unified single point in the 5th or 6th dimension, perceived by us as separate fields.",
       "Just as we control and transform the three dimensional environment around us, consciousness in higher dimensions can exert influence over lower dimensions, forming an intricate and interconnected cosmic structure.",
