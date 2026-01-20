@@ -55,7 +55,7 @@ export const sections: ContentSection[] = [
     title: "Consciousness",
     footerId: "footer-consciousness",
     paragraphs: [
-      "Rather than a mere byproduct of biological complexity, consciousness is a fundamental quality manifested through life—the ability to experience and shape the world with awareness.",
+      "Rather than a byproduct of biological complexity, consciousness is a fundamental quality manifested through life, the ability to experience and shape the world with awareness.",
       "Humans exhibit consciousness by being self-aware and capable of profound observation and interaction with our environment.[^3]",
     ],
   },
