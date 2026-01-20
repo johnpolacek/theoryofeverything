@@ -33,7 +33,7 @@ export const sections: ContentSection[] = [
     footerId: "footer-axioms",
     paragraphs: [
       "The following fundamental principles form the logical basis of this framework:",
-      "**Relationality:** Reality is not absolute; it is defined by the relationships and interactions between entities ([Holos](#footer-axioms)[^1]).",
+      "**Relationality:** Reality is not composed of isolated objects with intrinsic properties, but of relationships and interactions. While the observer determines the perspective, the invariant structure of these relationships remains absolute ([Holos](#footer-axioms)[^1]).",
       "**Manifestation:** Observation is not merely mechanical interaction; it is the act of integrating information into an experience. While physical systems may undergo decoherence, reality is only fully realized when observed by a conscious entity ([Participatory Principle](#footer-life)[^2]).",
       "**Conservation:** Information is fundamental and conserved across all transformations, including those within singularities ([Unitarity](#footer-why)[^12]).",
       "**Unification:** Apparent infinities in lower dimensions are resolved into finite structures when observed from higher-dimensional perspectives ([Projective Geometry](#footer-dimensions)[^6]).",
@@ -160,6 +160,11 @@ export const footnotes: FootnoteSection[] = [
     id: "footer-axioms",
     title: "The Holos Axioms",
     items: [
+      {
+        name: "Structural Realism",
+        url: "https://en.wikipedia.org/wiki/Structural_realism",
+        description: "The view that science describes the mathematical structures and relationships of the physical world, rather than the intrinsic nature of the objects themselves.",
+      },
       {
         name: "Holos",
         url: "#holos",
