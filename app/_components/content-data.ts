@@ -47,6 +47,7 @@ export const sections: ContentSection[] = [
     paragraphs: [
       "Life exists to create and observe, mutually intertwined and reciprocal actions required for the manifestation of reality.",
       'According to the Participatory Anthropic Principle, the universe is a "self-excited circuit" that requires observers to bring its laws into existence. This aligns with Biocentrism, which posits that biology is not a byproduct of the universe, but the force that organizes it.',
+      'Mathematical description alone does not constitute existence. Physics explains the structure of what happens, but consciousness provides the presence required for it to happen as reality rather than abstract data.',
       "Standard physics describes the mechanics of reality, but mechanism is only the surface. Physical interaction is the external view of a conscious experience. A measurement without experience is empty data. Reality requires a witness.[^2]",
     ],
   },
@@ -56,7 +57,7 @@ export const sections: ContentSection[] = [
     footerId: "footer-consciousness",
     paragraphs: [
       "Rather than a byproduct of biological complexity, consciousness is a fundamental quality manifested through life, the ability to experience and shape the world with awareness.",
-      "Humans exhibit consciousness by being self-aware and capable of profound observation and interaction with our environment.[^3]",
+      "Humans exhibit consciousness by being self-aware and capable of profound observation and interaction with our environment. Consciousness is not a \"ghost\" smuggled into the machine of physics, but the ontological register that converts the universe from a closed loop of silent mechanism into a realized event.[^3]",
     ],
   },
   {
