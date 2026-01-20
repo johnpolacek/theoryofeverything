@@ -115,9 +115,9 @@ export const sections: ContentSection[] = [
     title: "Aliens",
     footerId: "footer-aliens",
     paragraphs: [
-      "The Fermi Paradox questions the lack of detected extraterrestrial life, despite the vastness of the universe.",
-      'One explanation is that advanced civilizations transcend into higher dimensions, becoming undetectable. Theoretical physics suggests the existence of Shadow Sectors—matter composed of particles that interact with gravity but not light. These "Bulk Beings" could inhabit the higher dimensions just millimeters away from our own, sharing our gravitational reality but remaining invisible to our electromagnetic observations.',
-      "Another explanation could be that higher-dimensional beings have designed a universe with rules that make intelligent life either alone or so rare as to be effectively isolated, as part of a grand experiment or even for their own entertainment. Applying the principle of the observer effect, this act of observing lower-dimensional life forms may even shape their existence.[^9]",
+      "The Fermi Paradox questions the lack of detected extraterrestrial life, despite the vastness of the universe. Within the context of this framework, this silence is likely a geometric constraint rather than a biological one.",
+      'If civilizations evolve to understand the higher-dimensional structure of reality, they may inevitably "transcend" by accessing geometries orthogonal to our observable 3D slice. Rather than expanding outwardly across vast physical distances—which is limited by the speed of light—advanced intelligence likely expands inwardly toward higher densities of information.',
+      "This Transcension Hypothesis suggests that advanced civilizations migrate into higher-dimensional manifolds or black hole singularities, where computational efficiency approaches infinity and the constraints of spacetime intervals vanish. We do not see them because they have rotated out of our lower-dimensional \"shadow,\" moving closer to the unified source of reality.[^9]",
     ],
   },
   {
