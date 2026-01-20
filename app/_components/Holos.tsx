@@ -191,7 +191,7 @@ export default function Holos() {
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser">
               Quantum Eraser Experiment
             </a>{" "}
-            Demonstrates that the decision to measure or erase quantum information can retroactively determine whether a particle behaved as a wave or particle in the past, suggesting time is not unidirectional.
+            Demonstrates that the measurement of a particle's path is correlated with its behavior in the past, supporting the view of spacetime as a unified, pre-existing whole rather than a linear sequence.
           </li>
         </ul>
       </div>

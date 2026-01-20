@@ -97,8 +97,9 @@ export default function Content() {
           spacetime like a seam.
         </p>
         <p>
-          This structure suggests that time does not merely flow forward; it is a completed circuit. Experiments in Retrocausality, such as the Quantum Eraser, suggest that choices made in the present
-          can resolve the state of the past, reinforcing the idea that the universe is a cohesive, self-consistent block rather than a linear sequence of events.
+          This structure suggests that time does not merely flow forward; it is a completed circuit. Experiments like the Quantum Eraser suggest that correlations are established across spacetime independent
+          of linear duration. This reinforces the idea that the universe is a globally self-consistent block, where past and future are not sequential causes, but mutually defining parts of a singular
+          geometric structure.
           <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-spacetime">
             <sup>5</sup>
           </a>

@@ -17,7 +17,8 @@ export function contentToMarkdown(): string {
       title: "The Meaning of Life",
       content: [
         "Life exists to create and observe, mutually intertwined and reciprocal actions required for the manifestation of reality.",
-        'According to the Participatory Anthropic Principle, the universe is a "self-excited circuit" that requires observers to bring its laws into existence. This aligns with Biocentrism, which posits that biology is not a byproduct of the universe, but the force that organizes it. While standard physics attributes wavefunction collapse to environmental decoherence, this theory posits that decoherence is simply the external mechanism of an internal conscious event. A measurement not experienced is merely data; reality requires a conscious witness to transform probability into actualized existence.[^2]',
+        'According to the Participatory Anthropic Principle, the universe is a "self-excited circuit" that requires observers to bring its laws into existence. This aligns with Biocentrism, which posits that biology is not a byproduct of the universe, but the force that organizes it.',
+        'Standard physics describes the mechanics of reality, but mechanism is only the surface. Physical interaction is the external view of a conscious experience. A measurement without experience is empty data. Reality requires a witness.[^2]',
       ],
     },
     {
@@ -43,7 +44,7 @@ export function contentToMarkdown(): string {
         "Consider beings with an unlimited lifespan and near-instantaneous communication, perceiving time as an additional spatial dimension. These beings would not be limited by the unidirectional flow of time as we are.",
         "Instead, they would perceive the curvature of spacetime comprehensively, seeing past, present, and future as a singular, cohesive structure observable in its entirety. By imagining such an entity, we can better understand what it might be like to exist in a higher dimension.",
         'For a photon traveling at the speed of light, the spacetime interval is zero. This "Null Interval" effectively collapses the universe into a single point of contact, where emission and absorption occur simultaneously. To a higher-dimensional observer, a photon is not a moving particle, but a static geometric structure—a Null Geodesic—that permanently connects two points in spacetime like a seam.',
-        "This structure suggests that time does not merely flow forward; it is a completed circuit. Experiments in Retrocausality, such as the Quantum Eraser, suggest that choices made in the present can resolve the state of the past, reinforcing the idea that the universe is a cohesive, self-consistent block rather than a linear sequence of events.[^5]",
+        "This structure suggests that time does not merely flow forward; it is a completed circuit. Experiments like the Quantum Eraser suggest that correlations are established across spacetime independent of linear duration. This reinforces the idea that the universe is a globally self-consistent block, where past and future are not sequential causes, but mutually defining parts of a singular geometric structure.[^5]",
       ],
     },
     {
@@ -163,7 +164,7 @@ export function contentToMarkdown(): string {
         "[Light Cone](https://en.wikipedia.org/wiki/Light_cone) - The boundary of all possible paths that light can take from a given event, defining the causal structure of spacetime.",
         "[Null Geodesic](https://en.wikipedia.org/wiki/Geodesic) - The path that light follows through spacetime. For photons, this is a static geometric structure that permanently connects emission and absorption points, appearing as motion only from our temporal perspective.",
         "[Retrocausality](https://en.wikipedia.org/wiki/Retrocausality) - The concept that future events can influence past events. Experiments like the Quantum Eraser suggest that choices made in the present can resolve the quantum state of the past, supporting the block universe model.",
-        "[Quantum Eraser Experiment](https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser) - Demonstrates that the decision to measure or erase quantum information can retroactively determine whether a particle behaved as a wave or particle in the past, suggesting time is not unidirectional.",
+        "[Quantum Eraser Experiment](https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser) - Demonstrates that the measurement of a particle's path is correlated with its behavior in the past, supporting the view of spacetime as a unified, pre-existing whole rather than a linear sequence.",
       ],
     },
     {
