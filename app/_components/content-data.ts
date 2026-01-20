@@ -34,7 +34,7 @@ export const sections: ContentSection[] = [
     paragraphs: [
       "The following fundamental principles form the logical basis of this framework:",
       "**Relationality:** Reality is not composed of isolated objects with intrinsic properties, but of relationships and interactions. While the observer determines the perspective, the invariant structure of these relationships remains absolute ([Holos](#footer-axioms)[^1]).",
-      "**Manifestation:** Observation is not merely mechanical interaction; it is the act of integrating information into an experience. While physical systems may undergo decoherence, reality is only fully realized when observed by a conscious entity ([Participatory Principle](#footer-life)[^2]).",
+      "**Manifestation:** Observation is not merely mechanical interaction; it is the act of integrating information into an experience. Because reality exists as a unified spacetime block, observation need not be temporally local to be ontologically complete. Conscious entities participate in the realization of the entire structure ([Participatory Principle](#footer-life)[^2]).",
       "**Conservation:** Information is fundamental and conserved across all transformations, including those within singularities ([Unitarity](#footer-why)[^12]).",
       "**Unification:** Apparent infinities in lower dimensions are resolved into finite structures when observed from higher-dimensional perspectives ([Projective Geometry](#footer-dimensions)[^6]).",
       "**Interface:** Consciousness is not a byproduct of matter, but the fundamental interface through which the universe experiences its own information ([Panpsychism](#footer-consciousness)[^3]).",
@@ -48,6 +48,7 @@ export const sections: ContentSection[] = [
       "Life exists to create and observe, mutually intertwined and reciprocal actions required for the manifestation of reality.",
       'According to the Participatory Anthropic Principle, the universe is a "self-excited circuit" that requires observers to bring its laws into existence. This aligns with Biocentrism, which posits that biology is not a byproduct of the universe, but the force that organizes it.',
       'Mathematical description alone does not constitute existence. Physics explains the structure of what happens, but consciousness provides the presence required for it to happen as reality rather than abstract data.',
+      "This participation is not bound by linear time. In an eternalist universe, the emergence of consciousness validates the reality of the past just as much as the present. The early universe is not \"unreal\" before life; it is retrospectively realized by the observers it eventually produces.",
       "Standard physics describes the mechanics of reality, but mechanism is only the surface. Physical interaction is the external view of a conscious experience. A measurement without experience is empty data. Reality requires a witness.[^2]",
     ],
   },
