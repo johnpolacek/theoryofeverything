@@ -10,11 +10,25 @@ export default function Holos() {
         <span className="inline-block scale-125 px-px relative -top-px">⊛</span>, representing the interconnected, unified, recursive structure of reality as formed through the reciprocal actions of
         creation and observation.
       </p>
+      <h4 id="footer-axioms" className="font-semibold pt-4">
+        The Holos Axioms
+      </h4>
+      <div className="flex">
+        <sup className="relative top-2 pr-2">1</sup>
+        <ul className="flex flex-col gap-2">
+          <li>
+            <a className="font-normal underline mr-1" href="#holos">
+              Holos
+            </a>{" "}
+            The interconnected, unified, recursive structure of reality as formed through the reciprocal actions of creation and observation, symbolized by ⊛.
+          </li>
+        </ul>
+      </div>
       <h4 id="footer-life" className="font-semibold pt-4">
         The Meaning of Life
       </h4>
       <div className="flex">
-        <sup className="relative top-2 pr-2">1</sup>
+        <sup className="relative top-2 pr-2">2</sup>
         <ul className="flex flex-col gap-2">
           <li>
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Observer_effect_(physics)">
@@ -58,7 +72,7 @@ export default function Holos() {
         Consciousness
       </h4>
       <div className="flex">
-        <sup className="relative top-2 pr-2">2</sup>
+        <sup className="relative top-2 pr-2">3</sup>
         <ul className="flex flex-col gap-2">
           <li>
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Integrated_information_theory">
@@ -85,7 +99,7 @@ export default function Holos() {
         Our Universe
       </h4>
       <div className="flex">
-        <sup className="relative top-2 pr-2">3</sup>
+        <sup className="relative top-2 pr-2">4</sup>
         <ul className="flex flex-col gap-2">
           <li>
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Big_Bang">
@@ -117,7 +131,7 @@ export default function Holos() {
         Spacetime
       </h4>
       <div className="flex">
-        <sup className="relative top-2 pr-2">4</sup>
+        <sup className="relative top-2 pr-2">5</sup>
         <ul className="flex flex-col gap-2">
           <li>
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)">
@@ -179,7 +193,7 @@ export default function Holos() {
         Higher Dimensions
       </h4>
       <div className="flex">
-        <sup className="relative top-2 pr-2">5</sup>
+        <sup className="relative top-2 pr-2">6</sup>
         <ul className="flex flex-col gap-2">
           <li>
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Flatland">
@@ -223,7 +237,7 @@ export default function Holos() {
         Infinity
       </h4>
       <div className="flex">
-        <sup className="relative top-2 pr-2">6</sup>
+        <sup className="relative top-2 pr-2">7</sup>
         <ul className="flex flex-col gap-2">
           <li>
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Riemann_sphere">
@@ -273,7 +287,7 @@ export default function Holos() {
         Black Holes
       </h4>
       <div className="flex">
-        <sup className="relative top-2 pr-2">7</sup>
+        <sup className="relative top-2 pr-2">8</sup>
         <ul className="flex flex-col gap-2">
           <li>
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Black_hole_thermodynamics">
@@ -305,7 +319,7 @@ export default function Holos() {
         Aliens
       </h4>
       <div className="flex">
-        <sup className="relative top-2 pr-2">8</sup>
+        <sup className="relative top-2 pr-2">9</sup>
         <ul className="flex flex-col gap-2">
           <li>
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Fermi_paradox">
@@ -361,7 +375,7 @@ export default function Holos() {
         Simulation
       </h4>
       <div className="flex">
-        <sup className="relative top-2 pr-2">9</sup>
+        <sup className="relative top-2 pr-2">10</sup>
         <ul className="flex flex-col gap-2">
           <li>
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Simulation_hypothesis">
@@ -387,7 +401,7 @@ export default function Holos() {
         God
       </h4>
       <div className="flex">
-        <sup className="relative top-2 pr-2">10</sup>
+        <sup className="relative top-2 pr-2">11</sup>
         <ul className="flex flex-col gap-2">
           <li>
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Panentheism">
@@ -413,7 +427,7 @@ export default function Holos() {
         Why Are We Here?
       </h4>
       <div className="flex">
-        <sup className="relative top-2 pr-2">11</sup>
+        <sup className="relative top-2 pr-2">12</sup>
         <ul className="flex flex-col gap-2">
           <li>
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Conformal_cyclic_cosmology">

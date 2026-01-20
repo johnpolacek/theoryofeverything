@@ -1,11 +1,23 @@
 export function contentToMarkdown(): string {
   const sections = [
     {
+      id: "axioms",
+      title: "The Holos Axioms",
+      content: [
+        "The following fundamental principles form the logical basis of this framework:",
+        "**Relationality:** Reality is not absolute; it is defined by the relationships and interactions between entities (Holos[^1]).",
+        "**Manifestation:** Observation is not passive; it is a necessary condition for the collapse of probability into physical reality (Participatory Principle[^2]).",
+        "**Conservation:** Information is fundamental and conserved across all transformations, including those within singularities (Unitarity[^12]).",
+        "**Unification:** Apparent infinities in lower dimensions are resolved into finite structures when observed from higher-dimensional perspectives (Projective Geometry[^6]).",
+        "**Interface:** Consciousness is not a byproduct of matter, but the fundamental interface through which the universe experiences its own information (Panpsychism[^3]).",
+      ],
+    },
+    {
       id: "meaning-of-life",
       title: "The Meaning of Life",
       content: [
         "Life exists to create and observe, mutually intertwined and reciprocal actions required for the manifestation of reality.",
-        'According to the Participatory Anthropic Principle, the universe is a "self-excited circuit" that requires observers to bring its laws into existence. This aligns with Biocentrism, which posits that biology is not a byproduct of the universe, but the force that organizes it. Without the act of observation to collapse the quantum wavefunction, the universe remains a state of undefined probability.[^1]',
+        'According to the Participatory Anthropic Principle, the universe is a "self-excited circuit" that requires observers to bring its laws into existence. This aligns with Biocentrism, which posits that biology is not a byproduct of the universe, but the force that organizes it. Without the act of observation to collapse the quantum wavefunction, the universe remains a state of undefined probability.[^2]',
       ],
     },
     {
@@ -13,7 +25,7 @@ export function contentToMarkdown(): string {
       title: "Consciousness",
       content: [
         "An emergent property of life, consciousness is the ability to experience and shape the world with self-awareness.",
-        "Humans exhibit consciousness by being self-aware and capable of profound observation and interaction with our environment.[^2]",
+        "Humans exhibit consciousness by being self-aware and capable of profound observation and interaction with our environment.[^3]",
       ],
     },
     {
@@ -21,7 +33,7 @@ export function contentToMarkdown(): string {
       title: "Our Universe",
       content: [
         "Our universe originated from a singular point in the Big Bang, expanding towards infinity. We perceive three spatial dimensions while moving unidirectionally through the fourth dimension, time.",
-        "Spacetime is a continuum where the three dimensions of space and time is curved and warped by the presence of mass and energy.[^3]",
+        "Spacetime is a continuum where the three dimensions of space and time is curved and warped by the presence of mass and energy.[^4]",
       ],
     },
     {
@@ -31,7 +43,7 @@ export function contentToMarkdown(): string {
         "Consider beings with an unlimited lifespan and near-instantaneous communication, perceiving time as an additional spatial dimension. These beings would not be limited by the unidirectional flow of time as we are.",
         "Instead, they would perceive the curvature of spacetime comprehensively, seeing past, present, and future as a singular, cohesive structure observable in its entirety. By imagining such an entity, we can better understand what it might be like to exist in a higher dimension.",
         'For a photon traveling at the speed of light, the spacetime interval is zero. This "Null Interval" effectively collapses the universe into a single point of contact, where emission and absorption occur simultaneously. To a higher-dimensional observer, a photon is not a moving particle, but a static geometric structure—a Null Geodesic—that permanently connects two points in spacetime like a seam.',
-        "This structure suggests that time does not merely flow forward; it is a completed circuit. Experiments in Retrocausality, such as the Quantum Eraser, suggest that choices made in the present can resolve the state of the past, reinforcing the idea that the universe is a cohesive, self-consistent block rather than a linear sequence of events.[^4]",
+        "This structure suggests that time does not merely flow forward; it is a completed circuit. Experiments in Retrocausality, such as the Quantum Eraser, suggest that choices made in the present can resolve the state of the past, reinforcing the idea that the universe is a cohesive, self-consistent block rather than a linear sequence of events.[^5]",
       ],
     },
     {
@@ -41,7 +53,7 @@ export function contentToMarkdown(): string {
         "Though we can't directly observe higher dimensions, mathematical models suggest their existence, offering solutions to longstanding problems in physics.",
         "In these theories, the additional dimensions are compactified or hidden from our direct observation, yet their influence permeates our lower-dimensional reality. These higher dimensions shape the physical laws and constants that govern our universe, influencing everything from the behavior of subatomic particles to gravitational interactions and the structure of the cosmos.",
         "Just as a 3D object casts a 2D shadow, our physical laws may be projections of a higher-dimensional geometry. The forces we perceive—like gravity or electromagnetism—could be the vibrations of a unified single point in the 5th or 6th dimension, perceived by us as separate fields.",
-        "Just as we control and transform the three dimensional environment around us, consciousness in higher dimensions can exert influence over lower dimensions, forming an intricate and interconnected cosmic structure.[^5]",
+        "Just as we control and transform the three dimensional environment around us, consciousness in higher dimensions can exert influence over lower dimensions, forming an intricate and interconnected cosmic structure.[^6]",
       ],
     },
     {
@@ -51,7 +63,7 @@ export function contentToMarkdown(): string {
         "Infinity represents the concept of dimensions extending endlessly without any finite boundaries. In the context of a given dimension, it is possible to use a higher-dimensional perspective to transform infinite structures into finite, observable entities.",
         "By employing higher-dimensional frameworks, an infinite sequence or expanse can be encapsulated, allowing for the perception and analysis of the entire structure in its entirety. This concept suggests that what appears infinite and unbounded in one dimension can be rendered finite and progressively comprehensible when viewed from a higher-dimensional vantage point.",
         'In Projective Geometry, parallel lines meet at a "Point at Infinity." For light, this is not a theoretical abstraction but a physical reality. The photon inhabits this boundary where the infinite extents of space fold back into a finite, observable structure.',
-        "For instance, as four-dimensional beings, we can observe the entirety of three-dimensional space through the temporal dimension, effectively using time as a higher-dimensional framework to encapsulate spatial configurations. This allows us to perceive the progression and totality of spatial events over time, transforming our understanding of infinite sequences of spatial configurations into a coherent and finite whole.[^6]",
+        "For instance, as four-dimensional beings, we can observe the entirety of three-dimensional space through the temporal dimension, effectively using time as a higher-dimensional framework to encapsulate spatial configurations. This allows us to perceive the progression and totality of spatial events over time, transforming our understanding of infinite sequences of spatial configurations into a coherent and finite whole.[^7]",
       ],
     },
     {
@@ -59,7 +71,7 @@ export function contentToMarkdown(): string {
       title: "Black Holes",
       content: [
         "Black holes represent regions of spacetime where gravity is so intense that not even light escape, making their interior opaque to us. Their singularities represent infinities wrapped into a finite structure in our universe.",
-        "For higher-dimensional beings, black holes would be as accessible as any other region of spacetime, including the ability to navigate through the singularity and perceive the vast array of information contained within. This perspective aligns with the holographic principle, which posits that all the information contained within a black hole can be described on a lower-dimensional boundary, suggesting that higher-dimensional observation could unlock the mysteries hidden within these enigmatic objects.[^7]",
+        "For higher-dimensional beings, black holes would be as accessible as any other region of spacetime, including the ability to navigate through the singularity and perceive the vast array of information contained within. This perspective aligns with the holographic principle, which posits that all the information contained within a black hole can be described on a lower-dimensional boundary, suggesting that higher-dimensional observation could unlock the mysteries hidden within these enigmatic objects.[^8]",
       ],
     },
     {
@@ -68,14 +80,14 @@ export function contentToMarkdown(): string {
       content: [
         "The Fermi Paradox questions the lack of detected extraterrestrial life, despite the vastness of the universe.",
         "One explanation is that advanced civilizations transcend into higher dimensions, becoming undetectable. Theoretical physics suggests the existence of Shadow Sectors—matter composed of particles that interact with gravity but not light. These \"Bulk Beings\" could inhabit the higher dimensions just millimeters away from our own, sharing our gravitational reality but remaining invisible to our electromagnetic observations.",
-        "Another explanation could be that higher-dimensional beings have designed a universe with rules that make intelligent life either alone or so rare as to be effectively isolated, as part of a grand experiment or even for their own entertainment. Applying the principle of the observer effect, this act of observing lower-dimensional life forms may even shape their existence.[^8]",
+        "Another explanation could be that higher-dimensional beings have designed a universe with rules that make intelligent life either alone or so rare as to be effectively isolated, as part of a grand experiment or even for their own entertainment. Applying the principle of the observer effect, this act of observing lower-dimensional life forms may even shape their existence.[^9]",
       ],
     },
     {
       id: "simulation",
       title: "Simulation",
       content: [
-        "Whether our universe is a simulation or naturally occurring is irrelevant. The core of existence lies in the cyclical process of creation and observation by increasingly higher levels of consciousness. The distinction between processes that arise spontaneously and those that are designed is an illusion.[^9]",
+        "Whether our universe is a simulation or naturally occurring is irrelevant. The core of existence lies in the cyclical process of creation and observation by increasingly higher levels of consciousness. The distinction between processes that arise spontaneously and those that are designed is an illusion.[^10]",
       ],
     },
     {
@@ -85,7 +97,7 @@ export function contentToMarkdown(): string {
         "Regardless of any label we choose to assign, an ultimate consciousness empowered with omniscience, omnipotence, and omnipresence is a fundamental aspect of the nature of reality.",
         "Religious beliefs like panentheism, Brahman, and the Omega Point all point to a transcendent, all-encompassing consciousness that permeates and extends beyond the universe, suggesting a unified source of all existence and knowledge.",
         "Alternatively, atheism rejects the notion of such a consciousness, attributing the complexity and order of the universe to natural processes and random chance without invoking a higher power.",
-        "Ultimately, both of these perspectives can be equally valid sides of the same coin, only differing in semantics and the framework used to describe the same universal truth.[^10]",
+        "Ultimately, both of these perspectives can be equally valid sides of the same coin, only differing in semantics and the framework used to describe the same universal truth.[^11]",
       ],
     },
     {
@@ -94,7 +106,7 @@ export function contentToMarkdown(): string {
       content: [
         "At the highest dimension, all possible realities condense into a point, revealing the cyclic nature of existence, where infinite complexity reduces to a singularity. The most advanced consciousness ultimately creates itself by observing all lower dimensions, over and over again. This recursive structure mirrors the ancient metaphor of Indra's Net—an infinite web where every node is a jewel that reflects all other jewels.",
         'At the speed of light, the separation between "here" and "there," or "then" and "now," vanishes. This physical limit suggests that the ultimate reality is indeed a singular, unified point. The universe is not an expanse of empty space, but a single event of information unfolding into the illusion of distance to allow for the experience of separation and self-observation.',
-        "Life exists to create and observe life, perpetuating infinitely.[^11]",
+        "Life exists to create and observe life, perpetuating infinitely.[^12]",
       ],
     },
   ]
@@ -102,6 +114,13 @@ export function contentToMarkdown(): string {
   const footnotes = [
     {
       number: 1,
+      title: "The Holos Axioms",
+      items: [
+        "[Holos](#holos) - The interconnected, unified, recursive structure of reality as formed through the reciprocal actions of creation and observation, symbolized by ⊛.",
+      ],
+    },
+    {
+      number: 2,
       title: "The Meaning of Life",
       items: [
         "[Observer Effect](https://en.wikipedia.org/wiki/Observer_effect_(physics)) - The disturbance of an observed system by the act of observation.",
@@ -113,7 +132,7 @@ export function contentToMarkdown(): string {
       ],
     },
     {
-      number: 2,
+      number: 3,
       title: "Consciousness",
       items: [
         "[Integrated Information Theory](https://en.wikipedia.org/wiki/Integrated_information_theory) - Consciousness corresponds to the capacity of a system to integrate information.",
@@ -122,7 +141,7 @@ export function contentToMarkdown(): string {
       ],
     },
     {
-      number: 3,
+      number: 4,
       title: "Our Universe",
       items: [
         "[The Big Bang](https://en.wikipedia.org/wiki/Big_Bang) - The present universe emerged from an ultra-dense and high-temperature initial state.",
@@ -132,7 +151,7 @@ export function contentToMarkdown(): string {
       ],
     },
     {
-      number: 4,
+      number: 5,
       title: "Spacetime",
       items: [
         "[Eternalism](https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)) - Time as an unchanging four-dimensional block where all moments exist simultaneously.",
@@ -147,7 +166,7 @@ export function contentToMarkdown(): string {
       ],
     },
     {
-      number: 5,
+      number: 6,
       title: "Higher Dimensions",
       items: [
         "[Flatland](https://en.wikipedia.org/wiki/Flatland) - Satirical novella about a fictional two-dimensional world that explores the concept of inter-dimensional observation.",
@@ -159,7 +178,7 @@ export function contentToMarkdown(): string {
       ],
     },
     {
-      number: 6,
+      number: 7,
       title: "Infinity",
       items: [
         "[Riemann Sphere](https://en.wikipedia.org/wiki/Riemann_sphere) - Exemplifies how higher-dimensional perspectives transform infinite structures into finite, observable entities.",
@@ -172,7 +191,7 @@ export function contentToMarkdown(): string {
       ],
     },
     {
-      number: 7,
+      number: 8,
       title: "Black Holes",
       items: [
         "[Black Hole Thermodynamics](https://en.wikipedia.org/wiki/Black_hole_thermodynamics) - The study of the physical properties of black holes.",
@@ -182,7 +201,7 @@ export function contentToMarkdown(): string {
       ],
     },
     {
-      number: 8,
+      number: 9,
       title: "Aliens",
       items: [
         "[Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox) - The discrepancy between the lack of evidence for extraterrestrial life and the high likelihood of its existence.",
@@ -196,7 +215,7 @@ export function contentToMarkdown(): string {
       ],
     },
     {
-      number: 9,
+      number: 10,
       title: "Simulation",
       items: [
         "[Simulation Hypothesis](https://en.wikipedia.org/wiki/Simulation_hypothesis) - Proposes that what humans experience as the world is actually a simulated reality.",
@@ -205,7 +224,7 @@ export function contentToMarkdown(): string {
       ],
     },
     {
-      number: 10,
+      number: 11,
       title: "God",
       items: [
         "[Panentheism](https://en.wikipedia.org/wiki/Panentheism) - The belief that the divine intersects every part of the universe and also extends beyond space and time.",
@@ -214,7 +233,7 @@ export function contentToMarkdown(): string {
       ],
     },
     {
-      number: 11,
+      number: 12,
       title: "Why Are We Here?",
       items: [
         "[Conformal Cyclic Cosmology](https://en.wikipedia.org/wiki/Conformal_cyclic_cosmology) - The universe undergoes infinite cycles of big bangs and expansions creating an eternal sequence of universes.",

@@ -40,6 +40,9 @@ export default function Sidebar() {
           </a>
           <ol className="flex flex-col h-full xl:h-auto gap-4 pt-12 pb-16 justify-center items-center xl:justify-start flex-grow">
             <li>
+              <a href="#axioms">Axioms</a>
+            </li>
+            <li>
               <a href="#meaning-of-life">Life</a>
             </li>
             <li>

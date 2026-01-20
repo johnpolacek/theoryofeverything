@@ -4,6 +4,45 @@ import Holos from "./Holos"
 export default function Content() {
   return (
     <main>
+      <Section id="axioms" title="The Holos Axioms">
+        <p>The following fundamental principles form the logical basis of this framework:</p>
+        <p>
+          <strong>Relationality:</strong> Reality is not absolute; it is defined by the relationships and interactions between entities (
+          <a className="px-0.5 opacity-80 hover:opacity-100" href="#footer-axioms">
+            Holos<sup>1</sup>
+          </a>
+          ).
+        </p>
+        <p>
+          <strong>Manifestation:</strong> Observation is not passive; it is a necessary condition for the collapse of probability into physical reality (
+          <a className="px-0.5 opacity-80 hover:opacity-100" href="#footer-life">
+            Participatory Principle<sup>2</sup>
+          </a>
+          ).
+        </p>
+        <p>
+          <strong>Conservation:</strong> Information is fundamental and conserved across all transformations, including those within singularities (
+          <a className="px-0.5 opacity-80 hover:opacity-100" href="#footer-why">
+            Unitarity<sup>12</sup>
+          </a>
+          ).
+        </p>
+        <p>
+          <strong>Unification:</strong> Apparent infinities in lower dimensions are resolved into finite structures when observed from higher-dimensional perspectives (
+          <a className="px-0.5 opacity-80 hover:opacity-100" href="#footer-dimensions">
+            Projective Geometry<sup>6</sup>
+          </a>
+          ).
+        </p>
+        <p>
+          <strong>Interface:</strong> Consciousness is not a byproduct of matter, but the fundamental interface through which the universe experiences its own information (
+          <a className="px-0.5 opacity-80 hover:opacity-100" href="#footer-consciousness">
+            Panpsychism<sup>3</sup>
+          </a>
+          ).
+        </p>
+      </Section>
+
       <Section id="meaning-of-life" title="The Meaning of Life">
         <p>
           Life exists to create and observe, mutually intertwined and reciprocal actions required for the manifestation of reality.
@@ -13,7 +52,7 @@ export default function Content() {
           that biology is not a byproduct of the universe, but the force that organizes it. Without the act of observation to collapse the quantum wavefunction, the universe remains a state of undefined
           probability.
           <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-life">
-            <sup>1</sup>
+            <sup>2</sup>
           </a>
         </p>
       </Section>
@@ -23,7 +62,7 @@ export default function Content() {
         <p>
           Humans exhibit consciousness by being self-aware and capable of profound observation and interaction with our environment.
           <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-consciousness">
-            <sup>2</sup>
+            <sup>3</sup>
           </a>
         </p>
       </Section>
@@ -36,7 +75,7 @@ export default function Content() {
         <p>
           Spacetime is a continuum where the three dimensions of space and time are curved and warped by the presence of mass and energy.
           <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-universe">
-            <sup>3</sup>
+            <sup>4</sup>
           </a>
         </p>
       </Section>
@@ -59,7 +98,7 @@ export default function Content() {
           This structure suggests that time does not merely flow forward; it is a completed circuit. Experiments in Retrocausality, such as the Quantum Eraser, suggest that choices made in the present
           can resolve the state of the past, reinforcing the idea that the universe is a cohesive, self-consistent block rather than a linear sequence of events.
           <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-spacetime">
-            <sup>4</sup>
+            <sup>5</sup>
           </a>
         </p>
       </Section>
@@ -78,7 +117,7 @@ export default function Content() {
           Just as we control and transform the three dimensional environment around us, consciousness in higher dimensions can exert influence over lower dimensions, forming an intricate and
           interconnected cosmic structure.
           <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-dimensions">
-            <sup>5</sup>
+            <sup>6</sup>
           </a>
         </p>
       </Section>
@@ -101,7 +140,7 @@ export default function Content() {
           encapsulate spatial configurations. This allows us to perceive the progression and totality of spatial events over time, transforming our understanding of infinite sequences of spatial
           configurations into a coherent and finite whole.
           <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-infinity">
-            <sup>6</sup>
+            <sup>7</sup>
           </a>
         </p>
       </Section>
@@ -116,7 +155,7 @@ export default function Content() {
           information contained within. This perspective aligns with the holographic principle, which posits that all the information contained within a black hole can be described on a
           lower-dimensional boundary, suggesting that higher-dimensional observation could unlock the mysteries hidden within these enigmatic objects.
           <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-blackholes">
-            <sup>7</sup>
+            <sup>8</sup>
           </a>
         </p>
       </Section>
@@ -132,7 +171,7 @@ export default function Content() {
           Another explanation could be that higher-dimensional beings have designed a universe with rules that make intelligent life either alone or so rare as to be effectively isolated, as part of a
           grand experiment or even for their own entertainment. Applying the principle of the observer effect, this act of observing lower-dimensional life forms may even shape their existence.
           <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-aliens">
-            <sup>8</sup>
+            <sup>9</sup>
           </a>
         </p>
       </Section>
@@ -142,7 +181,7 @@ export default function Content() {
           Whether our universe is a simulation or naturally occurring is irrelevant. The core of existence lies in the cyclical process of creation and observation by increasingly higher levels of
           consciousness. The distinction between processes that arise spontaneously and those that are designed is an illusion.
           <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-simulation">
-            <sup>9</sup>
+            <sup>10</sup>
           </a>
         </p>
       </Section>
@@ -160,7 +199,7 @@ export default function Content() {
         <p>
           Ultimately, both of these perspectives can be equally valid sides of the same coin, only differing in semantics and the framework used to describe the same universal truth.
           <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-god">
-            <sup>10</sup>
+            <sup>11</sup>
           </a>
         </p>
       </Section>
@@ -178,7 +217,7 @@ export default function Content() {
         <p>
           Life exists to create and observe life, perpetuating infinitely.
           <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-why">
-            <sup>11</sup>
+            <sup>12</sup>
           </a>
         </p>
       </Section>
