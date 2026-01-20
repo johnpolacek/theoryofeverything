@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Update the sitemap URL with your actual domain
+# Next.js will automatically generate sitemap.xml at /sitemap.xml
+Sitemap: https://atheoryofeverything.vercel.app/sitemap.xml
