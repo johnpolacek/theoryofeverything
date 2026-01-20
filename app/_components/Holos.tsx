@@ -44,7 +44,13 @@ export default function Holos() {
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Anthropic_principle">
               Participatory Anthropic Principle
             </a>{" "}
-            The universe, as a condition of its existence, must be observed, thus implying one or more observers.
+            The universe, as a condition of its existence, must be observe. As a "self-excited circuit", the universe requires one or more observers to bring its laws into existence.
+          </li>
+          <li>
+            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Biocentrism_(ethics)">
+              Biocentrism
+            </a>{" "}
+            The philosophical perspective that biology is not a byproduct of the universe, but the force that organizes it. Life and consciousness are central to understanding the nature of reality.
           </li>
         </ul>
       </div>
@@ -120,6 +126,12 @@ export default function Holos() {
             Time as an unchanging four-dimensional block where all moments exist simultaneously.
           </li>
           <li>
+            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)#Block_universe">
+              Block Universe Model
+            </a>{" "}
+            The view that the universe is a four-dimensional block where past, present, and future all exist simultaneously. All events are fixed in spacetime, and the flow of time is an illusion of consciousness moving through this static structure.
+          </li>
+          <li>
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Relativity_of_simultaneity">
               Relativity of Simultaneity
             </a>{" "}
@@ -130,6 +142,36 @@ export default function Holos() {
               The Absorber Theory
             </a>{" "}
             Radiation is a result of both forward-in-time and backward-in-time electromagnetic waves.
+          </li>
+          <li>
+            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Spacetime#Spacetime_interval">
+              Spacetime Interval
+            </a>{" "}
+            The invariant measure of distance between two events in spacetime. For light, this interval is zero, meaning emission and absorption occur at the same point.
+          </li>
+          <li>
+            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Light_cone">
+              Light Cone
+            </a>{" "}
+            The boundary of all possible paths that light can take from a given event, defining the causal structure of spacetime.
+          </li>
+          <li>
+            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Geodesic">
+              Null Geodesic
+            </a>{" "}
+            The path that light follows through spacetime. For photons, this is a static geometric structure that permanently connects emission and absorption points, appearing as motion only from our temporal perspective.
+          </li>
+          <li>
+            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Retrocausality">
+              Retrocausality
+            </a>{" "}
+            The concept that future events can influence past events. Experiments like the Quantum Eraser suggest that choices made in the present can resolve the quantum state of the past, supporting the block universe model.
+          </li>
+          <li>
+            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser">
+              Quantum Eraser Experiment
+            </a>{" "}
+            Demonstrates that the decision to measure or erase quantum information can retroactively determine whether a particle behaved as a wave or particle in the past, suggesting time is not unidirectional.
           </li>
         </ul>
       </div>
@@ -163,6 +205,18 @@ export default function Holos() {
             </a>{" "}
             Our universe is a slice of a larger, multi-dimensional reality
           </li>
+          <li>
+            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Kaluza%E2%80%93Klein_theory">
+              Kaluza-Klein Theory
+            </a>{" "}
+            A unified field theory that extends general relativity to higher dimensions, showing how electromagnetism and gravity emerge from a single higher-dimensional geometry.
+          </li>
+          <li>
+            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Projective_geometry">
+              Projective Geometry
+            </a>{" "}
+            A branch of geometry that studies properties invariant under projective transformations, where parallel lines meet at infinity.
+          </li>
         </ul>
       </div>
       <h4 id="footer-infinity" className="font-semibold pt-4">
@@ -178,7 +232,7 @@ export default function Holos() {
             Exemplifies how higher-dimensional perspectives transform infinite structures into finite, observable entities.
           </li>
           <li>
-            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/AdS/CFT_correspondence">
+            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Fractal">
               Fractals
             </a>{" "}
             Mathematical sets that can represent infinite complexity within finite boundaries.
@@ -200,6 +254,18 @@ export default function Holos() {
               Cellular Automata
             </a>{" "}
             Complex, infinite patterns and behaviors can emerge from simple initial conditions and rules.
+          </li>
+          <li>
+            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Point_at_infinity">
+              Point at Infinity
+            </a>{" "}
+            In projective geometry, the point where parallel lines converge, representing the boundary where infinite space folds into a finite structure.
+          </li>
+          <li>
+            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Projective_geometry">
+              Projective Geometry
+            </a>{" "}
+            A geometric framework where parallel lines meet at infinity, transforming infinite structures into finite, observable forms.
           </li>
         </ul>
       </div>
@@ -254,22 +320,34 @@ export default function Holos() {
             Argues biological complexity n the universe requires the coincidence of a large number of very low probability events.
           </li>
           <li>
+            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Dark_matter">
+              Shadow Sectors
+            </a>{" "}
+            Theoretical matter composed of particles that interact with gravity but not with electromagnetic radiation. These "shadow particles" could exist in parallel dimensions, sharing our gravitational reality but remaining invisible to our observations.
+          </li>
+          <li>
+            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Brane_cosmology">
+              Bulk Beings
+            </a>{" "}
+            Hypothetical entities that could inhabit the higher-dimensional "bulk" space in brane cosmology, potentially existing just millimeters away from our three-dimensional brane but invisible to electromagnetic detection.
+          </li>
+          <li>
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Planetarium_hypothesis">
               The Planetarium Hypothesis
             </a>{" "}
-            Sufficiently advanced civilizations invariably leave our universe.
+            Proposes that what we perceive as the universe might be an artificial simulation created by an advanced civilization.
           </li>
           <li>
             <a className="font-normal underline mr-1" href="https://www.accelerating.org/articles/transcensionhypothesis">
               The Transcension Hypothesis
             </a>{" "}
-            Sufficiently advanced civilizations invariably leave our universe.
+            Suggests that advanced civilizations evolve beyond our observable universe, transcending into higher dimensions or computational substrates.
           </li>
           <li>
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Technological_singularity">
               Technological Singularity
             </a>{" "}
-            Sufficiently advanced civilizations invariably leave our universe.
+            A hypothetical future point when technological growth becomes uncontrollable and irreversible, resulting in unforeseeable changes to human civilization.
           </li>
           <li>
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Ephemeralization">
@@ -347,13 +425,31 @@ export default function Holos() {
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Unitarity_(physics)">
               Unitarity
             </a>{" "}
-            The universe undergoes infinite cycles of big bangs and expansions creating an eternal sequence of universes.
+            The principle that probabilities must sum to one, ensuring the conservation of information in quantum mechanics. Information is never lost, even in singularities.
           </li>
           <li>
             <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Many-worlds_interpretation">
               Many-Worlds Interpretation
             </a>{" "}
             Every possible outcome of a quantum measurement occurs in a separate, branching universe.
+          </li>
+          <li>
+            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Speed_of_light">
+              Speed of Light
+            </a>{" "}
+            The invariant speed limit of the universe where spacetime separation vanishes, suggesting all events occur at a single point.
+          </li>
+          <li>
+            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Light_cone">
+              Light Cone
+            </a>{" "}
+            The boundary defining all causally connected events, where at light speed, past and future collapse into a single point.
+          </li>
+          <li>
+            <a className="font-normal underline mr-1" href="https://en.wikipedia.org/wiki/Indra%27s_net">
+              Indra's Net
+            </a>{" "}
+            An ancient Buddhist and Hindu metaphor describing an infinite web where every node is a jewel that reflects all other jewels, representing the interconnected, recursive nature of reality where each part contains and reflects the whole.
           </li>
           <li>
             <a className="font-normal underline mr-1" href="#home">
