@@ -37,7 +37,7 @@ export const sections: ContentSection[] = [
       "**Manifestation:** Observation is not merely mechanical interaction; it is the act of integrating information into an experience. Because reality exists as a unified spacetime block, observation need not be temporally local to be ontologically complete. Conscious entities participate in the realization of the entire structure ([Participatory Principle](#footer-life)[^2]).",
       "**Conservation:** Information is fundamental and conserved across all transformations, including those within singularities ([Unitarity](#footer-why)[^12]).",
       "**Unification:** Apparent infinities in lower dimensions are resolved into finite structures when mapped onto higher-dimensional frameworks. Whether physical or mathematical, these higher-dimensional descriptions are required to render the universe intelligible and resolve singularities ([Projective Geometry](#footer-dimensions)[^6]).",
-      "**Interface:** Consciousness is not a byproduct of matter, but the fundamental interface through which the universe experiences its own information ([Panpsychism](#footer-consciousness)[^3]).",
+      "**Interface:** Consciousness is not a byproduct of matter, but the fundamental interface through which the universe experiences its own information. It is fundamental in capacity, yet emergent in form, scaling from basic physical interaction to complex self-awareness ([Panpsychism](#footer-consciousness)[^3]).",
     ],
   },
   {
@@ -57,7 +57,7 @@ export const sections: ContentSection[] = [
     title: "Consciousness",
     footerId: "footer-consciousness",
     paragraphs: [
-      "Rather than a byproduct of biological complexity, consciousness is a fundamental quality manifested through life, the ability to experience and shape the world with awareness.",
+      "Consciousness is fundamental in capacity, but emergent in form—the ability to experience and shape the world with awareness. Rather than a binary switch, it scales with information integration, present as potential in basic matter but becoming reflexive and self-aware through life's high-level organization.",
       "Humans exhibit consciousness by being self-aware and capable of profound observation and interaction with our environment. Consciousness is not a \"ghost\" smuggled into the machine of physics, but the ontological register that converts the universe from a closed loop of silent mechanism into a realized event.[^3]",
     ],
   },
