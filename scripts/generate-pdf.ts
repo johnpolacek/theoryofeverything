@@ -1,5 +1,3 @@
-// @ts-expect-error - tsx handles JSX transform
-
 // Make React available globally before any imports that use JSX
 // This is needed because logic-data.tsx uses JSX at module load time
 import React from "react";

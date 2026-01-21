@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "pnpm run build:pdf && next build",
     "build:pdf": "tsx scripts/generate-pdf.ts",
+    "build:pdf:serverless": "VERCEL=true tsx scripts/generate-pdf.ts",
     "build:next": "next build",
     "start": "next start",
     "lint": "biome check .",
