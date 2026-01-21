@@ -1,5 +1,5 @@
 import { sections } from "./content-data";
-import Holos from "./Holos";
+import Footnotes from "./Footnotes";
 import Section from "./Section";
 
 export default function Content() {
@@ -18,8 +18,8 @@ export default function Content() {
         </Section>
       ))}
 
-      <Section id="holos">
-        <Holos />
+      <Section id="footnotes" title="Footnotes">
+        <Footnotes />
       </Section>
     </main>
   );

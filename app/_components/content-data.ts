@@ -22,22 +22,6 @@ export interface ContentSection {
   footerId?: string;
 }
 
-// Holos intro paragraphs
-export const holosIntro: React.ReactNode[] = [
-  convertMarkdownToJSX(
-    "The symbol ⊛ denotes a binary relational operator. Unlike standard multiplication, ⊛ is not scalar or linear; it represents a structured composition that preserves relational consistency under iteration. Formally, ⊛ is defined such that repeated application remains well-defined, allowing the operation to scale across finite and infinite sequences without collapse or divergence."
-  ),
-  convertMarkdownToJSX(
-    "Holos is derived from the Greek word ὅλος (*holos*), meaning whole, entire, or complete. In this framework, ⊛ symbolically represents the Holos operator: a recursive relational process in which Creation and Observation are not independent terms but mutually conditioning components of a single ontological cycle."
-  ),
-  convertMarkdownToJSX(
-    "Mathematically, ⊛ functions as a recursive operator within a relational system. The output of Observation becomes the input condition for subsequent Creation, establishing a closed yet non-static loop. This structure is conceptually aligned with category-theoretic notions of compositionality and endomorphism, where morphisms act on and reproduce the space in which they are defined."
-  ),
-  convertMarkdownToJSX(
-    "Importantly, ⊛ does not introduce an additional physical force or dynamical law. It specifies an ontological relation: how reality is constituted through the recursive coupling of generative possibility and registered state."
-  ),
-];
-
 // All content sections
 export const sections: ContentSection[] = [
   {
@@ -266,6 +250,24 @@ export const sections: ContentSection[] = [
       ),
       convertMarkdownToJSX(
         "**Interface:** Consciousness is not a byproduct of matter, but the fundamental interface through which the universe experiences its own information. It is fundamental in capacity, yet emergent in form, scaling from basic physical interaction to complex self-awareness ([Panpsychism](#footer-consciousness)[^2])."
+      ),
+    ],
+  },
+  {
+    id: "holos",
+    title: "⊛ Holos",
+    paragraphs: [
+      convertMarkdownToJSX(
+        "The symbol ⊛ denotes a binary relational operator. Unlike standard multiplication, ⊛ is not scalar or linear; it represents a structured composition that preserves relational consistency under iteration. Formally, ⊛ is defined such that repeated application remains well-defined, allowing the operation to scale across finite and infinite sequences without collapse or divergence."
+      ),
+      convertMarkdownToJSX(
+        "Holos is derived from the Greek word ὅλος (*holos*), meaning whole, entire, or complete. In this framework, ⊛ symbolically represents the Holos operator: a recursive relational process in which Creation and Observation are not independent terms but mutually conditioning components of a single ontological cycle."
+      ),
+      convertMarkdownToJSX(
+        "Mathematically, ⊛ functions as a recursive operator within a relational system. The output of Observation becomes the input condition for subsequent Creation, establishing a closed yet non-static loop. This structure is conceptually aligned with category-theoretic notions of compositionality and endomorphism, where morphisms act on and reproduce the space in which they are defined."
+      ),
+      convertMarkdownToJSX(
+        "Importantly, ⊛ does not introduce an additional physical force or dynamical law. It specifies an ontological relation: how reality is constituted through the recursive coupling of generative possibility and registered state."
       ),
     ],
   },
