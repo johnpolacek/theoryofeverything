@@ -88,9 +88,15 @@ export async function generatePDF(html: string): Promise<Buffer> {
           "--disable-features=IsolateOrigins,site-per-process",
         ]
       : ["--no-sandbox", "--disable-setuid-sandbox"],
-    defaultViewport: isServerless ? chromium.defaultViewport : undefined,
+    defaultViewport: isServerless
+      ? {
+          width: 1920,
+          height: 1080,
+          deviceScaleFactor: 1,
+        }
+      : undefined,
     executablePath: isServerless ? await chromium.executablePath() : undefined,
-    headless: isServerless ? chromium.headless : true,
+    headless: isServerless ? "shell" : true,
   });
 
   try {
