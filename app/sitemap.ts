@@ -49,5 +49,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       priority: 0.7,
     },
+    {
+      url: `${baseUrl}/predictions`,
+      lastModified: new Date('2024-06-19'),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
   ]
 }

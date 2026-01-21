@@ -107,6 +107,9 @@ export default function Sidebar() {
             <li className="mt-2">
               <a className="text-lg font-medium" href="/definition">Definition</a>
             </li>
+            <li className="mt-2">
+              <a className="text-lg font-medium" href="/predictions">Predictions</a>
+            </li>
           </ol>
           <div className="w-full flex justify-center pb-8 px-8 xl:px-4">
             <button

@@ -1,0 +1,37 @@
+import Header from "../_components/Header"
+import Sidebar from "../_components/Sidebar"
+import Predictions from "../_components/Predictions"
+import Footer from "../_components/Footer"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Predictions | a Theory of Everything",
+  description:
+    "Empirical predictions derived from the Holos framework through the operationalization of Φ. These predictions constrain where and how ontological registration occurs within lawful dynamics.",
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://yourdomain.com"}/predictions`,
+  },
+  openGraph: {
+    title: "Predictions",
+    description:
+      "Empirical predictions derived from the Holos framework through the operationalization of Φ. These predictions constrain where and how ontological registration occurs within lawful dynamics.",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://yourdomain.com"}/predictions`,
+    siteName: "a Theory of Everything",
+    type: "website",
+  },
+}
+
+export default function PredictionsPage() {
+  return (
+    <div className="xl:grid grid-cols-[1fr_5fr] justify-stretch w-full max-w-[1280px] overflow-hidden mx-auto">
+      <Sidebar />
+      <div className="grow h-screen overflow-auto">
+        <Header />
+        <main className="px-8 pt-12 pb-24 lg:px-16">
+          <Predictions />
+        </main>
+        <Footer />
+      </div>
+    </div>
+  )
+}
