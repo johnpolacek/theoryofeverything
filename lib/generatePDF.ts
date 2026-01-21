@@ -70,8 +70,9 @@ export async function generatePDF(html: string): Promise<Buffer> {
   `;
 
   // Configure Chromium for serverless environments
+  // setGraphicsMode is a property, not a function - set it before executablePath()
   if (isServerless) {
-    chromium.setGraphicsMode(false);
+    chromium.setGraphicsMode = false;
   }
 
   // Get the appropriate Puppeteer instance
