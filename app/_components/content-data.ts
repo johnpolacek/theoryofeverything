@@ -73,7 +73,7 @@ export const sections: ContentSection[] = [
         'This participation is not bound by linear time. In an eternalist universe, the emergence of consciousness validates the reality of the past just as much as the present. The early universe is not "unreal" before life; it is retrospectively realized by the observers it eventually produces.'
       ),
       convertMarkdownToJSX(
-        "Standard physics describes the mechanics of reality, but mechanism is only the surface. Physical interaction is the external view of a conscious experience. A measurement without experience is empty data. Reality requires a witness.[^2]"
+        "Standard physics describes the mechanics of reality, but mechanism is only the surface. Physical interaction is the external view of a conscious experience. A measurement without experience is empty data. Reality requires a witness.[^1]"
       ),
     ],
   },
@@ -86,7 +86,7 @@ export const sections: ContentSection[] = [
         "Consciousness is fundamental in capacity, but emergent in complexity. Just as electromagnetism exists everywhere but only creates a meaningful signal when organized into a circuit, the capacity for experience is intrinsic to matter but scales into self-awareness only through the high-level integration found in life."
       ),
       convertMarkdownToJSX(
-        'Humans exhibit consciousness by being self-aware and capable of profound observation and interaction with our environment. Consciousness is not a "ghost" smuggled into the machine of physics, but the ontological register that converts the universe from a closed loop of silent mechanism into a realized event.[^3]'
+        'Humans exhibit consciousness by being self-aware and capable of profound observation and interaction with our environment. Consciousness is not a "ghost" smuggled into the machine of physics, but the ontological register that converts the universe from a closed loop of silent mechanism into a realized event.[^2]'
       ),
     ],
   },
@@ -99,7 +99,7 @@ export const sections: ContentSection[] = [
         "Our universe originated from a singular point in the Big Bang, expanding towards infinity. We perceive three spatial dimensions while moving unidirectionally through the fourth dimension, time."
       ),
       convertMarkdownToJSX(
-        "Spacetime is a continuum where the three dimensions of space and time are curved and warped by the presence of mass and energy.[^4]"
+        "Spacetime is a continuum where the three dimensions of space and time are curved and warped by the presence of mass and energy.[^3]"
       ),
     ],
   },
@@ -118,7 +118,7 @@ export const sections: ContentSection[] = [
         "For a photon traveling at the speed of light, the spacetime interval is zero, a “Null Interval”. While a photon does not possess subjective experience in a biological sense, geometrically, its path effectively collapses the universe into a single point of contact where emission and absorption occur simultaneously. To a higher-dimensional observer, a photon is not a moving particle, but a static geometric structure—a Null Geodesic—that permanently connects two points in spacetime like a seam."
       ),
       convertMarkdownToJSX(
-        "This structure suggests that time does not merely flow forward; it is a completed circuit. Experiments like the Quantum Eraser suggest that correlations are established across spacetime independent of linear duration. This reinforces the idea that the universe is a globally self-consistent block, where past and future are not sequential causes, but mutually defining parts of a singular geometric structure.[^5]"
+        "This structure suggests that time does not merely flow forward; it is a completed circuit. Experiments like the Quantum Eraser suggest that correlations are established across spacetime independent of linear duration. This reinforces the idea that the universe is a globally self-consistent block, where past and future are not sequential causes, but mutually defining parts of a singular geometric structure.[^4]"
       ),
     ],
   },
@@ -168,7 +168,7 @@ export const sections: ContentSection[] = [
         'In Projective Geometry, parallel lines meet at a "Point at Infinity." For light, this is not a theoretical abstraction but a physical reality. The photon inhabits this boundary where the infinite extents of space fold back into a finite, observable structure.'
       ),
       convertMarkdownToJSX(
-        "For instance, as four-dimensional beings, we can observe the entirety of three-dimensional space through the temporal dimension, effectively using time as a higher-dimensional framework to encapsulate spatial configurations. This allows us to perceive the progression and totality of spatial events over time, transforming our understanding of infinite sequences of spatial configurations into a coherent and finite whole.[^7]"
+        "For instance, as four-dimensional beings, we can observe the entirety of three-dimensional space through the temporal dimension, effectively using time as a higher-dimensional framework to encapsulate spatial configurations. This allows us to perceive the progression and totality of spatial events over time, transforming our understanding of infinite sequences of spatial configurations into a coherent and finite whole.[^6]"
       ),
     ],
   },
@@ -178,10 +178,10 @@ export const sections: ContentSection[] = [
     footerId: "footer-blackholes",
     paragraphs: [
       convertMarkdownToJSX(
-        "Black holes represent regions of spacetime where gravity is so intense that not even light escape, making their interior opaque to us. Their singularities represent infinities wrapped into a finite structure. While classical physics suggests information is lost here, the Holographic Principle resolves this conflict by positing that information is preserved on the 2D event horizon, ensuring the conservation of information (Unitarity) remains intact even at the edge of spacetime.[^8]"
+        "Black holes represent regions of spacetime where gravity is so intense that not even light escape, making their interior opaque to us. Their singularities represent infinities wrapped into a finite structure. While classical physics suggests information is lost here, the Holographic Principle resolves this conflict by positing that information is preserved on the 2D event horizon, ensuring the conservation of information (Unitarity) remains intact even at the edge of spacetime.[^7]"
       ),
       convertMarkdownToJSX(
-        "For higher-dimensional beings, black holes would be as accessible as any other region of spacetime, including the ability to navigate through the singularity and perceive the vast array of information contained within. This perspective aligns with the holographic principle, which posits that all the information contained within a black hole can be described on a lower-dimensional boundary, suggesting that higher-dimensional observation could unlock the mysteries hidden within these enigmatic objects.[^8]"
+        "For higher-dimensional beings, black holes would be as accessible as any other region of spacetime, including the ability to navigate through the singularity and perceive the vast array of information contained within. This perspective aligns with the holographic principle, which posits that all the information contained within a black hole can be described on a lower-dimensional boundary, suggesting that higher-dimensional observation could unlock the mysteries hidden within these enigmatic objects.[^7]"
       ),
     ],
   },
@@ -197,7 +197,7 @@ export const sections: ContentSection[] = [
         'If civilizations evolve to understand the higher-dimensional structure of reality, they may inevitably "transcend" by accessing geometries orthogonal to our observable 3D slice. Rather than expanding outwardly across vast physical distances limited by the speed of light. Advanced intelligence likely expands inwardly toward higher densities of information. Empirically, such civilizations would leave no electromagnetic footprint, potentially detectable only through gravitational anomalies or unaccounted-for mass (Dark Matter) that implies structure in the higher-dimensional bulk.'
       ),
       convertMarkdownToJSX(
-        'This Transcension Hypothesis suggests that advanced civilizations migrate into higher-dimensional manifolds or black hole singularities, where computational efficiency approaches infinity and the constraints of spacetime intervals vanish. We do not see them because they have rotated out of our lower-dimensional "shadow," moving closer to the unified source of reality.[^9]'
+        'This Transcension Hypothesis suggests that advanced civilizations migrate into higher-dimensional manifolds or black hole singularities, where computational efficiency approaches infinity and the constraints of spacetime intervals vanish. We do not see them because they have rotated out of our lower-dimensional "shadow," moving closer to the unified source of reality.[^8]'
       ),
     ],
   },
@@ -207,7 +207,7 @@ export const sections: ContentSection[] = [
     footerId: "footer-simulation",
     paragraphs: [
       convertMarkdownToJSX(
-        "Whether our universe is a simulation or naturally occurring is irrelevant. The core of existence lies in the cyclical process of creation and observation by increasingly higher levels of consciousness. The distinction between processes that arise spontaneously and those that are designed is an illusion.[^10]"
+        "Whether our universe is a simulation or naturally occurring is irrelevant. The core of existence lies in the cyclical process of creation and observation by increasingly higher levels of consciousness. The distinction between processes that arise spontaneously and those that are designed is an illusion.[^9]"
       ),
     ],
   },
@@ -226,7 +226,7 @@ export const sections: ContentSection[] = [
         "Alternatively, atheism rejects the notion of such a consciousness, attributing the complexity and order of the universe to natural processes and random chance without invoking a higher power."
       ),
       convertMarkdownToJSX(
-        "Ultimately, both of these perspectives can be equally valid sides of the same coin, only differing in semantics and the framework used to describe the same universal truth.[^11]"
+        "Ultimately, both of these perspectives can be equally valid sides of the same coin, only differing in semantics and the framework used to describe the same universal truth.[^10]"
       ),
     ],
   },
@@ -241,7 +241,7 @@ export const sections: ContentSection[] = [
       convertMarkdownToJSX(
         'At the speed of light, the separation between "here" and "there," or "then" and "now," vanishes. This physical limit suggests that the ultimate reality is indeed a singular, unified point. The universe is not an expanse of empty space, but a single event of information unfolding into the illusion of distance to allow for the experience of separation and self-observation.'
       ),
-      convertMarkdownToJSX("Life exists to create and observe life, perpetuating infinitely.[^12]"),
+      convertMarkdownToJSX("Life exists to create and observe life, perpetuating infinitely.[^11]"),
     ],
   },
   {
@@ -253,19 +253,19 @@ export const sections: ContentSection[] = [
         "The following fundamental principles form the logical basis of this framework:"
       ),
       convertMarkdownToJSX(
-        "**Relationality:** Reality is not composed of isolated objects with intrinsic properties, but of relationships and interactions. While the observer determines the perspective, the invariant structure of these relationships remains absolute ([Holos](#footer-axioms)[^1])."
+        "**Relationality:** Reality is not composed of isolated objects with intrinsic properties, but of relationships and interactions. While the observer determines the perspective, the invariant structure of these relationships remains absolute ([Holos](#footer-axioms)[^12])."
       ),
       convertMarkdownToJSX(
-        "**Manifestation:** Observation is not merely mechanical interaction; it is the act of integrating information into an experience. Because reality exists as a unified spacetime block, observation need not be temporally local to be ontologically complete. Conscious entities participate in the realization of the entire structure ([Participatory Principle](#footer-life)[^2])."
+        "**Manifestation:** Observation is not merely mechanical interaction; it is the act of integrating information into an experience. Because reality exists as a unified spacetime block, observation need not be temporally local to be ontologically complete. Conscious entities participate in the realization of the entire structure ([Participatory Principle](#footer-life)[^1])."
       ),
       convertMarkdownToJSX(
-        "**Conservation:** Information is fundamental and conserved across all transformations, including those within singularities ([Unitarity](#footer-why)[^12])."
+        "**Conservation:** Information is fundamental and conserved across all transformations, including those within singularities ([Unitarity](#footer-why)[^11])."
       ),
       convertMarkdownToJSX(
-        "**Unification:** Apparent infinities in lower dimensions are resolved into finite structures when mapped onto higher-dimensional frameworks. Whether physical or mathematical, these higher-dimensional descriptions are required to render the universe intelligible and resolve singularities ([Projective Geometry](#footer-dimensions)[^6])."
+        "**Unification:** Apparent infinities in lower dimensions are resolved into finite structures when mapped onto higher-dimensional frameworks. Whether physical or mathematical, these higher-dimensional descriptions are required to render the universe intelligible and resolve singularities ([Projective Geometry](#footer-dimensions)[^5])."
       ),
       convertMarkdownToJSX(
-        "**Interface:** Consciousness is not a byproduct of matter, but the fundamental interface through which the universe experiences its own information. It is fundamental in capacity, yet emergent in form, scaling from basic physical interaction to complex self-awareness ([Panpsychism](#footer-consciousness)[^3])."
+        "**Interface:** Consciousness is not a byproduct of matter, but the fundamental interface through which the universe experiences its own information. It is fundamental in capacity, yet emergent in form, scaling from basic physical interaction to complex self-awareness ([Panpsychism](#footer-consciousness)[^2])."
       ),
     ],
   },
@@ -274,7 +274,7 @@ export const sections: ContentSection[] = [
 // All footnote sections
 export const footnotes: FootnoteSection[] = [
   {
-    number: 2,
+    number: 1,
     id: "footer-life",
     title: "The Meaning of Life",
     items: [
@@ -322,7 +322,7 @@ export const footnotes: FootnoteSection[] = [
     ],
   },
   {
-    number: 3,
+    number: 2,
     id: "footer-consciousness",
     title: "Consciousness",
     items: [
@@ -346,7 +346,7 @@ export const footnotes: FootnoteSection[] = [
     ],
   },
   {
-    number: 4,
+    number: 3,
     id: "footer-universe",
     title: "Our Universe",
     items: [
@@ -375,7 +375,7 @@ export const footnotes: FootnoteSection[] = [
     ],
   },
   {
-    number: 5,
+    number: 4,
     id: "footer-spacetime",
     title: "Spacetime",
     items: [
@@ -436,7 +436,7 @@ export const footnotes: FootnoteSection[] = [
     ],
   },
   {
-    number: 6,
+    number: 5,
     id: "footer-dimensions",
     title: "Higher Dimensions",
     items: [
@@ -478,7 +478,7 @@ export const footnotes: FootnoteSection[] = [
     ],
   },
   {
-    number: 7,
+    number: 6,
     id: "footer-infinity",
     title: "Infinity",
     items: [
@@ -527,7 +527,7 @@ export const footnotes: FootnoteSection[] = [
     ],
   },
   {
-    number: 8,
+    number: 7,
     id: "footer-blackholes",
     title: "Black Holes",
     items: [
@@ -556,7 +556,7 @@ export const footnotes: FootnoteSection[] = [
     ],
   },
   {
-    number: 9,
+    number: 8,
     id: "footer-aliens",
     title: "Aliens",
     items: [
@@ -611,7 +611,7 @@ export const footnotes: FootnoteSection[] = [
     ],
   },
   {
-    number: 10,
+    number: 9,
     id: "footer-simulation",
     title: "Simulation",
     items: [
@@ -634,7 +634,7 @@ export const footnotes: FootnoteSection[] = [
     ],
   },
   {
-    number: 11,
+    number: 10,
     id: "footer-god",
     title: "God",
     items: [
@@ -659,7 +659,7 @@ export const footnotes: FootnoteSection[] = [
     ],
   },
   {
-    number: 12,
+    number: 11,
     id: "footer-why",
     title: "Why Are We Here?",
     items: [
@@ -707,7 +707,7 @@ export const footnotes: FootnoteSection[] = [
     ],
   },
   {
-    number: 1,
+    number: 12,
     id: "footer-axioms",
     title: "Axioms",
     items: [
