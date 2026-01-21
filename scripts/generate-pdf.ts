@@ -1,5 +1,12 @@
 // @ts-expect-error - tsx handles JSX transform
 
+// Make React available globally before any imports that use JSX
+// This is needed because logic-data.tsx uses JSX at module load time
+import React from "react";
+if (typeof global !== "undefined" && !global.React) {
+  global.React = React;
+}
+
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { generatePDF, renderPDFDocument } from "../lib/generatePDF";

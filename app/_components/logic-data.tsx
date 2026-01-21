@@ -1,4 +1,4 @@
-import type React from "react";
+import React from "react";
 import { convertMarkdownToJSX } from "./convertToJSX";
 import MathDisplay from "./MathDisplay";
 

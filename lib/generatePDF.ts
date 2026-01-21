@@ -6,6 +6,8 @@ async function getRenderToString() {
   return renderToString;
 }
 
+// This function is no longer needed since we handle React setup in renderPDFDocument
+// Keeping it for potential future use
 async function getPDFDocument() {
   const React = await import("react");
   const PDFDocument = (await import("../app/_components/PDFDocument")).default;
@@ -84,10 +86,13 @@ export async function generatePDF(html: string): Promise<Buffer> {
 
 export async function renderPDFDocument(): Promise<string> {
   const renderToString = await getRenderToString();
-  const { React: ReactModule, PDFDocument } = await getPDFDocument();
-  // Ensure React is available globally for JSX transform
+  // Import React first and make it globally available before importing PDFDocument
+  // This is needed because logic-data.tsx uses JSX at module load time
+  const ReactModule = await import("react");
   if (typeof global !== "undefined" && !global.React) {
     global.React = ReactModule;
   }
+  // Now import PDFDocument after React is available
+  const PDFDocument = (await import("../app/_components/PDFDocument")).default;
   return renderToString(ReactModule.createElement(PDFDocument));
 }
