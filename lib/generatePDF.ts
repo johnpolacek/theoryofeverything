@@ -35,39 +35,22 @@ async function getPDFDocument() {
 }
 
 export async function generatePDF(html: string): Promise<Buffer> {
-  // Wrap in full HTML document with styles
   // Replace className with class for proper HTML rendering
   const htmlWithClass = html.replace(/className=/g, "class=");
 
-  const fullHTML = `
-    <!DOCTYPE html>
-    ${htmlWithClass}
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/katex.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/contrib/auto-render.min.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        // Render math in elements with math-display and math-inline classes
-        const mathElements = document.querySelectorAll('.math-display, .math-inline');
-        mathElements.forEach(function(element) {
-          const text = element.textContent.trim();
-          if (element.classList.contains('math-display')) {
-            katex.render(text, element, { displayMode: true });
-          } else {
-            katex.render(text, element, { displayMode: false });
-          }
-        });
-        
-        // Also render math in $ and $$ delimiters
-        renderMathInElement(document.body, {
-          delimiters: [
-            {left: "$$", right: "$$", display: true},
-            {left: "$", right: "$", display: false}
-          ]
-        });
-      });
-    </script>
+  // Add DOCTYPE to prevent quirks mode (required for KaTeX)
+  // and inject scripts into the head section
+  const scriptsToInject = `
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/katex.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/contrib/auto-render.min.js" defer></script>
   `;
+
+  // Insert DOCTYPE at the beginning and scripts before </head>
+  let fullHTML = htmlWithClass;
+  if (!fullHTML.trim().toLowerCase().startsWith('<!doctype')) {
+    fullHTML = '<!DOCTYPE html>\n' + fullHTML;
+  }
+  fullHTML = fullHTML.replace('</head>', `${scriptsToInject}</head>`);
 
   // Configure Chromium for serverless environments
   // setGraphicsMode is a property, not a function - set it before executablePath()
@@ -107,14 +90,83 @@ export async function generatePDF(html: string): Promise<Buffer> {
       waitUntil: "networkidle0",
     });
 
-    // Wait for fonts to load
+    // Force load Bitter font
     await page.evaluate(async () => {
+      const weights = ['200', '300', '400', '600'];
+      for (const weight of weights) {
+        try {
+          await document.fonts.load(`${weight} 16px "Bitter"`);
+        } catch (e) {
+          // Font weight may not be available
+        }
+      }
       await document.fonts.ready;
-      // Wait a bit more to ensure fonts are fully applied
-      await new Promise(resolve => setTimeout(resolve, 500));
     });
 
-    // Wait for math to render
+    // Apply Bitter font (excluding KaTeX elements which need their own fonts)
+    await page.evaluate(() => {
+      document.documentElement.style.fontFamily = '"Bitter", serif';
+      document.body.style.fontFamily = '"Bitter", serif';
+      
+      const allElements = document.querySelectorAll('*:not(.katex):not(.katex *)');
+      allElements.forEach(el => {
+        const htmlEl = el as HTMLElement;
+        if (htmlEl.style && !htmlEl.classList.contains('katex') && !htmlEl.closest('.katex')) {
+          htmlEl.style.fontFamily = '"Bitter", serif';
+        }
+      });
+    });
+
+    // Wait for fonts to be applied
+    await new Promise(resolve => setTimeout(resolve, 500));
+
+    // Render KaTeX math equations
+    await page.evaluate(() => {
+      if (typeof (window as any).katex === 'undefined') return;
+      
+      // Render display math
+      document.querySelectorAll('.math-display').forEach(element => {
+        const text = element.textContent?.trim() || '';
+        if (text) {
+          try {
+            (window as any).katex.render(text, element, { displayMode: true, throwOnError: false });
+          } catch (e) {
+            // Ignore render errors
+          }
+        }
+      });
+      
+      // Render inline math
+      document.querySelectorAll('.math-inline').forEach(element => {
+        const text = element.textContent?.trim() || '';
+        if (text) {
+          try {
+            (window as any).katex.render(text, element, { displayMode: false, throwOnError: false });
+          } catch (e) {
+            // Ignore render errors
+          }
+        }
+      });
+      
+      // Auto-render any remaining math
+      if (typeof (window as any).renderMathInElement !== 'undefined') {
+        try {
+          (window as any).renderMathInElement(document.body, {
+            delimiters: [
+              {left: "$$", right: "$$", display: true},
+              {left: "$", right: "$", display: false},
+              {left: "\\(", right: "\\)", display: false},
+              {left: "\\[", right: "\\]", display: true}
+            ],
+            throwOnError: false
+          });
+        } catch (e) {
+          // Ignore auto-render errors
+        }
+      }
+    });
+
+    // Wait for KaTeX to finish rendering
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
     // Generate PDF

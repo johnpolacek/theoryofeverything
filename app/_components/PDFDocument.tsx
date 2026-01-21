@@ -31,13 +31,26 @@ export default function PDFDocument() {
             margin: 2cm;
             size: letter;
           }
-          body {
-            font-family: 'Bitter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+          html {
+            font-size: 14px;
+          }
+          html, body {
+            font-family: 'Bitter', serif !important;
             line-height: 1.6;
             color: #000;
+          }
+          body {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            font-size: 1rem;
+          }
+          *:not(.katex):not(.katex *) {
+            font-family: inherit;
+          }
+          /* Ensure KaTeX uses its own fonts */
+          .katex, .katex * {
+            font-family: KaTeX_Main, Times New Roman, serif !important;
           }
           h1 {
             font-size: 2.5em;
@@ -150,7 +163,7 @@ export default function PDFDocument() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap"
           rel="stylesheet"
         />
         <link

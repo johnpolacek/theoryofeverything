@@ -16,20 +16,21 @@ interface MathDisplayProps {
 
 export default function MathDisplay({ children }: MathDisplayProps) {
   const containerRef = useRef<HTMLDivElement>(null);
+  const mathContent = typeof children === "string" ? children : String(children);
 
   useEffect(() => {
     if (containerRef.current) {
-      const mathContent = typeof children === "string" ? children : String(children);
       katex.render(mathContent, containerRef.current, {
         displayMode: true,
         throwOnError: false,
       });
     }
-  }, [children]);
+  }, [mathContent]);
 
   return (
     <div className="my-4 py-4 px-6 bg-black/5 border-l-2 border-black/20 font-mono text-center text-lg">
-      <div ref={containerRef} />
+      {/* Include math content as text for SSR/PDF generation, will be replaced by KaTeX on client */}
+      <div ref={containerRef} className="math-display">{mathContent}</div>
     </div>
   );
 }

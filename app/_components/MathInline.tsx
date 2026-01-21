@@ -16,16 +16,17 @@ interface MathInlineProps {
 
 export default function MathInline({ children }: MathInlineProps) {
   const containerRef = useRef<HTMLSpanElement>(null);
+  const mathContent = typeof children === "string" ? children : String(children);
 
   useEffect(() => {
     if (containerRef.current) {
-      const mathContent = typeof children === "string" ? children : String(children);
       katex.render(mathContent, containerRef.current, {
         displayMode: false,
         throwOnError: false,
       });
     }
-  }, [children]);
+  }, [mathContent]);
 
-  return <span ref={containerRef} className="math-inline" />;
+  // Include math content as text for SSR/PDF generation, will be replaced by KaTeX on client
+  return <span ref={containerRef} className="math-inline">{mathContent}</span>;
 }
