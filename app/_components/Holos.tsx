@@ -43,26 +43,6 @@ export default function Holos() {
           </div>
         </div>
       ))}
-
-      {/* Footer links */}
-      <div className="flex flex-col gap-4 pt-8">
-        <div>
-          <a
-            className="text-base text-black/80 hover:text-black border-b border-black/20"
-            href="https://github.com/johnpolacek/theoryofeverything/discussions"
-          >
-            Discuss
-          </a>
-        </div>
-        <div>
-          <a
-            className="text-base text-black/80 hover:text-black border-b border-black/20"
-            href="https://github.com/johnpolacek/theoryofeverything"
-          >
-            Contribute
-          </a>
-        </div>
-      </div>
     </div>
   );
 }
