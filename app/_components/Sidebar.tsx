@@ -81,6 +81,9 @@ export default function Sidebar() {
                 <span className="font-light">Holos</span>
               </a>
             </li>
+            <li>
+              <a className="pt-6" href="/appendix">Appendix</a>
+            </li>
           </ol>
           <div className="w-full flex justify-center pb-8 px-8 xl:px-4">
             <button
