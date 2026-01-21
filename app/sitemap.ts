@@ -28,11 +28,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: section === '' ? 1.0 : 0.8,
   }))
 
-  // Append appendix page
+  // Append appendix pages
   return [
     ...mainPages,
     {
       url: `${baseUrl}/appendix`,
+      lastModified: new Date('2024-06-19'),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/appendix-a`,
+      lastModified: new Date('2024-06-19'),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/appendix-b`,
       lastModified: new Date('2024-06-19'),
       changeFrequency: 'monthly' as const,
       priority: 0.7,

@@ -6,6 +6,7 @@ type ParsedElement = string | React.ReactElement
  * Parses markdown-style text and returns JSX elements.
  * Supports:
  * - **bold** -> <strong>bold</strong>
+ * - *italic* -> <em>italic</em>
  * - [text](url) -> <a href="url">text</a>
  * - [^N] at end -> footnote link with <sup>
  * - ([text](#footer-id)[^N]) -> inline axiom link
@@ -28,13 +29,23 @@ export function parseContent(text: string, paragraphIndex: number): React.ReactN
   let remaining = mainText
   
   while (remaining.length > 0) {
-    // Check for bold **text**
+    // Check for bold **text** (must come before italic to avoid conflicts)
     const boldMatch = remaining.match(/^\*\*([^*]+)\*\*/)
     if (boldMatch) {
       elements.push(
         <strong key={`${paragraphIndex}-${keyIndex++}`}>{boldMatch[1]}</strong>
       )
       remaining = remaining.slice(boldMatch[0].length)
+      continue
+    }
+
+    // Check for italic *text* (single asterisk, not part of bold)
+    const italicMatch = remaining.match(/^\*([^*]+)\*/)
+    if (italicMatch) {
+      elements.push(
+        <em key={`${paragraphIndex}-${keyIndex++}`}>{italicMatch[1]}</em>
+      )
+      remaining = remaining.slice(italicMatch[0].length)
       continue
     }
 
@@ -75,11 +86,13 @@ export function parseContent(text: string, paragraphIndex: number): React.ReactN
 
     // Find the next special character position
     const nextBold = remaining.indexOf("**")
+    const nextItalic = remaining.indexOf("*")
     const nextLink = remaining.indexOf("[")
     const nextParen = remaining.indexOf("(")
     
     let nextSpecial = remaining.length
     if (nextBold !== -1 && nextBold < nextSpecial) nextSpecial = nextBold
+    if (nextItalic !== -1 && nextItalic < nextSpecial) nextSpecial = nextItalic
     if (nextLink !== -1 && nextLink < nextSpecial) nextSpecial = nextLink
     if (nextParen !== -1 && nextParen < nextSpecial) nextSpecial = nextParen
 

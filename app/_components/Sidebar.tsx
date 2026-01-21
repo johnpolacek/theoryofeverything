@@ -8,9 +8,9 @@ export default function Sidebar() {
   const [copied, setCopied] = useState(false)
   const pathname = usePathname()
   
-  // If we're on the appendix page, prepend "/" to hash links to navigate to main page first
+  // If we're on an appendix page, prepend "/" to hash links to navigate to main page first
   const getLink = (hash: string) => {
-    return pathname === "/appendix" ? `/${hash}` : hash
+    return pathname?.startsWith("/appendix") ? `/${hash}` : hash
   }
 
   const handleCopy = async () => {
@@ -89,7 +89,10 @@ export default function Sidebar() {
               </a>
             </li>
             <li>
-              <a className="pt-6" href="/appendix">Appendix</a>
+              <a className="pt-6" href="/appendix-a">Appendix A</a>
+            </li>
+            <li>
+              <a href="/appendix-b">Appendix B</a>
             </li>
           </ol>
           <div className="w-full flex justify-center pb-8 px-8 xl:px-4">
