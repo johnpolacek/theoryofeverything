@@ -22,7 +22,7 @@ export interface ContentSection {
 // Holos intro paragraphs
 export const holosIntro = [
   "The symbol ⊛ is a mathematical notation for a binary operation, representing a special form of multiplication, which ensures the combination of elements remains well-defined and consistent, scaling up to an infinite sequence.",
-  "**Holos** is derived from the Greek word ὅλος, meaning whole, entire or complete. It is symbolized here by ⊛, representing the interconnected, unified, recursive structure of reality as formed through the reciprocal actions of creation and observation.",
+  "**Holos** is derived from the Greek word ὅλος, meaning whole, entire or complete. It is symbolized here by ⊛. Mathematically, this represents a ([Recursive Operator](#footer-axioms)[^1]) in a relational system (conceptually aligned with ([Category Theory](#footer-axioms)[^1])), where the output of observation becomes the input for the next cycle of creation.",
 ]
 
 // All content sections
@@ -57,7 +57,7 @@ export const sections: ContentSection[] = [
     title: "Consciousness",
     footerId: "footer-consciousness",
     paragraphs: [
-      "Consciousness is fundamental in capacity, but emergent in form—the ability to experience and shape the world with awareness. Rather than a binary switch, it scales with information integration, present as potential in basic matter but becoming reflexive and self-aware through life's high-level organization.",
+      "Consciousness is fundamental in capacity, but emergent in complexity. Just as electromagnetism exists everywhere but only creates a meaningful signal when organized into a circuit, the capacity for experience is intrinsic to matter but scales into self-awareness only through the high-level integration found in life.",
       "Humans exhibit consciousness by being self-aware and capable of profound observation and interaction with our environment. Consciousness is not a \"ghost\" smuggled into the machine of physics, but the ontological register that converts the universe from a closed loop of silent mechanism into a realized event.[^3]",
     ],
   },
@@ -116,7 +116,7 @@ export const sections: ContentSection[] = [
     title: "Black Holes",
     footerId: "footer-blackholes",
     paragraphs: [
-      "Black holes represent regions of spacetime where gravity is so intense that not even light escape, making their interior opaque to us. Their singularities represent infinities wrapped into a finite structure in our universe.",
+      "Black holes represent regions of spacetime where gravity is so intense that not even light escape, making their interior opaque to us. Their singularities represent infinities wrapped into a finite structure. While classical physics suggests information is lost here, the Holographic Principle resolves this conflict by positing that information is preserved on the 2D event horizon, ensuring the conservation of information (Unitarity) remains intact even at the edge of spacetime.[^8]",
       "For higher-dimensional beings, black holes would be as accessible as any other region of spacetime, including the ability to navigate through the singularity and perceive the vast array of information contained within. This perspective aligns with the holographic principle, which posits that all the information contained within a black hole can be described on a lower-dimensional boundary, suggesting that higher-dimensional observation could unlock the mysteries hidden within these enigmatic objects.[^8]",
     ],
   },
@@ -126,7 +126,7 @@ export const sections: ContentSection[] = [
     footerId: "footer-aliens",
     paragraphs: [
       "The Fermi Paradox questions the lack of detected extraterrestrial life, despite the vastness of the universe. Within the context of this framework, this silence is likely a geometric constraint rather than a biological one.",
-      'If civilizations evolve to understand the higher-dimensional structure of reality, they may inevitably "transcend" by accessing geometries orthogonal to our observable 3D slice. Rather than expanding outwardly across vast physical distances—which is limited by the speed of light—advanced intelligence likely expands inwardly toward higher densities of information.',
+      'If civilizations evolve to understand the higher-dimensional structure of reality, they may inevitably "transcend" by accessing geometries orthogonal to our observable 3D slice. Rather than expanding outwardly across vast physical distances limited by the speed of light. Advanced intelligence likely expands inwardly toward higher densities of information. Empirically, such civilizations would leave no electromagnetic footprint, potentially detectable only through gravitational anomalies or unaccounted-for mass (Dark Matter) that implies structure in the higher-dimensional bulk.',
       "This Transcension Hypothesis suggests that advanced civilizations migrate into higher-dimensional manifolds or black hole singularities, where computational efficiency approaches infinity and the constraints of spacetime intervals vanish. We do not see them because they have rotated out of our lower-dimensional \"shadow,\" moving closer to the unified source of reality.[^9]",
     ],
   },
@@ -177,6 +177,16 @@ export const footnotes: FootnoteSection[] = [
         name: "Holos",
         url: "#holos",
         description: "The interconnected, unified, recursive structure of reality as formed through the reciprocal actions of creation and observation, symbolized by ⊛.",
+      },
+      {
+        name: "Recursive Operator",
+        url: "https://en.wikipedia.org/wiki/Recursion",
+        description: "A mathematical operation where the output of observation becomes the input for the next cycle of creation, forming a self-referential system that builds complexity through iterative feedback loops.",
+      },
+      {
+        name: "Category Theory",
+        url: "https://en.wikipedia.org/wiki/Category_theory",
+        description: "A branch of mathematics that studies abstract structures and relationships between mathematical objects, focusing on how different systems relate to each other through morphisms and functors.",
       },
     ],
   },
