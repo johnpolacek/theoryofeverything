@@ -1,8 +1,8 @@
-import Header from "../_components/Header"
-import Sidebar from "../_components/Sidebar"
-import Defense from "../_components/Defense"
-import Footer from "../_components/Footer"
-import type { Metadata } from "next"
+import type { Metadata } from "next";
+import Defense from "../_components/Defense";
+import Footer from "../_components/Footer";
+import Header from "../_components/Header";
+import Sidebar from "../_components/Sidebar";
 
 export const metadata: Metadata = {
   title: "Defense — Stress-Testing the Holos Axioms | a Theory of Everything",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "a Theory of Everything",
     type: "website",
   },
-}
+};
 
 export default function DefensePage() {
   return (
@@ -33,5 +33,5 @@ export default function DefensePage() {
         <Footer />
       </div>
     </div>
-  )
+  );
 }

@@ -1,8 +1,8 @@
-import Header from "../_components/Header"
-import Sidebar from "../_components/Sidebar"
-import Logic from "../_components/Logic"
-import Footer from "../_components/Footer"
-import type { Metadata } from "next"
+import type { Metadata } from "next";
+import Footer from "../_components/Footer";
+import Header from "../_components/Header";
+import Logic from "../_components/Logic";
+import Sidebar from "../_components/Sidebar";
 
 export const metadata: Metadata = {
   title: "Logic — Holos (⊛) Formal Structure | a Theory of Everything",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "a Theory of Everything",
     type: "website",
   },
-}
+};
 
 export default function LogicPage() {
   return (
@@ -33,5 +33,5 @@ export default function LogicPage() {
         <Footer />
       </div>
     </div>
-  )
+  );
 }

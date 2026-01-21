@@ -1,5 +1,5 @@
-import React from "react"
-import MathInline from "./MathInline"
+import React from "react";
+import MathInline from "./MathInline";
 
 /**
  * Converts markdown-style text to JSX elements.
@@ -7,57 +7,51 @@ import MathInline from "./MathInline"
  * Handles inline math: \\(...\\) -> MathInline component
  */
 export function convertMarkdownToJSX(text: string): React.ReactNode {
-  const elements: (string | React.ReactElement)[] = []
-  let keyIndex = 0
+  const elements: (string | React.ReactElement)[] = [];
+  let keyIndex = 0;
 
   // Check for trailing footnote reference [^N]
-  const trailingFootnoteMatch = text.match(/\[\^(\d+)\]$/)
-  let mainText = text
-  let trailingFootnote: string | null = null
+  const trailingFootnoteMatch = text.match(/\[\^(\d+)\]$/);
+  let mainText = text;
+  let trailingFootnote: string | null = null;
 
   if (trailingFootnoteMatch) {
-    trailingFootnote = trailingFootnoteMatch[1]
-    mainText = text.slice(0, -trailingFootnoteMatch[0].length)
+    trailingFootnote = trailingFootnoteMatch[1];
+    mainText = text.slice(0, -trailingFootnoteMatch[0].length);
   }
 
   // Parse the main text
-  let remaining = mainText
-  
+  let remaining = mainText;
+
   while (remaining.length > 0) {
     // Check for inline math \\(...\\)
-    const inlineMathMatch = remaining.match(/^\\\\\(([^)]+)\)/)
+    const inlineMathMatch = remaining.match(/^\\\\\(([^)]+)\)/);
     if (inlineMathMatch) {
-      elements.push(
-        <MathInline key={`math-${keyIndex++}`}>{inlineMathMatch[1]}</MathInline>
-      )
-      remaining = remaining.slice(inlineMathMatch[0].length)
-      continue
+      elements.push(<MathInline key={`math-${keyIndex++}`}>{inlineMathMatch[1]}</MathInline>);
+      remaining = remaining.slice(inlineMathMatch[0].length);
+      continue;
     }
 
     // Check for bold **text** (must come before italic to avoid conflicts)
-    const boldMatch = remaining.match(/^\*\*([^*]+)\*\*/)
+    const boldMatch = remaining.match(/^\*\*([^*]+)\*\*/);
     if (boldMatch) {
-      elements.push(
-        <strong key={`bold-${keyIndex++}`}>{boldMatch[1]}</strong>
-      )
-      remaining = remaining.slice(boldMatch[0].length)
-      continue
+      elements.push(<strong key={`bold-${keyIndex++}`}>{boldMatch[1]}</strong>);
+      remaining = remaining.slice(boldMatch[0].length);
+      continue;
     }
 
     // Check for italic *text* (single asterisk, not part of bold)
-    const italicMatch = remaining.match(/^\*([^*]+)\*/)
+    const italicMatch = remaining.match(/^\*([^*]+)\*/);
     if (italicMatch) {
-      elements.push(
-        <em key={`italic-${keyIndex++}`}>{italicMatch[1]}</em>
-      )
-      remaining = remaining.slice(italicMatch[0].length)
-      continue
+      elements.push(<em key={`italic-${keyIndex++}`}>{italicMatch[1]}</em>);
+      remaining = remaining.slice(italicMatch[0].length);
+      continue;
     }
 
     // Check for axiom-style link: ([text](#url)[^N])
-    const axiomLinkMatch = remaining.match(/^\(\[([^\]]+)\]\(([^)]+)\)\[\^(\d+)\]\)/)
+    const axiomLinkMatch = remaining.match(/^\(\[([^\]]+)\]\(([^)]+)\)\[\^(\d+)\]\)/);
     if (axiomLinkMatch) {
-      const [fullMatch, linkText, url, footnoteNum] = axiomLinkMatch
+      const [fullMatch, linkText, url, footnoteNum] = axiomLinkMatch;
       elements.push(
         <React.Fragment key={`axiom-${keyIndex++}`}>
           (
@@ -67,53 +61,49 @@ export function convertMarkdownToJSX(text: string): React.ReactNode {
           </a>
           )
         </React.Fragment>
-      )
-      remaining = remaining.slice(fullMatch.length)
-      continue
+      );
+      remaining = remaining.slice(fullMatch.length);
+      continue;
     }
 
     // Check for regular link [text](url)
-    const linkMatch = remaining.match(/^\[([^\]]+)\]\(([^)]+)\)/)
+    const linkMatch = remaining.match(/^\[([^\]]+)\]\(([^)]+)\)/);
     if (linkMatch) {
-      const [fullMatch, linkText, url] = linkMatch
+      const [fullMatch, linkText, url] = linkMatch;
       elements.push(
-        <a
-          key={`link-${keyIndex++}`}
-          className="font-normal underline mr-1"
-          href={url}
-        >
+        <a key={`link-${keyIndex++}`} className="font-normal underline mr-1" href={url}>
           {linkText}
         </a>
-      )
-      remaining = remaining.slice(fullMatch.length)
-      continue
+      );
+      remaining = remaining.slice(fullMatch.length);
+      continue;
     }
 
     // Find the next special character position
-    const nextBold = remaining.indexOf("**")
-    const nextItalic = remaining.indexOf("*")
-    const nextLink = remaining.indexOf("[")
-    const nextParen = remaining.indexOf("(")
-    
-    let nextSpecial = remaining.length
-    if (nextBold !== -1 && nextBold < nextSpecial) nextSpecial = nextBold
-    if (nextItalic !== -1 && nextItalic < nextSpecial) nextSpecial = nextItalic
-    if (nextLink !== -1 && nextLink < nextSpecial) nextSpecial = nextLink
-    if (nextParen !== -1 && nextParen < nextSpecial) nextSpecial = nextParen
+    const nextBold = remaining.indexOf("**");
+    const nextItalic = remaining.indexOf("*");
+    const nextLink = remaining.indexOf("[");
+    const nextParen = remaining.indexOf("(");
+
+    let nextSpecial = remaining.length;
+    if (nextBold !== -1 && nextBold < nextSpecial) nextSpecial = nextBold;
+    if (nextItalic !== -1 && nextItalic < nextSpecial) nextSpecial = nextItalic;
+    if (nextLink !== -1 && nextLink < nextSpecial) nextSpecial = nextLink;
+    if (nextParen !== -1 && nextParen < nextSpecial) nextSpecial = nextParen;
 
     if (nextSpecial > 0) {
-      elements.push(remaining.slice(0, nextSpecial))
-      remaining = remaining.slice(nextSpecial)
+      elements.push(remaining.slice(0, nextSpecial));
+      remaining = remaining.slice(nextSpecial);
     } else {
       // No special characters found in first position, add one char and continue
-      elements.push(remaining[0])
-      remaining = remaining.slice(1)
+      elements.push(remaining[0]);
+      remaining = remaining.slice(1);
     }
   }
 
   // Add trailing footnote if present
   if (trailingFootnote) {
-    const footerId = getFooterIdForNumber(parseInt(trailingFootnote))
+    const footerId = getFooterIdForNumber(parseInt(trailingFootnote, 10));
     elements.push(
       <a
         key={`footnote-${keyIndex++}`}
@@ -122,10 +112,10 @@ export function convertMarkdownToJSX(text: string): React.ReactNode {
       >
         <sup>{trailingFootnote}</sup>
       </a>
-    )
+    );
   }
 
-  return elements.length === 1 ? elements[0] : <>{elements}</>
+  return elements.length === 1 ? elements[0] : elements;
 }
 
 // Map footnote numbers to their footer IDs
@@ -143,6 +133,6 @@ function getFooterIdForNumber(num: number): string {
     10: "footer-simulation",
     11: "footer-god",
     12: "footer-why",
-  }
-  return footerMap[num] || "footer-why"
+  };
+  return footerMap[num] || "footer-why";
 }

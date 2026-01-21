@@ -1,8 +1,8 @@
-import Header from "../_components/Header"
-import Sidebar from "../_components/Sidebar"
-import Definition from "../_components/Definition"
-import Footer from "../_components/Footer"
-import type { Metadata } from "next"
+import type { Metadata } from "next";
+import Definition from "../_components/Definition";
+import Footer from "../_components/Footer";
+import Header from "../_components/Header";
+import Sidebar from "../_components/Sidebar";
 
 export const metadata: Metadata = {
   title: "Definition: The Ontological Parameter (Φ) | a Theory of Everything",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "a Theory of Everything",
     type: "website",
   },
-}
+};
 
 export default function DefinitionPage() {
   return (
@@ -33,5 +33,5 @@ export default function DefinitionPage() {
         <Footer />
       </div>
     </div>
-  )
+  );
 }

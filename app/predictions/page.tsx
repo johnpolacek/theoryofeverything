@@ -1,8 +1,8 @@
-import Header from "../_components/Header"
-import Sidebar from "../_components/Sidebar"
-import Predictions from "../_components/Predictions"
-import Footer from "../_components/Footer"
-import type { Metadata } from "next"
+import type { Metadata } from "next";
+import Footer from "../_components/Footer";
+import Header from "../_components/Header";
+import Predictions from "../_components/Predictions";
+import Sidebar from "../_components/Sidebar";
 
 export const metadata: Metadata = {
   title: "Predictions | a Theory of Everything",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "a Theory of Everything",
     type: "website",
   },
-}
+};
 
 export default function PredictionsPage() {
   return (
@@ -33,5 +33,5 @@ export default function PredictionsPage() {
         <Footer />
       </div>
     </div>
-  )
+  );
 }

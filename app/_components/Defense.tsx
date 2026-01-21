@@ -1,74 +1,83 @@
-import { convertMarkdownToJSX } from "./convertToJSX"
-import { Check, X, AlertTriangle } from "lucide-react"
-import type { ReactNode } from "react"
+import { AlertTriangle, Check, X } from "lucide-react";
+import type { ReactNode } from "react";
+import { convertMarkdownToJSX } from "./convertToJSX";
 
 interface Objection {
-  id: string
-  title: string
-  content: string[]
+  id: string;
+  title: string;
+  content: string[];
 }
 
 // Helper function to render text with icons replacing emojis
 function renderWithIcons(text: string, paragraphIndex: number): ReactNode {
-  const elements: ReactNode[] = []
-  let keyIndex = 0
-  
+  const elements: ReactNode[] = [];
+  let keyIndex = 0;
+
   // Replace ✔ with Check icon
   if (text.includes("✔")) {
-    const parts = text.split("✔")
+    const parts = text.split("✔");
     parts.forEach((part, idx) => {
       if (part) {
-        elements.push(convertMarkdownToJSX(part))
+        elements.push(convertMarkdownToJSX(part));
       }
       if (idx < parts.length - 1) {
         elements.push(
-          <Check key={`check-${paragraphIndex}-${keyIndex++}`} className="inline-block w-4 h-4 mx-1 align-text-bottom" />
-        )
+          <Check
+            key={`check-${paragraphIndex}-${keyIndex++}`}
+            className="inline-block w-4 h-4 mx-1 align-text-bottom"
+          />
+        );
       }
-    })
-    return <>{elements}</>
+    });
+    return <>{elements}</>;
   }
-  
+
   // Replace ❌ with X icon
   if (text.includes("❌")) {
-    const parts = text.split("❌")
+    const parts = text.split("❌");
     parts.forEach((part, idx) => {
       if (part) {
-        elements.push(convertMarkdownToJSX(part))
+        elements.push(convertMarkdownToJSX(part));
       }
       if (idx < parts.length - 1) {
         elements.push(
-          <X key={`x-${paragraphIndex}-${keyIndex++}`} className="inline-block w-4 h-4 mx-1 align-text-bottom" />
-        )
+          <X
+            key={`x-${paragraphIndex}-${keyIndex++}`}
+            className="inline-block w-4 h-4 mx-1 align-text-bottom"
+          />
+        );
       }
-    })
-    return <>{elements}</>
+    });
+    return <>{elements}</>;
   }
-  
+
   // Replace ⚠️ with AlertTriangle icon
   if (text.includes("⚠️")) {
-    const parts = text.split("⚠️")
+    const parts = text.split("⚠️");
     parts.forEach((part, idx) => {
       if (part) {
-        elements.push(convertMarkdownToJSX(part))
+        elements.push(convertMarkdownToJSX(part));
       }
       if (idx < parts.length - 1) {
         elements.push(
-          <AlertTriangle key={`alert-${paragraphIndex}-${keyIndex++}`} className="inline-block w-4 h-4 mx-1 align-text-bottom" />
-        )
+          <AlertTriangle
+            key={`alert-${paragraphIndex}-${keyIndex++}`}
+            className="inline-block w-4 h-4 mx-1 align-text-bottom"
+          />
+        );
       }
-    })
-    return <>{elements}</>
+    });
+    return <>{elements}</>;
   }
-  
+
   // No emoji found, use regular convertMarkdownToJSX
-  return convertMarkdownToJSX(text)
+  return convertMarkdownToJSX(text);
 }
 
 interface AxiomDefense {
-  id: string
-  name: string
-  objections: Objection[]
+  id: string;
+  name: string;
+  objections: Objection[];
 }
 
 const defenseData: AxiomDefense[] = [
@@ -267,7 +276,7 @@ const defenseData: AxiomDefense[] = [
       },
     ],
   },
-]
+];
 
 const crossAxiomCheck = [
   { risk: "Violates causality", result: "❌ No" },
@@ -276,16 +285,14 @@ const crossAxiomCheck = [
   { risk: "Requires new forces", result: "❌ No" },
   { risk: "Anthropocentric", result: "❌ No" },
   { risk: "Fully falsifiable", result: "⚠️ No (interpretive framework)" },
-]
+];
 
 export default function Defense() {
   return (
     <div className="flex flex-col gap-12 max-w-[50rem]">
       {/* Title */}
       <div className="flex flex-col gap-4">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-light pb-4">
-          Stress-Testing Holos
-        </h1>
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-light pb-4">Stress-Testing Holos</h1>
         <p className="text-black/70 italic text-sm">
           An adversarial review from the perspective of a theoretical physicist
         </p>
@@ -294,19 +301,18 @@ export default function Defense() {
       {/* Axiom Defenses */}
       {defenseData.map((axiom) => (
         <section key={axiom.id} className="flex flex-col gap-6">
-          <h2 className="text-2xl sm:text-3xl font-light pb-2">
-            {axiom.name}
-          </h2>
+          <h2 className="text-2xl sm:text-3xl font-light pb-2">{axiom.name}</h2>
           <p className="text-black/80 italic pb-2">
-            <strong>Claim:</strong> {axiom.name === "Relationality" 
+            <strong>Claim:</strong>{" "}
+            {axiom.name === "Relationality"
               ? "Reality is defined by relationships, not intrinsic properties."
               : axiom.name === "Manifestation"
-              ? "Reality is only fully realized when information is integrated into conscious experience."
-              : axiom.name === "Conservation"
-              ? "Information is conserved across all transformations."
-              : axiom.name === "Unification"
-              ? "Apparent infinities resolve from higher-dimensional perspectives."
-              : "Consciousness is the fundamental interface of reality."}
+                ? "Reality is only fully realized when information is integrated into conscious experience."
+                : axiom.name === "Conservation"
+                  ? "Information is conserved across all transformations."
+                  : axiom.name === "Unification"
+                    ? "Apparent infinities resolve from higher-dimensional perspectives."
+                    : "Consciousness is the fundamental interface of reality."}
           </p>
           <div className="flex flex-col gap-8">
             {axiom.objections.map((objection) => (
@@ -316,33 +322,33 @@ export default function Defense() {
                 </h3>
                 <div className="flex flex-col gap-3 text-black/80">
                   {objection.content.map((para, idx) => {
-                    if (para === "") return <br key={`${objection.id}-br-${idx}`} />
+                    if (para === "") return <br key={`${objection.id}-br-${idx}`} />;
                     if (para.startsWith("**Response:**")) {
                       return (
                         <p key={`${objection.id}-p-${idx}`} className="text-black/90 pt-2">
                           {convertMarkdownToJSX(para)}
                         </p>
-                      )
+                      );
                     }
                     if (para.startsWith("**Status:**")) {
                       return (
                         <p key={`${objection.id}-p-${idx}`} className="text-black/90 pt-2">
                           {renderWithIcons(para, idx)}
                         </p>
-                      )
+                      );
                     }
                     if (para.startsWith("- ")) {
                       return (
                         <p key={`${objection.id}-p-${idx}`} className="pl-4 leading-relaxed">
                           {convertMarkdownToJSX(para)}
                         </p>
-                      )
+                      );
                     }
                     return (
                       <p key={`${objection.id}-p-${idx}`} className="leading-relaxed">
                         {convertMarkdownToJSX(para)}
                       </p>
-                    )
+                    );
                   })}
                 </div>
               </div>
@@ -353,9 +359,7 @@ export default function Defense() {
 
       {/* Cross-Axiom Consistency Check */}
       <section id="cross-axiom-consistency-check" className="flex flex-col gap-6">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          Cross-Axiom Consistency Check
-        </h2>
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">Cross-Axiom Consistency Check</h2>
         <div className="overflow-x-auto">
           <table className="w-full border-collapse">
             <thead>
@@ -366,9 +370,9 @@ export default function Defense() {
             </thead>
             <tbody>
               {crossAxiomCheck.map((row) => {
-                const hasX = row.result.includes("❌")
-                const hasAlert = row.result.includes("⚠️")
-                const text = row.result.replace(/❌|⚠️/g, "").trim()
+                const hasX = row.result.includes("❌");
+                const hasAlert = row.result.includes("⚠️");
+                const text = row.result.replace(/❌|⚠️/g, "").trim();
                 return (
                   <tr key={row.risk} className="border-b border-black/10">
                     <td className="py-3 pr-8 text-black/80">{row.risk}</td>
@@ -380,7 +384,7 @@ export default function Defense() {
                       </div>
                     </td>
                   </tr>
-                )
+                );
               })}
             </tbody>
           </table>
@@ -389,9 +393,7 @@ export default function Defense() {
 
       {/* Primary Unresolved Challenge */}
       <section className="flex flex-col gap-6">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          Primary Unresolved Challenge
-        </h2>
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">Primary Unresolved Challenge</h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="font-semibold text-black/90">The Explanatory Gap:</p>
           <blockquote className="pl-4 border-l-2 border-black/20 italic text-black/70">
@@ -411,9 +413,7 @@ export default function Defense() {
 
       {/* Final Verdict */}
       <section id="final-verdict" className="flex flex-col gap-6">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          Final Verdict
-        </h2>
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">Final Verdict</h2>
         <div className="flex flex-col gap-3 text-black/80">
           <ul className="list-disc list-inside flex flex-col gap-2 pl-2">
             <li>Holos is internally consistent</li>
@@ -425,5 +425,5 @@ export default function Defense() {
         </div>
       </section>
     </div>
-  )
+  );
 }

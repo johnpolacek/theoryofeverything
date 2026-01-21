@@ -12,12 +12,14 @@ html {
 * {
   scroll-behavior: smooth;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 .animate * {
-  transition:0.2s;
+  transition: 0.2s;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

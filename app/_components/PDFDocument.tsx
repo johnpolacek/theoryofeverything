@@ -1,13 +1,12 @@
-import React from "react"
-import Content from "./Content"
-import Logic from "./Logic"
-import Defense from "./Defense"
-import Definition from "./Definition"
-import Predictions from "./Predictions"
+import Content from "./Content";
+import Defense from "./Defense";
+import Definition from "./Definition";
+import Logic from "./Logic";
+import Predictions from "./Predictions";
 
 export default function PDFDocument() {
   return (
-    <html>
+    <html lang="en">
       <head>
         <meta charSet="utf-8" />
         <title>A Theory of Everything</title>
@@ -102,7 +101,10 @@ export default function PDFDocument() {
             margin: 2em 0;
           }
         `}</style>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/katex.min.css" />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/katex.min.css"
+        />
       </head>
       <body>
         <div className="section-break">
@@ -133,5 +135,5 @@ export default function PDFDocument() {
         </div>
       </body>
     </html>
-  )
+  );
 }

@@ -1,59 +1,59 @@
-import type { MetadataRoute } from 'next'
+import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://yourdomain.com'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://yourdomain.com";
 
   // Main sections with anchor links
   const sections = [
-    '',
-    '#axioms',
-    '#meaning-of-life',
-    '#consciousness',
-    '#our-universe',
-    '#spacetime',
-    '#higher-dimensions',
-    '#infinity',
-    '#black-holes',
-    '#aliens',
-    '#simulation',
-    '#god',
-    '#why',
-    '#holos',
-  ]
+    "",
+    "#axioms",
+    "#meaning-of-life",
+    "#consciousness",
+    "#our-universe",
+    "#spacetime",
+    "#higher-dimensions",
+    "#infinity",
+    "#black-holes",
+    "#aliens",
+    "#simulation",
+    "#god",
+    "#why",
+    "#holos",
+  ];
 
   const mainPages = sections.map((section) => ({
     url: `${baseUrl}${section}`,
-    lastModified: new Date('2024-06-19'),
-    changeFrequency: 'monthly' as const,
-    priority: section === '' ? 1.0 : 0.8,
-  }))
+    lastModified: new Date("2024-06-19"),
+    changeFrequency: "monthly" as const,
+    priority: section === "" ? 1.0 : 0.8,
+  }));
 
   // Append other pages
   return [
     ...mainPages,
     {
       url: `${baseUrl}/logic`,
-      lastModified: new Date('2024-06-19'),
-      changeFrequency: 'monthly' as const,
+      lastModified: new Date("2024-06-19"),
+      changeFrequency: "monthly" as const,
       priority: 0.7,
     },
     {
       url: `${baseUrl}/defense`,
-      lastModified: new Date('2024-06-19'),
-      changeFrequency: 'monthly' as const,
+      lastModified: new Date("2024-06-19"),
+      changeFrequency: "monthly" as const,
       priority: 0.7,
     },
     {
       url: `${baseUrl}/definition`,
-      lastModified: new Date('2024-06-19'),
-      changeFrequency: 'monthly' as const,
+      lastModified: new Date("2024-06-19"),
+      changeFrequency: "monthly" as const,
       priority: 0.7,
     },
     {
       url: `${baseUrl}/predictions`,
-      lastModified: new Date('2024-06-19'),
-      changeFrequency: 'monthly' as const,
+      lastModified: new Date("2024-06-19"),
+      changeFrequency: "monthly" as const,
       priority: 0.7,
     },
-  ]
+  ];
 }

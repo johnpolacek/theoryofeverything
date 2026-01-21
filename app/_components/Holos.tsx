@@ -1,10 +1,11 @@
-import { footnotes, holosIntro } from "./content-data"
+import { footnotes, holosIntro } from "./content-data";
 
 export default function Holos() {
   return (
     <div className="text-sm flex flex-col gap-4">
-
-      <h2 className="text-3xl sm:text-4xl md:text-5xl font-light pb-4"><span className="font-light text-black/60 relative -top-px">⊛</span> Holos</h2>
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-light pb-4">
+        <span className="font-light text-black/60 relative -top-px">⊛</span> Holos
+      </h2>
 
       {/* Holos intro paragraphs */}
       {holosIntro.map((paragraph, idx) => (
@@ -38,16 +39,22 @@ export default function Holos() {
       {/* Footer links */}
       <div className="flex flex-col gap-4 pt-8">
         <div>
-          <a className="text-base text-black/80 hover:text-black border-b border-black/20" href="https://github.com/johnpolacek/theoryofeverything/discussions">
+          <a
+            className="text-base text-black/80 hover:text-black border-b border-black/20"
+            href="https://github.com/johnpolacek/theoryofeverything/discussions"
+          >
             Discuss
           </a>
         </div>
         <div>
-          <a className="text-base text-black/80 hover:text-black border-b border-black/20" href="https://github.com/johnpolacek/theoryofeverything">
+          <a
+            className="text-base text-black/80 hover:text-black border-b border-black/20"
+            href="https://github.com/johnpolacek/theoryofeverything"
+          >
             Contribute
           </a>
         </div>
       </div>
     </div>
-  )
+  );
 }

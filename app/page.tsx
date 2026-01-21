@@ -1,7 +1,7 @@
-import Header from "./_components/Header"
-import Sidebar from "./_components/Sidebar"
-import Content from "./_components/Content"
-import Footer from "./_components/Footer"
+import Content from "./_components/Content";
+import Footer from "./_components/Footer";
+import Header from "./_components/Header";
+import Sidebar from "./_components/Sidebar";
 
 export default function Home() {
   return (
@@ -13,5 +13,5 @@ export default function Home() {
         <Footer />
       </div>
     </div>
-  )
+  );
 }

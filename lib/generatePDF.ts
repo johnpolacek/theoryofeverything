@@ -1,22 +1,22 @@
-import puppeteer from "puppeteer"
+import puppeteer from "puppeteer";
 
 // Dynamic imports to avoid Next.js restrictions
 async function getRenderToString() {
-  const { renderToString } = await import("react-dom/server")
-  return renderToString
+  const { renderToString } = await import("react-dom/server");
+  return renderToString;
 }
 
 async function getPDFDocument() {
-  const React = await import("react")
-  const PDFDocument = (await import("../app/_components/PDFDocument")).default
-  return { React, PDFDocument }
+  const React = await import("react");
+  const PDFDocument = (await import("../app/_components/PDFDocument")).default;
+  return { React, PDFDocument };
 }
 
 export async function generatePDF(html: string): Promise<Buffer> {
   // Wrap in full HTML document with styles
   // Replace className with class for proper HTML rendering
-  const htmlWithClass = html.replace(/className=/g, 'class=')
-  
+  const htmlWithClass = html.replace(/className=/g, "class=");
+
   const fullHTML = `
     <!DOCTYPE html>
     ${htmlWithClass}
@@ -45,49 +45,49 @@ export async function generatePDF(html: string): Promise<Buffer> {
         });
       });
     </script>
-  `
+  `;
 
   // Launch Puppeteer
   const browser = await puppeteer.launch({
     headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
-  })
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+  });
 
   try {
-    const page = await browser.newPage()
-    
+    const page = await browser.newPage();
+
     // Set content
     await page.setContent(fullHTML, {
-      waitUntil: 'networkidle0'
-    })
+      waitUntil: "networkidle0",
+    });
 
     // Wait for math to render
-    await new Promise(resolve => setTimeout(resolve, 1000))
+    await new Promise((resolve) => setTimeout(resolve, 1000));
 
     // Generate PDF
     const pdf = await page.pdf({
-      format: 'Letter',
+      format: "Letter",
       margin: {
-        top: '2cm',
-        right: '2cm',
-        bottom: '2cm',
-        left: '2cm'
+        top: "2cm",
+        right: "2cm",
+        bottom: "2cm",
+        left: "2cm",
       },
-      printBackground: true
-    })
+      printBackground: true,
+    });
 
-    return Buffer.from(pdf)
+    return Buffer.from(pdf);
   } finally {
-    await browser.close()
+    await browser.close();
   }
 }
 
 export async function renderPDFDocument(): Promise<string> {
-  const renderToString = await getRenderToString()
-  const { React: ReactModule, PDFDocument } = await getPDFDocument()
+  const renderToString = await getRenderToString();
+  const { React: ReactModule, PDFDocument } = await getPDFDocument();
   // Ensure React is available globally for JSX transform
-  if (typeof global !== 'undefined' && !global.React) {
-    global.React = ReactModule
+  if (typeof global !== "undefined" && !global.React) {
+    global.React = ReactModule;
   }
-  return renderToString(ReactModule.createElement(PDFDocument))
+  return renderToString(ReactModule.createElement(PDFDocument));
 }

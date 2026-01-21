@@ -1,12 +1,12 @@
-import type { Metadata } from "next"
-import { Bitter } from "next/font/google"
-import { Analytics } from "@vercel/analytics/react"
-import Script from "next/script"
-import "./globals.css"
+import { Analytics } from "@vercel/analytics/react";
+import type { Metadata } from "next";
+import { Bitter } from "next/font/google";
+import Script from "next/script";
+import "./globals.css";
 
-const bitter = Bitter({ subsets: ["latin"] })
+const bitter = Bitter({ subsets: ["latin"] });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://yourdomain.com"
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://yourdomain.com";
 
 export const metadata: Metadata = {
   title: "a Theory of Everything",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
       "a Theory of Everything - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?",
     images: ["/twitter-image.png"],
   },
-}
+};
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -61,12 +61,12 @@ const jsonLd = {
     "@type": "Person",
     name: "John Polacek",
   },
-}
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
@@ -81,5 +81,5 @@ export default function RootLayout({
         <Analytics />
       </body>
     </html>
-  )
+  );
 }
