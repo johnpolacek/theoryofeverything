@@ -45,13 +45,13 @@ export const sections: ContentSection[] = [
     title: "Introduction",
     paragraphs: [
       convertMarkdownToJSX(
-        "We live in a universe described with extraordinary precision, yet still filled with mystery. Physics tells us how matter moves, how spacetime bends, and how probabilities evolve, but it is silent on what it is to be real, experienced, or observed. Questions about consciousness, observation, and life itself remain elusive."
+        "We live in a universe described with extraordinary precision, yet still filled with mystery. Physics tells us how matter moves, how spacetime bends, and how probabilities evolve, but *what does it mean to be real?*"
       ),
       convertMarkdownToJSX(
         "Holos is an interpretive framework for understanding the nature of reality. It does not propose new physical laws or challenge the success of modern physics. Instead, it offers an explanation for how the universe described by physics becomes the universe we experience. At its core, Holos expresses this idea as a simple relation: *R = C ⊛ O*, where reality arises from the reciprocal interplay of creation and observation."
       ),
       convertMarkdownToJSX(
-        "We now explore this idea and its implications for spacetime, infinity, life, and meaning, inviting the reader to reconsider some of the most fundamental questions we can ask about existence."
+        "We now explore this idea and its implications for spacetime, infinity, life, and meaning, inviting you to reconsider some of the most fundamental questions we can ask."
       ),
     ],
   },
