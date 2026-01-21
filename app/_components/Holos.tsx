@@ -3,7 +3,10 @@ import { parseContent } from "./parse-content"
 
 export default function Holos() {
   return (
-    <div className="text-sm pt-4 xl:pt-16 flex flex-col gap-4">
+    <div className="text-sm flex flex-col gap-4">
+
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-light pb-4"><span className="font-light text-black/60 relative -top-px">⊛</span> Holos</h2>
+
       {/* Holos intro paragraphs */}
       {holosIntro.map((paragraph) => (
         <p key={paragraph.slice(0, 30)} className="text-base">

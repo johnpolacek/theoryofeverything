@@ -21,8 +21,10 @@ export interface ContentSection {
 
 // Holos intro paragraphs
 export const holosIntro = [
-  "The symbol ⊛ is a mathematical notation for a binary operation, representing a special form of multiplication, which ensures the combination of elements remains well-defined and consistent, scaling up to an infinite sequence.",
-  "**Holos** is derived from the Greek word ὅλος, meaning whole, entire or complete. It is symbolized here by ⊛. Mathematically, this represents a ([Recursive Operator](#footer-axioms)[^1]) in a relational system (conceptually aligned with ([Category Theory](#footer-axioms)[^1])), where the output of observation becomes the input for the next cycle of creation.",
+  "The symbol ⊛ denotes a binary relational operator. Unlike standard multiplication, ⊛ is not scalar or linear; it represents a structured composition that preserves relational consistency under iteration. Formally, ⊛ is defined such that repeated application remains well-defined, allowing the operation to scale across finite and infinite sequences without collapse or divergence.",
+  "Holos is derived from the Greek word ὅλος (*holos*), meaning whole, entire, or complete. In this framework, ⊛ symbolically represents the Holos operator: a recursive relational process in which Creation and Observation are not independent terms but mutually conditioning components of a single ontological cycle.",
+  "Mathematically, ⊛ functions as a recursive operator within a relational system. The output of Observation becomes the input condition for subsequent Creation, establishing a closed yet non-static loop. This structure is conceptually aligned with category-theoretic notions of compositionality and endomorphism, where morphisms act on and reproduce the space in which they are defined.",
+  "Importantly, ⊛ does not introduce an additional physical force or dynamical law. It specifies an ontological relation: how reality is constituted through the recursive coupling of generative possibility and registered state.",
 ]
 
 // All content sections
