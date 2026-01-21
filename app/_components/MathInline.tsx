@@ -3,7 +3,12 @@
 import { useEffect, useRef } from "react";
 import type React from "react";
 import katex from "katex";
-import "katex/dist/katex.min.css";
+
+// Only import CSS in browser environment
+if (typeof window !== "undefined") {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  require("katex/dist/katex.min.css");
+}
 
 interface MathInlineProps {
   children: React.ReactNode;

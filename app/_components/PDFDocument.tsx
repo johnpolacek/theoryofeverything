@@ -11,6 +11,22 @@ export default function PDFDocument() {
         <meta charSet="utf-8" />
         <title>A Theory of Everything</title>
         <style>{`
+          @font-face {
+            font-family: 'Bitter';
+            font-style: normal;
+            font-weight: 100 900;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/bitter/v39/IYem_q_KI0L5BLkFptrK8NY9jBME_0V8tBh_P4a.woff2') format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          @font-face {
+            font-family: 'Bitter';
+            font-style: italic;
+            font-weight: 100 900;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/bitter/v39/wk_30c2dR5Y2hBo1CzFmDGK-xza6iXKz4l3gBwZE.woff2') format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
           @page {
             margin: 2cm;
             size: letter;

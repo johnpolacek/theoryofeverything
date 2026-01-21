@@ -107,6 +107,13 @@ export async function generatePDF(html: string): Promise<Buffer> {
       waitUntil: "networkidle0",
     });
 
+    // Wait for fonts to load
+    await page.evaluate(async () => {
+      await document.fonts.ready;
+      // Wait a bit more to ensure fonts are fully applied
+      await new Promise(resolve => setTimeout(resolve, 500));
+    });
+
     // Wait for math to render
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
