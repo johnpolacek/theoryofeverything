@@ -4,7 +4,15 @@ export default function Holos() {
   return (
     <div className="text-sm flex flex-col gap-4">
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-light pb-4">
-        <span className="font-light text-black/60 relative -top-px">⊛</span> Holos
+        <div className="flex flex-col items-start gap-3">
+          <span>Holos</span>
+          <span
+            className="text-black/60 text-xl sm:text-2xl md:text-3xl"
+            style={{ fontFamily: "Times New Roman, Times, serif" }}
+          >
+            ⊛
+          </span>
+        </div>
       </h2>
 
       {/* Holos intro paragraphs */}

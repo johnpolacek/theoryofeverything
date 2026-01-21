@@ -12,8 +12,15 @@ export default function Logic() {
       {/* Title */}
       <div className="flex flex-col gap-4">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-light pb-4">
-          <span className="font-light text-black/60 relative -top-1">⊛</span> Holos: A Formal
-          Structure
+          <div className="flex flex-col items-start gap-3">
+            <span>Holos: A Formal Structure</span>
+            <span
+              className="text-black/60 text-2xl sm:text-3xl md:text-4xl"
+              style={{ fontFamily: "Times New Roman, Times, serif" }}
+            >
+              ⊛
+            </span>
+          </div>
         </h1>
       </div>
 

@@ -39,6 +39,14 @@ export default function PDFDocument() {
             line-height: 1.6;
             color: #000;
           }
+          /* Use Times New Roman for the ⊛ symbol for better rendering */
+          .holos-symbol {
+            font-family: 'Times New Roman', Times, serif !important;
+          }
+          /* Style all instances of ⊛ to use Times New Roman */
+          * {
+            font-feature-settings: normal;
+          }
           body {
             max-width: 800px;
             margin: 0 auto;
@@ -173,23 +181,49 @@ export default function PDFDocument() {
       </head>
       <body>
         <div className="section-break title-page">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 384 512"
-            className="title-icon"
+          <div
+            style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "3em" }}
           >
-            <circle cx="192" cy="256" r="230" stroke="rgba(0, 0, 0, 0.6)" strokeWidth="24" fill="none" />
-            <g transform="scale(0.75) translate(64, 85)">
-              <path fill="rgba(0, 0, 0, 0.6)" d="M192 32c17.7 0 32 14.3 32 32V199.5l111.5-66.9c15.2-9.1 34.8-4.2 43.9 11s4.2 34.8-11 43.9L254.2 256l114.3 68.6c15.2 9.1 20.1 28.7 11 43.9s-28.7 20.1-43.9 11L224 312.5V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V312.5L48.5 379.4c-15.2 9.1-34.8 4.2-43.9-11s-4.2-34.8 11-43.9L129.8 256 15.5 187.4c-15.2-9.1-20.1-28.7-11-43.9s28.7-20.1 43.9-11L160 199.5V64c0-17.7 14.3-32 32-32z" />
-            </g>
-          </svg>
-          <h1 className="title-main">
-            <sup>a</sup> Theory <sup>of</sup> <span className="tracking-wide">Everything</span>
-          </h1>
+            <h1 className="title-main">
+              <sup>a</sup> Theory <sup>of</sup> <span className="tracking-wide">Everything</span>
+            </h1>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "0.5em",
+                fontSize: "1.2em",
+                color: "rgba(0, 0, 0, 0.6)",
+                fontWeight: 300,
+              }}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 384 512"
+                style={{ width: "14px", height: "14px", display: "inline-block" }}
+                aria-label="Holos"
+              >
+                <circle
+                  cx="192"
+                  cy="256"
+                  r="230"
+                  stroke="rgba(0, 0, 0, 0.6)"
+                  strokeWidth="24"
+                  fill="none"
+                />
+                <g transform="scale(0.75) translate(64, 85)">
+                  <path
+                    fill="rgba(0, 0, 0, 0.6)"
+                    d="M192 32c17.7 0 32 14.3 32 32V199.5l111.5-66.9c15.2-9.1 34.8-4.2 43.9 11s4.2 34.8-11 43.9L254.2 256l114.3 68.6c15.2 9.1 20.1 28.7 11 43.9s-28.7 20.1-43.9 11L224 312.5V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V312.5L48.5 379.4c-15.2 9.1-34.8 4.2-43.9-11s-4.2-34.8 11-43.9L129.8 256 15.5 187.4c-15.2-9.1-20.1-28.7-11-43.9s28.7-20.1 43.9-11L160 199.5V64c0-17.7 14.3-32 32-32z"
+                  />
+                </g>
+              </svg>
+              <span>Holos</span>
+            </div>
+          </div>
         </div>
 
         <div className="section-break">
-          <h1>Theory</h1>
           <Content />
         </div>
 

@@ -104,6 +104,7 @@ export async function generatePDF(html: string): Promise<Buffer> {
     });
 
     // Apply Bitter font (excluding KaTeX elements which need their own fonts)
+    // The ⊛ symbol will use Times New Roman via CSS class
     await page.evaluate(() => {
       document.documentElement.style.fontFamily = '"Bitter", serif';
       document.body.style.fontFamily = '"Bitter", serif';
@@ -168,6 +169,49 @@ export async function generatePDF(html: string): Promise<Buffer> {
 
     // Wait for KaTeX to finish rendering
     await new Promise((resolve) => setTimeout(resolve, 1000));
+
+    // Wrap all instances of ⊛ with a span that uses Times New Roman font
+    await page.evaluate(() => {
+      const walker = document.createTreeWalker(
+        document.body,
+        NodeFilter.SHOW_TEXT,
+        null
+      );
+      
+      const textNodes: Text[] = [];
+      let node;
+      while (node = walker.nextNode()) {
+        if (node.textContent?.includes('⊛')) {
+          textNodes.push(node as Text);
+        }
+      }
+      
+      textNodes.forEach(textNode => {
+        const parent = textNode.parentElement;
+        if (!parent) return;
+        
+        const text = textNode.textContent || '';
+        const parts = text.split('⊛');
+        
+        if (parts.length > 1) {
+          const fragment = document.createDocumentFragment();
+          
+          parts.forEach((part, index) => {
+            if (part) {
+              fragment.appendChild(document.createTextNode(part));
+            }
+            if (index < parts.length - 1) {
+              const span = document.createElement('span');
+              span.style.fontFamily = 'Times New Roman, Times, serif';
+              span.textContent = '⊛';
+              fragment.appendChild(span);
+            }
+          });
+          
+          parent.replaceChild(fragment, textNode);
+        }
+      });
+    });
 
     // Generate PDF
     const pdf = await page.pdf({
