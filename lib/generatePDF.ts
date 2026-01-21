@@ -1,4 +1,24 @@
-import puppeteer from "puppeteer";
+import puppeteerCore from "puppeteer-core";
+import chromium from "@sparticuz/chromium";
+
+// Check if we're running in a serverless environment (Vercel, AWS Lambda, etc.)
+const isServerless = process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME;
+
+// For local development, try to use regular puppeteer (better performance)
+// For serverless, use puppeteer-core with chromium
+async function getPuppeteer() {
+  if (isServerless) {
+    return puppeteerCore;
+  }
+  // Try to use regular puppeteer for local development
+  try {
+    const puppeteer = await import("puppeteer");
+    return puppeteer.default;
+  } catch {
+    // Fall back to puppeteer-core if puppeteer is not available
+    return puppeteerCore;
+  }
+}
 
 // Dynamic imports to avoid Next.js restrictions
 async function getRenderToString() {
@@ -49,10 +69,27 @@ export async function generatePDF(html: string): Promise<Buffer> {
     </script>
   `;
 
-  // Launch Puppeteer
+  // Configure Chromium for serverless environments
+  if (isServerless) {
+    chromium.setGraphicsMode(false);
+  }
+
+  // Get the appropriate Puppeteer instance
+  const puppeteer = await getPuppeteer();
+
+  // Launch Puppeteer with appropriate configuration
   const browser = await puppeteer.launch({
-    headless: true,
-    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    args: isServerless
+      ? [
+          ...chromium.args,
+          "--hide-scrollbars",
+          "--disable-web-security",
+          "--disable-features=IsolateOrigins,site-per-process",
+        ]
+      : ["--no-sandbox", "--disable-setuid-sandbox"],
+    defaultViewport: isServerless ? chromium.defaultViewport : undefined,
+    executablePath: isServerless ? await chromium.executablePath() : undefined,
+    headless: isServerless ? chromium.headless : true,
   });
 
   try {
