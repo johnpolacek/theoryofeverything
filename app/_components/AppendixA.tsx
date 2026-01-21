@@ -13,8 +13,9 @@ export default function AppendixA() {
     <div className="flex flex-col gap-12 max-w-[50rem]">
       {/* Title */}
       <div className="flex flex-col gap-4">
-        <p className="sm:text-lg text-black/60 uppercase tracking-wide">Appendix A: Logic</p>
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-light pb-4">{appendixTitle}</h1>
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-light pb-4">
+          <span className="font-light text-black/60 relative -top-1">⊛</span> Holos: A Formal Structure
+        </h1>
       </div>
 
       {/* I. Primitive Definitions */}

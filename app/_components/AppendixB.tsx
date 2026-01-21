@@ -283,9 +283,8 @@ export default function AppendixB() {
     <div className="flex flex-col gap-12 max-w-[50rem]">
       {/* Title */}
       <div className="flex flex-col gap-4">
-        <p className="sm:text-lg text-black/60 uppercase tracking-wide">Appendix B: Defense</p>
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-light pb-4">
-          Stress-Testing the Holos Axioms
+          Stress-Testing Holos
         </h1>
         <p className="text-black/70 italic text-sm">
           An adversarial review from the perspective of a theoretical physicist

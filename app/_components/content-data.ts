@@ -28,19 +28,6 @@ export const holosIntro = [
 // All content sections
 export const sections: ContentSection[] = [
   {
-    id: "axioms",
-    title: "The Holos Axioms",
-    footerId: "footer-axioms",
-    paragraphs: [
-      "The following fundamental principles form the logical basis of this framework:",
-      "**Relationality:** Reality is not composed of isolated objects with intrinsic properties, but of relationships and interactions. While the observer determines the perspective, the invariant structure of these relationships remains absolute ([Holos](#footer-axioms)[^1]).",
-      "**Manifestation:** Observation is not merely mechanical interaction; it is the act of integrating information into an experience. Because reality exists as a unified spacetime block, observation need not be temporally local to be ontologically complete. Conscious entities participate in the realization of the entire structure ([Participatory Principle](#footer-life)[^2]).",
-      "**Conservation:** Information is fundamental and conserved across all transformations, including those within singularities ([Unitarity](#footer-why)[^12]).",
-      "**Unification:** Apparent infinities in lower dimensions are resolved into finite structures when mapped onto higher-dimensional frameworks. Whether physical or mathematical, these higher-dimensional descriptions are required to render the universe intelligible and resolve singularities ([Projective Geometry](#footer-dimensions)[^6]).",
-      "**Interface:** Consciousness is not a byproduct of matter, but the fundamental interface through which the universe experiences its own information. It is fundamental in capacity, yet emergent in form, scaling from basic physical interaction to complex self-awareness ([Panpsychism](#footer-consciousness)[^3]).",
-    ],
-  },
-  {
     id: "meaning-of-life",
     title: "The Meaning of Life",
     footerId: "footer-life",
@@ -159,37 +146,23 @@ export const sections: ContentSection[] = [
       "Life exists to create and observe life, perpetuating infinitely.[^12]",
     ],
   },
+  {
+    id: "axioms",
+    title: "Axioms",
+    footerId: "footer-axioms",
+    paragraphs: [
+      "The following fundamental principles form the logical basis of this framework:",
+      "**Relationality:** Reality is not composed of isolated objects with intrinsic properties, but of relationships and interactions. While the observer determines the perspective, the invariant structure of these relationships remains absolute ([Holos](#footer-axioms)[^1]).",
+      "**Manifestation:** Observation is not merely mechanical interaction; it is the act of integrating information into an experience. Because reality exists as a unified spacetime block, observation need not be temporally local to be ontologically complete. Conscious entities participate in the realization of the entire structure ([Participatory Principle](#footer-life)[^2]).",
+      "**Conservation:** Information is fundamental and conserved across all transformations, including those within singularities ([Unitarity](#footer-why)[^12]).",
+      "**Unification:** Apparent infinities in lower dimensions are resolved into finite structures when mapped onto higher-dimensional frameworks. Whether physical or mathematical, these higher-dimensional descriptions are required to render the universe intelligible and resolve singularities ([Projective Geometry](#footer-dimensions)[^6]).",
+      "**Interface:** Consciousness is not a byproduct of matter, but the fundamental interface through which the universe experiences its own information. It is fundamental in capacity, yet emergent in form, scaling from basic physical interaction to complex self-awareness ([Panpsychism](#footer-consciousness)[^3]).",
+    ],
+  },
 ]
 
 // All footnote sections
 export const footnotes: FootnoteSection[] = [
-  {
-    number: 1,
-    id: "footer-axioms",
-    title: "The Holos Axioms",
-    items: [
-      {
-        name: "Structural Realism",
-        url: "https://en.wikipedia.org/wiki/Structural_realism",
-        description: "The view that science describes the mathematical structures and relationships of the physical world, rather than the intrinsic nature of the objects themselves.",
-      },
-      {
-        name: "Holos",
-        url: "#holos",
-        description: "The interconnected, unified, recursive structure of reality as formed through the reciprocal actions of creation and observation, symbolized by ⊛.",
-      },
-      {
-        name: "Recursive Operator",
-        url: "https://en.wikipedia.org/wiki/Recursion",
-        description: "A mathematical operation where the output of observation becomes the input for the next cycle of creation, forming a self-referential system that builds complexity through iterative feedback loops.",
-      },
-      {
-        name: "Category Theory",
-        url: "https://en.wikipedia.org/wiki/Category_theory",
-        description: "A branch of mathematics that studies abstract structures and relationships between mathematical objects, focusing on how different systems relate to each other through morphisms and functors.",
-      },
-    ],
-  },
   {
     number: 2,
     id: "footer-life",
@@ -569,6 +542,33 @@ export const footnotes: FootnoteSection[] = [
         name: "Holos",
         url: "https://github.com/johnpolacek/theoryofeverything",
         description: "A theory of everything.",
+      },
+    ],
+  },
+  {
+    number: 1,
+    id: "footer-axioms",
+    title: "Axioms",
+    items: [
+      {
+        name: "Structural Realism",
+        url: "https://en.wikipedia.org/wiki/Structural_realism",
+        description: "The view that science describes the mathematical structures and relationships of the physical world, rather than the intrinsic nature of the objects themselves.",
+      },
+      {
+        name: "Holos",
+        url: "#holos",
+        description: "The interconnected, unified, recursive structure of reality as formed through the reciprocal actions of creation and observation, symbolized by ⊛.",
+      },
+      {
+        name: "Recursive Operator",
+        url: "https://en.wikipedia.org/wiki/Recursion",
+        description: "A mathematical operation where the output of observation becomes the input for the next cycle of creation, forming a self-referential system that builds complexity through iterative feedback loops.",
+      },
+      {
+        name: "Category Theory",
+        url: "https://en.wikipedia.org/wiki/Category_theory",
+        description: "A branch of mathematics that studies abstract structures and relationships between mathematical objects, focusing on how different systems relate to each other through morphisms and functors.",
       },
     ],
   },

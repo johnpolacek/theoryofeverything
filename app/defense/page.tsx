@@ -5,23 +5,23 @@ import Footer from "../_components/Footer"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Appendix B: Defense — Stress-Testing the Holos Axioms | a Theory of Everything",
+  title: "Defense — Stress-Testing the Holos Axioms | a Theory of Everything",
   description:
     "An adversarial review of the Holos axioms from the perspective of a theoretical physicist, examining objections and responses to each axiom.",
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://yourdomain.com"}/appendix-b`,
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://yourdomain.com"}/defense`,
   },
   openGraph: {
-    title: "Appendix B: Defense — Stress-Testing the Holos Axioms",
+    title: "Defense — Stress-Testing the Holos Axioms",
     description:
       "An adversarial review of the Holos axioms from the perspective of a theoretical physicist, examining objections and responses to each axiom.",
-    url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://yourdomain.com"}/appendix-b`,
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://yourdomain.com"}/defense`,
     siteName: "a Theory of Everything",
     type: "website",
   },
 }
 
-export default function AppendixBPage() {
+export default function DefensePage() {
   return (
     <div className="xl:grid grid-cols-[1fr_5fr] justify-stretch w-full max-w-[1280px] overflow-hidden mx-auto">
       <Sidebar />

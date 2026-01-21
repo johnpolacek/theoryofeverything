@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from "react"
+import { useState } from "react"
 import { usePathname } from "next/navigation"
 import { contentToMarkdown } from "./contentToMarkdown"
 
@@ -8,9 +8,12 @@ export default function Sidebar() {
   const [copied, setCopied] = useState(false)
   const pathname = usePathname()
   
-  // If we're on an appendix page, prepend "/" to hash links to navigate to main page first
+  // Check if we're on the theory page (home page)
+  const isTheoryPage = pathname === "/" || pathname === "/theory"
+  
+  // If we're not on the theory page, prepend "/" to hash links to navigate to theory page first
   const getLink = (hash: string) => {
-    return pathname?.startsWith("/appendix") ? `/${hash}` : hash
+    return isTheoryPage ? hash : `/${hash}`
   }
 
   const handleCopy = async () => {
@@ -38,61 +41,68 @@ export default function Sidebar() {
         <nav className="w-full h-screen top-0 left-0 border-r border-black/20 border-dashed overflow-auto flex flex-col">
           <a href={getLink("#home")} className="hidden xl:block border-b border-black/20 border-dashed h-[160px] w-full">
             <div className="flex flex-col items-center justify-center py-8">
-              <img src="/icon.svg" alt="Holos" title="Holos" className="w-4 h-4 relative -top-1" />
+              <img src="/icon.svg" alt="Holos" title="Holos" className="w-4 h-4 relative -top-1.5" />
               <span className="text-xs">a</span>
               <span>theory</span>
               <span className="text-xs">of</span>
               <span>everything</span>
             </div>
           </a>
-          <ol className="flex flex-col h-full xl:h-auto gap-4 pt-12 pb-16 justify-center items-center xl:justify-start flex-grow">
+          <ol className="flex flex-col h-full xl:h-auto gap-2 pt-12 pb-16 justify-center items-center xl:justify-start flex-grow text-sm">
             <li>
-              <a href={getLink("#axioms")}>Axioms</a>
+              <a className="text-lg font-medium" href="/">Theory</a>
             </li>
-            <li>
-              <a href={getLink("#meaning-of-life")}>Life</a>
+            {isTheoryPage && (
+              <>
+                <li>
+                  <a href={getLink("#meaning-of-life")}>Meaning of Life</a>
+                </li>
+                <li>
+                  <a href={getLink("#consciousness")}>Consciousness</a>
+                </li>
+                <li>
+                  <a href={getLink("#our-universe")}>Our Universe</a>
+                </li>
+                <li>
+                  <a href={getLink("#spacetime")}>Spacetime</a>
+                </li>
+                <li>
+                  <a href={getLink("#higher-dimensions")}>Higher Dimensions</a>
+                </li>
+                <li>
+                  <a href={getLink("#infinity")}>Infinity</a>
+                </li>
+                <li>
+                  <a href={getLink("#black-holes")}>Black Holes</a>
+                </li>
+                <li>
+                  <a href={getLink("#aliens")}>Aliens</a>
+                </li>
+                <li>
+                  <a href={getLink("#simulation")}>Simulation</a>
+                </li>
+                <li>
+                  <a href={getLink("#god")}>God</a>
+                </li>
+                <li>
+                  <a href={getLink("#why")}>Why?</a>
+                </li>
+                <li>
+                  <a href={getLink("#axioms")}>Axioms</a>
+                </li>
+                <li>
+                  <a className="flex items-center gap-1 -ml-0.5 pb-2" href={getLink("#holos")}>
+                    <img src="/icon.svg" alt="Asterisk in a Circle" className="w-4 h-4 scale-90" />
+                    <span>Holos</span>
+                  </a>
+                </li>
+              </>
+            )}
+            <li className="mt-2">
+              <a className="text-lg font-medium" href="/logic">Logic</a>
             </li>
-            <li>
-              <a href={getLink("#consciousness")}>Consciousness</a>
-            </li>
-            <li>
-              <a href={getLink("#our-universe")}>Our Universe</a>
-            </li>
-            <li>
-              <a href={getLink("#spacetime")}>Spacetime</a>
-            </li>
-            <li>
-              <a href={getLink("#higher-dimensions")}>Higher Dimensions</a>
-            </li>
-            <li>
-              <a href={getLink("#infinity")}>Infinity</a>
-            </li>
-            <li>
-              <a href={getLink("#black-holes")}>Black Holes</a>
-            </li>
-            <li>
-              <a href={getLink("#aliens")}>Aliens</a>
-            </li>
-            <li>
-              <a href={getLink("#simulation")}>Simulation</a>
-            </li>
-            <li>
-              <a href={getLink("#god")}>God</a>
-            </li>
-            <li>
-              <a href={getLink("#why")}>Why?</a>
-            </li>
-            <li>
-              <a className="flex pt-6 items-center gap-1 -ml-0.5" href={getLink("#holos")}>
-                <img src="/icon.svg" alt="Asterisk in a Circle" className="w-4 h-4 scale-90" />
-                <span className="font-light">Holos</span>
-              </a>
-            </li>
-            <li>
-              <a className="pt-6" href="/appendix-a">Appendix A</a>
-            </li>
-            <li>
-              <a href="/appendix-b">Appendix B</a>
+            <li className="mt-2">
+              <a className="text-lg font-medium" href="/defense">Defense</a>
             </li>
           </ol>
           <div className="w-full flex justify-center pb-8 px-8 xl:px-4">
