@@ -203,6 +203,7 @@ export default function PDFDocument() {
                 style={{ width: "14px", height: "14px", display: "inline-block" }}
                 aria-label="Holos"
               >
+                <title>Holos</title>
                 <circle
                   cx="192"
                   cy="256"

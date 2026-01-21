@@ -9,6 +9,7 @@ interface Subsection {
 }
 
 const theorySubsections: Subsection[] = [
+  { id: "introduction", title: "Introduction" },
   { id: "meaning-of-life", title: "Meaning of Life" },
   { id: "consciousness", title: "Consciousness" },
   { id: "our-universe", title: "Our Universe" },
@@ -147,7 +148,7 @@ export default function Sidebar() {
           <ol className="flex flex-col h-full xl:h-auto gap-2 pt-12 pb-16 justify-center items-center xl:justify-start flex-grow text-sm">
             <li>
               <a className="text-lg font-medium" href="/">
-                Theory
+                Overview
               </a>
             </li>
             {isTheoryPage &&

@@ -41,6 +41,21 @@ export const holosIntro: React.ReactNode[] = [
 // All content sections
 export const sections: ContentSection[] = [
   {
+    id: "introduction",
+    title: "Introduction",
+    paragraphs: [
+      convertMarkdownToJSX(
+        "We live in a universe described with extraordinary precision, yet still filled with mystery. Physics tells us how matter moves, how spacetime bends, and how probabilities evolve, but it is silent on what it is to be real, experienced, or observed. Questions about consciousness, observation, and life itself remain elusive."
+      ),
+      convertMarkdownToJSX(
+        "Holos is an interpretive framework for understanding the nature of reality. It does not propose new physical laws or challenge the success of modern physics. Instead, it offers an explanation for how the universe described by physics becomes the universe we experience. At its core, Holos expresses this idea as a simple relation: *R = C ⊛ O*, where reality arises from the reciprocal interplay of creation and observation."
+      ),
+      convertMarkdownToJSX(
+        "We now explore this idea and its implications for spacetime, infinity, life, and meaning, inviting the reader to reconsider some of the most fundamental questions we can ask about existence."
+      ),
+    ],
+  },
+  {
     id: "meaning-of-life",
     title: "The Meaning of Life",
     footerId: "footer-life",
