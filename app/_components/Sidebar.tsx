@@ -1,10 +1,17 @@
 "use client"
 import React, { useState } from "react"
+import { usePathname } from "next/navigation"
 import { contentToMarkdown } from "./contentToMarkdown"
 
 export default function Sidebar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
   const [copied, setCopied] = useState(false)
+  const pathname = usePathname()
+  
+  // If we're on the appendix page, prepend "/" to hash links to navigate to main page first
+  const getLink = (hash: string) => {
+    return pathname === "/appendix" ? `/${hash}` : hash
+  }
 
   const handleCopy = async () => {
     try {
@@ -29,7 +36,7 @@ export default function Sidebar() {
         className={`w-full h-screen overflow-auto transition-transform duration-300 bg-white ${isSidebarOpen ? "transform translate-x-0" : "fixed transform -translate-x-full z-10"} xl:static xl:transform-none`}
       >
         <nav className="w-full h-screen top-0 left-0 border-r border-black/20 border-dashed overflow-auto flex flex-col">
-          <a href="#home" className="hidden xl:block border-b border-black/20 border-dashed h-[160px] w-full">
+          <a href={getLink("#home")} className="hidden xl:block border-b border-black/20 border-dashed h-[160px] w-full">
             <div className="flex flex-col items-center justify-center py-8">
               <img src="/icon.svg" alt="Holos" title="Holos" className="w-4 h-4 relative -top-1" />
               <span className="text-xs">a</span>
@@ -40,43 +47,43 @@ export default function Sidebar() {
           </a>
           <ol className="flex flex-col h-full xl:h-auto gap-4 pt-12 pb-16 justify-center items-center xl:justify-start flex-grow">
             <li>
-              <a href="#axioms">Axioms</a>
+              <a href={getLink("#axioms")}>Axioms</a>
             </li>
             <li>
-              <a href="#meaning-of-life">Life</a>
+              <a href={getLink("#meaning-of-life")}>Life</a>
             </li>
             <li>
-              <a href="#consciousness">Consciousness</a>
+              <a href={getLink("#consciousness")}>Consciousness</a>
             </li>
             <li>
-              <a href="#our-universe">Our Universe</a>
+              <a href={getLink("#our-universe")}>Our Universe</a>
             </li>
             <li>
-              <a href="#spacetime">Spacetime</a>
+              <a href={getLink("#spacetime")}>Spacetime</a>
             </li>
             <li>
-              <a href="#higher-dimensions">Higher Dimensions</a>
+              <a href={getLink("#higher-dimensions")}>Higher Dimensions</a>
             </li>
             <li>
-              <a href="#infinity">Infinity</a>
+              <a href={getLink("#infinity")}>Infinity</a>
             </li>
             <li>
-              <a href="#black-holes">Black Holes</a>
+              <a href={getLink("#black-holes")}>Black Holes</a>
             </li>
             <li>
-              <a href="#aliens">Aliens</a>
+              <a href={getLink("#aliens")}>Aliens</a>
             </li>
             <li>
-              <a href="#simulation">Simulation</a>
+              <a href={getLink("#simulation")}>Simulation</a>
             </li>
             <li>
-              <a href="#god">God</a>
+              <a href={getLink("#god")}>God</a>
             </li>
             <li>
-              <a href="#why">Why?</a>
+              <a href={getLink("#why")}>Why?</a>
             </li>
             <li>
-              <a className="flex pt-6 items-center gap-1 -ml-0.5" href="#holos">
+              <a className="flex pt-6 items-center gap-1 -ml-0.5" href={getLink("#holos")}>
                 <img src="/icon.svg" alt="Asterisk in a Circle" className="w-4 h-4 scale-90" />
                 <span className="font-light">Holos</span>
               </a>
