@@ -130,19 +130,16 @@ export default function Sidebar() {
         <nav className="w-full h-screen top-0 left-0 border-r border-black/20 border-dashed overflow-auto flex flex-col">
           <a
             href={getLink("#home")}
-            className="hidden xl:block border-b border-black/20 border-dashed h-[160px] w-full"
+            className="hidden xl:flex items-center justify-center border-b border-black/20 border-dashed h-[160px] w-full"
           >
-            <div className="flex flex-col items-center justify-center py-8">
+            <div className="flex flex-col items-center justify-center py-8 opacity-60">
               <img
                 src="/icon.svg"
                 alt="Holos"
                 title="Holos"
                 className="w-4 h-4 relative -top-1.5"
               />
-              <span className="text-xs">a</span>
-              <span>theory</span>
-              <span className="text-xs">of</span>
-              <span>everything</span>
+              <div>Holos</div>
             </div>
           </a>
           <ol className="flex flex-col h-full xl:h-auto gap-2 pt-12 pb-16 justify-center items-center xl:justify-start flex-grow text-sm">
