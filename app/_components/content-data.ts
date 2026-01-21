@@ -704,7 +704,7 @@ export const footnotes: FootnoteSection[] = [
       {
         name: "Holos",
         url: "https://github.com/johnpolacek/theoryofeverything",
-        description: "A theory of everything.",
+        description: "Interpretive Framework for Reality, Consciousness, and Spacetime",
       },
     ],
   },

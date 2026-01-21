@@ -1,1 +1,1 @@
-[a Theory of Everything](https://atheoryofeverything.vercel.app)
+[Interpretive Framework for Reality, Consciousness, and Spacetime](https://whatisholos.vercel.app)

@@ -5,18 +5,19 @@ import Logic from "../_components/Logic";
 import Sidebar from "../_components/Sidebar";
 
 export const metadata: Metadata = {
-  title: "Logic — Holos (⊛) Formal Structure | a Theory of Everything",
+  title:
+    "Logic — Holos (⊛) Formal Structure | Interpretive Framework for Reality, Consciousness, and Spacetime",
   description:
     "A formal mathematical and philosophical structure defining Holos (⊛) through primitive definitions, axioms, foundational propositions, and extrapolative propositions.",
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://yourdomain.com"}/logic`,
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app"}/logic`,
   },
   openGraph: {
     title: "Logic — Holos (⊛) Formal Structure",
     description:
       "A formal mathematical and philosophical structure defining Holos (⊛) through primitive definitions, axioms, foundational propositions, and extrapolative propositions.",
-    url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://yourdomain.com"}/logic`,
-    siteName: "a Theory of Everything",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app"}/logic`,
+    siteName: "Interpretive Framework for Reality, Consciousness, and Spacetime",
     type: "website",
   },
 };

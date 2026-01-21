@@ -5,7 +5,7 @@
 ### 1. Created robots.txt
 - **File**: `public/robots.txt`
 - **Status**: ✅ Created
-- **Action Required**: Update `https://yourdomain.com` with your actual domain URL
+- **Action Required**: Update `https://whatisholos.vercel.app` with your actual domain URL (if different)
 
 ### 2. Created XML Sitemap
 - **File**: `app/sitemap.ts`
@@ -56,10 +56,10 @@
    ```
 
 2. **Update robots.txt**
-   - Replace `https://yourdomain.com` with your actual domain in `public/robots.txt`
+   - Replace `https://whatisholos.vercel.app` with your actual domain in `public/robots.txt` (if different)
 
 3. **Verify Sitemap**
-   - After deployment, visit `https://yourdomain.com/sitemap.xml` to verify it's working
+   - After deployment, visit `https://whatisholos.vercel.app/sitemap.xml` to verify it's working
    - Submit to Google Search Console
 
 4. **Test Structured Data**

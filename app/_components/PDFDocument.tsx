@@ -9,7 +9,7 @@ export default function PDFDocument() {
     <html lang="en">
       <head>
         <meta charSet="utf-8" />
-        <title>A Theory of Everything</title>
+        <title>Holos: A Scientific Interpretive Framework for Explaining Reality</title>
         <style>{`
           @font-face {
             font-family: 'Bitter';
@@ -185,7 +185,7 @@ export default function PDFDocument() {
             style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "3em" }}
           >
             <h1 className="title-main">
-              <sup>a</sup> Theory <sup>of</sup> <span className="tracking-wide">Everything</span>
+              Interpretive Framework for Reality, Consciousness, and Spacetime
             </h1>
             <div
               style={{

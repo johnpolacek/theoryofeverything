@@ -6,12 +6,12 @@ import "./globals.css";
 
 const bitter = Bitter({ subsets: ["latin"] });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://yourdomain.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app";
 
 export const metadata: Metadata = {
-  title: "a Theory of Everything",
+  title: "Interpretive Framework for Reality, Consciousness, and Spacetime",
   description:
-    "a Theory of Everything - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?",
+    "Interpretive Framework for Reality, Consciousness, and Spacetime - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?",
   icons: {
     icon: "icon.svg",
   },
@@ -19,17 +19,17 @@ export const metadata: Metadata = {
     canonical: siteUrl,
   },
   openGraph: {
-    title: "a Theory of Everything",
+    title: "Interpretive Framework for Reality, Consciousness, and Spacetime",
     description:
-      "a Theory of Everything - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?",
+      "Interpretive Framework for Reality, Consciousness, and Spacetime - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?",
     url: siteUrl,
-    siteName: "a Theory of Everything",
+    siteName: "Interpretive Framework for Reality, Consciousness, and Spacetime",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "a theory of everything",
+        alt: "Interpretive Framework for Reality, Consciousness, and Spacetime",
       },
     ],
     locale: "en_US",
@@ -37,9 +37,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "a Theory of Everything",
+    title: "Interpretive Framework for Reality, Consciousness, and Spacetime",
     description:
-      "a Theory of Everything - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?",
+      "Interpretive Framework for Reality, Consciousness, and Spacetime - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?",
     images: ["/twitter-image.png"],
   },
 };
@@ -47,9 +47,9 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "a Theory of Everything",
+  headline: "Interpretive Framework for Reality, Consciousness, and Spacetime",
   description:
-    "a Theory of Everything - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?",
+    "Interpretive Framework for Reality, Consciousness, and Spacetime - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?",
   author: {
     "@type": "Person",
     name: "John Polacek",

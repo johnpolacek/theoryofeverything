@@ -1,5 +1,5 @@
 # SEO Audit Report
-## "a Theory of Everything" Website
+## "Interpretive Framework for Reality, Consciousness, and Spacetime" Website
 
 **Date:** January 2025  
 **Site Type:** Single-page philosophical content site  
@@ -43,7 +43,7 @@ Your site has a solid foundation with good content structure and basic SEO eleme
   User-agent: *
   Allow: /
   
-  Sitemap: https://yourdomain.com/sitemap.xml
+  Sitemap: https://whatisholos.vercel.app/sitemap.xml
   ```
 - **Priority**: **1 (Critical)**
 
@@ -66,7 +66,7 @@ Your site has a solid foundation with good content structure and basic SEO eleme
   export const metadata: Metadata = {
     // ... existing metadata
     alternates: {
-      canonical: 'https://yourdomain.com',
+      canonical: 'https://whatisholos.vercel.app',
     },
   }
   ```
@@ -83,16 +83,16 @@ Your site has a solid foundation with good content structure and basic SEO eleme
   export const metadata: Metadata = {
     // ... existing
     openGraph: {
-      title: 'a Theory of Everything',
-      description: '⊛ a Theory of Everything - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?',
-      url: 'https://yourdomain.com',
-      siteName: 'a Theory of Everything',
+      title: 'Interpretive Framework for Reality, Consciousness, and Spacetime',
+      description: 'Interpretive Framework for Reality, Consciousness, and Spacetime - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?',
+      url: 'https://whatisholos.vercel.app',
+      siteName: 'Interpretive Framework for Reality, Consciousness, and Spacetime',
       images: [
         {
           url: '/opengraph-image.png',
           width: 1200,
           height: 630,
-          alt: 'a theory of everything',
+          alt: 'Interpretive Framework for Reality, Consciousness, and Spacetime',
         },
       ],
       locale: 'en_US',
@@ -112,8 +112,8 @@ Your site has a solid foundation with good content structure and basic SEO eleme
     // ... existing
     twitter: {
       card: 'summary_large_image',
-      title: 'a Theory of Everything',
-      description: '⊛ a Theory of Everything - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?',
+      title: 'Interpretive Framework for Reality, Consciousness, and Spacetime',
+      description: 'Interpretive Framework for Reality, Consciousness, and Spacetime - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?',
       images: ['/twitter-image.png'],
     },
   }
@@ -130,8 +130,8 @@ Your site has a solid foundation with good content structure and basic SEO eleme
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'a Theory of Everything',
-    description: '⊛ a Theory of Everything - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?',
+    headline: 'Interpretive Framework for Reality, Consciousness, and Spacetime',
+    description: 'Interpretive Framework for Reality, Consciousness, and Spacetime - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?',
     author: {
       '@type': 'Person',
       name: 'John Polacek', // Update with actual author
@@ -170,17 +170,17 @@ Your site has a solid foundation with good content structure and basic SEO eleme
 
 #### 1. Title Tag
 - **Status**: ✅ **GOOD**
-- **Current**: "a Theory of Everything"
+- **Current**: "Interpretive Framework for Reality, Consciousness, and Spacetime"
 - **Length**: 25 characters (optimal: 50-60)
 - **Assessment**: 
   - ✅ Unique
   - ✅ Contains primary keyword
   - ⚠️ Could be slightly longer to include more context
-- **Recommendation**: Consider: "a Theory of Everything | Philosophy, Consciousness & Universe"
+- **Recommendation**: Consider: "Interpretive Framework for Reality, Consciousness, and Spacetime | Philosophy, Consciousness & Universe"
 
 #### 2. Meta Description
 - **Status**: ✅ **GOOD**
-- **Current**: "⊛ a Theory of Everything - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?"
+- **Current**: "Interpretive Framework for Reality, Consciousness, and Spacetime - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?"
 - **Length**: ~180 characters (slightly long, but acceptable)
 - **Assessment**:
   - ✅ Includes primary keyword
@@ -192,7 +192,7 @@ Your site has a solid foundation with good content structure and basic SEO eleme
 #### 3. Heading Structure
 - **Status**: ✅ **GOOD**
 - **Structure**:
-  - ✅ One H1 per page ("a Theory of Everything" in Header)
+  - ✅ One H1 per page ("Interpretive Framework for Reality, Consciousness, and Spacetime" in Header)
   - ✅ H2s for each section (Section component)
   - ✅ Logical hierarchy maintained
 - **Evidence**: 

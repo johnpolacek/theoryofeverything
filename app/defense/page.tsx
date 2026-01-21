@@ -5,18 +5,19 @@ import Header from "../_components/Header";
 import Sidebar from "../_components/Sidebar";
 
 export const metadata: Metadata = {
-  title: "Defense — Stress-Testing the Holos Axioms | a Theory of Everything",
+  title:
+    "Defense — Stress-Testing the Holos Axioms | Interpretive Framework for Reality, Consciousness, and Spacetime",
   description:
     "An adversarial review of the Holos axioms from the perspective of a theoretical physicist, examining objections and responses to each axiom.",
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://yourdomain.com"}/defense`,
+    canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app"}/defense`,
   },
   openGraph: {
     title: "Defense — Stress-Testing the Holos Axioms",
     description:
       "An adversarial review of the Holos axioms from the perspective of a theoretical physicist, examining objections and responses to each axiom.",
-    url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://yourdomain.com"}/defense`,
-    siteName: "a Theory of Everything",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app"}/defense`,
+    siteName: "Interpretive Framework for Reality, Consciousness, and Spacetime",
     type: "website",
   },
 };
