@@ -34,9 +34,6 @@ export interface AppendixSection {
   minimalCore?: string[]
 }
 
-// Appendix title
-export const appendixTitle = "⊛ Holos: A Formal Structure"
-
 // Primitive Definitions (D1-D6)
 export const definitions: Definition[] = [
   {

@@ -5,7 +5,7 @@ export default function Footer() {
         Published on{" "}
         <a className="text-black/70 hover:text-black border-b border-black/20" href="https://github.com/johnpolacek/theoryofeverything">
           6/19/2024
-        </a>
+        </a>. Updated 1/21/2026.
       </p>
     </footer>
   )

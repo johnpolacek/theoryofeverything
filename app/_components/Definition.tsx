@@ -1,6 +1,6 @@
 import MarkdownContent from "./MarkdownContent"
 
-const definitionContent = `# Definition: The Ontological Parameter (Φ)
+const definitionContent = `# Definition: The Ontological Parameter
 
 ## 1. The Purpose of Φ
 In the Holos framework, **Φ (Phi)** is not merely a descriptive measure of complexity, but a **fundamental ontological parameter**.

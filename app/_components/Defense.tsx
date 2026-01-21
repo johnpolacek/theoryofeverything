@@ -278,7 +278,7 @@ const crossAxiomCheck = [
   { risk: "Fully falsifiable", result: "⚠️ No (interpretive framework)" },
 ]
 
-export default function AppendixB() {
+export default function Defense() {
   return (
     <div className="flex flex-col gap-12 max-w-[50rem]">
       {/* Title */}
@@ -352,7 +352,7 @@ export default function AppendixB() {
       ))}
 
       {/* Cross-Axiom Consistency Check */}
-      <section className="flex flex-col gap-6">
+      <section id="cross-axiom-consistency-check" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Cross-Axiom Consistency Check
         </h2>
@@ -410,7 +410,7 @@ export default function AppendixB() {
       </section>
 
       {/* Final Verdict */}
-      <section className="flex flex-col gap-6">
+      <section id="final-verdict" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Final Verdict
         </h2>

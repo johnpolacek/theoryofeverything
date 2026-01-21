@@ -1,6 +1,6 @@
 import Header from "../_components/Header"
 import Sidebar from "../_components/Sidebar"
-import AppendixB from "../_components/AppendixB"
+import Defense from "../_components/Defense"
 import Footer from "../_components/Footer"
 import type { Metadata } from "next"
 
@@ -28,7 +28,7 @@ export default function DefensePage() {
       <div className="grow h-screen overflow-auto">
         <Header />
         <main className="px-8 pt-12 pb-24 lg:px-16">
-          <AppendixB />
+          <Defense />
         </main>
         <Footer />
       </div>

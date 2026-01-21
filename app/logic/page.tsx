@@ -1,6 +1,6 @@
 import Header from "../_components/Header"
 import Sidebar from "../_components/Sidebar"
-import AppendixA from "../_components/AppendixA"
+import Logic from "../_components/Logic"
 import Footer from "../_components/Footer"
 import type { Metadata } from "next"
 
@@ -28,7 +28,7 @@ export default function LogicPage() {
       <div className="grow h-screen overflow-auto">
         <Header />
         <main className="px-8 pt-12 pb-24 lg:px-16">
-          <AppendixA />
+          <Logic />
         </main>
         <Footer />
       </div>

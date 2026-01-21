@@ -4,10 +4,10 @@ import {
   foundationalPropositions,
   extrapolativePropositions,
   minimalCore,
-} from "./appendix-data"
+} from "./logic-data"
 import { parseContent } from "./parse-content"
 
-export default function AppendixA() {
+export default function Logic() {
   return (
     <div className="flex flex-col gap-12 max-w-[50rem]">
       {/* Title */}
@@ -18,7 +18,7 @@ export default function AppendixA() {
       </div>
 
       {/* I. Primitive Definitions */}
-      <section className="flex flex-col gap-6">
+      <section id="primitive-definitions" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">I. Primitive Definitions</h2>
         <div className="flex flex-col gap-6">
           {definitions.map((def) => (
@@ -64,7 +64,7 @@ export default function AppendixA() {
       </section>
 
       {/* II. Axioms */}
-      <section className="flex flex-col gap-6">
+      <section id="axioms" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">II. Axioms</h2>
         <div className="flex flex-col gap-8">
           {axioms.map((axiom) => (
@@ -84,7 +84,7 @@ export default function AppendixA() {
       </section>
 
       {/* III. Foundational Propositions */}
-      <section className="flex flex-col gap-6">
+      <section id="foundational-propositions" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">III. Foundational Propositions</h2>
         <div className="flex flex-col gap-8">
           {foundationalPropositions.map((prop) => (
@@ -119,7 +119,7 @@ export default function AppendixA() {
       </section>
 
       {/* IV. Extrapolative Propositions */}
-      <section className="flex flex-col gap-6">
+      <section id="extrapolative-propositions" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">IV. Extrapolative Propositions</h2>
         <div className="flex flex-col gap-8">
           {extrapolativePropositions.map((prop) => (
@@ -170,7 +170,7 @@ export default function AppendixA() {
       </section>
 
       {/* VI. Φ as the Operationalization of Holos */}
-      <section className="flex flex-col gap-6">
+      <section id="phi-operationalization" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">VI. Φ as the Operationalization of Holos</h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">

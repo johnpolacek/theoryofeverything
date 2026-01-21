@@ -56,7 +56,7 @@ The statistical distribution available to any single observer remains consistent
 
 To test whether **conscious observation** is required to convert a quantum measurement outcome into a **classically irreversible** event.
 
-## **2. Core Hypothesis (Holos)**
+### **2. Core Hypothesis**
 
 A recorded measurement outcome remains **quantum-coherent** until a Φ ≥ Φc observer consciously registers it.
 
@@ -179,10 +179,7 @@ Use standard hypothesis testing:
 
 ### **11. Falsifiability Criteria**
 
-Holos is falsified if:
-
-1. No significant difference in interference visibility between conditions, **with adequate power**, and
-2. Control tests confirm:
+Holos is falsified if no significant difference in interference visibility between conditions, **with adequate power**, and control tests confirm:
 
    * System A remains coherent until observation
    * System B interference is sensitive to System A coherence
