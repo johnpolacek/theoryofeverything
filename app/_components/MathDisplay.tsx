@@ -1,14 +1,30 @@
+"use client";
+
+import { useEffect, useRef } from "react";
 import type React from "react";
+import katex from "katex";
+import "katex/dist/katex.min.css";
 
 interface MathDisplayProps {
   children: React.ReactNode;
 }
 
 export default function MathDisplay({ children }: MathDisplayProps) {
-  const mathContent = typeof children === "string" ? children : String(children);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (containerRef.current) {
+      const mathContent = typeof children === "string" ? children : String(children);
+      katex.render(mathContent, containerRef.current, {
+        displayMode: true,
+        throwOnError: false,
+      });
+    }
+  }, [children]);
+
   return (
     <div className="my-4 py-4 px-6 bg-black/5 border-l-2 border-black/20 font-mono text-center text-lg">
-      <span className="math-display">$${mathContent}$$</span>
+      <div ref={containerRef} />
     </div>
   );
 }
