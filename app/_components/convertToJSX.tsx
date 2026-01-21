@@ -1,18 +1,13 @@
 import React from "react"
-
-type ParsedElement = string | React.ReactElement
+import MathInline from "./MathInline"
 
 /**
- * Parses markdown-style text and returns JSX elements.
- * Supports:
- * - **bold** -> <strong>bold</strong>
- * - *italic* -> <em>italic</em>
- * - [text](url) -> <a href="url">text</a>
- * - [^N] at end -> footnote link with <sup>
- * - ([text](#footer-id)[^N]) -> inline axiom link
+ * Converts markdown-style text to JSX elements.
+ * This is a one-time conversion utility to transform markdown strings to JSX.
+ * Handles inline math: \\(...\\) -> MathInline component
  */
-export function parseContent(text: string, paragraphIndex: number): React.ReactNode {
-  const elements: ParsedElement[] = []
+export function convertMarkdownToJSX(text: string): React.ReactNode {
+  const elements: (string | React.ReactElement)[] = []
   let keyIndex = 0
 
   // Check for trailing footnote reference [^N]
@@ -29,11 +24,21 @@ export function parseContent(text: string, paragraphIndex: number): React.ReactN
   let remaining = mainText
   
   while (remaining.length > 0) {
+    // Check for inline math \\(...\\)
+    const inlineMathMatch = remaining.match(/^\\\\\(([^)]+)\)/)
+    if (inlineMathMatch) {
+      elements.push(
+        <MathInline key={`math-${keyIndex++}`}>{inlineMathMatch[1]}</MathInline>
+      )
+      remaining = remaining.slice(inlineMathMatch[0].length)
+      continue
+    }
+
     // Check for bold **text** (must come before italic to avoid conflicts)
     const boldMatch = remaining.match(/^\*\*([^*]+)\*\*/)
     if (boldMatch) {
       elements.push(
-        <strong key={`${paragraphIndex}-${keyIndex++}`}>{boldMatch[1]}</strong>
+        <strong key={`bold-${keyIndex++}`}>{boldMatch[1]}</strong>
       )
       remaining = remaining.slice(boldMatch[0].length)
       continue
@@ -43,7 +48,7 @@ export function parseContent(text: string, paragraphIndex: number): React.ReactN
     const italicMatch = remaining.match(/^\*([^*]+)\*/)
     if (italicMatch) {
       elements.push(
-        <em key={`${paragraphIndex}-${keyIndex++}`}>{italicMatch[1]}</em>
+        <em key={`italic-${keyIndex++}`}>{italicMatch[1]}</em>
       )
       remaining = remaining.slice(italicMatch[0].length)
       continue
@@ -54,7 +59,7 @@ export function parseContent(text: string, paragraphIndex: number): React.ReactN
     if (axiomLinkMatch) {
       const [fullMatch, linkText, url, footnoteNum] = axiomLinkMatch
       elements.push(
-        <React.Fragment key={`${paragraphIndex}-${keyIndex++}`}>
+        <React.Fragment key={`axiom-${keyIndex++}`}>
           (
           <a className="px-0.5 opacity-80 hover:opacity-100" href={url}>
             {linkText}
@@ -73,7 +78,7 @@ export function parseContent(text: string, paragraphIndex: number): React.ReactN
       const [fullMatch, linkText, url] = linkMatch
       elements.push(
         <a
-          key={`${paragraphIndex}-${keyIndex++}`}
+          key={`link-${keyIndex++}`}
           className="font-normal underline mr-1"
           href={url}
         >
@@ -108,11 +113,10 @@ export function parseContent(text: string, paragraphIndex: number): React.ReactN
 
   // Add trailing footnote if present
   if (trailingFootnote) {
-    // Find the footer ID for this footnote number
     const footerId = getFooterIdForNumber(parseInt(trailingFootnote))
     elements.push(
       <a
-        key={`${paragraphIndex}-footnote`}
+        key={`footnote-${keyIndex++}`}
         className="pl-0.5 pr-2 opacity-80 hover:opacity-100"
         href={`#${footerId}`}
       >
@@ -121,7 +125,7 @@ export function parseContent(text: string, paragraphIndex: number): React.ReactN
     )
   }
 
-  return elements
+  return elements.length === 1 ? elements[0] : <>{elements}</>
 }
 
 // Map footnote numbers to their footer IDs

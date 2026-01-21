@@ -1,5 +1,4 @@
 import { footnotes, holosIntro } from "./content-data"
-import { parseContent } from "./parse-content"
 
 export default function Holos() {
   return (
@@ -8,9 +7,9 @@ export default function Holos() {
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-light pb-4"><span className="font-light text-black/60 relative -top-px">⊛</span> Holos</h2>
 
       {/* Holos intro paragraphs */}
-      {holosIntro.map((paragraph) => (
-        <p key={paragraph.slice(0, 30)} className="text-base">
-          {parseContent(paragraph, 0)}
+      {holosIntro.map((paragraph, idx) => (
+        <p key={`holos-${idx}`} className="text-base">
+          {paragraph}
         </p>
       ))}
 

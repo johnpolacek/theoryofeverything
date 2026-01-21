@@ -52,7 +52,7 @@ export default function MarkdownContent({ content }: MarkdownContentProps) {
           span: ({ node, className, children, ...props }) => {
             if (className?.includes("math-display")) {
               return (
-                <div className="my-8 py-4 px-6 bg-black/5 border-l-2 border-black/20 text-center overflow-x-auto" {...props}>
+                <div className="my-8 py-4 px-6 bg-black/5 border-l-2 border-black/20 text-center overflow-x-auto">
                   <span className={className}>{children}</span>
                 </div>
               )

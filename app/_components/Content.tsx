@@ -1,7 +1,6 @@
 import Section from "./Section"
 import Holos from "./Holos"
 import { sections } from "./content-data"
-import { parseContent } from "./parse-content"
 
 export default function Content() {
   return (
@@ -10,7 +9,7 @@ export default function Content() {
         <Section key={section.id} id={section.id} title={section.title} variant={section.id === "extrapolation" ? "note" : undefined}>
           {section.paragraphs.map((paragraph, pIndex) => (
             <p key={`${section.id}-p-${pIndex}`}>
-              {parseContent(paragraph, pIndex)}
+              {paragraph}
             </p>
           ))}
         </Section>

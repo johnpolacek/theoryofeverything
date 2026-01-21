@@ -5,7 +5,6 @@ import {
   extrapolativePropositions,
   minimalCore,
 } from "./logic-data"
-import { parseContent } from "./parse-content"
 
 export default function Logic() {
   return (
@@ -27,36 +26,21 @@ export default function Logic() {
                 <span className="font-semibold text-black/90">{def.id} — {def.name}</span>
               </div>
               <div className="pl-0 flex flex-col gap-2 text-black/80">
-                {(() => {
-                  const usedIndices = new Set<number>()
-                  return def.content.map((paragraph, idx) => {
-                    if (usedIndices.has(idx)) return null
-                    if (paragraph === "") return <br key={`${def.id}-br-${idx}`} />
-                    if (paragraph === "\\[") {
-                      // Find the equation line (next non-empty line)
-                      const equationIdx = def.content.findIndex((p, i) => i > idx && p !== "" && p !== "\\[" && p !== "\\]")
-                      if (equationIdx !== -1) {
-                        usedIndices.add(equationIdx)
-                        const equation = def.content[equationIdx]
-                        return (
-                          <div key={`${def.id}-eq-${idx}`} className="my-4 py-4 px-6 bg-black/5 border-l-2 border-black/20 font-mono text-center text-lg">
-                            {equation}
-                          </div>
-                        )
-                      }
-                      return null
-                    }
-                    if (paragraph === "\\]") {
-                      usedIndices.add(idx)
-                      return null
-                    }
+                {def.content.map((paragraph, idx) => {
+                  if (paragraph === "") return <br key={`${def.id}-br-${idx}`} />
+                  if (typeof paragraph === "string") {
                     return (
                       <p key={`${def.id}-p-${idx}`} className="leading-relaxed">
-                        {parseContent(paragraph, idx)}
+                        {paragraph}
                       </p>
                     )
-                  })
-                })()}
+                  }
+                  return (
+                    <div key={`${def.id}-content-${idx}`}>
+                      {paragraph}
+                    </div>
+                  )
+                })}
               </div>
             </div>
           ))}
@@ -105,7 +89,7 @@ export default function Logic() {
                       <div className="flex flex-col gap-1 text-black/75 text-sm">
                         {cor.content.map((para, idx) => (
                           <p key={`${cor.id}-p-${idx}`} className="leading-relaxed">
-                            {parseContent(para, idx)}
+                            {para}
                           </p>
                         ))}
                       </div>
@@ -140,7 +124,7 @@ export default function Logic() {
                       <div className="flex flex-col gap-1 text-black/75 text-sm">
                         {cor.content.map((para, idx) => (
                           <p key={`${cor.id}-p-${idx}`} className="leading-relaxed">
-                            {parseContent(para, idx)}
+                            {para}
                           </p>
                         ))}
                       </div>
@@ -158,11 +142,10 @@ export default function Logic() {
         <h2 className="text-2xl sm:text-3xl font-light pb-2">V. Minimal Core</h2>
         <div className="flex flex-col gap-3 text-black/80">
           {minimalCore.map((item, idx) => {
-            // Use first 40 chars of content as key (items are unique)
-            const keyBase = item.trim().slice(0, 40).replace(/[^\w]/g, '-')
+            if (item === "") return <br key={`core-br-${idx}`} />
             return (
-              <p key={`core-${keyBase}`} className="leading-relaxed">
-                {parseContent(item, idx)}
+              <p key={`core-${idx}`} className="leading-relaxed">
+                {item}
               </p>
             )
           })}
@@ -174,34 +157,34 @@ export default function Logic() {
         <h2 className="text-2xl sm:text-3xl font-light pb-2">VI. Φ as the Operationalization of Holos</h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            {parseContent("The foundational axiom of Holos defines reality as the recursive relation between Creation and Observation:", 0)}
+            The foundational axiom of Holos defines reality as the recursive relation between Creation and Observation:
           </p>
           <div className="my-4 py-4 px-6 bg-black/5 border-l-2 border-black/20 font-mono text-center text-lg">
             R = C ⊛ O
           </div>
           <p className="leading-relaxed">
-            {parseContent("This relation is axiomatic and ontological. It specifies *what reality is*, but not the conditions under which Observation becomes ontologically effective in concrete systems.", 1)}
+            This relation is axiomatic and ontological. It specifies <em>what reality is</em>, but not the conditions under which Observation becomes ontologically effective in concrete systems.
           </p>
           <p className="leading-relaxed">
-            {parseContent("**Φ (Phi)** provides this operational condition.", 2)}
+            <strong>Φ (Phi)</strong> provides this operational condition.
           </p>
           <p className="leading-relaxed">
-            {parseContent("Within the Holos framework, Creation (C) corresponds to the full space of physical possibility described by unitary quantum evolution. Observation (O) is not assumed to be universally active; it exists as a latent capacity distributed across physical systems.", 3)}
+            Within the Holos framework, Creation (C) corresponds to the full space of physical possibility described by unitary quantum evolution. Observation (O) is not assumed to be universally active; it exists as a latent capacity distributed across physical systems.
           </p>
           <p className="leading-relaxed">
-            {parseContent("**Φ** determines when Observation becomes non-null.", 4)}
+            <strong>Φ</strong> determines when Observation becomes non-null.
           </p>
           <p className="leading-relaxed">
-            {parseContent("When Φ(S) < Φ_c, a system participates in physical dynamics but does not register a distinct ontological state. In this regime, Observation remains formally present but causally inert with respect to manifestation, and reality is describable as unresolved informational structure.", 5)}
+            When Φ(S) &lt; Φ_c, a system participates in physical dynamics but does not register a distinct ontological state. In this regime, Observation remains formally present but causally inert with respect to manifestation, and reality is describable as unresolved informational structure.
           </p>
           <p className="leading-relaxed">
-            {parseContent("When Φ(S) ≥ Φ_c, Observation becomes causally effective. The system is capable of integrating information into experience, and the relation R = C ⊛ O becomes fully instantiated at that locus.", 6)}
+            When Φ(S) ≥ Φ_c, Observation becomes causally effective. The system is capable of integrating information into experience, and the relation R = C ⊛ O becomes fully instantiated at that locus.
           </p>
           <p className="leading-relaxed">
-            {parseContent("Thus, Φ does not redefine Holos. It operationalizes it.", 7)}
+            Thus, Φ does not redefine Holos. It operationalizes it.
           </p>
           <p className="leading-relaxed">
-            {parseContent("Holos specifies the invariant structure of reality; Φ specifies the threshold at which that structure becomes manifest.", 8)}
+            Holos specifies the invariant structure of reality; Φ specifies the threshold at which that structure becomes manifest.
           </p>
         </div>
       </section>

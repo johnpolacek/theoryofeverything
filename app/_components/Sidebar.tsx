@@ -2,7 +2,6 @@
 import { useState } from "react"
 import { usePathname } from "next/navigation"
 import { Download } from "lucide-react"
-import { allPagesToMarkdown } from "./allPagesToMarkdown"
 
 interface Subsection {
   id: string
@@ -83,18 +82,17 @@ export default function Sidebar() {
 
   const handleDownload = () => {
     try {
-      const markdown = allPagesToMarkdown()
-      const blob = new Blob([markdown], { type: "text/markdown" })
-      const url = URL.createObjectURL(blob)
+      // PDF is generated at build time and served from public directory
+      const url = "/theory-of-everything.pdf"
       const a = document.createElement("a")
       a.href = url
-      a.download = "theory-of-everything.md"
+      a.download = "theory-of-everything.pdf"
       document.body.appendChild(a)
       a.click()
       document.body.removeChild(a)
-      URL.revokeObjectURL(url)
     } catch (err) {
-      console.error("Failed to download:", err)
+      console.error("Failed to download PDF:", err)
+      alert("Failed to download PDF. Please try again.")
     }
   }
 

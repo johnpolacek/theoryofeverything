@@ -1,4 +1,4 @@
-import { parseContent } from "./parse-content"
+import { convertMarkdownToJSX } from "./convertToJSX"
 import { Check, X, AlertTriangle } from "lucide-react"
 import type { ReactNode } from "react"
 
@@ -18,7 +18,7 @@ function renderWithIcons(text: string, paragraphIndex: number): ReactNode {
     const parts = text.split("✔")
     parts.forEach((part, idx) => {
       if (part) {
-        elements.push(parseContent(part, paragraphIndex + idx))
+        elements.push(convertMarkdownToJSX(part))
       }
       if (idx < parts.length - 1) {
         elements.push(
@@ -34,7 +34,7 @@ function renderWithIcons(text: string, paragraphIndex: number): ReactNode {
     const parts = text.split("❌")
     parts.forEach((part, idx) => {
       if (part) {
-        elements.push(parseContent(part, paragraphIndex + idx))
+        elements.push(convertMarkdownToJSX(part))
       }
       if (idx < parts.length - 1) {
         elements.push(
@@ -50,7 +50,7 @@ function renderWithIcons(text: string, paragraphIndex: number): ReactNode {
     const parts = text.split("⚠️")
     parts.forEach((part, idx) => {
       if (part) {
-        elements.push(parseContent(part, paragraphIndex + idx))
+        elements.push(convertMarkdownToJSX(part))
       }
       if (idx < parts.length - 1) {
         elements.push(
@@ -61,8 +61,8 @@ function renderWithIcons(text: string, paragraphIndex: number): ReactNode {
     return <>{elements}</>
   }
   
-  // No emoji found, use regular parseContent
-  return parseContent(text, paragraphIndex)
+  // No emoji found, use regular convertMarkdownToJSX
+  return convertMarkdownToJSX(text)
 }
 
 interface AxiomDefense {
@@ -320,7 +320,7 @@ export default function Defense() {
                     if (para.startsWith("**Response:**")) {
                       return (
                         <p key={`${objection.id}-p-${idx}`} className="text-black/90 pt-2">
-                          {parseContent(para, idx)}
+                          {convertMarkdownToJSX(para)}
                         </p>
                       )
                     }
@@ -334,13 +334,13 @@ export default function Defense() {
                     if (para.startsWith("- ")) {
                       return (
                         <p key={`${objection.id}-p-${idx}`} className="pl-4 leading-relaxed">
-                          {parseContent(para, idx)}
+                          {convertMarkdownToJSX(para)}
                         </p>
                       )
                     }
                     return (
                       <p key={`${objection.id}-p-${idx}`} className="leading-relaxed">
-                        {parseContent(para, idx)}
+                        {convertMarkdownToJSX(para)}
                       </p>
                     )
                   })}
