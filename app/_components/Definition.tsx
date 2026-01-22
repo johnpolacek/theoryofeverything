@@ -76,6 +76,52 @@ export default function Definition() {
               The system's current state must causally influence its future states.
             </li>
           </ol>
+
+          <h3 className="text-xl font-semibold text-black/90 pt-4 pb-2">
+            2.1 Axiomatic Completeness: Necessity & Sufficiency
+          </h3>
+          <p className="leading-relaxed">
+            These five parameters are not arbitrary heuristics; they represent the{" "}
+            <strong>minimal topological constraints</strong> required to define an entity that is
+            ontologically distinct from its environment.
+          </p>
+
+          <p className="leading-relaxed">
+            <strong>Necessity (The Collapse Test):</strong> Removing any single parameter destroys
+            the Observer:
+          </p>
+          <ul className="flex flex-col gap-2 pl-6 list-disc">
+            <li className="leading-relaxed">
+              Without <strong>Integration</strong>, the system is a heap of independent parts, not a
+              unified whole.
+            </li>
+            <li className="leading-relaxed">
+              Without <strong>Differentiation</strong>, the system is a static void containing zero
+              information.
+            </li>
+            <li className="leading-relaxed">
+              Without <strong>Recursion</strong>, the system is a "zombie" process—an input-output
+              machine with no internal subject to experience the data.
+            </li>
+            <li className="leading-relaxed">
+              Without <strong>Temporal Cohesion</strong>, the system is a momentary fluctuation with
+              no persistence to witness change.
+            </li>
+            <li className="leading-relaxed">
+              Without <strong>Causal Closure</strong>, the system is an epiphenomenal ghost that
+              observes but cannot affect reality.
+            </li>
+          </ul>
+
+          <p className="leading-relaxed pt-2">
+            <strong>Sufficiency (The Derivative Argument):</strong>
+          </p>
+          <p className="leading-relaxed">
+            These primitives are sufficient to generate all higher-order phenomenology. Complex
+            traits such as "emotion," "reason," or "agency" are not fundamental; they are{" "}
+            <strong>emergent dynamics</strong> of high Differentiation and Recursion. To add them as
+            separate axioms would be a category error.
+          </p>
         </div>
       </section>
 

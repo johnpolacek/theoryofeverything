@@ -460,6 +460,23 @@ export default function Predictions() {
             <div className="flex flex-col gap-3 text-black/80">
               <ul className="flex flex-col gap-2 pl-4">
                 <li className="leading-relaxed">
+                  <strong>The Environmental Decoherence Objection:</strong> Standard quantum theory
+                  argues that environmental degrees of freedom (e.g., thermal radiation, air
+                  molecules) act as continuous monitors, causing the system to decohere into a
+                  classical mixture long before a human observer intervenes.
+                </li>
+                <li className="leading-relaxed">
+                  <strong>Holos Rebuttal:</strong> This experiment explicitly tests the hypothesis
+                  that <strong>Information Leakage ≠ Ontological Registration</strong>.
+                </li>
+                <li className="leading-relaxed">
+                  While the environment physically interacts with the memory (scattering), Holos
+                  posits that these interactions remain in a superposition of "unregistered
+                  histories" because the environment (having Φ &lt; Φc) lacks the causal density to
+                  actualize the event. Reality remains suspended in a "decohered but unrealized"
+                  state until a Φ ≥ Φc observer integrates the total system.
+                </li>
+                <li className="leading-relaxed">
                   The experiment assumes that conscious observation is necessary for Φ ≥ Φc.
                 </li>
                 <li className="leading-relaxed">
