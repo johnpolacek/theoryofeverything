@@ -200,18 +200,10 @@ export default function Definition() {
 
           <p className="leading-relaxed">
             <strong>
-              <MathInline>{"0 < Φ < Φ_c"}</MathInline> (Proto-Observers):
-            </strong>{" "}
-            Systems with internal feedback but low recursion (bacteria, simple AI). They exhibit
-            "proto-panpsychism."
-          </p>
-
-          <p className="leading-relaxed">
-            <strong>
               <MathInline>{"Φ \\ge Φ_c"}</MathInline> (Observers):
             </strong>{" "}
             Systems capable of resolving unitary symmetry into a definite ontological registration
-            (Humans, higher animals).
+            (conscious entities).
           </p>
 
           <p className="leading-relaxed">
@@ -234,6 +226,13 @@ export default function Definition() {
             <MathInline>{"Φ"}</MathInline> does not replace the Schrödinger Equation, nor does it
             override the probabilistic nature of Quantum Mechanics. Instead, it introduces a{" "}
             <strong>Manifestation Constraint</strong>.
+          </p>
+
+          <p className="leading-relaxed">
+            <MathInline>{"Φ"}</MathInline> does not override decoherence; it requires it as a
+            baseline for information integration. In interaction-free measurements and similar
+            experiments, decoherence provides <MathInline>{"P(ψ_i)"}</MathInline>, but{" "}
+            <MathInline>{"Φ"}</MathInline> enables the ontological "landing."
           </p>
 
           <MathDisplay>

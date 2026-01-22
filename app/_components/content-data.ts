@@ -60,7 +60,7 @@ export const sections: ContentSection[] = [
         'This participation is not bound by linear time. In an eternalist universe, the emergence of consciousness validates the reality of the past just as much as the present. The early universe is not "unreal" before life; it is retrospectively realized by the observers it eventually produces.'
       ),
       convertMarkdownToJSX(
-        "Standard physics describes the mechanics of reality, but mechanism is only the surface. Physical interaction is the external view of a conscious experience. A measurement without experience is empty data. Reality requires a witness.[^1]"
+        "Standard physics describes the mechanics of reality, but mechanism is only the surface. Physical interaction provides the structure, while consciousness provides the presence required for full manifestation. Mechanical measurements can occur without immediate consciousness, but true ontological completion requires experiential integration. Reality requires a witness.[^1]"
       ),
     ],
   },

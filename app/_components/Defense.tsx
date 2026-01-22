@@ -1,6 +1,7 @@
 import { AlertTriangle, Check, X } from "lucide-react";
 import type { ReactNode } from "react";
 import { convertMarkdownToJSX } from "./convertToJSX";
+import MathInline from "./MathInline";
 
 interface Objection {
   id: string;
@@ -128,9 +129,12 @@ const defenseData: AxiomDefense[] = [
           "Environmental decoherence explains classicality without invoking consciousness.",
           "",
           "**Response:**",
-          "Decoherence explains suppression of interference, not:",
+          "Decoherence explains suppression of interference and provides the physical structure for classical outcomes, but not:",
           "- Why one outcome is experienced",
           "- How probability becomes actuality",
+          "- The ontological completion that makes reality 'real'",
+          "",
+          "In Holos, decoherence is part of Creation (generating classical-like states), but Observation 'registers' them experientially. Systems below Φ_c can perform mechanical 'observations' (decoherence), but only Φ ≥ Φ_c manifests experiential reality.",
           "",
           "The measurement problem's ontological remainder remains.",
           "",
@@ -163,6 +167,7 @@ const defenseData: AxiomDefense[] = [
           "**Response:**",
           "Under eternalism (block universe), observation need not be temporally local.",
           "Later observers can consistently instantiate earlier states without causal paradox.",
+          "In delayed-choice experiments and quantum erasers, future observations retroactively 'manifest' past states, demonstrating that consciousness doesn't need to act in real-time—it's the global self-consistency of the block universe that matters.",
           "",
           "**Status:** ✔ Survives (conditional on block universe)",
         ],
@@ -389,6 +394,43 @@ export default function Defense() {
             </tbody>
           </table>
         </div>
+      </section>
+
+      {/* Compatibility with Recent Experiments */}
+      <section className="flex flex-col gap-6">
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">
+          Compatibility with Recent Experiments
+        </h2>
+        <div className="flex flex-col gap-6 text-black/80">
+          <p className="leading-relaxed">
+            Recent experiments—interaction-free measurements, debunked psi claims, and partial
+            falsifications of objective collapse models—pose challenges to consciousness-centric
+            interpretations. They suggest quantum "measurements" can occur through purely physical
+            processes without requiring a conscious observer. However, Holos accommodates these
+            findings by refining how observation operates, emphasizing its ontological role over a
+            causal one.
+          </p>
+
+          <div className="flex flex-col gap-4">
+            <h3 className="text-lg font-semibold text-black/90">
+              Interaction-Free Measurements and Decoherence
+            </h3>
+            <p className="leading-relaxed">
+              Interaction-free measurements show information extraction without direct particle
+              interaction or consciousness. Decoherence (environmental interactions suppressing
+              interference) provides the physical mechanism that prepares information for
+              experiential registration, but not the full "discovery."
+            </p>
+            <p className="leading-relaxed">
+              <strong>Holos Response:</strong> Decoherence is part of Creation (generating
+              classical-like states), but Observation "registers" them experientially in the
+              recursive loop. Mechanical interactions handle physical "collapse" or decoherence, but
+              true manifestation requires integration into a broader experiential network—ultimately
+              culminating in higher consciousness. Systems below <MathInline>{"Φ_c"}</MathInline>{" "}
+              can perform mechanical "observations" (decoherence), but only{" "}
+              <MathInline>{"Φ ≥ Φ_c"}</MathInline> manifests experiential reality.
+            </p>
+          </div>
       </section>
 
       {/* Primary Unresolved Challenge */}

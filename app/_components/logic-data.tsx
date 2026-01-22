@@ -71,7 +71,10 @@ export const definitions: Definition[] = [
     name: "Observation",
     content: [
       convertMarkdownToJSX(
-        "Observation is the integration of information into an experiential state."
+        "Observation is the integration of information into an experiential state, which can be proto-level in physical systems but scales to full manifestation via consciousness."
+      ),
+      convertMarkdownToJSX(
+        "Mechanical interactions (e.g., decoherence) provide the physical structure, but true manifestation requires integration into a broader experiential network, ultimately culminating in higher consciousness."
       ),
     ],
   },
@@ -203,6 +206,9 @@ export const foundationalPropositions: Proposition[] = [
         name: "Ontological Completeness",
         content: [
           convertMarkdownToJSX("Physics provides structure; consciousness provides presence."),
+          convertMarkdownToJSX(
+            "Decoherence resolves probabilities classically, but manifestation requires experiential integration."
+          ),
           convertMarkdownToJSX("Structure without presence is incomplete."),
         ],
       },
