@@ -152,10 +152,12 @@ export default function PDFDocument() {
             display: block;
           }
           .title-main {
-            font-size: 4em;
+            font-size: 3em;
             font-weight: 200;
-            line-height: 1.1;
+            line-height: 1.2;
             margin: 0;
+            max-width: 90%;
+            text-align: center;
           }
           .title-main sup {
             font-size: 0.4em;
@@ -184,9 +186,6 @@ export default function PDFDocument() {
           <div
             style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "3em" }}
           >
-            <h1 className="title-main">
-              Interpretive Framework for Reality, Consciousness, and Spacetime
-            </h1>
             <div
               style={{
                 display: "flex",
@@ -221,6 +220,9 @@ export default function PDFDocument() {
               </svg>
               <span>Holos</span>
             </div>
+            <h1 className="title-main">
+              Holos: A Scientific Interpretive Framework for Explaining Reality
+            </h1>
           </div>
         </div>
 
