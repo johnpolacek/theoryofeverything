@@ -431,6 +431,7 @@ export default function Defense() {
               <MathInline>{"Φ ≥ Φ_c"}</MathInline> manifests experiential reality.
             </p>
           </div>
+        </div>
       </section>
 
       {/* Primary Unresolved Challenge */}
