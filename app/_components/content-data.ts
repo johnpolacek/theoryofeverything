@@ -204,7 +204,7 @@ export const sections: ContentSection[] = [
     footerId: "footer-god",
     paragraphs: [
       convertMarkdownToJSX(
-        "Regardless of any label we choose to assign, an ultimate consciousness empowered with omniscience, omnipotence, and omnipresence is a fundamental aspect of the nature of reality."
+        "Regardless of any label we choose to assign, a final state of consciousness characterized by maximal informational integration (Omniscience), causal completeness (Omnipotence), and non-local topological presence (Omnipresence) is a fundamental aspect of the nature of reality."
       ),
       convertMarkdownToJSX(
         "Religious beliefs like panentheism, Brahman, and the Omega Point all point to a transcendent, all-encompassing consciousness that permeates and extends beyond the universe, suggesting a unified source of all existence and knowledge."

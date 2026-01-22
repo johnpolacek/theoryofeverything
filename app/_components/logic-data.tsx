@@ -1,4 +1,4 @@
-import React from "react";
+import type React from "react";
 import { convertMarkdownToJSX } from "./convertToJSX";
 import MathDisplay from "./MathDisplay";
 
@@ -352,7 +352,7 @@ export const extrapolativePropositions: Proposition[] = [
       },
       {
         id: "VII.2",
-        name: "Semantic Equivalence of God",
+        name: "Semantic Equivalence of the Absolute",
         content: [
           convertMarkdownToJSX(
             "Theism, panentheism, and atheistic naturalism describe the same ultimate informational fixed point using different semantic frames."
