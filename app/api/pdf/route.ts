@@ -16,7 +16,7 @@ export async function GET() {
     return new NextResponse(pdfBuffer, {
       headers: {
         "Content-Type": "application/pdf",
-        "Content-Disposition": 'attachment; filename="theory-of-everything.pdf"',
+        "Content-Disposition": 'attachment; filename="holos.pdf"',
       },
     });
   } catch (error) {

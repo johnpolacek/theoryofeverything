@@ -87,10 +87,10 @@ export default function Sidebar() {
   const handleDownload = () => {
     try {
       // PDF is generated at build time and served from public directory
-      const url = "/theory-of-everything.pdf";
+      const url = "/holos.pdf";
       const a = document.createElement("a");
       a.href = url;
-      a.download = "theory-of-everything.pdf";
+      a.download = "holos.pdf";
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);

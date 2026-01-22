@@ -30,7 +30,7 @@ async function main() {
     mkdirSync(publicDir, { recursive: true });
 
     // Write PDF to public directory
-    const pdfPath = join(publicDir, "theory-of-everything.pdf");
+    const pdfPath = join(publicDir, "holos.pdf");
     writeFileSync(pdfPath, pdfBuffer);
 
     console.log(`✓ PDF generated successfully: ${pdfPath}`);
