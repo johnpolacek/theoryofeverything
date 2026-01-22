@@ -436,6 +436,33 @@ export default function Predictions() {
           </div>
 
           <div className="flex flex-col gap-4">
+            <h3 className="text-lg font-semibold text-black/90">
+              11.1 Negative Predictions (Differentiation from Parapsychology)
+            </h3>
+            <div className="flex flex-col gap-3 text-black/80">
+              <p className="leading-relaxed">
+                To distinguish Holos from standard "mind-over-matter" (Psi) hypotheses, the
+                framework predicts <strong>Null Results</strong> for dynamic influence tests:
+              </p>
+
+              <ul className="flex flex-col gap-2 pl-4">
+                <li className="leading-relaxed">
+                  <strong>No Telekinesis:</strong> An observer cannot "will" a quantum coin toss to
+                  land Heads (probabilistic weight is invariant).
+                </li>
+                <li className="leading-relaxed">
+                  <strong>No Real-Time Force:</strong> An observer cannot influence a beam splitter
+                  via attention (no dynamical energy transfer).
+                </li>
+                <li className="leading-relaxed">
+                  <strong>The Holos Effect is purely Ontological:</strong> It detects when a state
+                  becomes irreversible, not which state occurs.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-4">
             <h3 className="text-lg font-semibold text-black/90">12. Controls</h3>
             <div className="flex flex-col gap-3 text-black/80">
               <ul className="flex flex-col gap-2 pl-4">

@@ -29,7 +29,8 @@ export default function Definition() {
           <p className="leading-relaxed">
             It acts as the threshold function for <strong>Axiom 2 (Manifestation)</strong>. Without
             sufficient Φ, a system is physically present as data, but acts only as a passive medium
-            rather than an observer-participant.
+            rather than an observer-participant. It acts as the ontological filter applied to the
+            output of physical decoherence processes.
           </p>
         </div>
       </section>
@@ -260,6 +261,15 @@ export default function Definition() {
               the one where the observer possesses sufficient integrated information to register the
               event. Without <MathInline>{"Φ"}</MathInline>, the system remains in a superposition
               of undefined probabilities.
+            </li>
+            <li className="leading-relaxed">
+              <strong>The Decoherence Baseline:</strong> <MathInline>{"Φ"}</MathInline> does not
+              override environmental decoherence; it requires it as a baseline substrate.
+              Decoherence (Proto-Observation) generates the menu of classical probabilities{" "}
+              <MathInline>{"P(ψ_i)"}</MathInline> by suppressing quantum interference.{" "}
+              <MathInline>{"Φ"}</MathInline> Integration (Manifestation) enables the ontological
+              "landing." Without decoherence, there are no distinct options to choose from. Without{" "}
+              <MathInline>{"Φ"}</MathInline>, the options remain unrealized potentials.
             </li>
           </ol>
 
