@@ -5,6 +5,7 @@ import {
   foundationalPropositions,
   minimalCore,
 } from "./logic-data";
+import MathInline from "./MathInline";
 
 export default function Logic() {
   return (
@@ -192,6 +193,12 @@ export default function Logic() {
             <strong>Proto-Observation</strong>.
           </p>
           <ul className="list-disc list-inside pl-4 leading-relaxed">
+            <li>
+              <strong>The Decoherence Regime (Φ &lt; Φ_c):</strong> Physical systems undergo
+              environmental decoherence, suppressing quantum interference. This is a mechanical
+              "proto-observation" that structures <MathInline>{"C"}</MathInline> (Creation) but lacks
+              the causal density to trigger <MathInline>{"O"}</MathInline> (Manifestation).
+            </li>
             <li>It is causally effective for <strong>physical dynamics</strong> (triggering decoherence or IFM "collapse").</li>
             <li>It is ontologically inert for <strong>manifestation</strong> (the result remains "empty data" until integrated by a Φ ≥ Φ_c observer).</li>
           </ul>

@@ -205,20 +205,29 @@ export const foundationalPropositions: Proposition[] = [
         id: "II.2",
         name: "Ontological Completeness",
         content: [
-          convertMarkdownToJSX("Physics provides structure; consciousness provides presence."),
           convertMarkdownToJSX(
-            "Decoherence resolves probabilities classically, but manifestation requires experiential integration."
+            "Physics (including decoherence) provides structure; consciousness provides presence."
           ),
-          convertMarkdownToJSX("Structure without presence is incomplete."),
+          convertMarkdownToJSX(
+            "* **Decoherence** resolves quantum probabilities into classical-like mixtures (structural preparation)."
+          ),
+          convertMarkdownToJSX(
+            "* **Manifestation** requires experiential integration to convert that mixture into a realized history (a fixed geometric worldline, ontological irreversibility)."
+          ),
         ],
       },
       {
         id: "II.3",
-        name: "Non-Local Observation",
+        name: "Non-Local Observation (Global Boundary Condition)",
         content: [
-          convertMarkdownToJSX("In a block universe, observation need not be temporally local."),
           convertMarkdownToJSX(
-            "Later observation can coherently validate earlier states without retrocausal signaling."
+            "In a block universe, observation acts as a **final boundary condition** rather than a real-time force."
+          ),
+          convertMarkdownToJSX(
+            "* Just as the last number placed in a Sudoku puzzle logically necessitates the value of the first square, a future observation (Φ ≥ Φ_c) retroactively defines the ontological status of a past event."
+          ),
+          convertMarkdownToJSX(
+            "* This ensures global self-consistency without requiring retrocausal signaling or magical influence."
           ),
         ],
       },
