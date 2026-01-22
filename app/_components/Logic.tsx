@@ -188,10 +188,17 @@ export default function Logic() {
             <strong>Φ</strong> determines when Observation becomes non-null.
           </p>
           <p className="leading-relaxed">
-            When Φ(S) &lt; Φ_c, a system participates in physical dynamics but does not register a
-            distinct ontological state. In this regime, Observation remains formally present but
-            causally inert with respect to manifestation, and reality is describable as unresolved
-            informational structure.
+            When Φ(S) &lt; Φ_c (e.g., a measurement apparatus), the system performs{" "}
+            <strong>Proto-Observation</strong>.
+          </p>
+          <ul className="list-disc list-inside pl-4 leading-relaxed">
+            <li>It is causally effective for <strong>physical dynamics</strong> (triggering decoherence or IFM "collapse").</li>
+            <li>It is ontologically inert for <strong>manifestation</strong> (the result remains "empty data" until integrated by a Φ ≥ Φ_c observer).</li>
+          </ul>
+          <p className="leading-relaxed">
+            This resolves the "Wigner's Friend" paradox: The apparatus collapses the wave function{" "}
+            <em>mechanically</em> (Proto-O), but the event does not become <em>Real</em> (part of the
+            Holos) until the Friend opens the door (Full-O).
           </p>
           <p className="leading-relaxed">
             When Φ(S) ≥ Φ_c, Observation becomes causally effective. The system is capable of
