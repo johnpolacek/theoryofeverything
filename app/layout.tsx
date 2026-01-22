@@ -9,9 +9,9 @@ const bitter = Bitter({ subsets: ["latin"] });
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://whatisholos.vercel.app";
 
 export const metadata: Metadata = {
-  title: "Interpretive Framework for Reality, Consciousness, and Spacetime",
+  title: "Holos: A Scientific Interpretive Framework for Explaining Reality",
   description:
-    "Interpretive Framework for Reality, Consciousness, and Spacetime - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?",
+    "A scientific interpretive framework exploring how reality is formed through observation and experience. Examines consciousness, spacetime, infinity, higher dimensions, cosmology, and meaning—asking what it means to exist, to observe, and to be real.",
   icons: {
     icon: "icon.svg",
   },
@@ -19,17 +19,17 @@ export const metadata: Metadata = {
     canonical: siteUrl,
   },
   openGraph: {
-    title: "Interpretive Framework for Reality, Consciousness, and Spacetime",
+    title: "Holos: A Scientific Interpretive Framework for Explaining Reality",
     description:
-      "Interpretive Framework for Reality, Consciousness, and Spacetime - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?",
+      "A scientific interpretive framework exploring how reality is formed through observation and experience. Examines consciousness, spacetime, infinity, higher dimensions, cosmology, and meaning—asking what it means to exist, to observe, and to be real.",
     url: siteUrl,
-    siteName: "Interpretive Framework for Reality, Consciousness, and Spacetime",
+    siteName: "Holos: A Scientific Interpretive Framework for Explaining Reality",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Interpretive Framework for Reality, Consciousness, and Spacetime",
+        alt: "Holos: A Scientific Interpretive Framework for Explaining Reality",
       },
     ],
     locale: "en_US",
@@ -37,9 +37,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Interpretive Framework for Reality, Consciousness, and Spacetime",
+    title: "Holos: A Scientific Interpretive Framework for Explaining Reality",
     description:
-      "Interpretive Framework for Reality, Consciousness, and Spacetime - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?",
+      "A scientific interpretive framework exploring how reality is formed through observation and experience. Examines consciousness, spacetime, infinity, higher dimensions, cosmology, and meaning—asking what it means to exist, to observe, and to be real.",
     images: ["/twitter-image.png"],
   },
 };
@@ -47,16 +47,16 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Interpretive Framework for Reality, Consciousness, and Spacetime",
+  headline: "Holos: A Scientific Interpretive Framework for Explaining Reality",
   description:
-    "Interpretive Framework for Reality, Consciousness, and Spacetime - The Meaning of Life, Consciousness, Our Universe, Time, Higher Dimensions, Infinity, Black Holes, Aliens, Are We In a Simulation, Does God Exist, and... Why?",
+    "A scientific interpretive framework exploring how reality is formed through observation and experience. Examines consciousness, spacetime, infinity, higher dimensions, cosmology, and meaning—asking what it means to exist, to observe, and to be real.",
   author: {
     "@type": "Person",
     name: "John Polacek",
-    url: "https://github.com/johnpolacek",
+    url: "https://johnpolacek.com",
   },
   datePublished: "2024-06-19",
-  dateModified: "2024-06-19",
+  dateModified: "2026-01-21",
   publisher: {
     "@type": "Person",
     name: "John Polacek",
