@@ -38,7 +38,7 @@ export const sections: ContentSection[] = [
         "At its core, Holos expresses this idea as a simple relation: *R = C ⊛ O*, where reality arises from the recursive composition of creation and observation."
       ),
       convertMarkdownToJSX(
-        "What follows explores this idea, from the meaning of life, consciousness, the nature of our universe, higher dimensions and beyond, across spacetime, infinity, life, and meaning, inviting reconsideration of some of the most fundamental questions we can ask."
+        "What follows explores this idea, from the meaning of life and consciousness, to the nature of our universe, higher dimensions and beyond, inviting reconsideration of some of the most fundamental questions we can ask."
       ),
     ],
   },
@@ -96,7 +96,7 @@ export const sections: ContentSection[] = [
     footerId: "footer-spacetime",
     paragraphs: [
       convertMarkdownToJSX(
-        "The structure of this spacetime block is dictated by a single, counter-intuitive fact: the speed of light ($c$) is invariant. Unlike any other speed, it remains constant regardless of how fast the observer is moving. This invariance forces space and time to warp to accommodate the constant, shattering the notion of a universal 'Now' and necessitating that past, present, and future exist simultaneously as a unified geometric solid."
+        "The structure of this spacetime block is dictated by a single, counter-intuitive fact: the speed of lightis invariant. Unlike any other speed, it remains constant regardless of how fast the observer is moving. This invariance forces space and time to warp to accommodate the constant, shattering the notion of a universal 'Now' and necessitating that past, present, and future exist simultaneously as a unified geometric solid."
       ),
       convertMarkdownToJSX(
         "Consider beings with an unlimited lifespan and near-instantaneous communication, perceiving time as an additional spatial dimension. These beings would not be limited by the unidirectional flow of time as we are."

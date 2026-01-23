@@ -8,4 +8,4 @@ Holos is an interpretive framework for understanding the nature of reality. It d
 
 At its core, Holos expresses this idea as a simple relation: **R = C ⊛ O**, where reality arises from the recursive composition of creation and observation.
 
-What follows explores this idea, from the meaning of life, consciousness, the nature of our universe, higher dimensions and beyond, inviting reconsideration of some of the most fundamental questions we can ask.
+What follows explores this idea, from the meaning of life and consciousness, to the nature of our universe, higher dimensions and beyond, inviting reconsideration of some of the most fundamental questions we can ask.
