@@ -11,6 +11,15 @@ interface Objection {
 
 // Helper function to render text with icons replacing emojis
 function renderWithIcons(text: string, paragraphIndex: number): ReactNode {
+  // First process markdown links and formatting
+  const processedText = convertMarkdownToJSX(text);
+
+  // If there are no icons to replace, return the processed text
+  if (!text.includes("✔") && !text.includes("❌") && !text.includes("⚠️")) {
+    return processedText;
+  }
+
+  // Handle icon replacement by working with the original text and inserting icons
   const elements: ReactNode[] = [];
   let keyIndex = 0;
 
@@ -71,8 +80,7 @@ function renderWithIcons(text: string, paragraphIndex: number): ReactNode {
     return <>{elements}</>;
   }
 
-  // No emoji found, use regular convertMarkdownToJSX
-  return convertMarkdownToJSX(text);
+  return processedText;
 }
 
 interface AxiomDefense {
@@ -126,7 +134,7 @@ const defenseData: AxiomDefense[] = [
         id: "2.1",
         title: "Decoherence & Interaction-Free Measurement (IFM)",
         content: [
-          "Physics experiments (like the Elitzur–Vaidman bomb tester) show that 'collapse' occurs via mechanical possibilities, even without direct interaction or conscious observers.",
+          "Physics experiments (like the [Elitzur–Vaidman bomb tester](https://en.wikipedia.org/wiki/Elitzur%E2%80%93Vaidman_bomb_tester)) show that 'collapse' occurs via mechanical possibilities, even without direct interaction or conscious observers.",
           "",
           "**Response:**",
           "Holos incorporates decoherence as a function of **Creation (C)**, not Observation (O).",
@@ -142,13 +150,13 @@ const defenseData: AxiomDefense[] = [
         id: "2.2",
         title: "Consciousness-based interpretations are fringe",
         content: [
-          "Von Neumann–Wigner is historically marginal.",
+          "[Von Neumann–Wigner interpretation](https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Wigner_interpretation) is historically marginal.",
           "",
           "**Response:**",
           "Holos is compatible with modern frameworks:",
-          "- Quantum Darwinism (redundant classical information)",
-          "- Relational QM (observer-relative facts)",
-          "- Participatory Anthropic Principle (observers as boundary conditions)",
+          "- [Quantum Darwinism](https://en.wikipedia.org/wiki/Quantum_Darwinism) (redundant classical information)",
+          "- [Relational QM](https://en.wikipedia.org/wiki/Relational_quantum_mechanics) (observer-relative facts)",
+          "- [Participatory Anthropic Principle](https://en.wikipedia.org/wiki/Anthropic_principle) (observers as boundary conditions)",
           "",
           "Consciousness here means *experiential integration*, not human cognition.",
           "",
@@ -162,9 +170,9 @@ const defenseData: AxiomDefense[] = [
           "Early cosmology predates life.",
           "",
           "**Response:**",
-          "Under eternalism (block universe), observation need not be temporally local.",
+          "Under [eternalism](https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time) ([block universe](https://en.wikipedia.org/wiki/Block_universe), observation need not be temporally local.",
           "Later observers can consistently instantiate earlier states without causal paradox.",
-          "In delayed-choice experiments and quantum erasers, future observations retroactively 'manifest' past states, demonstrating that consciousness doesn't need to act in real-time—it's the global self-consistency of the block universe that matters.",
+          "In [delayed-choice experiments](https://en.wikipedia.org/wiki/Wheeler%27s_delayed-choice_experiment) and [quantum erasers](https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser), future observations retroactively 'manifest' past states, demonstrating that consciousness doesn't need to act in real-time—it's the global self-consistency of the block universe that matters.",
           "",
           "**Status:** ✔ Survives (conditional on block universe)",
         ],
@@ -182,7 +190,7 @@ const defenseData: AxiomDefense[] = [
           "Classic black hole evaporation implies loss.",
           "",
           "**Response:**",
-          "Modern consensus (AdS/CFT, Page curve, holography) supports information conservation.",
+          "Modern consensus ([AdS/CFT correspondence](https://en.wikipedia.org/wiki/AdS/CFT_correspondence), [Page curve](https://en.wikipedia.org/wiki/Hawking_radiation#Page_curve), [holographic principle](https://en.wikipedia.org/wiki/Holographic_principle)) supports information conservation.",
           "",
           "**Status:** ✔ Strongly survives",
         ],
@@ -195,9 +203,9 @@ const defenseData: AxiomDefense[] = [
           "",
           "**Response:**",
           "Unitarity holds in:",
-          "- Many-Worlds",
+          "- [Many-Worlds interpretation](https://en.wikipedia.org/wiki/Many-worlds_interpretation)",
           "- Decoherence",
-          "- Relational QM",
+          "- [Relational QM](https://en.wikipedia.org/wiki/Relational_quantum_mechanics)",
           "- Holographic frameworks",
           "",
           "Non-unitarity is interpretive, not formal.",
@@ -246,10 +254,10 @@ const defenseData: AxiomDefense[] = [
         id: "5.1",
         title: "Panpsychism explains nothing",
         content: [
-          "It lacks mechanistic detail.",
+          "[Panpsychism](https://en.wikipedia.org/wiki/Panpsychism) lacks mechanistic detail.",
           "",
           "**Response:**",
-          "Panpsychism explains continuity:",
+          "[Panpsychism](https://en.wikipedia.org/wiki/Panpsychism) explains continuity:",
           "- Avoids emergence ex nihilo",
           "- Avoids substance dualism",
           "- Aligns with field-based ontology",
@@ -364,7 +372,7 @@ export default function Defense() {
                     }
                     return (
                       <p key={`${objection.id}-p-${idx}`} className="leading-relaxed">
-                        {convertMarkdownToJSX(para)}
+                        {renderWithIcons(para, idx)}
                       </p>
                     );
                   })}

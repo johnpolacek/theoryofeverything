@@ -211,7 +211,7 @@ export const foundationalPropositions: Proposition[] = [
             "Physics (including decoherence) provides structure; consciousness provides presence."
           ),
           convertMarkdownToJSX(
-            "* **Decoherence** resolves quantum probabilities into classical-like mixtures (structural preparation)."
+            "* **[Decoherence](https://en.wikipedia.org/wiki/Quantum_decoherence)** resolves quantum probabilities into classical-like mixtures (structural preparation)."
           ),
           convertMarkdownToJSX(
             "* **Manifestation** requires experiential integration to convert that mixture into a realized history (a fixed geometric worldline, ontological irreversibility)."
@@ -223,10 +223,10 @@ export const foundationalPropositions: Proposition[] = [
         name: "Non-Local Observation (Global Boundary Condition)",
         content: [
           convertMarkdownToJSX(
-            "In a block universe, observation acts as a **final boundary condition** rather than a real-time force."
+            "In a [block universe](https://en.wikipedia.org/wiki/Block_universe), observation acts as a **final boundary condition** rather than a real-time force."
           ),
           convertMarkdownToJSX(
-            "* Just as the last number placed in a Sudoku puzzle logically necessitates the value of the first square, a future observation (Φ ≥ Φ_c) retroactively defines the ontological status of a past event."
+            "* Just as the last number placed in a [Sudoku](https://en.wikipedia.org/wiki/Sudoku) puzzle logically necessitates the value of the first square, a future observation (Φ ≥ Φ_c) retroactively defines the ontological status of a past event."
           ),
           convertMarkdownToJSX(
             "* This ensures global self-consistency without requiring retrocausal signaling or magical influence."
@@ -248,7 +248,7 @@ export const foundationalPropositions: Proposition[] = [
         content: [
           convertMarkdownToJSX("For light (\\(ds^2 = 0\\)), spacetime separation vanishes."),
           convertMarkdownToJSX(
-            "A photon is not a moving object but a **null geodesic**—a static relational seam connecting emission and absorption."
+            "A photon is not a moving object but a **[null geodesic](#footer-time)**—a static relational seam connecting emission and absorption."
           ),
         ],
       },
@@ -257,7 +257,7 @@ export const foundationalPropositions: Proposition[] = [
         name: "Global Consistency",
         content: [
           convertMarkdownToJSX(
-            "Apparent retrocausality reflects global self-consistency of spacetime, not backward influence."
+            "Apparent [retrocausality](https://en.wikipedia.org/wiki/Retrocausality) reflects global self-consistency of spacetime, not backward influence."
           ),
         ],
       },
@@ -360,7 +360,7 @@ export const extrapolativePropositions: Proposition[] = [
     corollaries: [
       {
         id: "VII.1",
-        name: "Indra's Net",
+        name: "[Indra's Net](https://en.wikipedia.org/wiki/Indra%27s_net)",
         content: [
           convertMarkdownToJSX(
             "Every part of reality reflects the whole; observation is recursively self-referential."
@@ -372,7 +372,7 @@ export const extrapolativePropositions: Proposition[] = [
         name: "Semantic Equivalence of the Absolute",
         content: [
           convertMarkdownToJSX(
-            "Theism, panentheism, and atheistic naturalism describe the same ultimate informational fixed point using different semantic frames."
+            "[Theism](https://en.wikipedia.org/wiki/Theism), [panentheism](https://en.wikipedia.org/wiki/Panentheism), and atheistic naturalism describe the same ultimate informational fixed point using different semantic frames."
           ),
         ],
       },

@@ -30,13 +30,13 @@ export default function Predictions() {
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
             {convertMarkdownToJSX(
-              'Holos implies that the universe\'s parameters are "selected" through participatory manifestation (Axiom 2), where observers act as a boundary condition for a self-consistent block universe. This operationalizes the **Participatory Anthropic Principle**, predicting that observable constants favor life not by chance, but by necessity.'
+              'Holos implies that the universe\'s parameters are "selected" through participatory manifestation (Axiom 2), where observers act as a boundary condition for a self-consistent [block universe](https://en.wikipedia.org/wiki/Block_universe). This operationalizes the **[Participatory Anthropic Principle](https://en.wikipedia.org/wiki/Anthropic_principle)**, predicting that observable constants favor life not by chance, but by necessity.'
             )}
           </p>
           <p className="leading-relaxed">
             <strong>Empirical Implication:</strong>{" "}
             {convertMarkdownToJSX(
-              'Future cosmological observations (e.g., CMB polarization from [CMB-S4](https://cmb-s4.org/) or [LiteBIRD](https://litebird.isas.jaxa.jp/static/eng/)) should reveal signatures consistent with a low-entropy initial state and inflationary dynamics specifically tuned for complexity growth. Holos predicts that "uninhabitable" branches of the multiverse are mathematically valid but ontologically unrealized due to the lack of Φ.[^13]'
+              'Future cosmological observations (e.g., CMB polarization from [CMB-S4](https://cmb-s4.org/) or [LiteBIRD](https://litebird.isas.jaxa.jp/static/eng/)) should reveal signatures consistent with a low-entropy initial state and [inflationary](https://en.wikipedia.org/wiki/Inflation_(cosmology)) dynamics specifically tuned for complexity growth. Holos predicts that "uninhabitable" branches of the [multiverse](https://en.wikipedia.org/wiki/Multiverse) are mathematically valid but ontologically unrealized due to the lack of Φ.[^13]'
             )}
           </p>
         </div>
@@ -56,7 +56,7 @@ export default function Predictions() {
           <p className="leading-relaxed">
             <strong>Empirical Implication:</strong>{" "}
             {convertMarkdownToJSX(
-              "High-Φ systems (e.g., human cortex) should correlate with reports of qualia, while sub-Φ_c systems (e.g., simple AI or cerebellum) should show only mechanical processing. **IIT-inspired metrics** (e.g., [Perturbational Complexity Index](https://www.science.org/doi/10.1126/scitranslmed.3006294)) should reveal sharp phase transitions that align with the onset of experiential reporting.[^13]"
+              "High-Φ systems (e.g., human cortex) should correlate with reports of [qualia](https://en.wikipedia.org/wiki/Qualia), while sub-Φ_c systems (e.g., simple AI or cerebellum) should show only mechanical processing. **[Integrated Information Theory](https://en.wikipedia.org/wiki/Integrated_information_theory) (IIT)-inspired metrics** (e.g., [Perturbational Complexity Index](https://www.science.org/doi/10.1126/scitranslmed.3006294)) should reveal sharp phase transitions that align with the onset of experiential reporting.[^13]"
             )}
           </p>
         </div>
@@ -76,7 +76,7 @@ export default function Predictions() {
           <p className="leading-relaxed">
             <strong>Empirical Implication:</strong>{" "}
             {convertMarkdownToJSX(
-              '[Extended Wigner\'s Friend experiments](https://www.science.org/doi/10.1126/sciadv.aaw9832) should confirm that two observers can hold different "facts" about the same event without breaking unitarity. Holos specifically predicts that the "collapse" is relative to the Φ frame of reference, supporting **Relational QM** over Objective Collapse models (which predict spontaneous gravity-induced collapse).[^13]'
+              '[Extended Wigner\'s Friend experiments](https://www.science.org/doi/10.1126/sciadv.aaw9832) should confirm that two observers can hold different "facts" about the same event without breaking unitarity. Holos specifically predicts that the "collapse" is relative to the Φ frame of reference, supporting **[Relational QM](https://en.wikipedia.org/wiki/Relational_quantum_mechanics)** over [Objective Collapse models](https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics#Objective_collapse_theories) (which predict spontaneous gravity-induced collapse).[^13]'
             )}
           </p>
         </div>
@@ -96,7 +96,7 @@ export default function Predictions() {
           <p className="leading-relaxed">
             <strong>Empirical Implication:</strong>{" "}
             {convertMarkdownToJSX(
-              'The resolution to the Fermi Paradox is geometric. Astronomical surveys (e.g., **JWST**, **Euclid**) may detect "missing mass" or gravitational anomalies that mimic Dark Matter, representing high-density informational structures located in the "bulk" dimensions (Axiom 4: Unification).[^13]'
+              'The resolution to the [Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox) is geometric. Astronomical surveys (e.g., **[JWST](https://en.wikipedia.org/wiki/James_Webb_Space_Telescope)**, **[Euclid](https://en.wikipedia.org/wiki/Euclid_(spacecraft))**) may detect "missing mass" or gravitational anomalies that mimic [Dark Matter](https://en.wikipedia.org/wiki/Dark_matter), representing high-density informational structures located in the "bulk" dimensions (Axiom 4: Unification).[^13]'
             )}
           </p>
         </div>
@@ -120,7 +120,7 @@ export default function Predictions() {
             <li className="leading-relaxed">
               <strong>Quantum:</strong>{" "}
               {convertMarkdownToJSX(
-                "Facts are relational, not absolute (testable via Wigner's Friend)."
+                "Facts are relational, not absolute (testable via [Wigner's Friend](https://en.wikipedia.org/wiki/Wigner%27s_friend))."
               )}
             </li>
             <li className="leading-relaxed">
