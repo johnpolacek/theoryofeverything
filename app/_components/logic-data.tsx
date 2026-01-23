@@ -93,7 +93,9 @@ export const definitions: Definition[] = [
   {
     id: "D5",
     name: "Creation (C)",
-    content: [convertMarkdownToJSX("Creation is the generation of informational distinctions.")],
+    content: [
+      convertMarkdownToJSX("Creation is the generation of distinguishable physical states."),
+    ],
   },
   {
     id: "D6",
