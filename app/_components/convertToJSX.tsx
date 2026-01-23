@@ -71,7 +71,7 @@ export function convertMarkdownToJSX(text: string): React.ReactNode {
     if (linkMatch) {
       const [fullMatch, linkText, url] = linkMatch;
       elements.push(
-        <a key={`link-${keyIndex++}`} className="font-normal underline mr-1" href={url}>
+        <a key={`link-${keyIndex++}`} href={url}>
           {linkText}
         </a>
       );
@@ -133,6 +133,7 @@ function getFooterIdForNumber(num: number): string {
     10: "footer-simulation",
     11: "footer-god",
     12: "footer-why",
+    13: "footer-predictions",
   };
   return footerMap[num] || "footer-why";
 }

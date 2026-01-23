@@ -27,3 +27,18 @@ html {
 p {
   line-height: 1.66;
 }
+
+/* Link styling */
+main p a,
+main li a,
+main section a {
+  color: rebeccapurple; /* blue-gray-600 - more subtle, less blue */
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px; /* thinner underline */
+  text-underline-offset: 3px; /* further from text */
+  text-decoration-color: rgba(96, 125, 139, 0.8); /* lighter underline */
+  transition:
+    color 0.2s ease,
+    text-decoration-color 0.2s ease;
+  font-weight: 600;
+}

@@ -756,4 +756,55 @@ export const footnotes: FootnoteSection[] = [
       },
     ],
   },
+  {
+    number: 13,
+    id: "footer-predictions",
+    title: "Predictions",
+    items: [
+      {
+        name: "CMB-S4 Collaboration",
+        url: "https://cmb-s4.org/",
+        description:
+          "Next-generation cosmic microwave background experiment for measuring CMB polarization.",
+      },
+      {
+        name: "LiteBIRD Collaboration",
+        url: "https://litebird.isas.jaxa.jp/static/eng/",
+        description:
+          "JAXA-led space mission to detect primordial gravitational waves through CMB polarization measurements.",
+      },
+      {
+        name: "Tononi, G. (2004)",
+        url: "https://pubmed.ncbi.nlm.nih.gov/15522121/",
+        description: "An information integration theory of consciousness. BMC Neuroscience, 5, 42.",
+      },
+      {
+        name: "Casali et al. (2013)",
+        url: "https://www.science.org/doi/10.1126/scitranslmed.3006294",
+        description:
+          "A theoretically based index of consciousness independent of sensory processing and behavior. Science Translational Medicine.",
+      },
+      {
+        name: "Frauchiger & Renner (2018)",
+        url: "https://www.nature.com/articles/s41467-018-05739-8",
+        description:
+          "Quantum theory cannot consistently describe the use of itself. Nature Communications.",
+      },
+      {
+        name: "Proietti et al. (2019)",
+        url: "https://www.science.org/doi/10.1126/sciadv.aaw9832",
+        description: "Experimental test of local observer independence. Science Advances.",
+      },
+      {
+        name: "Davies, P. (2010)",
+        url: "https://cosmos.asu.edu/publication/eerie-silence",
+        description: "The Eerie Silence: Renewing Our Search for Alien Intelligence.",
+      },
+      {
+        name: "Bekenstein, J. (2003)",
+        url: "https://www.scientificamerican.com/article/information-in-the-holographic-univ/",
+        description: "Information in the holographic universe. Scientific American.",
+      },
+    ],
+  },
 ];
