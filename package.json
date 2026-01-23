@@ -14,7 +14,7 @@
     "format": "biome format --write .",
     "check": "biome check .",
     "check:fix": "biome check --write .",
-    "go": "git add . && aic && git pom"
+    "go": "git add . && aic && pnpm build:pdf git pom"
   },
   "dependencies": {
     "@biomejs/biome": "^2.3.11",
