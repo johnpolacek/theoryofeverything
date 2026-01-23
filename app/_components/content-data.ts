@@ -238,10 +238,10 @@ export const sections: ContentSection[] = [
         "At the speed of light, the distinctions between “here” and “there,” or “now” and “then,” mathematically vanish. This physical limit suggests that separation is not fundamental, but emergent."
       ),
       convertMarkdownToJSX(
-        "What we perceive as an expansive universe may instead be a single informational event unfolding in a way that makes distance, duration, and individuality experientially real. Space and time function less as containers of reality and more as conditions that allow reality to observe itself."
+        "What we perceive as an expansive universe may instead be a single informational event unfolding in a way that makes distance, duration, and individuality experientially real. Space, time and other dimensions create the conditions that make it possible for our universe to exist."
       ),
       convertMarkdownToJSX(
-        "Life exists because observation is required for reality to differentiate itself. Consciousness is not an accident of the universe, but a necessary mechanism through which the universe becomes knowable to itself.[^11]"
+        "Life exists because observation is required for reality to differentiate itself. Consciousness is not an accident of the universe, but a necessary mechanism through which the universe becomes real.[^11]"
       ),
     ],
   },

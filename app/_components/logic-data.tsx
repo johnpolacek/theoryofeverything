@@ -68,13 +68,13 @@ export const definitions: Definition[] = [
   },
   {
     id: "D3",
-    name: "Observation",
+    name: "Observation (O)",
     content: [
       convertMarkdownToJSX(
         "Observation is the integration of information into an experiential state."
       ),
       convertMarkdownToJSX(
-        "* **Note:** This capacity is scalar. It ranges from **Proto-Observation** (relational state-selection in physical systems) to **Manifestation** (full ontological actualization in high-Φ systems)."
+        "* **Note:** This capacity is scalar. It ranges from Proto-Observation (relational state-selection in physical systems) to manifestation (full ontological actualization in high-Φ systems)."
       ),
     ],
   },

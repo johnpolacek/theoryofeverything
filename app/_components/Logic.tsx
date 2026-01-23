@@ -10,21 +10,6 @@ import MathInline from "./MathInline";
 export default function Logic() {
   return (
     <div className="flex flex-col gap-12 max-w-[50rem]">
-      {/* Title */}
-      <div className="flex flex-col gap-4">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-light pb-4">
-          <div className="flex flex-col items-start gap-3">
-            <span>Holos: A Formal Structure</span>
-            <span
-              className="text-black/60 text-2xl sm:text-3xl md:text-4xl"
-              style={{ fontFamily: "Times New Roman, Times, serif" }}
-            >
-              ⊛
-            </span>
-          </div>
-        </h1>
-      </div>
-
       {/* I. Primitive Definitions */}
       <section id="primitive-definitions" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">I. Primitive Definitions</h2>
@@ -196,16 +181,22 @@ export default function Logic() {
             <li>
               <strong>The Decoherence Regime (Φ &lt; Φ_c):</strong> Physical systems undergo
               environmental decoherence, suppressing quantum interference. This is a mechanical
-              "proto-observation" that structures <MathInline>{"C"}</MathInline> (Creation) but lacks
-              the causal density to trigger <MathInline>{"O"}</MathInline> (Manifestation).
+              "proto-observation" that structures <MathInline>{"C"}</MathInline> (Creation) but
+              lacks the causal density to trigger <MathInline>{"O"}</MathInline> (Manifestation).
             </li>
-            <li>It is causally effective for <strong>physical dynamics</strong> (triggering decoherence or IFM "collapse").</li>
-            <li>It is ontologically inert for <strong>manifestation</strong> (the result remains "empty data" until integrated by a Φ ≥ Φ_c observer).</li>
+            <li>
+              It is causally effective for <strong>physical dynamics</strong> (triggering
+              decoherence or IFM "collapse").
+            </li>
+            <li>
+              It is ontologically inert for <strong>manifestation</strong> (the result remains
+              "empty data" until integrated by a Φ ≥ Φ_c observer).
+            </li>
           </ul>
           <p className="leading-relaxed">
             This resolves the "Wigner's Friend" paradox: The apparatus collapses the wave function{" "}
-            <em>mechanically</em> (Proto-O), but the event does not become <em>Real</em> (part of the
-            Holos) until the Friend opens the door (Full-O).
+            <em>mechanically</em> (Proto-O), but the event does not become <em>Real</em> (part of
+            the Holos) until the Friend opens the door (Full-O).
           </p>
           <p className="leading-relaxed">
             When Φ(S) ≥ Φ_c, Observation becomes causally effective. The system is capable of
