@@ -51,13 +51,13 @@ export const sections: ContentSection[] = [
         "Life exists to create and observe, mutually intertwined and reciprocal actions required for the manifestation of reality."
       ),
       convertMarkdownToJSX(
-        'According to the Participatory Anthropic Principle, the universe is a "self-excited circuit" that requires observers to bring its laws into existence. This aligns with Biocentrism, which posits that biology is not a byproduct of the universe, but the force that organizes it.'
+        'According to the [Participatory Anthropic Principle](https://en.wikipedia.org/wiki/Anthropic_principle), the universe is a "self-excited circuit" that requires observers to bring its laws into existence. This aligns with [Biocentrism](https://en.wikipedia.org/wiki/Biocentrism_(ethics)), which posits that biology is not a byproduct of the universe, but the force that organizes it.'
       ),
       convertMarkdownToJSX(
         "Mathematical description alone does not constitute existence. Physics explains the structure of what happens, but consciousness provides the presence required for it to happen as reality rather than abstract data."
       ),
       convertMarkdownToJSX(
-        'This participation is not bound by linear time. In an eternalist universe, the emergence of consciousness validates the reality of the past just as much as the present. The early universe is not "unreal" before life; it is retrospectively realized by the observers it eventually produces.'
+        'This participation is not bound by linear time. In an [eternalist universe](https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)), the emergence of consciousness validates the reality of the past just as much as the present. The early universe is not "unreal" before life; it is retrospectively realized by the observers it eventually produces.'
       ),
       convertMarkdownToJSX(
         "Standard physics describes the mechanics of reality, but mechanism is only the surface. Physical interaction provides the structure, while consciousness provides the presence required for full manifestation. Mechanical measurements can occur without immediate consciousness, but true ontological completion requires experiential integration. Reality requires a witness.[^1]"
@@ -83,10 +83,10 @@ export const sections: ContentSection[] = [
     footerId: "footer-universe",
     paragraphs: [
       convertMarkdownToJSX(
-        "Our universe originated from a singular point in the Big Bang, expanding towards infinity. We perceive three spatial dimensions while moving unidirectionally through the fourth dimension, time."
+        "Our universe originated from a singular point in the [Big Bang](https://en.wikipedia.org/wiki/Big_Bang), expanding towards infinity. We perceive three spatial dimensions while moving unidirectionally through the fourth dimension, time."
       ),
       convertMarkdownToJSX(
-        "Spacetime is a continuum where the three dimensions of space and time are curved and warped by the presence of mass and energy.[^3]"
+        "[Spacetime](https://en.wikipedia.org/wiki/Spacetime) is a continuum where the three dimensions of space and time are curved and warped by the presence of mass and energy.[^3]"
       ),
     ],
   },
@@ -96,7 +96,7 @@ export const sections: ContentSection[] = [
     footerId: "footer-spacetime",
     paragraphs: [
       convertMarkdownToJSX(
-        "The structure of this spacetime block is dictated by a single, counter-intuitive fact: the speed of lightis invariant. Unlike any other speed, it remains constant regardless of how fast the observer is moving. This invariance forces space and time to warp to accommodate the constant, shattering the notion of a universal 'Now' and necessitating that past, present, and future exist simultaneously as a unified geometric solid."
+        "The structure of this spacetime block is dictated by a single, counter-intuitive fact: the [speed of light](https://en.wikipedia.org/wiki/Speed_of_light) is invariant. Unlike any other speed, it remains constant regardless of how fast the observer is moving. This invariance forces space and time to warp to accommodate the constant, shattering the notion of a universal 'Now' and necessitating that past, present, and future exist simultaneously as a unified geometric solid."
       ),
       convertMarkdownToJSX(
         "Consider beings with an unlimited lifespan and near-instantaneous communication, perceiving time as an additional spatial dimension. These beings would not be limited by the unidirectional flow of time as we are."
@@ -105,13 +105,13 @@ export const sections: ContentSection[] = [
         "Instead, they would perceive the curvature of spacetime comprehensively, seeing past, present, and future as a singular, cohesive structure observable in its entirety. By imagining such an entity, we can better understand what it might be like to exist in a higher dimension."
       ),
       convertMarkdownToJSX(
-        "Crucially, the speed of light ($c$) is absolute; it remains constant regardless of how fast an observer is moving. This invariance is what forces space and time to warp, ensuring that while measurements of distance and duration are relative, the speed of causality remains fixed."
+        "Crucially, the [speed of light](https://en.wikipedia.org/wiki/Speed_of_light) ($c$) is absolute; it remains constant regardless of how fast an observer is moving. This invariance is what forces space and time to warp, ensuring that while measurements of distance and duration are relative, the speed of causality remains fixed."
       ),
       convertMarkdownToJSX(
-        "For a photon traveling at the speed of light, the spacetime interval is zero, a “Null Interval”. While a photon does not possess subjective experience in a biological sense, geometrically, its path effectively collapses the universe into a single point of contact where emission and absorption occur simultaneously. To a higher-dimensional observer, a photon is not a moving particle, but a static geometric structure—a Null Geodesic—that permanently connects two points in spacetime like a seam."
+        "For a photon traveling at the [speed of light](https://en.wikipedia.org/wiki/Speed_of_light), the spacetime interval is zero, a “Null Interval”. While a photon does not possess subjective experience in a biological sense, geometrically, its path effectively collapses the universe into a single point of contact where emission and absorption occur simultaneously. To a higher-dimensional observer, a photon is not a moving particle, but a static geometric structure—a Null Geodesic—that permanently connects two points in spacetime like a seam."
       ),
       convertMarkdownToJSX(
-        "This structure suggests that time does not merely flow forward; it is a completed circuit. Experiments like the Quantum Eraser suggest that correlations are established across spacetime independent of linear duration. This reinforces the idea that the universe is a globally self-consistent block, where past and future are not sequential causes, but mutually defining parts of a singular geometric structure.[^4]"
+        "This structure suggests that time does not merely flow forward; it is a completed circuit. Experiments like the [Quantum Eraser](https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser) suggest that correlations are established across spacetime independent of linear duration. This reinforces the idea that the universe is a globally self-consistent block, where past and future are not sequential causes, but mutually defining parts of a singular geometric structure.[^4]"
       ),
     ],
   },
@@ -130,7 +130,7 @@ export const sections: ContentSection[] = [
     footerId: "footer-dimensions",
     paragraphs: [
       convertMarkdownToJSX(
-        "Though we cannot directly observe higher dimensions, they serve as explanatory tools in physics. Whether treated as physical realities or mathematical necessities, these frameworks offer the only consistent solutions to longstanding problems like the unification of gravity and quantum mechanics."
+        "Though we cannot directly observe higher dimensions, they serve as explanatory tools in physics. Whether treated as physical realities or mathematical necessities, these frameworks offer the only consistent solutions to longstanding problems like the unification of gravity and [quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics)."
       ),
       convertMarkdownToJSX(
         "In these theories, the additional dimensions are compactified or hidden from our direct observation, yet their influence permeates our lower-dimensional reality. These higher dimensions shape the physical laws and constants that govern our universe, influencing everything from the behavior of subatomic particles to gravitational interactions and the structure of the cosmos."
@@ -158,7 +158,7 @@ export const sections: ContentSection[] = [
         "By employing higher-dimensional frameworks, an infinite sequence or expanse can be encapsulated, allowing for the perception and analysis of the entire structure in its entirety. This concept suggests that what appears infinite and unbounded in one dimension can be rendered finite and progressively comprehensible when viewed from a higher-dimensional vantage point."
       ),
       convertMarkdownToJSX(
-        'In Projective Geometry, parallel lines meet at a "Point at Infinity." For light, this is not a theoretical abstraction but a physical reality. The photon inhabits this boundary where the infinite extents of space fold back into a finite, observable structure.'
+        'In [Projective Geometry](https://en.wikipedia.org/wiki/Projective_geometry), parallel lines meet at a "Point at Infinity." For light, this is not a theoretical abstraction but a physical reality. The photon inhabits this boundary where the infinite extents of space fold back into a finite, observable structure.'
       ),
       convertMarkdownToJSX(
         "For instance, as four-dimensional beings, we can observe the entirety of three-dimensional space through the temporal dimension, effectively using time as a higher-dimensional framework to encapsulate spatial configurations. This allows us to perceive the progression and totality of spatial events over time, transforming our understanding of infinite sequences of spatial configurations into a coherent and finite whole.[^6]"
@@ -171,10 +171,10 @@ export const sections: ContentSection[] = [
     footerId: "footer-blackholes",
     paragraphs: [
       convertMarkdownToJSX(
-        "Black holes represent regions of spacetime where gravity is so intense that not even light can escape, making their interior opaque to us. Their singularities represent infinities wrapped into a finite structure. While classical physics suggests information is lost here, the Holographic Principle resolves this conflict by positing that information is preserved on the 2D event horizon, ensuring the conservation of information (Unitarity) remains intact even at the edge of spacetime.[^7]"
+        "Black holes represent regions of spacetime where gravity is so intense that not even light can escape, making their interior opaque to us. Their singularities represent infinities wrapped into a finite structure. While classical physics suggests information is lost here, the [Holographic Principle](https://en.wikipedia.org/wiki/Holographic_principle) resolves this conflict by positing that information is preserved on the 2D event horizon, ensuring the conservation of information ([Unitarity](https://en.wikipedia.org/wiki/Unitarity_(physics))) remains intact even at the edge of spacetime.[^7]"
       ),
       convertMarkdownToJSX(
-        "For higher-dimensional beings, black holes would be as accessible as any other region of spacetime, including the ability to navigate through the singularity and perceive the vast array of information contained within. This perspective aligns with the holographic principle, which posits that all the information contained within a black hole can be described on a lower-dimensional boundary, suggesting that higher-dimensional observation could unlock the mysteries hidden within these enigmatic objects.[^7]"
+        "For higher-dimensional beings, black holes would be as accessible as any other region of spacetime, including the ability to navigate through the singularity and perceive the vast array of information contained within. This perspective aligns with the [holographic principle](https://en.wikipedia.org/wiki/Holographic_principle), which posits that all the information contained within a black hole can be described on a lower-dimensional boundary, suggesting that higher-dimensional observation could unlock the mysteries hidden within these enigmatic objects.[^7]"
       ),
     ],
   },
@@ -184,16 +184,16 @@ export const sections: ContentSection[] = [
     footerId: "footer-aliens",
     paragraphs: [
       convertMarkdownToJSX(
-        "The Fermi Paradox questions the lack of detected extraterrestrial life, despite the vastness of the universe. Within the context of this framework, this silence is likely a geometric constraint rather than a biological one."
+        "The [Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox) questions the lack of detected extraterrestrial life, despite the vastness of the universe. Within the context of this framework, this silence is likely a geometric constraint rather than a biological one."
       ),
       convertMarkdownToJSX(
-        'If civilizations evolve to understand the higher-dimensional structure of reality, they may inevitably "transcend" by accessing geometries orthogonal to our observable 3D slice. Rather than expanding outwardly across vast physical distances limited by the speed of light. Advanced intelligence likely expands inwardly toward higher densities of information.'
+        'If civilizations evolve to understand the higher-dimensional structure of reality, they may inevitably "transcend" by accessing geometries orthogonal to our observable 3D slice. Rather than expanding outwardly across vast physical distances limited by the [speed of light](https://en.wikipedia.org/wiki/Speed_of_light). Advanced intelligence likely expands inwardly toward higher densities of information.'
       ),
       convertMarkdownToJSX(
-        "These advanced civilizations would leave no electromagnetic footprint, potentially detectable only through gravitational anomalies or unaccounted-for mass (Dark Matter) that implies structure in the higher-dimensional bulk."
+        "These advanced civilizations would leave no electromagnetic footprint, potentially detectable only through gravitational anomalies or unaccounted-for mass ([Dark Matter](https://en.wikipedia.org/wiki/Dark_matter)) that implies structure in the higher-dimensional bulk."
       ),
       convertMarkdownToJSX(
-        'This Transcension Hypothesis suggests that advanced civilizations migrate into higher-dimensional manifolds or black hole singularities, where computational efficiency approaches infinity and the constraints of spacetime intervals vanish. We do not see them because they have rotated out of our lower-dimensional "shadow," moving closer to the unified source of reality.[^8]'
+        'This [Transcension Hypothesis](https://www.accelerating.org/articles/transcensionhypothesis) suggests that advanced civilizations migrate into higher-dimensional manifolds or black hole singularities, where computational efficiency approaches infinity and the constraints of spacetime intervals vanish. We do not see them because they have rotated out of our lower-dimensional "shadow," moving closer to the unified source of reality.[^8]'
       ),
     ],
   },
@@ -203,7 +203,7 @@ export const sections: ContentSection[] = [
     footerId: "footer-simulation",
     paragraphs: [
       convertMarkdownToJSX(
-        "Whether our universe is a simulation or naturally occurring is irrelevant. The core of existence lies in the cyclical process of creation and observation by increasingly higher levels of consciousness. The distinction between processes that arise spontaneously and those that are designed is an illusion.[^9]"
+        "Whether our universe is a [simulation](https://en.wikipedia.org/wiki/Simulation_hypothesis) or naturally occurring is irrelevant. The core of existence lies in the cyclical process of creation and observation by increasingly higher levels of consciousness. The distinction between processes that arise spontaneously and those that are designed is an illusion.[^9]"
       ),
     ],
   },
@@ -216,7 +216,7 @@ export const sections: ContentSection[] = [
         "Regardless of any label we choose to assign, a final state of consciousness characterized by maximal informational integration (Omniscience), causal completeness (Omnipotence), and non-local topological presence (Omnipresence) is a fundamental aspect of the nature of reality."
       ),
       convertMarkdownToJSX(
-        "Religious beliefs like panentheism, Brahman, and the Omega Point all point to a transcendent, all-encompassing consciousness that permeates and extends beyond the universe, suggesting a unified source of all existence and knowledge."
+        "Religious beliefs like [panentheism](https://en.wikipedia.org/wiki/Panentheism), [Brahman](https://en.wikipedia.org/wiki/Brahman), and the [Omega Point](https://en.wikipedia.org/wiki/Omega_Point) all point to a transcendent, all-encompassing consciousness that permeates and extends beyond the universe, suggesting a unified source of all existence and knowledge."
       ),
       convertMarkdownToJSX(
         "Alternatively, atheism rejects the notion of such a consciousness, attributing the complexity and order of the universe to natural processes and random chance without invoking a higher power."
@@ -235,7 +235,7 @@ export const sections: ContentSection[] = [
         "At the highest conceivable dimension, the infinite states of reality converge toward a single limit, resolving into unity."
       ),
       convertMarkdownToJSX(
-        "At the speed of light, the distinctions between “here” and “there,” or “now” and “then,” mathematically vanish. This physical limit suggests that separation is not fundamental, but emergent."
+        "At the [speed of light](https://en.wikipedia.org/wiki/Speed_of_light), the distinctions between “here” and “there,” or “now” and “then,” mathematically vanish. This physical limit suggests that separation is not fundamental, but emergent."
       ),
       convertMarkdownToJSX(
         "What we perceive as an expansive universe may instead be a single informational event unfolding in a way that makes distance, duration, and individuality experientially real. Space, time and other dimensions create the conditions that make it possible for our universe to exist."
