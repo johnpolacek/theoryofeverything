@@ -35,7 +35,7 @@ export const sections: ContentSection[] = [
         "Holos is an interpretive framework for understanding the nature of reality. It does not propose new physical laws or challenge established laws of physics. Instead, it offers an explanation for how the universe described by physics becomes the universe we experience."
       ),
       convertMarkdownToJSX(
-        "At its core, Holos expresses this idea as a simple relation: *R = C ⊛ O*, where reality arises from the reciprocal interplay of creation and observation."
+        "At its core, Holos expresses this idea as a simple relation: *R = C ⊛ O*, where reality arises from the recursive composition of creation and observation."
       ),
       convertMarkdownToJSX(
         "What follows explores this idea, from the meaning of life, consciousness, the nature of our universe, higher dimensions and beyond, across spacetime, infinity, life, and meaning, inviting reconsideration of some of the most fundamental questions we can ask."

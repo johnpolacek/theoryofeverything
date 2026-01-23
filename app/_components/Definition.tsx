@@ -6,7 +6,7 @@ export default function Definition() {
     <div className="flex flex-col gap-12 max-w-[50rem]">
       {/* Title */}
       <div className="flex flex-col gap-4">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-light pb-4">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-light pb-4">
           Definition: The Ontological Parameter
         </h1>
       </div>
