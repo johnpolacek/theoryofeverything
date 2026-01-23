@@ -24,9 +24,9 @@ export const metadata: Metadata = {
 
 export default function DefinitionPage() {
   return (
-    <div className="xl:grid grid-cols-[1fr_5fr] justify-stretch w-full max-w-[1280px] overflow-hidden mx-auto">
+    <div className="xl:grid grid-cols-[1fr_5fr] justify-stretch w-full max-w-[1280px] overflow-hidden mx-auto h-screen">
       <Sidebar />
-      <div className="grow h-screen overflow-auto">
+      <div className="grow h-full overflow-auto">
         <Header />
         <main className="px-8 pt-12 pb-24 lg:px-16">
           <Definition />
