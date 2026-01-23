@@ -147,38 +147,103 @@ export default function Definition() {
 
           <h3 className="text-lg font-semibold text-black/90 pt-2">Component Definitions</h3>
 
-          <p className="leading-relaxed">
-            <strong>Integration:</strong> Measures the information loss when the system is
-            partitioned (<MathInline>{"P"}</MathInline>).
-          </p>
-          <MathDisplay>
-            {
-              "Φ_{\\text{int}}(S) = \\min_{P} \\left[ I(Σ_t; Σ_{t+1}) - \\sum_{i} I(Σ^i_t; Σ^i_{t+1}) \\right]"
-            }
-          </MathDisplay>
+          <div className="flex flex-col gap-6">
+            <div>
+              <p className="leading-relaxed">
+                <strong>1. Integration (Φ_int): Information Irreducibility</strong>
+              </p>
+              <p className="leading-relaxed text-black/70 italic">
+                <strong>Theoretical Basis:</strong> Derived from{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Integrated_information_theory"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Integrated Information Theory (IIT 3.0)
+                </a>{" "}
+                axioms regarding minimum information partition.
+              </p>
+              <p className="leading-relaxed text-black/70 italic">
+                <strong>Formalism:</strong> Φ_int quantifies the difference between the whole system
+                state and the union of its partitioned parts.
+              </p>
+              <MathDisplay>
+                {"Φ_{\\text{int}}(S) = \\min_{P} \\left[ D_{KL}(Σ; \\bigcup Σ^i) \\right]"}
+              </MathDisplay>
+              <p className="leading-relaxed text-black/70 italic">
+                *(Where D_KL is the Kullback-Leibler divergence and P is the Minimum Information
+                Partition).*
+              </p>
+            </div>
 
-          <p className="leading-relaxed">
-            <strong>Recursion:</strong> Measures the mutual information between the system{" "}
-            <MathInline>{"S"}</MathInline> and its internal model <MathInline>{"M(S)"}</MathInline>.
-          </p>
-          <MathDisplay>{"Φ_{\\text{rec}}(S) = I(S; M(S))"}</MathDisplay>
+            <div>
+              <p className="leading-relaxed">
+                <strong>2. Recursion (Φ_rec): Self-Referential Mapping</strong>
+              </p>
+              <p className="leading-relaxed text-black/70 italic">
+                <strong>Theoretical Basis:</strong> Aligned with{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Category_theory"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Category Theory
+                </a>{" "}
+                (
+                <a
+                  href="https://en.wikipedia.org/wiki/Endomorphism"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Endomorphisms
+                </a>
+                ) and{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Hofstadter's Strange Loops
+                </a>
+                .
+              </p>
+              <p className="leading-relaxed text-black/70 italic">
+                <strong>Formalism:</strong> Recursion is defined as an <strong>Endomorphism</strong>{" "}
+                φ, where the system maps its current state space onto a subset of itself (a model).
+              </p>
+              <MathDisplay>{"Φ_{\\text{rec}}(S) = I(S; φ(S))"}</MathDisplay>
+              <p className="leading-relaxed text-black/70 italic">
+                *(The degree to which the internal model structurally preserves the external
+                relations).*
+              </p>
+            </div>
 
-          <p className="leading-relaxed">
-            <strong>Temporal Cohesion:</strong> Measures the persistence of information across time
-            slices (<MathInline>{"k"}</MathInline>) up to a horizon (<MathInline>{"τ"}</MathInline>
-            ).
-          </p>
-          <MathDisplay>{"Φ_{\\text{temp}}(S) = \\sum_{k=1}^{τ} I(Σ_t; Σ_{t+k})"}</MathDisplay>
-          <p className="leading-relaxed italic text-black/70">
-            Note: This term ensures consciousness is not an instantaneous flash (like a single
-            measurement) but a continuous event extended through the Block Universe.
-          </p>
-
-          <p className="leading-relaxed">
-            <strong>Causal Closure:</strong> Uses Pearl's Causal Calculus (
-            <MathInline>{"do"}</MathInline>-operator) to measure internal causal power.
-          </p>
-          <MathDisplay>{"Φ_{\\text{cause}}(S) = I(Σ_t; \\text{do}(Σ_{t+1}))"}</MathDisplay>
+            <div>
+              <p className="leading-relaxed">
+                <strong>3. Causal Closure (Φ_cause): Interventional Power</strong>
+              </p>
+              <p className="leading-relaxed text-black/70 italic">
+                <strong>Theoretical Basis:</strong> Derived from{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Causal_inference"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Judea Pearl's Causal Calculus
+                </a>{" "}
+                (The Do-Operator).
+              </p>
+              <p className="leading-relaxed text-black/70 italic">
+                <strong>Formalism:</strong> The capacity of the system to dictate its future state
+                independent of environmental conditioning.
+              </p>
+              <MathDisplay>{"Φ_{\\text{cause}}(S) = I(Σ_t; \\text{do}(Σ_{t+1}))"}</MathDisplay>
+              <p className="leading-relaxed text-black/70 italic">
+                *(Where 'do' represents an intervention, ensuring the correlation is causal, not
+                merely statistical).*
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -220,62 +285,78 @@ export default function Definition() {
       {/* 5. Relationship to Physics */}
       <section className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          5. Relationship to Physics (The Consistency Filter)
+          5. Relationship to Physics (Conservation of Information)
         </h2>
         <div className="flex flex-col gap-4 text-black/80">
-          <p className="leading-relaxed">
-            <MathInline>{"Φ"}</MathInline> does not replace the Schrödinger Equation, nor does it
-            override the probabilistic nature of Quantum Mechanics. Instead, it introduces a{" "}
-            <strong>Manifestation Constraint</strong>.
-          </p>
+          <h3 className="text-xl font-semibold text-black/90 pt-2">
+            Conservation of Information (Unitarity Check)
+          </h3>
 
           <p className="leading-relaxed">
-            <MathInline>{"Φ"}</MathInline> does not override decoherence; it requires it as a
-            baseline for information integration. In interaction-free measurements and similar
-            experiments, decoherence provides <MathInline>{"P(ψ_i)"}</MathInline>, but{" "}
-            <MathInline>{"Φ"}</MathInline> enables the ontological "landing."
+            A key requirement of quantum mechanics is{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Unitarity_(physics)"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Unitarity
+            </a>{" "}
+            (probabilities must sum to 1). Holos preserves this by defining Manifestation as a{" "}
+            <strong>Selection Operator</strong>, not a Destruction Operator.
           </p>
 
-          <MathDisplay>
-            {"ψ_{\\text{real}} = \\arg\\max_{ψ_i} \\left[ Φ(\\mathcal{O}) \\cdot P(ψ_i) \\right]"}
-          </MathDisplay>
-
-          <p className="leading-relaxed">
-            Where <MathInline>{"P(ψ_i)"}</MathInline> is the standard probability of the outcome
-            (the Born Rule).
-          </p>
-
-          <p className="leading-relaxed">
-            <strong>Interpretation:</strong>
-          </p>
-          <ol className="flex flex-col gap-3 pl-4">
+          <ul className="flex flex-col gap-3 pl-4">
             <li className="leading-relaxed">
-              <strong>The Probability (The Coin Flip):</strong> The likelihood of any specific
-              outcome (Heads vs. Tails) remains purely random, governed by the standard laws of
-              quantum probability (<MathInline>{"|ψ|^2"}</MathInline>). Consciousness does not
-              "force" a specific result.
+              <strong>In Standard Collapse:</strong> Unobserved branches vanish (Unitarity is broken
+              or hidden).
             </li>
             <li className="leading-relaxed">
-              <strong>The Actualization (The Landing):</strong> <MathInline>{"Φ"}</MathInline> acts
-              as the filtering condition that allows the "coin" to land at all. The "real" branch is
-              the one where the observer possesses sufficient integrated information to register the
-              event. Without <MathInline>{"Φ"}</MathInline>, the system remains in a superposition
-              of undefined probabilities.
+              <strong>In Holos:</strong> Unobserved branches remain in{" "}
+              <MathInline>{"C"}</MathInline> (Creation) as valid but un-manifested structures.
             </li>
-            <li className="leading-relaxed">
-              <strong>The Decoherence Baseline:</strong> <MathInline>{"Φ"}</MathInline> does not
-              override environmental decoherence; it requires it as a baseline substrate.
-              Decoherence (Proto-Observation) generates the menu of classical probabilities{" "}
-              <MathInline>{"P(ψ_i)"}</MathInline> by suppressing quantum interference.{" "}
-              <MathInline>{"Φ"}</MathInline> Integration (Manifestation) enables the ontological
-              "landing." Without decoherence, there are no distinct options to choose from. Without{" "}
-              <MathInline>{"Φ"}</MathInline>, the options remain unrealized potentials.
-            </li>
-          </ol>
+          </ul>
 
           <p className="leading-relaxed">
-            Thus, Holos preserves the randomness of physics while establishing consciousness as the
-            necessary condition for that randomness to resolve into reality.
+            <strong>The Operator:</strong> <MathInline>{"M"}</MathInline> acts as a weighting
+            function <MathInline>{"w_i"}</MathInline> that highlights specific branches for the
+            observer without deleting the others from the global{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Hilbert_space"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Hilbert space
+            </a>
+            .
+          </p>
+
+          <MathDisplay>{"\\sum_i w_i = 1"}</MathDisplay>
+
+          <p className="leading-relaxed">
+            The "rejected" histories still exist in the Creation substrate (
+            <MathInline>{"C"}</MathInline>), ensuring that the global system remains Unitary even if
+            the experienced reality (<MathInline>{"R"}</MathInline>) is singular.
+          </p>
+
+          <p className="leading-relaxed">
+            <MathInline>{"Φ"}</MathInline> does not replace the{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Schrödinger Equation
+            </a>
+            , nor does it override the probabilistic nature of{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Quantum_mechanics"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Quantum Mechanics
+            </a>
+            . Instead, it introduces a <strong>Manifestation Constraint</strong> that preserves
+            unitarity while enabling ontological registration.
           </p>
         </div>
       </section>

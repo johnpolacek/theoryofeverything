@@ -51,16 +51,16 @@ export const sections: ContentSection[] = [
         "Life exists to create and observe, mutually intertwined and reciprocal actions required for the manifestation of reality."
       ),
       convertMarkdownToJSX(
-        'According to the [Participatory Anthropic Principle](https://en.wikipedia.org/wiki/Anthropic_principle), the universe is a "self-excited circuit" that requires observers to bring its laws into existence. This aligns with [Biocentrism](https://en.wikipedia.org/wiki/Biocentrism_(ethics)), which posits that biology is not a byproduct of the universe, but the force that organizes it.'
+        'According to the [Participatory Anthropic Principle](https://en.wikipedia.org/wiki/Anthropic_principle), the universe is a "self-excited circuit" that requires observers to bring its laws into existence. [Biocentrism](https://en.wikipedia.org/wiki/Biocentrism_(ethics) posits that biology is not a byproduct of the universe, but the force that organizes it.'
       ),
       convertMarkdownToJSX(
         "Mathematical description alone does not constitute existence. Physics explains the structure of what happens, but consciousness provides the presence required for it to happen as reality rather than abstract data."
       ),
       convertMarkdownToJSX(
-        'This participation is not bound by linear time. In an [eternalist universe](https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)), the emergence of consciousness validates the reality of the past just as much as the present. The early universe is not "unreal" before life; it is retrospectively realized by the observers it eventually produces.'
+        'This participation is not bound by linear time. In an [eternalist universe](https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time), the emergence of consciousness validates the reality of the past just as much as the present. The early universe is not "unreal" before life; it is retrospectively realized by the observers it eventually produces.'
       ),
       convertMarkdownToJSX(
-        "Standard physics describes the mechanics of reality, but mechanism is only the surface. Physical interaction provides the structure, while consciousness provides the presence required for full manifestation. Mechanical measurements can occur without immediate consciousness, but true ontological completion requires experiential integration. Reality requires a witness.[^1]"
+        "Standard physics describes the mechanics of reality, but mechanism is only the surface. Physical interaction provides the structure, while consciousness provides the presence required for full manifestation. Reality requires a witness.[^1]"
       ),
     ],
   },
@@ -86,7 +86,10 @@ export const sections: ContentSection[] = [
         "Our universe originated from a singular point in the [Big Bang](https://en.wikipedia.org/wiki/Big_Bang), expanding towards infinity. We perceive three spatial dimensions while moving unidirectionally through the fourth dimension, time."
       ),
       convertMarkdownToJSX(
-        "[Spacetime](https://en.wikipedia.org/wiki/Spacetime) is a continuum where the three dimensions of space and time are curved and warped by the presence of mass and energy.[^3]"
+        "This is our [Spacetime](https://en.wikipedia.org/wiki/Spacetime) block."
+      ),
+      convertMarkdownToJSX(
+        "What if the Big Bang is not a moment of absolute creation but a boundary within that structure? Are there other structures?"
       ),
     ],
   },
@@ -96,7 +99,10 @@ export const sections: ContentSection[] = [
     footerId: "footer-spacetime",
     paragraphs: [
       convertMarkdownToJSX(
-        "The structure of this spacetime block is dictated by a single, counter-intuitive fact: the [speed of light](https://en.wikipedia.org/wiki/Speed_of_light) is invariant. Unlike any other speed, it remains constant regardless of how fast the observer is moving. This invariance forces space and time to warp to accommodate the constant, shattering the notion of a universal 'Now' and necessitating that past, present, and future exist simultaneously as a unified geometric solid."
+        "The structure of spacetime is dictated by a single, counter-intuitive fact: the [speed of light](https://en.wikipedia.org/wiki/Speed_of_light) is invariant. Unlike any other speed, it remains constant regardless of how fast the observer is moving."
+      ),
+      convertMarkdownToJSX(
+        "This invariance forces space and time to warp to accommodate the constant, shattering the notion of a universal 'Now' and necessitating that past, present, and future exist simultaneously as a unified geometric solid."
       ),
       convertMarkdownToJSX(
         "Consider beings with an unlimited lifespan and near-instantaneous communication, perceiving time as an additional spatial dimension. These beings would not be limited by the unidirectional flow of time as we are."
@@ -105,10 +111,7 @@ export const sections: ContentSection[] = [
         "Instead, they would perceive the curvature of spacetime comprehensively, seeing past, present, and future as a singular, cohesive structure observable in its entirety. By imagining such an entity, we can better understand what it might be like to exist in a higher dimension."
       ),
       convertMarkdownToJSX(
-        "Crucially, the [speed of light](https://en.wikipedia.org/wiki/Speed_of_light) ($c$) is absolute; it remains constant regardless of how fast an observer is moving. This invariance is what forces space and time to warp, ensuring that while measurements of distance and duration are relative, the speed of causality remains fixed."
-      ),
-      convertMarkdownToJSX(
-        "For a photon traveling at the [speed of light](https://en.wikipedia.org/wiki/Speed_of_light), the spacetime interval is zero, a “Null Interval”. While a photon does not possess subjective experience in a biological sense, geometrically, its path effectively collapses the universe into a single point of contact where emission and absorption occur simultaneously. To a higher-dimensional observer, a photon is not a moving particle, but a static geometric structure—a Null Geodesic—that permanently connects two points in spacetime like a seam."
+        "For a photon traveling at the [speed of light](https://en.wikipedia.org/wiki/Speed_of_light), the spacetime interval is zero, a [Null Interval](#footer-time). While a photon does not possess subjective experience in a biological sense, geometrically, its path effectively collapses the universe into a single point of contact where emission and absorption occur simultaneously. To a higher-dimensional observer, a photon is not a moving particle, but a static geometric structure—a [Null Geodesic](#footer-time)—that permanently connects two points in spacetime like a seam."
       ),
       convertMarkdownToJSX(
         "This structure suggests that time does not merely flow forward; it is a completed circuit. Experiments like the [Quantum Eraser](https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser) suggest that correlations are established across spacetime independent of linear duration. This reinforces the idea that the universe is a globally self-consistent block, where past and future are not sequential causes, but mutually defining parts of a singular geometric structure.[^4]"
@@ -171,7 +174,7 @@ export const sections: ContentSection[] = [
     footerId: "footer-blackholes",
     paragraphs: [
       convertMarkdownToJSX(
-        "Black holes represent regions of spacetime where gravity is so intense that not even light can escape, making their interior opaque to us. Their singularities represent infinities wrapped into a finite structure. While classical physics suggests information is lost here, the [Holographic Principle](https://en.wikipedia.org/wiki/Holographic_principle) resolves this conflict by positing that information is preserved on the 2D event horizon, ensuring the conservation of information ([Unitarity](https://en.wikipedia.org/wiki/Unitarity_(physics))) remains intact even at the edge of spacetime.[^7]"
+        "Black holes represent regions of spacetime where gravity is so intense that not even light can escape, making their interior opaque to us. Their singularities represent infinities wrapped into a finite structure. While classical physics suggests information is lost here, the [Holographic Principle](https://en.wikipedia.org/wiki/Holographic_principle) resolves this conflict by positing that information is preserved on the 2D [event horizon](#footer-blackholes), ensuring the conservation of information ([Unitarity](https://en.wikipedia.org/wiki/Unitarity_(physics))) remains intact even at the edge of spacetime.[^7]"
       ),
       convertMarkdownToJSX(
         "For higher-dimensional beings, black holes would be as accessible as any other region of spacetime, including the ability to navigate through the singularity and perceive the vast array of information contained within. This perspective aligns with the [holographic principle](https://en.wikipedia.org/wiki/Holographic_principle), which posits that all the information contained within a black hole can be described on a lower-dimensional boundary, suggesting that higher-dimensional observation could unlock the mysteries hidden within these enigmatic objects.[^7]"
@@ -429,6 +432,12 @@ export const footnotes: FootnoteSection[] = [
           "The invariant measure of distance between two events in spacetime. For light, this interval is zero, meaning emission and absorption occur at the same point.",
       },
       {
+        name: "Null Interval",
+        url: "https://en.wikipedia.org/wiki/Spacetime#Spacetime_interval",
+        description:
+          "A spacetime interval of zero length, which occurs for light rays. In this case, the emission and absorption of a photon occur at the same spacetime point from a higher-dimensional perspective.",
+      },
+      {
         name: "Light Cone",
         url: "https://en.wikipedia.org/wiki/Light_cone",
         description:
@@ -554,6 +563,12 @@ export const footnotes: FootnoteSection[] = [
         name: "Black Hole Thermodynamics",
         url: "https://en.wikipedia.org/wiki/Black_hole_thermodynamics",
         description: "The study of the physical properties of black holes.",
+      },
+      {
+        name: "Event Horizon",
+        url: "https://en.wikipedia.org/wiki/Event_horizon",
+        description:
+          "The boundary around a black hole beyond which nothing, not even light, can escape.",
       },
       {
         name: "Cosmic Censorship Hypothesis",
