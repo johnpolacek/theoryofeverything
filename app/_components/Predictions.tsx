@@ -165,6 +165,162 @@ export default function Predictions() {
           </table>
         </div>
       </section>
+
+      <h2 className="text-2xl sm:text-3xl font-light pt-16">Experiments</h2>
+
+      {/* Experimental Protocol: Integration Thresholds and Observer Emergence */}
+      <section id="experiment-1" className="flex flex-col gap-6">
+        <h2 className="text-xl sm:text-2xl font-medium pb-2">
+          Experiment 1. Integration Thresholds and Observer Emergence (Φ-Crossing)
+        </h2>
+
+        <div className="flex flex-col gap-6 text-black/80">
+          {/* Objective */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Objective</h3>
+            <p className="leading-relaxed">
+              To test whether the emergence of the{" "}
+              <a href="/definition#2-ontological-requirements">Observer</a> (
+              <MathInline>{"O"}</MathInline>) constitutes a critical phase transition rather than a
+              linear gradient. Holos predicts that consciousness requires a specific density of
+              integrated information (
+              <a href="/definition">
+                <MathInline>{"Φ_c"}</MathInline>
+              </a>
+              ) to operationalize <a href="/logic#axioms">Axiom 2 (Manifestation)</a>. Therefore,
+              the transition between unconscious and conscious states should be discontinuous
+              (non-linear) and exhibit state-dependent properties.
+            </p>
+          </div>
+
+          {/* Subjects */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Subjects</h3>
+            <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed">
+              <li>{convertMarkdownToJSX("**Human adult volunteers** (healthy)")}</li>
+              <li>
+                {convertMarkdownToJSX(
+                  "**Controlled anesthesia** administered in a clinical environment"
+                )}
+              </li>
+              <li>
+                {convertMarkdownToJSX(
+                  "Optionally: additional cohorts (e.g., sleep, coma patients) for cross-validation"
+                )}
+              </li>
+            </ul>
+          </div>
+
+          {/* Measured Variables */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Measured Variables</h3>
+            <div className="flex flex-col gap-4">
+              <div>
+                <h4 className="font-semibold mb-2">Primary Variables</h4>
+                <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed ml-4">
+                  <li>
+                    <strong>
+                      <a href="#secondary-predictions">PCI (Perturbational Complexity Index)</a>
+                    </strong>
+                    <br />
+                    Computed from TMS-EEG responses to quantify integrated information capacity.
+                  </li>
+                  <li>
+                    <strong>Consciousness state</strong>
+                    <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4 mt-1">
+                      <li>Wakefulness vs. sedation vs. unconsciousness (clinically assessed)</li>
+                      <li>Subjective reports (when possible)</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-2">Secondary Variables</h4>
+                <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed ml-4">
+                  <li>EEG spectral power, functional connectivity, and complexity metrics</li>
+                  <li>Anesthesia depth (e.g., propofol concentration, BIS index)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Prior Work and Status */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Prior Work and Status</h3>
+            <div className="flex flex-col gap-3 leading-relaxed">
+              <p>
+                <strong>Status: Established / Partially Explored</strong>
+                <br />
+                PCI has already been validated as a robust measure of consciousness across sleep and
+                anesthesia, and is widely used in neuroscience.
+              </p>
+              <p>
+                <strong>Relationship to Prior Work</strong>
+                <br />
+                PCI was introduced and developed to measure consciousness capacity by evaluating
+                brain responses to perturbation. It has been shown to reliably differentiate
+                conscious wakefulness from unconscious states (sleep, anesthesia, vegetative
+                states). However, the <strong>Holos-specific claim</strong> is not that PCI
+                correlates with consciousness, but that{" "}
+                <strong>there is a sharp threshold (</strong>
+                <a href="/definition">
+                  <MathInline>{"Φ_c"}</MathInline>
+                </a>
+                <strong>
+                  ) where integrated information suddenly becomes sufficient for observation.
+                </strong>
+              </p>
+            </div>
+          </div>
+
+          {/* Protocol */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Protocol</h3>
+            <ol className="list-decimal list-inside flex flex-col gap-2 leading-relaxed ml-4">
+              <li>{convertMarkdownToJSX("**Baseline wakefulness:** record PCI while awake.")}</li>
+              <li>
+                {convertMarkdownToJSX(
+                  "**Controlled anesthesia ramp:** slowly increase anesthetic depth."
+                )}
+              </li>
+              <li>
+                {convertMarkdownToJSX(
+                  "**Continuous TMS-EEG:** compute PCI at multiple points along the anesthesia curve."
+                )}
+              </li>
+              <li>
+                {convertMarkdownToJSX(
+                  "**Transition analysis:** identify whether PCI drops gradually or sharply."
+                )}
+              </li>
+            </ol>
+          </div>
+
+          {/* Prediction */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Prediction</h3>
+            <p className="leading-relaxed">
+              If <a href="/definition#2-ontological-requirements">observerhood</a> requires{" "}
+              <a href="/definition">
+                <MathInline>{"Φ ≥ Φ_c"}</MathInline>
+              </a>
+              , the transition from conscious to unconscious states will show a{" "}
+              <strong>sharp drop in </strong>
+              <a href="#secondary-predictions">PCI</a>
+              <strong> at a consistent anesthesia depth across subjects.</strong>
+            </p>
+            <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed ml-4">
+              <li>
+                <strong>Sharp transition:</strong> supports a threshold model of observer emergence.
+              </li>
+              <li>
+                <strong>Gradual transition:</strong> suggests consciousness is a continuous function
+                of integration, weakening the Holos claim.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
