@@ -213,16 +213,16 @@ export default function Sidebar() {
                 </li>
               ))}
           </ol>
-          <div className="w-full flex justify-center pb-8 px-8 xl:px-4">
+          <div className="w-full flex justify-center pb-8 px-8 xl:px-4 mb-2">
             <button
               type="button"
               onClick={(e) => {
                 e.stopPropagation();
                 handleDownload();
               }}
-              className="text-xs text-black/60 hover:text-black border border-black/20 hover:border-black/40 px-4 py-2 rounded transition-colors flex items-center gap-1.5"
+              className="text-xs border border-black/40 px-4 py-2 rounded transition-colors flex items-center gap-1.5 opacity-80 hover:opacity-100"
             >
-              <Download size={12} className="opacity-60" aria-hidden="true" />
+              <Download size={12} aria-hidden="true" />
               Download
             </button>
           </div>

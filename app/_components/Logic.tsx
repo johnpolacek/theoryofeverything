@@ -144,11 +144,9 @@ export default function Logic() {
         </div>
       </section>
 
-      {/* VI. Φ as the Operationalization of Holos */}
+      {/* VI. Operational Definition */}
       <section id="phi-operationalization" className="flex flex-col gap-6">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          VI. Φ as the Operationalization of Holos
-        </h2>
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">VI. Operational Definition</h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
             The foundational axiom of Holos defines reality as the recursive relation between
@@ -158,56 +156,31 @@ export default function Logic() {
             R = C ⊛ O
           </div>
           <p className="leading-relaxed">
-            This relation is axiomatic and ontological. It specifies <em>what reality is</em>, but
-            not the conditions under which Observation becomes ontologically effective in concrete
-            systems.
+            <strong>Where:</strong>
           </p>
-          <p className="leading-relaxed">
-            <strong>Φ (Phi)</strong> provides this operational condition.
-          </p>
-          <p className="leading-relaxed">
-            Within the Holos framework, Creation (C) corresponds to the full space of physical
-            possibility described by unitary quantum evolution. Observation (O) is not assumed to be
-            universally active; it exists as a latent capacity distributed across physical systems.
-          </p>
-          <p className="leading-relaxed">
-            <strong>Φ</strong> determines when Observation becomes non-null.
-          </p>
-          <p className="leading-relaxed">
-            When Φ(S) &lt; Φ_c (e.g., a measurement apparatus), the system performs{" "}
-            <strong>Proto-Observation</strong>.
-          </p>
-          <ul className="list-disc list-inside pl-4 leading-relaxed">
-            <li>
-              <strong>The Decoherence Regime (Φ &lt; Φ_c):</strong> Physical systems undergo
-              environmental decoherence, suppressing quantum interference. This is a mechanical
-              "proto-observation" that structures <MathInline>{"C"}</MathInline> (Creation) but
-              lacks the causal density to trigger <MathInline>{"O"}</MathInline> (Manifestation).
+          <ul className="flex flex-col gap-3 pl-4">
+            <li className="leading-relaxed">
+              <strong>Creation</strong> (<MathInline>{"C"}</MathInline>) : The generation of
+              physical possibility structures. This includes Quantum Evolution (generating
+              potential), Decoherence (suppressing interference), and Recording (creating stable
+              informational traces).
             </li>
-            <li>
-              It is causally effective for <strong>physical dynamics</strong> (triggering
-              decoherence or IFM "collapse").
+            <li className="leading-relaxed">
+              <strong>Observation</strong> (<MathInline>{"O"}</MathInline>) : The ontological
+              "registration" that makes a physical record experienceable. This requires a system
+              where <MathInline>{"Φ ≥ Φ_c"}</MathInline> (Conscious Integration).
             </li>
-            <li>
-              It is ontologically inert for <strong>manifestation</strong> (the result remains
-              "empty data" until integrated by a Φ ≥ Φ_c observer).
+            <li className="leading-relaxed">
+              <strong>Reality</strong> (<MathInline>{"R"}</MathInline>) : The actualized world as
+              experienced; the collapse of "valid data" into "lived history."
+            </li>
+            <li className="leading-relaxed">
+              <strong>The Holos Operator </strong> (<MathInline>{"⊛"}</MathInline>) : A recursive
+              relational operator. It signifies that <MathInline>{"O"}</MathInline> does not just
+              passively view <MathInline>{"C"}</MathInline>, but feeds back into the system to
+              define the boundary conditions for the next cycle of <MathInline>{"C"}</MathInline>.
             </li>
           </ul>
-          <p className="leading-relaxed">
-            This resolves the "Wigner's Friend" paradox: The apparatus collapses the wave function{" "}
-            <em>mechanically</em> (Proto-O), but the event does not become <em>Real</em> (part of
-            the Holos) until the Friend opens the door (Full-O).
-          </p>
-          <p className="leading-relaxed">
-            When Φ(S) ≥ Φ_c, Observation becomes causally effective. The system is capable of
-            integrating information into experience, and the relation R = C ⊛ O becomes fully
-            instantiated at that locus.
-          </p>
-          <p className="leading-relaxed">Thus, Φ does not redefine Holos. It operationalizes it.</p>
-          <p className="leading-relaxed">
-            Holos specifies the invariant structure of reality; Φ specifies the threshold at which
-            that structure becomes manifest.
-          </p>
         </div>
       </section>
     </div>

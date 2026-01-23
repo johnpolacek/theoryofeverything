@@ -26,11 +26,13 @@ export default function LogicPage() {
   return (
     <div className="xl:grid grid-cols-[1fr_5fr] justify-stretch w-full max-w-[1280px] overflow-hidden mx-auto">
       <Sidebar />
-      <div className="grow h-screen overflow-auto">
-        <Header />
-        <main className="px-8 pt-12 pb-24 lg:px-16">
-          <Logic />
-        </main>
+      <div className="grow flex flex-col min-h-screen">
+        <div className="flex-1 overflow-auto">
+          <Header />
+          <main className="px-8 pt-12 pb-24 lg:px-16">
+            <Logic />
+          </main>
+        </div>
         <Footer />
       </div>
     </div>
