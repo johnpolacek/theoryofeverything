@@ -20,7 +20,10 @@ export default function Predictions() {
           the axioms and the <MathInline>{"Φ_c"}</MathInline> threshold, and are intended as
           consistency checks that align with empirical data. For the formal operational definition,
           see the{" "}
-          <a href="/logic#phi-operationalization" className="text-black/80 hover:text-black underline">
+          <a
+            href="/logic#phi-operationalization"
+            className="text-black/80 hover:text-black underline"
+          >
             Logic
           </a>{" "}
           section. For the definition of Φ, see the{" "}
@@ -111,34 +114,55 @@ export default function Predictions() {
         </div>
       </section>
 
-      {/* Minimal Core for Predictions */}
-      <section id="minimal-core-for-predictions" className="flex flex-col gap-6">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">Minimal Core for Predictions</h2>
-        <div className="flex flex-col gap-4 text-black/80">
-          <ol className="flex flex-col gap-3 pl-4">
-            <li className="leading-relaxed">
-              <strong>Cosmic:</strong>{" "}
-              {convertMarkdownToJSX("Parameters are tuned for observers (testable via CMB data).")}
-            </li>
-            <li className="leading-relaxed">
-              <strong>Neural:</strong>{" "}
-              {convertMarkdownToJSX(
-                "Consciousness emerges at [Φ thresholds](/definition) (testable via PCI/IIT)."
-              )}
-            </li>
-            <li className="leading-relaxed">
-              <strong>Quantum:</strong>{" "}
-              {convertMarkdownToJSX(
-                "Facts are relational, not absolute (testable via [Wigner's Friend](https://en.wikipedia.org/wiki/Wigner%27s_friend))."
-              )}
-            </li>
-            <li className="leading-relaxed">
-              <strong>Galactic:</strong>{" "}
-              {convertMarkdownToJSX(
-                "Advanced intelligence leaves gravitational, not radio, signatures (testable via Dark Matter surveys)."
-              )}
-            </li>
-          </ol>
+      {/* Testable Implications */}
+      <section id="testable-implications" className="flex flex-col gap-6">
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">Testable Implications</h2>
+        <div className="overflow-x-auto">
+          <table className="w-full border-collapse">
+            <thead>
+              <tr className="border-b border-black/20">
+                <th className="text-left py-2 pr-8 font-semibold text-black/90">Domain</th>
+                <th className="text-left py-2 pr-8 font-semibold text-black/90">Prediction</th>
+                <th className="text-left py-2 font-semibold text-black/90">Testable Via</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-black/10">
+                <td className="py-3 pr-8 text-black/80">Cosmology</td>
+                <td className="py-3 pr-8 text-black/80">Constants are tuned for observation.</td>
+                <td className="py-3 text-black/80">CMB Polarization (LiteBIRD)</td>
+              </tr>
+              <tr className="border-b border-black/10">
+                <td className="py-3 pr-8 text-black/80">Neuroscience</td>
+                <td className="py-3 pr-8 text-black/80">
+                  Consciousness is a phase transition at <MathInline>{"Φ_c"}</MathInline>.
+                </td>
+                <td className="py-3 text-black/80">PCI / IIT Metrics</td>
+              </tr>
+              <tr className="border-b border-black/10">
+                <td className="py-3 pr-8 text-black/80">Quantum</td>
+                <td className="py-3 pr-8 text-black/80">
+                  Facts are relational; no objective collapse.
+                </td>
+                <td className="py-3 text-black/80">
+                  {convertMarkdownToJSX(
+                    "[Wigner's Friend Experiments](https://en.wikipedia.org/wiki/Wigner%27s_friend)"
+                  )}
+                </td>
+              </tr>
+              <tr className="border-b border-black/10">
+                <td className="py-3 pr-8 text-black/80">Astrophysics</td>
+                <td className="py-3 pr-8 text-black/80">
+                  Advanced life is hyper-structural, not spatial.
+                </td>
+                <td className="py-3 text-black/80">
+                  {convertMarkdownToJSX(
+                    "[Dark Matter Surveys (Euclid)](https://en.wikipedia.org/wiki/Euclid_(spacecraft))"
+                  )}
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </section>
     </div>

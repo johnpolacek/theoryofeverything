@@ -32,10 +32,47 @@ export function convertMarkdownToJSX(text: string): React.ReactNode {
       continue;
     }
 
+    // Check for bold link **[text](url)** (must come before regular bold)
+    const boldLinkStartMatch = remaining.match(/^\*\*\[([^\]]+)\]\(/);
+    if (boldLinkStartMatch) {
+      const linkText = boldLinkStartMatch[1];
+      const afterBracket = remaining.slice(boldLinkStartMatch[0].length);
+      
+      // Find the matching closing parenthesis for the URL
+      let urlEnd = -1;
+      let parenDepth = 1;
+      
+      for (let i = 0; i < afterBracket.length; i++) {
+        if (afterBracket[i] === '(') {
+          parenDepth++;
+        } else if (afterBracket[i] === ')') {
+          parenDepth--;
+          if (parenDepth === 0) {
+            urlEnd = i;
+            break;
+          }
+        }
+      }
+      
+      // Check if the link is followed by ** to close the bold
+      if (urlEnd !== -1 && afterBracket.slice(urlEnd + 1).startsWith('**')) {
+        const url = afterBracket.slice(0, urlEnd);
+        elements.push(
+          <strong key={`bold-${keyIndex++}`}>
+            <a href={url}>{linkText}</a>
+          </strong>
+        );
+        remaining = remaining.slice(boldLinkStartMatch[0].length + urlEnd + 3); // +3 for ) and **
+        continue;
+      }
+    }
+
     // Check for bold **text** (must come before italic to avoid conflicts)
     const boldMatch = remaining.match(/^\*\*([^*]+)\*\*/);
     if (boldMatch) {
-      elements.push(<strong key={`bold-${keyIndex++}`}>{boldMatch[1]}</strong>);
+      // Recursively process content inside bold tags to handle nested formatting
+      const boldContent = convertMarkdownToJSX(boldMatch[1]);
+      elements.push(<strong key={`bold-${keyIndex++}`}>{boldContent}</strong>);
       remaining = remaining.slice(boldMatch[0].length);
       continue;
     }
@@ -67,16 +104,40 @@ export function convertMarkdownToJSX(text: string): React.ReactNode {
     }
 
     // Check for regular link [text](url)
-    const linkMatch = remaining.match(/^\[([^\]]+)\]\(([^)]+)\)/);
-    if (linkMatch) {
-      const [fullMatch, linkText, url] = linkMatch;
-      elements.push(
-        <a key={`link-${keyIndex++}`} href={url}>
-          {linkText}
-        </a>
-      );
-      remaining = remaining.slice(fullMatch.length);
-      continue;
+    // Match [text] first, then find the URL between ( and the closing )
+    // URLs can contain parentheses, so we need to match carefully
+    const linkStartMatch = remaining.match(/^\[([^\]]+)\]\(/);
+    if (linkStartMatch) {
+      const linkText = linkStartMatch[1];
+      const afterBracket = remaining.slice(linkStartMatch[0].length);
+      
+      // Find the matching closing parenthesis for the URL
+      // Track depth to handle nested parentheses in URLs
+      let urlEnd = -1;
+      let parenDepth = 1; // Start at 1 because we're already inside the opening (
+      
+      for (let i = 0; i < afterBracket.length; i++) {
+        if (afterBracket[i] === '(') {
+          parenDepth++;
+        } else if (afterBracket[i] === ')') {
+          parenDepth--;
+          if (parenDepth === 0) {
+            urlEnd = i;
+            break;
+          }
+        }
+      }
+      
+      if (urlEnd !== -1) {
+        const url = afterBracket.slice(0, urlEnd);
+        elements.push(
+          <a key={`link-${keyIndex++}`} href={url}>
+            {linkText}
+          </a>
+        );
+        remaining = remaining.slice(linkStartMatch[0].length + urlEnd + 1);
+        continue;
+      }
     }
 
     // Find the next special character position

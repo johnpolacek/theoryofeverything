@@ -58,7 +58,7 @@ const predictionsSubsections: Subsection[] = [
   { id: "secondary-predictions", title: "Secondary Predictions" },
   { id: "tertiary-prediction", title: "Tertiary Prediction" },
   { id: "extrapolative-prediction", title: "Extrapolative Prediction" },
-  { id: "minimal-core-for-predictions", title: "Minimal Core" },
+  { id: "testable-implications", title: "Testable Implications" },
 ];
 
 export default function Sidebar() {

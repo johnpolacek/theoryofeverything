@@ -32,7 +32,7 @@ p {
 main p a,
 main li a,
 main section a {
-  color: rebeccapurple; /* blue-gray-600 - more subtle, less blue */
+  color: darkslateblue; /* blue-gray-600 - more subtle, less blue */
   text-decoration: underline;
   text-decoration-thickness: 0.5px; /* thinner underline */
   text-underline-offset: 3px; /* further from text */
