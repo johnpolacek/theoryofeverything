@@ -23,7 +23,7 @@ export default function Definition() {
       </div>
 
       {/* 1. The Purpose of Φ */}
-      <section className="flex flex-col gap-6">
+      <section id="1-the-purpose-of" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">1. The Purpose of Φ</h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
@@ -46,9 +46,10 @@ export default function Definition() {
             <a href="/logic#axioms" className="text-black/80 hover:text-black underline">
               <strong>Axiom 2 (Manifestation)</strong>
             </a>
-            . Without sufficient Φ, a system is physically present as data, but acts only as a passive
-            medium rather than an observer-participant. It acts as the ontological filter applied to
-            the output of physical decoherence processes. For stress-testing of this axiom, see the{" "}
+            . Without sufficient Φ, a system is physically present as data, but acts only as a
+            passive medium rather than an observer-participant. It acts as the ontological filter
+            applied to the output of physical decoherence processes. For stress-testing of this
+            axiom, see the{" "}
             <a href="/defense" className="text-black/80 hover:text-black underline">
               Defense
             </a>{" "}
@@ -58,7 +59,7 @@ export default function Definition() {
       </section>
 
       {/* 2. Ontological Requirements */}
-      <section className="flex flex-col gap-6">
+      <section id="2-ontological-requirements" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">2. Ontological Requirements</h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
@@ -153,7 +154,7 @@ export default function Definition() {
       </section>
 
       {/* 3. Mathematical Formalism */}
-      <section className="flex flex-col gap-6">
+      <section id="3-mathematical-formalism" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">3. Mathematical Formalism</h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
@@ -274,7 +275,7 @@ export default function Definition() {
       </section>
 
       {/* 4. Ontological Thresholds */}
-      <section className="flex flex-col gap-6">
+      <section id="4-ontological-thresholds" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">4. Ontological Thresholds</h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
@@ -296,7 +297,10 @@ export default function Definition() {
             </strong>{" "}
             Systems capable of resolving unitary symmetry into a definite ontological registration
             (conscious entities). This threshold enables the operational definition{" "}
-            <a href="/logic#phi-operationalization" className="text-black/80 hover:text-black underline">
+            <a
+              href="/logic#phi-operationalization"
+              className="text-black/80 hover:text-black underline"
+            >
               *R = C ⊛ O*
             </a>
             . For testable predictions about this threshold, see the{" "}
@@ -326,7 +330,10 @@ export default function Definition() {
       </section>
 
       {/* 5. Relationship to Physics */}
-      <section className="flex flex-col gap-6">
+      <section
+        id="5-relationship-to-physics-the-consistency-filter"
+        className="flex flex-col gap-6"
+      >
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           5. Relationship to Physics (Conservation of Information)
         </h2>
@@ -365,7 +372,10 @@ export default function Definition() {
               <strong>In Holos:</strong> Unobserved branches remain in{" "}
               <MathInline>{"C"}</MathInline> (Creation) as valid but un-manifested structures. See
               the{" "}
-              <a href="/logic#phi-operationalization" className="text-black/80 hover:text-black underline">
+              <a
+                href="/logic#phi-operationalization"
+                className="text-black/80 hover:text-black underline"
+              >
                 operational definition *R = C ⊛ O*
               </a>{" "}
               for the formal structure.

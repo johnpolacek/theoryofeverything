@@ -56,10 +56,9 @@ const definitionSubsections: Subsection[] = [
 const predictionsSubsections: Subsection[] = [
   { id: "primary-prediction", title: "Primary Prediction" },
   { id: "secondary-predictions", title: "Secondary Predictions" },
-  {
-    id: "experiment-protocol-observer-dependent-coherence-preservation",
-    title: "Experiment Protocol",
-  },
+  { id: "tertiary-prediction", title: "Tertiary Prediction" },
+  { id: "extrapolative-prediction", title: "Extrapolative Prediction" },
+  { id: "minimal-core-for-predictions", title: "Minimal Core" },
 ];
 
 export default function Sidebar() {
@@ -79,9 +78,10 @@ export default function Sidebar() {
   };
 
   // Get link for subsections based on current page
+  // Since subsections are only shown when on their respective pages,
+  // we can use hash-only links for proper scrolling behavior
   const getSubsectionLink = (id: string) => {
-    if (isTheoryPage) return `#${id}`;
-    return `/${pathname.slice(1)}#${id}`;
+    return `#${id}`;
   };
 
   const handleDownload = () => {

@@ -336,68 +336,72 @@ export default function Defense() {
       </div>
 
       {/* Axiom Defenses */}
-      {defenseData.map((axiom) => (
-        <section key={axiom.id} className="flex flex-col gap-6">
-          <h2 className="text-2xl sm:text-3xl font-light pb-2">{axiom.name}</h2>
-          <p className="text-black/80 italic pb-2">
-            <strong>Claim:</strong>{" "}
-            {axiom.name === "Relationality"
-              ? "Reality is defined by relationships, not intrinsic properties."
-              : axiom.name === "Manifestation"
-                ? "Reality is only fully realized when information is integrated into conscious experience."
-                : axiom.name === "Conservation"
-                  ? "Information is conserved across all transformations."
-                  : axiom.name === "Unification"
-                    ? "Apparent infinities resolve from higher-dimensional perspectives."
-                    : "Consciousness is the fundamental interface of reality."}{" "}
-            (See{" "}
-            <a href="/logic" className="text-black/80 hover:text-black underline">
-              Logic
-            </a>{" "}
-            for formal statement)
-          </p>
-          <div className="flex flex-col gap-8">
-            {axiom.objections.map((objection) => (
-              <div key={objection.id} className="flex flex-col gap-3">
-                <h3 className="text-lg font-semibold text-black/90">
-                  Objection {objection.id} — {objection.title}
-                </h3>
-                <div className="flex flex-col gap-3 text-black/80">
-                  {objection.content.map((para, idx) => {
-                    if (para === "") return <br key={`${objection.id}-br-${idx}`} />;
-                    if (para.startsWith("**Response:**")) {
+      {defenseData.map((axiom) => {
+        // Convert "Axiom 1" to "axiom-1", "Axiom 2" to "axiom-2", etc.
+        const sectionId = axiom.id.toLowerCase().replace(/\s+/g, "-");
+        return (
+          <section key={axiom.id} id={sectionId} className="flex flex-col gap-6">
+            <h2 className="text-2xl sm:text-3xl font-light pb-2">{axiom.name}</h2>
+            <p className="text-black/80 italic pb-2">
+              <strong>Claim:</strong>{" "}
+              {axiom.name === "Relationality"
+                ? "Reality is defined by relationships, not intrinsic properties."
+                : axiom.name === "Manifestation"
+                  ? "Reality is only fully realized when information is integrated into conscious experience."
+                  : axiom.name === "Conservation"
+                    ? "Information is conserved across all transformations."
+                    : axiom.name === "Unification"
+                      ? "Apparent infinities resolve from higher-dimensional perspectives."
+                      : "Consciousness is the fundamental interface of reality."}{" "}
+              (See{" "}
+              <a href="/logic" className="text-black/80 hover:text-black underline">
+                Logic
+              </a>{" "}
+              for formal statement)
+            </p>
+            <div className="flex flex-col gap-8">
+              {axiom.objections.map((objection) => (
+                <div key={objection.id} className="flex flex-col gap-3">
+                  <h3 className="text-lg font-semibold text-black/90">
+                    Objection {objection.id} — {objection.title}
+                  </h3>
+                  <div className="flex flex-col gap-3 text-black/80">
+                    {objection.content.map((para, idx) => {
+                      if (para === "") return <br key={`${objection.id}-br-${idx}`} />;
+                      if (para.startsWith("**Response:**")) {
+                        return (
+                          <p key={`${objection.id}-p-${idx}`} className="text-black/90 pt-2">
+                            {convertMarkdownToJSX(para)}
+                          </p>
+                        );
+                      }
+                      if (para.startsWith("**Status:**")) {
+                        return (
+                          <p key={`${objection.id}-p-${idx}`} className="text-black/90 pt-2">
+                            {renderWithIcons(para, idx)}
+                          </p>
+                        );
+                      }
+                      if (para.startsWith("- ")) {
+                        return (
+                          <p key={`${objection.id}-p-${idx}`} className="pl-4 leading-relaxed">
+                            {convertMarkdownToJSX(para)}
+                          </p>
+                        );
+                      }
                       return (
-                        <p key={`${objection.id}-p-${idx}`} className="text-black/90 pt-2">
-                          {convertMarkdownToJSX(para)}
-                        </p>
-                      );
-                    }
-                    if (para.startsWith("**Status:**")) {
-                      return (
-                        <p key={`${objection.id}-p-${idx}`} className="text-black/90 pt-2">
+                        <p key={`${objection.id}-p-${idx}`} className="leading-relaxed">
                           {renderWithIcons(para, idx)}
                         </p>
                       );
-                    }
-                    if (para.startsWith("- ")) {
-                      return (
-                        <p key={`${objection.id}-p-${idx}`} className="pl-4 leading-relaxed">
-                          {convertMarkdownToJSX(para)}
-                        </p>
-                      );
-                    }
-                    return (
-                      <p key={`${objection.id}-p-${idx}`} className="leading-relaxed">
-                        {renderWithIcons(para, idx)}
-                      </p>
-                    );
-                  })}
+                    })}
+                  </div>
                 </div>
-              </div>
-            ))}
-          </div>
-        </section>
-      ))}
+              ))}
+            </div>
+          </section>
+        );
+      })}
 
       {/* Cross-Axiom Consistency Check */}
       <section id="cross-axiom-consistency-check" className="flex flex-col gap-6">
@@ -478,7 +482,7 @@ export default function Defense() {
       </section>
 
       {/* Primary Unresolved Challenge */}
-      <section className="flex flex-col gap-6">
+      <section id="primary-unresolved-challenge" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">Primary Unresolved Challenge</h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="font-semibold text-black/90">The Explanatory Gap:</p>

@@ -32,7 +32,7 @@ export default function Predictions() {
       </div>
 
       {/* Primary Prediction: Participatory Selection (Cosmological) */}
-      <section className="flex flex-col gap-6">
+      <section id="primary-prediction" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Primary Prediction: Participatory Selection (Cosmological)
         </h2>
@@ -52,7 +52,7 @@ export default function Predictions() {
       </section>
 
       {/* Secondary Prediction: Thresholds for Emergent Consciousness (Neuroscience) */}
-      <section className="flex flex-col gap-6">
+      <section id="secondary-predictions" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Secondary Prediction: Thresholds for Emergent Consciousness (Neuroscience)
         </h2>
@@ -72,7 +72,7 @@ export default function Predictions() {
       </section>
 
       {/* Tertiary Prediction: Relational Consistency (Quantum Foundations) */}
-      <section className="flex flex-col gap-6">
+      <section id="tertiary-prediction" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Tertiary Prediction: Relational Consistency (Quantum Foundations)
         </h2>
@@ -92,7 +92,7 @@ export default function Predictions() {
       </section>
 
       {/* Extrapolative Prediction: The Transcension Hypothesis (Astrophysics) */}
-      <section className="flex flex-col gap-6">
+      <section id="extrapolative-prediction" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
           Extrapolative Prediction: The Transcension Hypothesis (Astrophysics)
         </h2>
@@ -112,7 +112,7 @@ export default function Predictions() {
       </section>
 
       {/* Minimal Core for Predictions */}
-      <section className="flex flex-col gap-6">
+      <section id="minimal-core-for-predictions" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">Minimal Core for Predictions</h2>
         <div className="flex flex-col gap-4 text-black/80">
           <ol className="flex flex-col gap-3 pl-4">
