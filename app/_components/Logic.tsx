@@ -42,6 +42,13 @@ export default function Logic() {
       {/* II. Axioms */}
       <section id="axioms" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">II. Axioms</h2>
+        <p className="text-black/70 italic text-sm pb-2">
+          For stress-testing and responses to objections, see the{" "}
+          <a href="/defense" className="text-black/80 hover:text-black underline">
+            Defense
+          </a>{" "}
+          section.
+        </p>
         <div className="flex flex-col gap-8">
           {axioms.map((axiom) => (
             <div key={axiom.id} className="flex flex-col gap-3">
@@ -150,7 +157,11 @@ export default function Logic() {
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
             The foundational axiom of Holos defines reality as the recursive relation between
-            Creation and Observation:
+            Creation and Observation. For conceptual exploration of this framework, see the main{" "}
+            <a href="/" className="text-black/80 hover:text-black underline">
+              Content
+            </a>{" "}
+            section:
           </p>
           <div className="my-4 py-4 px-6 bg-black/5 border-l-2 border-black/20 font-mono text-center text-lg">
             R = C ⊛ O
@@ -168,7 +179,12 @@ export default function Logic() {
             <li className="leading-relaxed">
               <strong>Observation</strong> (<MathInline>{"O"}</MathInline>) : The ontological
               "registration" that makes a physical record experienceable. This requires a system
-              where <MathInline>{"Φ ≥ Φ_c"}</MathInline> (Conscious Integration).
+              where <MathInline>{"Φ ≥ Φ_c"}</MathInline> (Conscious Integration). The formal
+              definition of this threshold is detailed in the{" "}
+              <a href="/definition" className="text-black/80 hover:text-black underline">
+                Definition
+              </a>{" "}
+              of Φ.
             </li>
             <li className="leading-relaxed">
               <strong>Reality</strong> (<MathInline>{"R"}</MathInline>) : The actualized world as

@@ -35,7 +35,7 @@ export const sections: ContentSection[] = [
         "Holos is an interpretive framework for understanding the nature of reality. It does not propose new physical laws or challenge established laws of physics. Instead, it offers an explanation for how the universe described by physics becomes the universe we experience."
       ),
       convertMarkdownToJSX(
-        "At its core, Holos expresses this idea as a simple relation: *R = C ⊛ O*, where reality arises from the recursive composition of creation and observation."
+        "At its core, Holos expresses this idea as a simple relation: *[R = C ⊛ O](/logic)*, where reality arises from the recursive composition of creation and observation."
       ),
       convertMarkdownToJSX(
         "What follows explores this idea, from the meaning of life and consciousness, to the nature of our universe, higher dimensions and beyond, inviting reconsideration of some of the most fundamental questions we can ask."
@@ -70,10 +70,10 @@ export const sections: ContentSection[] = [
     footerId: "footer-consciousness",
     paragraphs: [
       convertMarkdownToJSX(
-        "Consciousness is fundamental in capacity, but emergent in complexity. Just as electromagnetism exists everywhere but only creates a meaningful signal when organized into a circuit, the capacity for experience is intrinsic to matter but scales into self-awareness only through the high-level integration found in life."
+        "Consciousness is fundamental in capacity, but emergent in complexity. Just as electromagnetism exists everywhere but only creates a meaningful signal when organized into a circuit, the capacity for experience is intrinsic to matter but scales into self-awareness only through the high-level integration found in life. This integration is quantified by the ontological parameter [Φ (Phi)](/definition), which determines when a system becomes capable of registering reality."
       ),
       convertMarkdownToJSX(
-        'Humans exhibit consciousness by being self-aware and capable of profound observation and interaction with our environment. Consciousness is not a "ghost" smuggled into the machine of physics, but the ontological register that converts the universe from a closed loop of silent mechanism into a realized event.[^2]'
+        'Humans exhibit consciousness by being self-aware and capable of profound observation and interaction with our environment. Consciousness is not a "ghost" smuggled into the machine of physics, but the ontological register that converts the universe from a closed loop of silent mechanism into a realized event. The formal definition of this threshold is detailed in the [Definition](/definition) of Φ.[^2]'
       ),
     ],
   },
@@ -114,7 +114,7 @@ export const sections: ContentSection[] = [
         "For a photon traveling at the [speed of light](https://en.wikipedia.org/wiki/Speed_of_light), the spacetime interval is zero, a [Null Interval](#footer-time). While a photon does not possess subjective experience in a biological sense, geometrically, its path effectively collapses the universe into a single point of contact where emission and absorption occur simultaneously. To a higher-dimensional observer, a photon is not a moving particle, but a static geometric structure—a [Null Geodesic](#footer-time)—that permanently connects two points in spacetime like a seam."
       ),
       convertMarkdownToJSX(
-        "This structure suggests that time does not merely flow forward; it is a completed circuit. Experiments like the [Quantum Eraser](https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser) suggest that correlations are established across spacetime independent of linear duration. This reinforces the idea that the universe is a globally self-consistent block, where past and future are not sequential causes, but mutually defining parts of a singular geometric structure.[^4]"
+        "This structure suggests that time does not merely flow forward; it is a completed circuit. Experiments like the [Quantum Eraser](https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser) suggest that correlations are established across spacetime independent of linear duration. This reinforces the idea that the universe is a globally self-consistent block, where past and future are not sequential causes, but mutually defining parts of a singular geometric structure. Extended Wigner's Friend experiments provide [testable predictions](/predictions) for relational quantum mechanics.[^4]"
       ),
     ],
   },
@@ -123,7 +123,7 @@ export const sections: ContentSection[] = [
     title: "A Note on Extrapolation",
     paragraphs: [
       convertMarkdownToJSX(
-        'The following sections (Higher Dimensions, Black Holes, Aliens, Simulation Theory, God) move beyond established physics into interpretive synthesis. These concepts are not claims of empirical fact, but logical extrapolations constrained by the Holos axioms. They illustrate the "possibility space" that emerges when the principles of observation and relativity are applied to the unresolved paradoxes of the cosmos.'
+        'The following sections (Higher Dimensions, Black Holes, Aliens, Simulation Theory, God) move beyond established physics into interpretive synthesis. These concepts are not claims of empirical fact, but logical extrapolations constrained by the [Holos axioms](/logic). They illustrate the "possibility space" that emerges when the principles of observation and relativity are applied to the unresolved paradoxes of the cosmos. For stress-testing of these axioms, see the [Defense](/defense) section. For testable [predictions](/predictions) derived from these principles, see the Predictions section.'
       ),
     ],
   },
@@ -142,10 +142,10 @@ export const sections: ContentSection[] = [
         "Like a 3D object casting a 2D shadow, our physical laws may be projections of a higher-dimensional geometry. Forces we perceive could be the vibrations of a unified single point in the 5th or 6th dimension, perceived by us as separate fields."
       ),
       convertMarkdownToJSX(
-        "As we control and transform the three dimensional environment around us, consciousness in higher dimensions could influence lower dimensions, forming an interconnected cosmic structure."
+        "As we control and transform the three dimensional environment around us, consciousness in higher dimensions could influence lower dimensions, forming an interconnected cosmic structure. The threshold for such consciousness is defined by [Φ ≥ Φ_c](/definition), where systems achieve sufficient informational integration to register ontological states."
       ),
       convertMarkdownToJSX(
-        "From our perspective, light is a mechanism of energy transfer. However, from a higher-dimensional perspective, a photon may function akin to an optic nerve. While the photon itself lacks biological subjectivity, it could act as a sensory interface for a higher-dimensional consciousness, transforming the mechanical interaction of the universe into a subjective experience of the whole.[^5]"
+        "From our perspective, light is a mechanism of energy transfer. However, from a higher-dimensional perspective, a photon may function akin to an optic nerve. While the photon itself lacks biological subjectivity, it could act as a sensory interface for a higher-dimensional consciousness, transforming the mechanical interaction of the universe into a subjective experience of the whole. The formal criteria for such consciousness are defined in the [Definition](/definition) of Φ.[^5]"
       ),
     ],
   },
@@ -187,13 +187,13 @@ export const sections: ContentSection[] = [
     footerId: "footer-aliens",
     paragraphs: [
       convertMarkdownToJSX(
-        "The [Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox) questions the lack of detected extraterrestrial life, despite the vastness of the universe. Within the context of this framework, this silence is likely a geometric constraint rather than a biological one."
+        "The [Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox) questions the lack of detected extraterrestrial life, despite the vastness of the universe. Within the context of this framework, this silence is likely a geometric constraint rather than a biological one. This leads to testable [predictions](/predictions) about gravitational anomalies and dark matter signatures."
       ),
       convertMarkdownToJSX(
         'If civilizations evolve to understand the higher-dimensional structure of reality, they may inevitably "transcend" by accessing geometries orthogonal to our observable 3D slice. Rather than expanding outwardly across vast physical distances limited by the [speed of light](https://en.wikipedia.org/wiki/Speed_of_light). Advanced intelligence likely expands inwardly toward higher densities of information.'
       ),
       convertMarkdownToJSX(
-        "These advanced civilizations would leave no electromagnetic footprint, potentially detectable only through gravitational anomalies or unaccounted-for mass ([Dark Matter](https://en.wikipedia.org/wiki/Dark_matter)) that implies structure in the higher-dimensional bulk."
+        "These advanced civilizations would leave no electromagnetic footprint, potentially detectable only through gravitational anomalies or unaccounted-for mass ([Dark Matter](https://en.wikipedia.org/wiki/Dark_matter)) that implies structure in the higher-dimensional bulk. This forms the basis for [empirical predictions](/predictions) testable through astronomical surveys."
       ),
       convertMarkdownToJSX(
         'This [Transcension Hypothesis](https://www.accelerating.org/articles/transcensionhypothesis) suggests that advanced civilizations migrate into higher-dimensional manifolds or black hole singularities, where computational efficiency approaches infinity and the constraints of spacetime intervals vanish. We do not see them because they have rotated out of our lower-dimensional "shadow," moving closer to the unified source of reality.[^8]'
@@ -216,7 +216,7 @@ export const sections: ContentSection[] = [
     footerId: "footer-god",
     paragraphs: [
       convertMarkdownToJSX(
-        "Regardless of any label we choose to assign, a final state of consciousness characterized by maximal informational integration (Omniscience), causal completeness (Omnipotence), and non-local topological presence (Omnipresence) is a fundamental aspect of the nature of reality."
+        "Regardless of any label we choose to assign, a final state of consciousness characterized by maximal informational integration (Omniscience), causal completeness (Omnipotence), and non-local topological presence (Omnipresence) is a fundamental aspect of the nature of reality. This represents the limit case where [Φ](/definition) approaches infinity, achieving complete ontological registration."
       ),
       convertMarkdownToJSX(
         "Religious beliefs like [panentheism](https://en.wikipedia.org/wiki/Panentheism), [Brahman](https://en.wikipedia.org/wiki/Brahman), and the [Omega Point](https://en.wikipedia.org/wiki/Omega_Point) all point to a transcendent, all-encompassing consciousness that permeates and extends beyond the universe, suggesting a unified source of all existence and knowledge."
@@ -244,7 +244,7 @@ export const sections: ContentSection[] = [
         "What we perceive as an expansive universe may instead be a single informational event unfolding in a way that makes distance, duration, and individuality experientially real. Space, time and other dimensions create the conditions that make it possible for our universe to exist."
       ),
       convertMarkdownToJSX(
-        "Life exists because observation is required for reality to differentiate itself. Consciousness is not an accident of the universe, but a necessary mechanism through which the universe becomes real.[^11]"
+        "Life exists because observation is required for reality to differentiate itself. Consciousness is not an accident of the universe, but a necessary mechanism through which the universe becomes real. Systems that achieve [Φ ≥ Φ_c](/definition) serve as the ontological anchors that manifest reality from possibility.[^11]"
       ),
     ],
   },
@@ -254,13 +254,13 @@ export const sections: ContentSection[] = [
     footerId: "footer-axioms",
     paragraphs: [
       convertMarkdownToJSX(
-        "The following fundamental principles form the logical basis of this framework:"
+        "The following fundamental principles form the logical basis of this framework. For formal definitions and propositions, see the [Logic](/logic) section. For stress-testing and responses to objections, see the [Defense](/defense) section."
       ),
       convertMarkdownToJSX(
-        "**Relationality:** Reality is not composed of isolated objects with intrinsic properties, but of relationships and interactions. While the observer determines the perspective, the invariant structure of these relationships remains absolute ([Holos](#footer-axioms)[^12])."
+        "**Relationality:** Reality is not composed of isolated objects with intrinsic properties, but of relationships and interactions. While the observer determines the perspective, the invariant structure of these relationships remains absolute ([Holos](#footer-axioms)[^12]). See [Logic](/logic) for formal definitions and [Defense](/defense) for objections and responses."
       ),
       convertMarkdownToJSX(
-        "**Manifestation:** Observation is not merely mechanical interaction; it is the act of integrating information into an experience. Because reality exists as a unified spacetime block, observation need not be temporally local to be ontologically complete. Conscious entities participate in the realization of the entire structure ([Participatory Principle](#footer-life)[^1])."
+        "**Manifestation:** Observation is not merely mechanical interaction; it is the act of integrating information into an experience. Because reality exists as a unified spacetime block, observation need not be temporally local to be ontologically complete. Conscious entities participate in the realization of the entire structure ([Participatory Principle](#footer-life)[^1]). The threshold for such observation is defined by [Φ ≥ Φ_c](/definition). See [Logic](/logic) for formal treatment and [Defense](/defense) for challenges to this axiom."
       ),
       convertMarkdownToJSX(
         "**Conservation:** Information is fundamental and conserved across all transformations, including those within singularities ([Unitarity](#footer-why)[^11])."
@@ -269,7 +269,7 @@ export const sections: ContentSection[] = [
         "**Unification:** Apparent infinities in lower dimensions are resolved into finite structures when mapped onto higher-dimensional frameworks. Whether physical or mathematical, these higher-dimensional descriptions are required to render the universe intelligible and resolve singularities ([Projective Geometry](#footer-dimensions)[^5])."
       ),
       convertMarkdownToJSX(
-        "**Interface:** Consciousness is not a byproduct of matter, but the fundamental interface through which the universe experiences its own information. It is fundamental in capacity, yet emergent in form, scaling from basic physical interaction to complex self-awareness ([Panpsychism](#footer-consciousness)[^2])."
+        "**Interface:** Consciousness is not a byproduct of matter, but the fundamental interface through which the universe experiences its own information. It is fundamental in capacity, yet emergent in form, scaling from basic physical interaction to complex self-awareness ([Panpsychism](#footer-consciousness)[^2]). This scaling is quantified by [Φ](/definition), which measures the ontological capacity of systems. See [Logic](/logic) for formal axioms and [Defense](/defense) for objections."
       ),
     ],
   },
@@ -278,13 +278,13 @@ export const sections: ContentSection[] = [
     title: "⊛ Holos",
     paragraphs: [
       convertMarkdownToJSX(
-        "The symbol ⊛ denotes a binary relational operator. Unlike standard multiplication, ⊛ is not scalar or linear; it represents a structured composition that preserves relational consistency under iteration. Formally, ⊛ is defined such that repeated application remains well-defined, allowing the operation to scale across finite and infinite sequences without collapse or divergence."
+        "The symbol ⊛ denotes a binary relational operator. Unlike standard multiplication, ⊛ is not scalar or linear; it represents a structured composition that preserves relational consistency under iteration. Formally, ⊛ is defined such that repeated application remains well-defined, allowing the operation to scale across finite and infinite sequences without collapse or divergence. For the complete formal structure, see [Logic](/logic)."
       ),
       convertMarkdownToJSX(
-        "Holos is derived from the Greek word ὅλος (*holos*), meaning whole, entire, or complete. In this framework, ⊛ symbolically represents the Holos operator: a recursive relational process in which Creation and Observation are not independent terms but mutually conditioning components of a single ontological cycle."
+        "Holos is derived from the Greek word ὅλος (*holos*), meaning whole, entire, or complete. In this framework, ⊛ symbolically represents the Holos operator: a recursive relational process in which Creation and Observation are not independent terms but mutually conditioning components of a single ontological cycle. The operational definition *R = C ⊛ O* is formally developed in [Logic](/logic)."
       ),
       convertMarkdownToJSX(
-        "Mathematically, ⊛ functions as a recursive operator within a relational system. The output of Observation becomes the input condition for subsequent Creation, establishing a closed yet non-static loop. This structure is conceptually aligned with category-theoretic notions of compositionality and endomorphism, where morphisms act on and reproduce the space in which they are defined."
+        "Mathematically, ⊛ functions as a recursive operator within a relational system. The output of Observation becomes the input condition for subsequent Creation, establishing a closed yet non-static loop. This structure is conceptually aligned with category-theoretic notions of compositionality and endomorphism, where morphisms act on and reproduce the space in which they are defined. The mathematical formalism is detailed in [Logic](/logic)."
       ),
       convertMarkdownToJSX(
         "Importantly, ⊛ does not introduce an additional physical force or dynamical law. It specifies an ontological relation: how reality is constituted through the recursive coupling of generative possibility and registered state."

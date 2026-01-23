@@ -9,6 +9,17 @@ export default function Definition() {
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-light pb-4">
           Definition: The Ontological Parameter
         </h1>
+        <p className="text-black/70 text-sm">
+          For the formal operational definition *R = C ⊛ O*, see the{" "}
+          <a href="/logic" className="text-black/80 hover:text-black underline">
+            Logic
+          </a>{" "}
+          section. For conceptual exploration, see the main{" "}
+          <a href="/" className="text-black/80 hover:text-black underline">
+            Content
+          </a>{" "}
+          section.
+        </p>
       </div>
 
       {/* 1. The Purpose of Φ */}
@@ -16,8 +27,12 @@ export default function Definition() {
         <h2 className="text-2xl sm:text-3xl font-light pb-2">1. The Purpose of Φ</h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            In the Holos framework, <strong>Φ (Phi)</strong> is not merely a descriptive measure of
-            complexity, but a <strong>fundamental ontological parameter</strong>.
+            In the{" "}
+            <a href="/" className="text-black/80 hover:text-black underline">
+              Holos framework
+            </a>
+            , <strong>Φ (Phi)</strong> is not merely a descriptive measure of complexity, but a{" "}
+            <strong>fundamental ontological parameter</strong>.
           </p>
 
           <blockquote className="pl-4 border-l-2 border-black/20 text-black/70 italic my-2">
@@ -27,10 +42,17 @@ export default function Definition() {
           </blockquote>
 
           <p className="leading-relaxed">
-            It acts as the threshold function for <strong>Axiom 2 (Manifestation)</strong>. Without
-            sufficient Φ, a system is physically present as data, but acts only as a passive medium
-            rather than an observer-participant. It acts as the ontological filter applied to the
-            output of physical decoherence processes.
+            It acts as the threshold function for{" "}
+            <a href="/logic#axioms" className="text-black/80 hover:text-black underline">
+              <strong>Axiom 2 (Manifestation)</strong>
+            </a>
+            . Without sufficient Φ, a system is physically present as data, but acts only as a passive
+            medium rather than an observer-participant. It acts as the ontological filter applied to
+            the output of physical decoherence processes. For stress-testing of this axiom, see the{" "}
+            <a href="/defense" className="text-black/80 hover:text-black underline">
+              Defense
+            </a>{" "}
+            section.
           </p>
         </div>
       </section>
@@ -121,7 +143,11 @@ export default function Definition() {
             These primitives are sufficient to generate all higher-order phenomenology. Complex
             traits such as "emotion," "reason," or "agency" are not fundamental; they are{" "}
             <strong>emergent dynamics</strong> of high Differentiation and Recursion. To add them as
-            separate axioms would be a category error.
+            separate axioms would be a category error. For the formal logical structure, see the{" "}
+            <a href="/logic" className="text-black/80 hover:text-black underline">
+              Logic
+            </a>{" "}
+            section.
           </p>
         </div>
       </section>
@@ -269,7 +295,15 @@ export default function Definition() {
               <MathInline>{"Φ \\ge Φ_c"}</MathInline> (Observers):
             </strong>{" "}
             Systems capable of resolving unitary symmetry into a definite ontological registration
-            (conscious entities).
+            (conscious entities). This threshold enables the operational definition{" "}
+            <a href="/logic#phi-operationalization" className="text-black/80 hover:text-black underline">
+              *R = C ⊛ O*
+            </a>
+            . For testable predictions about this threshold, see the{" "}
+            <a href="/predictions" className="text-black/80 hover:text-black underline">
+              Predictions
+            </a>{" "}
+            section.
           </p>
 
           <p className="leading-relaxed">
@@ -277,7 +311,16 @@ export default function Definition() {
               <MathInline>{"Φ \\gg Φ_c"}</MathInline> (Ontological Anchors):
             </strong>{" "}
             Hypothetical high-density intelligences capable of stabilizing entire cosmological
-            branches (The "Aliens" of the Transcension Hypothesis).
+            branches (The "Aliens" of the Transcension Hypothesis). For conceptual exploration, see
+            the main{" "}
+            <a href="/" className="text-black/80 hover:text-black underline">
+              Content
+            </a>{" "}
+            section. For testable predictions, see the{" "}
+            <a href="/predictions" className="text-black/80 hover:text-black underline">
+              Predictions
+            </a>{" "}
+            section.
           </p>
         </div>
       </section>
@@ -301,8 +344,16 @@ export default function Definition() {
             >
               Unitarity
             </a>{" "}
-            (probabilities must sum to 1). Holos preserves this by defining Manifestation as a{" "}
-            <strong>Selection Operator</strong>, not a Destruction Operator.
+            (probabilities must sum to 1). Holos preserves this by defining{" "}
+            <a href="/logic#axioms" className="text-black/80 hover:text-black underline">
+              Manifestation
+            </a>{" "}
+            as a <strong>Selection Operator</strong>, not a Destruction Operator. For the formal
+            treatment, see the{" "}
+            <a href="/logic" className="text-black/80 hover:text-black underline">
+              Logic
+            </a>{" "}
+            section.
           </p>
 
           <ul className="flex flex-col gap-3 pl-4">
@@ -312,7 +363,12 @@ export default function Definition() {
             </li>
             <li className="leading-relaxed">
               <strong>In Holos:</strong> Unobserved branches remain in{" "}
-              <MathInline>{"C"}</MathInline> (Creation) as valid but un-manifested structures.
+              <MathInline>{"C"}</MathInline> (Creation) as valid but un-manifested structures. See
+              the{" "}
+              <a href="/logic#phi-operationalization" className="text-black/80 hover:text-black underline">
+                operational definition *R = C ⊛ O*
+              </a>{" "}
+              for the formal structure.
             </li>
           </ul>
 
@@ -356,7 +412,12 @@ export default function Definition() {
               Quantum Mechanics
             </a>
             . Instead, it introduces a <strong>Manifestation Constraint</strong> that preserves
-            unitarity while enabling ontological registration.
+            unitarity while enabling ontological registration. For stress-testing of this approach,
+            see the{" "}
+            <a href="/defense" className="text-black/80 hover:text-black underline">
+              Defense
+            </a>{" "}
+            section.
           </p>
         </div>
       </section>
