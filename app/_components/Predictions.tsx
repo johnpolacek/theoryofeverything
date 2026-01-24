@@ -36,8 +36,9 @@ export default function Predictions() {
             participatory manifestation (<a href="/logic#axioms">Axiom 2</a>), where observers act
             as a boundary condition for a self-consistent{" "}
             <a href="https://en.wikipedia.org/wiki/Block_universe">block universe</a> (a
-            four-dimensional structure where all of time exists simultaneously). This operationalizes
-            the <strong>
+            four-dimensional structure where all of time exists simultaneously). This
+            operationalizes the{" "}
+            <strong>
               <a href="https://en.wikipedia.org/wiki/Anthropic_principle">
                 Participatory Anthropic Principle
               </a>
@@ -52,17 +53,14 @@ export default function Predictions() {
             from <a href="https://cmb-s4.org/">CMB-S4</a> or{" "}
             <a href="https://litebird.isas.jaxa.jp/static/eng/">LiteBIRD</a>) should reveal
             signatures consistent with a{" "}
-            <a href="https://en.wikipedia.org/wiki/Past_hypothesis">low-entropy initial state</a> and{" "}
-            <a href="https://en.wikipedia.org/wiki/Inflation_(cosmology)">inflationary</a> dynamics
-            (rapid expansion of the early universe) specifically tuned for complexity growth. Holos
-            predicts that &quot;uninhabitable&quot; branches of the{" "}
+            <a href="https://en.wikipedia.org/wiki/Past_hypothesis">low-entropy initial state</a>{" "}
+            and <a href="https://en.wikipedia.org/wiki/Inflation_(cosmology)">inflationary</a>{" "}
+            dynamics (rapid expansion of the early universe) specifically tuned for complexity
+            growth. Holos predicts that &quot;uninhabitable&quot; branches of the{" "}
             <a href="https://en.wikipedia.org/wiki/Multiverse">multiverse</a> are mathematically
             valid but ontologically unrealized (they don&apos;t actually exist as experienced
             reality) due to the lack of <a href="/definition">Φ</a>.
-            <a
-              className="pl-0.5 pr-2 opacity-80 hover:opacity-100"
-              href="#footer-predictions"
-            >
+            <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-predictions">
               <sup>13</sup>
             </a>
           </p>
@@ -88,8 +86,8 @@ export default function Predictions() {
             <strong>Empirical Implication:</strong> High-<a href="/definition">Φ</a> systems (e.g.,
             human cortex) should correlate with reports of{" "}
             <a href="https://en.wikipedia.org/wiki/Qualia">qualia</a> (individual instances of
-            subjective experience), while sub-<a href="/definition">Φ_c</a> systems (e.g., simple
-            AI or cerebellum) should show only mechanical processing.{" "}
+            subjective experience), while sub-<a href="/definition">Φ_c</a> systems (e.g., simple AI
+            or cerebellum) should show only mechanical processing.{" "}
             <strong>
               <a href="https://en.wikipedia.org/wiki/Integrated_information_theory">
                 Integrated Information Theory
@@ -103,10 +101,7 @@ export default function Predictions() {
             ) should reveal sharp{" "}
             <a href="https://en.wikipedia.org/wiki/Phase_transition">phase transitions</a> (sudden
             changes in state) that align with the onset of experiential reporting.
-            <a
-              className="pl-0.5 pr-2 opacity-80 hover:opacity-100"
-              href="#footer-predictions"
-            >
+            <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-predictions">
               <sup>13</sup>
             </a>
           </p>
@@ -133,7 +128,8 @@ export default function Predictions() {
             <a href="https://en.wikipedia.org/wiki/Unitarity_(physics)">unitarity</a> (the
             conservation of all possibilities). Holos specifically predicts that the
             &quot;collapse&quot; is relative to the <a href="/definition">Φ</a> frame of reference,
-            supporting <strong>
+            supporting{" "}
+            <strong>
               <a href="https://en.wikipedia.org/wiki/Relational_quantum_mechanics">Relational QM</a>
             </strong>{" "}
             over{" "}
@@ -143,10 +139,7 @@ export default function Predictions() {
               </a>
             </strong>{" "}
             (which predict spontaneous gravity-induced collapse).
-            <a
-              className="pl-0.5 pr-2 opacity-80 hover:opacity-100"
-              href="#footer-predictions"
-            >
+            <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-predictions">
               <sup>13</sup>
             </a>
           </p>
@@ -162,7 +155,8 @@ export default function Predictions() {
           <p className="leading-relaxed">
             As intelligence maximizes informational integration (
             <a href="/logic#foundational-propositions">Corollary V.2</a>), Holos predicts it will
-            expand <strong>
+            expand{" "}
+            <strong>
               <a href="https://en.wikipedia.org/wiki/Orthogonality">orthogonally</a>
             </strong>{" "}
             (at right angles, into new dimensions) into higher-dimensional{" "}
@@ -178,7 +172,8 @@ export default function Predictions() {
             <strong>
               <a href="https://en.wikipedia.org/wiki/James_Webb_Space_Telescope">JWST</a>
             </strong>
-            , <strong>
+            ,{" "}
+            <strong>
               <a href="https://en.wikipedia.org/wiki/Euclid_(spacecraft)">Euclid</a>
             </strong>
             ) may detect &quot;missing mass&quot; or gravitational anomalies that mimic{" "}
@@ -187,10 +182,7 @@ export default function Predictions() {
             </strong>
             , representing high-density informational structures located in the &quot;bulk&quot;
             dimensions (<a href="/logic#axioms">Axiom 4: Unification</a>).
-            <a
-              className="pl-0.5 pr-2 opacity-80 hover:opacity-100"
-              href="#footer-predictions"
-            >
+            <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-predictions">
               <sup>13</sup>
             </a>
           </p>
@@ -755,8 +747,8 @@ export default function Predictions() {
                 density between subgroups; track coherence and consensus stability.
               </li>
               <li>
-                <strong>Scale system size</strong>: gradually increase network size and connectivity,
-                then observe integration behavior.
+                <strong>Scale system size</strong>: gradually increase network size and
+                connectivity, then observe integration behavior.
               </li>
               <li>
                 <strong>Search for threshold behavior</strong>: identify sudden jumps in integration
