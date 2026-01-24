@@ -1,5 +1,5 @@
 import { AlertTriangle, Check, X } from "lucide-react";
-import type { ReactNode } from "react";
+import { Fragment, type ReactNode } from "react";
 import MathInline from "./MathInline";
 
 interface Objection {
@@ -106,7 +106,11 @@ function renderWithIcons(text: string, paragraphIndex: number): ReactNode {
     const parts = text.split("✔");
     parts.forEach((part, idx) => {
       if (part) {
-        elements.push(markdownToJSX(part, `${keyPrefix}-part-${idx}`));
+        elements.push(
+          <Fragment key={`${keyPrefix}-part-${idx}`}>
+            {markdownToJSX(part, `${keyPrefix}-part-${idx}`)}
+          </Fragment>
+        );
       }
       if (idx < parts.length - 1) {
         elements.push(
@@ -125,7 +129,11 @@ function renderWithIcons(text: string, paragraphIndex: number): ReactNode {
     const parts = text.split("❌");
     parts.forEach((part, idx) => {
       if (part) {
-        elements.push(markdownToJSX(part, `${keyPrefix}-part-${idx}`));
+        elements.push(
+          <Fragment key={`${keyPrefix}-part-${idx}`}>
+            {markdownToJSX(part, `${keyPrefix}-part-${idx}`)}
+          </Fragment>
+        );
       }
       if (idx < parts.length - 1) {
         elements.push(
@@ -144,7 +152,11 @@ function renderWithIcons(text: string, paragraphIndex: number): ReactNode {
     const parts = text.split("⚠️");
     parts.forEach((part, idx) => {
       if (part) {
-        elements.push(markdownToJSX(part, `${keyPrefix}-part-${idx}`));
+        elements.push(
+          <Fragment key={`${keyPrefix}-part-${idx}`}>
+            {markdownToJSX(part, `${keyPrefix}-part-${idx}`)}
+          </Fragment>
+        );
       }
       if (idx < parts.length - 1) {
         elements.push(
