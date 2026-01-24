@@ -296,7 +296,6 @@ export default function Predictions() {
                     <strong>
                       <a href="#secondary-predictions">PCI (Perturbational Complexity Index)</a>
                     </strong>
-                    <br />
                     Computed from
                     **[TMS-EEG](https://en.wikipedia.org/wiki/Transcranial_magnetic_stimulation#TMS-EEG)**
                     responses (brain stimulation followed by recording) to quantify integrated
@@ -333,13 +332,11 @@ export default function Predictions() {
             <div className="flex flex-col gap-3 leading-relaxed">
               <p>
                 <strong>Status: Established / Partially Explored</strong>
-                <br />
                 PCI has already been validated as a robust measure of consciousness across sleep and
                 anesthesia, and is widely used in neuroscience.
               </p>
               <p>
                 <strong>Relationship to Prior Work</strong>
-                <br />
                 PCI was introduced and developed to measure consciousness capacity by evaluating
                 brain responses to perturbation. It has been shown to reliably differentiate
                 conscious wakefulness from unconscious states (sleep, anesthesia, vegetative
@@ -532,7 +529,6 @@ export default function Predictions() {
               </p>
               <p>
                 <strong>Relationship to Prior Work</strong>
-                <br />
                 This builds on:
               </p>
               <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4">
@@ -711,7 +707,6 @@ export default function Predictions() {
               </ul>
               <p>
                 <strong>Relationship to Prior Work</strong>
-                <br />
                 Builds on:
               </p>
               <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4">
@@ -762,14 +757,12 @@ export default function Predictions() {
             <h3 className="text-xl font-semibold pb-2">Prediction (Exploratory)</h3>
             <p className="leading-relaxed">
               <strong>Holos-consistent exploratory prediction:</strong>
-              <br />
               Collective systems may show <strong>nonlinear threshold behavior</strong> where
               integration and coherence increase sharply once a critical scale or connectivity is
               reached.
             </p>
             <p className="leading-relaxed">
               <strong>Alternative outcome:</strong>
-              <br />
               Integration increases smoothly without threshold behavior, suggesting observer-like
               integration may be limited to certain physical substrates (e.g., brains) or requires
               additional constraints.
@@ -891,7 +884,6 @@ export default function Predictions() {
               </p>
               <p>
                 <strong>Relationship to Prior Work</strong>
-                <br />
                 <a href="https://en.wikipedia.org/wiki/Quantum_Darwinism">Quantum Darwinism</a>{" "}
                 shows that certain system-environment boundaries become &quot;classical&quot;
                 because multiple observers can access the same information.{" "}
@@ -932,23 +924,17 @@ export default function Predictions() {
                 <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed ml-4 mt-2">
                   <li>
                     <strong>Cut A — Local Observer</strong>
-                    <br />
                     Measure <strong>each qubit individually</strong>
-                    <br />
                     Record 8–20 bitstrings per trial
                   </li>
                   <li>
                     <strong>Cut B — Regional Observer</strong>
-                    <br />
-                    Measure <strong>groups of qubits</strong> (e.g., 4-qubit blocks)
-                    <br />
-                    Record collective outcomes (e.g., parity, correlation patterns)
+                    Measure <strong>groups of qubits</strong> (e.g., 4-qubit blocks) Record
+                    collective outcomes (e.g., parity, correlation patterns)
                   </li>
                   <li>
                     <strong>Cut C — Global Observer</strong>
-                    <br />
                     Measure only a <strong>single global property</strong>
-                    <br />
                     Example: total parity or total magnetization
                   </li>
                 </ul>

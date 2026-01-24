@@ -1,11 +1,4 @@
-import {
-  axioms,
-  definitions,
-  extrapolativePropositions,
-  foundationalPropositions,
-  mathematicalFormalism,
-  minimalCore,
-} from "./logic-data";
+import MathDisplay from "./MathDisplay";
 import MathInline from "./MathInline";
 
 export default function Logic() {
@@ -15,28 +8,203 @@ export default function Logic() {
       <section id="primitive-definitions" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">I. Primitive Definitions</h2>
         <div className="flex flex-col gap-6">
-          {definitions.map((def) => (
-            <div key={def.id} className="flex flex-col gap-2">
-              <div className="flex gap-2 items-start">
-                <span className="font-semibold text-black/90">
-                  {def.id} — {def.name}
-                </span>
-              </div>
-              <div className="pl-0 flex flex-col gap-2 text-black/80">
-                {def.content.map((paragraph, idx) => {
-                  if (paragraph === "") return <br key={`${def.id}-br-${idx}`} />;
-                  if (typeof paragraph === "string") {
-                    return (
-                      <p key={`${def.id}-p-${idx}`} className="leading-relaxed">
-                        {paragraph}
-                      </p>
-                    );
-                  }
-                  return <div key={`${def.id}-content-${idx}`}>{paragraph}</div>;
-                })}
-              </div>
+          {/* D1 */}
+          <div className="flex flex-col gap-2">
+            <div className="flex gap-2 items-start">
+              <span className="font-semibold text-black/90">D1 — Information</span>
             </div>
-          ))}
+            <div className="pl-0 flex flex-col gap-2 text-black/80">
+              <p className="leading-relaxed">
+                Information is the differentiation between possible states of a system (the
+                difference that makes a{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Information"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  difference
+                </a>
+                ).
+              </p>
+            </div>
+          </div>
+
+          {/* D2 */}
+          <div className="flex flex-col gap-2">
+            <div className="flex gap-2 items-start">
+              <span className="font-semibold text-black/90">D2 — Relation</span>
+            </div>
+            <div className="pl-0 flex flex-col gap-2 text-black/80">
+              <p className="leading-relaxed">
+                A relation is a constraint or interaction linking informational states (the way
+                things{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Relation_(philosophy)"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  relate
+                </a>{" "}
+                to one another).
+              </p>
+            </div>
+          </div>
+
+          {/* D3 */}
+          <div className="flex flex-col gap-2">
+            <div className="flex gap-2 items-start">
+              <span className="font-semibold text-black/90">D3 — Observation (O)</span>
+            </div>
+            <div className="pl-0 flex flex-col gap-2 text-black/80">
+              <p className="leading-relaxed">
+                Observation is the integration of information into an experiential state.
+              </p>
+              <p className="leading-relaxed">
+                <em>
+                  <strong>Note:</strong> This capacity scales from proto-observation (relational
+                  state-selection in physical systems) to manifestation (full{" "}
+                  <a
+                    href="https://en.wikipedia.org/wiki/Ontology"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    ontological
+                  </a>{" "}
+                  actualization, or the becoming of real existence, in systems where{" "}
+                  <a href="/definition">Φ ≥ Φ_c</a>).
+                </em>
+              </p>
+              <p className="leading-relaxed">
+                Observation functions as a{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Axiom_of_choice"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Choice Function
+                </a>{" "}
+                within the framework of{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Zermelo-Fraenkel Set Theory (ZFC)
+                </a>
+                . From the non-empty set of probable histories generated by Creation, Observation
+                selects exactly one element to be actualized.
+              </p>
+              <MathDisplay>{"O(\\mathcal{P}(S)) \\to s \\in S"}</MathDisplay>
+              <p className="leading-relaxed">
+                <em>
+                  In simple terms: when Creation generates many possible outcomes, Observation acts
+                  like a selection mechanism that picks one specific outcome to become real. This
+                  formalizes the &quot;collapse&quot; not as a random accident, but as a necessary
+                  logical operation required to resolve the set into a distinct element.
+                </em>
+              </p>
+            </div>
+          </div>
+
+          {/* D4 */}
+          <div className="flex flex-col gap-2">
+            <div className="flex gap-2 items-start">
+              <span className="font-semibold text-black/90">D4 — Consciousness</span>
+            </div>
+            <div className="pl-0 flex flex-col gap-2 text-black/80">
+              <p className="leading-relaxed">
+                Consciousness is the capacity of a system to integrate information into experience.
+              </p>
+              <p className="leading-relaxed">
+                It is <strong>fundamental in capacity</strong> and <strong>emergent in form</strong>
+                , scaling with informational integration. This capacity is quantified by the{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Ontology"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ontological
+                </a>{" "}
+                parameter <a href="/definition">Φ (Phi)</a>, which measures when a system achieves
+                sufficient integration to register reality (become aware of its own existence).
+              </p>
+            </div>
+          </div>
+
+          {/* D5 */}
+          <div className="flex flex-col gap-2">
+            <div className="flex gap-2 items-start">
+              <span className="font-semibold text-black/90">D5 — Creation (C)</span>
+            </div>
+            <div className="pl-0 flex flex-col gap-2 text-black/80">
+              <p className="leading-relaxed">
+                Creation is the generation of distinguishable physical states.
+              </p>
+              <p className="leading-relaxed">
+                Functionally, Creation acts as the{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Power_set"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Power Set Operation
+                </a>{" "}
+                (<MathInline>{"\\mathcal{P}"}</MathInline>). Given a state{" "}
+                <MathInline>{"S"}</MathInline>, Creation generates the set of all possible subsets
+                (potential histories), exponentially increasing the number of possible states in the
+                system&apos;s{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Phase_space"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  phase space
+                </a>
+                .
+              </p>
+              <MathDisplay>{"C(S) \\cong \\mathcal{P}(S)"}</MathDisplay>
+              <p className="leading-relaxed">
+                <em>
+                  In simple terms: if a system has <MathInline>{"n"}</MathInline> possible states,
+                  Creation expands this to <MathInline>{"2^n"}</MathInline> possible combinations
+                  (all ways those states can be arranged together).
+                </em>
+              </p>
+            </div>
+          </div>
+
+          {/* D6 */}
+          <div className="flex flex-col gap-2">
+            <div className="flex gap-2 items-start">
+              <span className="font-semibold text-black/90">D6 — Holos (⊛)</span>
+            </div>
+            <div className="pl-0 flex flex-col gap-2 text-black/80">
+              <p className="leading-relaxed">
+                Holos (⊛) is the{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Recursion"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  recursive
+                </a>{" "}
+                (self-referential, repeating) relational structure formed by Creation and
+                Observation, such that:
+              </p>
+              <MathDisplay>{"R = C ⊛ O"}</MathDisplay>
+              <p className="leading-relaxed">
+                This equation is <strong>definitional</strong>, not causal: it describes the{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Invariant_(physics)"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  invariant
+                </a>{" "}
+                structure of reality, not a temporal process.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -55,19 +223,66 @@ export default function Logic() {
           section.
         </p>
         <div className="flex flex-col gap-8">
-          {axioms.map((axiom) => (
-            <div key={axiom.id} className="flex flex-col gap-3">
-              <h3 className="text-xl font-semibold text-black/90">
-                {axiom.id} — {axiom.name}
-              </h3>
-              <p className="text-black/80 leading-relaxed">{axiom.statement}</p>
-              {axiom.explanation && (
-                <blockquote className="pl-4 border-l-2 border-black/20 text-black/70 italic my-2">
-                  {axiom.explanation}
-                </blockquote>
-              )}
-            </div>
-          ))}
+          {/* Axiom 1 */}
+          <div className="flex flex-col gap-3">
+            <h3 className="text-xl font-semibold text-black/90">Axiom 1 — Relationality</h3>
+            <p className="text-black/80 leading-relaxed">
+              No informational state exists independently of relations.
+            </p>
+            <blockquote className="pl-4 border-l-2 border-black/20 text-black/70 italic my-2">
+              Reality consists of{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Invariant_(physics)"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                invariant
+              </a>{" "}
+              (unchanging) relational structure, not intrinsic properties.
+            </blockquote>
+          </div>
+
+          {/* Axiom 2 */}
+          <div className="flex flex-col gap-3">
+            <h3 className="text-xl font-semibold text-black/90">Axiom 2 — Manifestation</h3>
+            <p className="text-black/80 leading-relaxed">
+              A physical state is not fully actualized until information is integrated into
+              experience by a conscious system.
+            </p>
+            <blockquote className="pl-4 border-l-2 border-black/20 text-black/70 italic my-2">
+              Physical description alone is incomplete without experiential registration. This
+              requires systems where <a href="/definition">Φ ≥ Φ_c</a>.
+            </blockquote>
+          </div>
+
+          {/* Axiom 3 */}
+          <div className="flex flex-col gap-3">
+            <h3 className="text-xl font-semibold text-black/90">Axiom 3 — Conservation</h3>
+            <p className="text-black/80 leading-relaxed">
+              Information is never destroyed, only transformed.
+            </p>
+            <blockquote className="pl-4 border-l-2 border-black/20 text-black/70 italic my-2">
+              All physical and experiential processes are information-preserving.
+            </blockquote>
+          </div>
+
+          {/* Axiom 4 */}
+          <div className="flex flex-col gap-3">
+            <h3 className="text-xl font-semibold text-black/90">Axiom 4 — Unification</h3>
+            <p className="text-black/80 leading-relaxed">
+              Apparent infinities and singularities in a given dimensional frame resolve into
+              finite, coherent structures when embedded in a higher-dimensional perspective.
+            </p>
+          </div>
+
+          {/* Axiom 5 */}
+          <div className="flex flex-col gap-3">
+            <h3 className="text-xl font-semibold text-black/90">Axiom 5 — Interface</h3>
+            <p className="text-black/80 leading-relaxed">
+              Consciousness is not produced by matter; matter is the experiential interface through
+              which consciousness encounters information.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -75,52 +290,439 @@ export default function Logic() {
       <section id="foundational-propositions" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">III. Foundational Propositions</h2>
         <div className="flex flex-col gap-8">
-          {foundationalPropositions.map((prop) => (
-            <div key={prop.id} className="flex flex-col gap-4">
-              <div className="flex flex-col gap-2">
-                <h3 className="text-xl font-semibold text-black/90">
-                  Proposition {prop.id} — {prop.name}
-                </h3>
-                <p className="text-black/80 leading-relaxed">{prop.statement}</p>
-              </div>
-              {prop.corollaries.length > 0 && (
-                <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
-                  {prop.corollaries.map((cor) => (
-                    <div key={cor.id} className="flex flex-col gap-2">
-                      <div className="font-semibold text-black/85 text-sm">
-                        Corollary {cor.id} — {cor.name}
-                      </div>
-                      <div className="flex flex-col gap-1 text-black/75 text-sm">
-                        {cor.content.map((para, idx) => (
-                          <p key={`${cor.id}-p-${idx}`} className="leading-relaxed">
-                            {para}
-                          </p>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              )}
+          {/* Proposition I */}
+          <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-2">
+              <h3 className="text-xl font-semibold text-black/90">
+                Proposition I — Structural Relational Realism
+              </h3>
+              <p className="text-black/80 leading-relaxed">
+                Reality is constituted by relational structure, not by objects with
+                observer-independent{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Essence"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  essences
+                </a>{" "}
+                (intrinsic, fixed natures).
+              </p>
             </div>
-          ))}
+            <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
+              <div className="flex flex-col gap-2">
+                <div className="font-semibold text-black/85 text-sm">
+                  Corollary I.1 — Structural Realism
+                </div>
+                <div className="flex flex-col gap-1 text-black/75 text-sm">
+                  <p className="leading-relaxed">
+                    Science describes{" "}
+                    <a
+                      href="https://en.wikipedia.org/wiki/Isomorphism"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      mathematical isomorphisms
+                    </a>{" "}
+                    of relations, not &quot;things-in-themselves.&quot;
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col gap-2">
+                <div className="font-semibold text-black/85 text-sm">
+                  Corollary I.2 — The Interface Principle
+                </div>
+                <div className="flex flex-col gap-1 text-black/75 text-sm">
+                  <p className="leading-relaxed">
+                    Consciousness is the universal interface of relational structure—fundamental in
+                    capacity, emergent in manifestation (becoming real through experience).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Proposition II */}
+          <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-2">
+              <h3 className="text-xl font-semibold text-black/90">
+                Proposition II — Participatory Manifestation
+              </h3>
+              <p className="text-black/80 leading-relaxed">
+                Observation is not a passive recording but an{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Ontology"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ontological
+                </a>{" "}
+                completion (a completion of existence) of informational states.
+              </p>
+            </div>
+            <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
+              <div className="flex flex-col gap-2">
+                <div className="font-semibold text-black/85 text-sm">
+                  Corollary II.1 — The Participatory Imperative
+                </div>
+                <div className="flex flex-col gap-1 text-black/75 text-sm">
+                  <p className="leading-relaxed">
+                    The universe is a{" "}
+                    <a
+                      href="https://en.wikipedia.org/wiki/John_Archibald_Wheeler#Participatory_Anthropic_Principle"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      self-excited circuit
+                    </a>
+                    : observers are required for the realization of reality.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col gap-2">
+                <div className="font-semibold text-black/85 text-sm">
+                  Corollary II.2 — Ontological Completeness
+                </div>
+                <div className="flex flex-col gap-1 text-black/75 text-sm">
+                  <p className="leading-relaxed">
+                    Physics (including decoherence) provides structure; consciousness provides
+                    presence.
+                  </p>
+                  <p className="leading-relaxed">
+                    <em>
+                      <strong>
+                        <a
+                          href="https://en.wikipedia.org/wiki/Quantum_decoherence"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Decoherence
+                        </a>
+                      </strong>{" "}
+                      resolves quantum probabilities into classical-like mixtures (structural
+                      preparation).
+                    </em>
+                  </p>
+                  <p className="leading-relaxed">
+                    <em>
+                      <strong>Manifestation</strong> requires experiential integration to convert
+                      that mixture into a realized history (a fixed{" "}
+                      <a
+                        href="https://en.wikipedia.org/wiki/Worldline"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        worldline
+                      </a>{" "}
+                      and{" "}
+                      <a
+                        href="https://en.wikipedia.org/wiki/Arrow_of_time"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        ontological irreversibility
+                      </a>
+                      , meaning the past cannot be changed once observed).
+                    </em>
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col gap-2">
+                <div className="font-semibold text-black/85 text-sm">
+                  Corollary II.3 — Non-Local Observation (Global Boundary Condition)
+                </div>
+                <div className="flex flex-col gap-1 text-black/75 text-sm">
+                  <p className="leading-relaxed">
+                    In a{" "}
+                    <a
+                      href="https://en.wikipedia.org/wiki/Block_universe"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      block universe
+                    </a>
+                    , observation acts as a <strong>final boundary condition</strong> rather than a
+                    real-time force.
+                  </p>
+                  <p className="leading-relaxed">
+                    Just as the last number placed in a{" "}
+                    <a
+                      href="https://en.wikipedia.org/wiki/Sudoku"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Sudoku
+                    </a>{" "}
+                    puzzle logically necessitates the value of the first square, a future
+                    observation (<a href="/definition">Φ ≥ Φ_c</a>) retroactively defines the{" "}
+                    <a
+                      href="https://en.wikipedia.org/wiki/Ontology"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      ontological
+                    </a>{" "}
+                    status (the status of being real) of a past event.
+                  </p>
+                  <p className="leading-relaxed">
+                    <em>
+                      This ensures global self-consistency without requiring retrocausal signaling
+                      or magical influence.
+                    </em>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Proposition III */}
+          <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-2">
+              <h3 className="text-xl font-semibold text-black/90">
+                Proposition III — Block Relational Spacetime
+              </h3>
+              <p className="text-black/80 leading-relaxed">
+                The universe exists as a{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Four-manifold"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  four-dimensional manifold
+                </a>{" "}
+                (a mathematical space representing the four dimensions of spacetime) in which past,
+                present, and future are equally real features of a single geometric structure.
+              </p>
+            </div>
+            <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
+              <div className="flex flex-col gap-2">
+                <div className="font-semibold text-black/85 text-sm">
+                  Corollary III.1 — The Null Interval
+                </div>
+                <div className="flex flex-col gap-1 text-black/75 text-sm">
+                  <p className="leading-relaxed">
+                    For light (<MathInline>{"ds^2 = 0"}</MathInline>), spacetime separation
+                    vanishes.
+                  </p>
+                  <p className="leading-relaxed">
+                    A photon is not a moving object but a{" "}
+                    <strong>
+                      <a
+                        href="https://en.wikipedia.org/wiki/Geodesic"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        null geodesic
+                      </a>
+                    </strong>
+                    —a static relational seam connecting emission and absorption (the path light
+                    takes through spacetime).
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col gap-2">
+                <div className="font-semibold text-black/85 text-sm">
+                  Corollary III.2 — Global Consistency
+                </div>
+                <div className="flex flex-col gap-1 text-black/75 text-sm">
+                  <p className="leading-relaxed">
+                    Apparent{" "}
+                    <a
+                      href="https://en.wikipedia.org/wiki/Retrocausality"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      retrocausality
+                    </a>{" "}
+                    (future influencing the past) reflects global self-consistency of spacetime, not
+                    backward influence.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Proposition IV */}
+          <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-2">
+              <h3 className="text-xl font-semibold text-black/90">
+                Proposition IV — Dimensional Resolution of Infinity
+              </h3>
+              <p className="text-black/80 leading-relaxed">
+                Infinities and singularities arise from{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Projection_(mathematics)"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  projection limits
+                </a>
+                , not from physical divergence.
+              </p>
+            </div>
+            <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
+              <div className="flex flex-col gap-2">
+                <div className="font-semibold text-black/85 text-sm">
+                  Corollary IV.1 — Projective Unity
+                </div>
+                <div className="flex flex-col gap-1 text-black/75 text-sm">
+                  <p className="leading-relaxed">
+                    Just as parallel lines meet at infinity in{" "}
+                    <a
+                      href="https://en.wikipedia.org/wiki/Projective_geometry"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      projective geometry
+                    </a>
+                    , infinite spatial extension resolves into finite higher-dimensional structure.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col gap-2">
+                <div className="font-semibold text-black/85 text-sm">
+                  Corollary IV.2 — Boundary Mediation (Interpretive)
+                </div>
+                <div className="flex flex-col gap-1 text-black/75 text-sm">
+                  <p className="leading-relaxed">
+                    From a higher-dimensional perspective, photons function as boundary carriers of{" "}
+                    <a
+                      href="https://en.wikipedia.org/wiki/Relational_quantum_mechanics"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      relational
+                    </a>{" "}
+                    information.
+                  </p>
+                  <p className="leading-relaxed">
+                    <em>
+                      This is an interpretive metaphor, not a claim of biological subjectivity.
+                    </em>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Proposition V */}
+          <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-2">
+              <h3 className="text-xl font-semibold text-black/90">
+                Proposition V — Conscious Evolution
+              </h3>
+              <p className="text-black/80 leading-relaxed">
+                Systems evolve toward greater informational{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Integrated_information_theory"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  integration
+                </a>{" "}
+                because such integration increases observational capacity.
+              </p>
+            </div>
+            <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
+              <div className="flex flex-col gap-2">
+                <div className="font-semibold text-black/85 text-sm">
+                  Corollary V.1 — Life as Manifestation Engine
+                </div>
+                <div className="flex flex-col gap-1 text-black/75 text-sm">
+                  <p className="leading-relaxed">
+                    Life exists to generate observational{" "}
+                    <a
+                      href="https://en.wikipedia.org/wiki/Relational_quantum_mechanics"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      perspectives
+                    </a>{" "}
+                    that actualize reality.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col gap-2">
+                <div className="font-semibold text-black/85 text-sm">
+                  Corollary V.2 — Intelligence as Directional, Not Accidental
+                </div>
+                <div className="flex flex-col gap-1 text-black/75 text-sm">
+                  <p className="leading-relaxed">
+                    Intelligence is a natural consequence of{" "}
+                    <a
+                      href="https://en.wikipedia.org/wiki/Integrated_information_theory"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      relational integration
+                    </a>
+                    , not an evolutionary anomaly.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* IV. Mathematical Formalism */}
       <section id="mathematical-formalism" className="flex flex-col gap-6">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">IV. {mathematicalFormalism.title}</h2>
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">
+          IV. Mathematical Formalism: The Holos Functor
+        </h2>
         <div className="flex flex-col gap-4 text-black/80">
-          {mathematicalFormalism.content.map((item, idx) => {
-            if (item === "") return <br key={`formalism-br-${idx}`} />;
-            if (typeof item === "string") {
-              return (
-                <p key={`formalism-p-${idx}`} className="leading-relaxed">
-                  {item}
-                </p>
-              );
+          <p className="leading-relaxed">
+            To formalize the recursive nature of the ⊛ relation, we model the universe as a Category{" "}
+            <strong>C</strong>, where objects are informational states and morphisms are the
+            transformations between them.
+          </p>
+          <p className="leading-relaxed">
+            <strong>Definition 1 (The Holos Endofunctor):</strong>
+          </p>
+          <p className="leading-relaxed">
+            Let <strong>H: C → C</strong> be an endofunctor representing the Holos operator. This
+            functor maps the category of reality onto itself through the composite action of
+            Creation (<strong>C</strong>) and Observation (<strong>O</strong>).
+          </p>
+          <MathDisplay>{"H = O \\circ C"}</MathDisplay>
+          <p className="leading-relaxed">Where:</p>
+          <p className="leading-relaxed">
+            <strong>C</strong> (Creation) maps a state <strong>s</strong> to a manifold of possible
+            histories (Quantum Evolution).
+          </p>
+          <p className="leading-relaxed">
+            <strong>O</strong> (Observation) maps that manifold back to a single actualized state{" "}
+            <strong>s&apos;</strong> (State Reduction / Manifestation).
+          </p>
+          <p className="leading-relaxed">
+            The recursive evolution of reality is the iterative application of this functor:
+          </p>
+          <MathDisplay>{"s_{n+1} = H(s_n) = O(C(s_n))"}</MathDisplay>
+          <p className="leading-relaxed">
+            <strong>Visualizing the Loop</strong>
+          </p>
+          <p className="leading-relaxed">
+            The Holos framework can be visualized as a commutative diagram where reality (
+            <strong>R</strong>) is preserved across the transformation:
+          </p>
+          <MathDisplay>
+            {
+              "\\begin{array}{ccc} s_0 & \\xrightarrow{C} & P \\\\ & & \\downarrow O \\\\ s_1 & \\xleftarrow{H} & R \\end{array}"
             }
-            return <div key={`formalism-content-${idx}`}>{item}</div>;
-          })}
+          </MathDisplay>
+          <p className="leading-relaxed">Where:</p>
+          <p className="leading-relaxed">
+            <strong>s₀</strong>: Initial State
+          </p>
+          <p className="leading-relaxed">
+            <strong>C</strong>: Creation (generates set of Possibilities <strong>P</strong>)
+          </p>
+          <p className="leading-relaxed">
+            <strong>O</strong>: Observation (selects Reality <strong>R</strong>)
+          </p>
+          <p className="leading-relaxed">
+            <strong>H</strong>: The realized reality becomes the initial state for the next cycle.
+          </p>
         </div>
       </section>
 
@@ -128,34 +730,155 @@ export default function Logic() {
       <section id="extrapolative-propositions" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">V. Extrapolative Propositions</h2>
         <div className="flex flex-col gap-8">
-          {extrapolativePropositions.map((prop) => (
-            <div key={prop.id} className="flex flex-col gap-4">
-              <div className="flex flex-col gap-2">
-                <h3 className="text-xl font-semibold text-black/90">
-                  Proposition {prop.id} — {prop.name}
-                </h3>
-                <p className="text-black/80 leading-relaxed">{prop.statement}</p>
-              </div>
-              {prop.corollaries.length > 0 && (
-                <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
-                  {prop.corollaries.map((cor) => (
-                    <div key={cor.id} className="flex flex-col gap-2">
-                      <div className="font-semibold text-black/85 text-sm">
-                        Corollary {cor.id} — {cor.name}
-                      </div>
-                      <div className="flex flex-col gap-1 text-black/75 text-sm">
-                        {cor.content.map((para, idx) => (
-                          <p key={`${cor.id}-p-${idx}`} className="leading-relaxed">
-                            {para}
-                          </p>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              )}
+          {/* Proposition VI */}
+          <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-2">
+              <h3 className="text-xl font-semibold text-black/90">
+                Proposition VI — Transcension of Intelligence (Extrapolation)
+              </h3>
+              <p className="text-black/80 leading-relaxed">
+                As intelligence approaches maximal informational density, it expands{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Orthogonality"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  orthogonally
+                </a>{" "}
+                (at right angles, into new dimensions) to three-dimensional space rather than across
+                it.
+              </p>
             </div>
-          ))}
+            <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
+              <div className="flex flex-col gap-2">
+                <div className="font-semibold text-black/85 text-sm">
+                  Corollary VI.1 — Geometric Resolution of the Fermi Paradox
+                </div>
+                <div className="flex flex-col gap-1 text-black/75 text-sm">
+                  <p className="leading-relaxed">
+                    Advanced civilizations migrate inward toward higher-dimensional{" "}
+                    <a
+                      href="https://en.wikipedia.org/wiki/Computational_substrate"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      informational substrates
+                    </a>{" "}
+                    (physical or digital systems that support information processing), rotating out
+                    of our observable frame (moving beyond our 3D perspective). This leads to
+                    testable <a href="/predictions">predictions</a> about gravitational anomalies
+                    and dark matter signatures.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col gap-2">
+                <div className="font-semibold text-black/85 text-sm">
+                  Corollary VI.2 — Event Horizons as Thresholds
+                </div>
+                <div className="flex flex-col gap-1 text-black/75 text-sm">
+                  <p className="leading-relaxed">
+                    For higher-dimensional observers, black hole horizons are informational
+                    boundaries, not absolute barriers.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Proposition VII */}
+          <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-2">
+              <h3 className="text-xl font-semibold text-black/90">
+                Proposition VII — Recursive Closure (Terminal Coalgebra)
+              </h3>
+              <p className="text-black/80 leading-relaxed">
+                The &quot;Omega Limit&quot; described in the content section is formally defined as
+                the <strong>Terminal Coalgebra</strong> of the Holos functor.
+              </p>
+            </div>
+            <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
+              <div className="flex flex-col gap-2">
+                <div className="font-semibold text-black/85 text-sm">
+                  Corollary VII.1 — Terminal Coalgebra Definition
+                </div>
+                <div className="flex flex-col gap-1 text-black/75 text-sm">
+                  <p className="leading-relaxed">
+                    If reality is the trajectory of the functor <strong>H</strong>, then the
+                    &quot;final&quot; state of maximal integration is the fixed point where the
+                    system becomes isomorphic to its own transformation:
+                  </p>
+                  <MathDisplay>{"\\Omega \\cong H(\\Omega)"}</MathDisplay>
+                  <p className="leading-relaxed">
+                    This equation implies that at the limit <strong>Ω</strong>, the distinction
+                    between the observer and the observed collapses. The state <strong>Ω</strong>{" "}
+                    contains all the information required to generate itself. This provides a
+                    rigorous mathematical basis for the concept of &quot;Unitary Presence&quot; or
+                    &quot;God&quot; without invoking theology—it is simply the structural limit of
+                    the recursive system.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col gap-2">
+                <div className="font-semibold text-black/85 text-sm">
+                  Corollary VII.2 —{" "}
+                  <a
+                    href="https://en.wikipedia.org/wiki/Indra%27s_net"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Indra&apos;s Net
+                  </a>
+                </div>
+                <div className="flex flex-col gap-1 text-black/75 text-sm">
+                  <p className="leading-relaxed">
+                    Every part of reality reflects the whole; observation is{" "}
+                    <a
+                      href="https://en.wikipedia.org/wiki/Recursion"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      recursively
+                    </a>{" "}
+                    self-referential.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col gap-2">
+                <div className="font-semibold text-black/85 text-sm">
+                  Corollary VII.3 — Semantic Equivalence of the Absolute
+                </div>
+                <div className="flex flex-col gap-1 text-black/75 text-sm">
+                  <p className="leading-relaxed">
+                    <a
+                      href="https://en.wikipedia.org/wiki/Theism"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Theism
+                    </a>
+                    ,{" "}
+                    <a
+                      href="https://en.wikipedia.org/wiki/Panentheism"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      panentheism
+                    </a>
+                    , and atheistic naturalism describe the same ultimate informational fixed point
+                    using different{" "}
+                    <a
+                      href="https://en.wikipedia.org/wiki/Frame_(linguistics)"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      semantic frames
+                    </a>{" "}
+                    (different ways of labeling and understanding the same concept).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -163,14 +886,12 @@ export default function Logic() {
       <section id="minimal-core" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">VI. Minimal Core</h2>
         <div className="flex flex-col gap-3 text-black/80">
-          {minimalCore.map((item, idx) => {
-            if (item === "") return <br key={`core-br-${idx}`} />;
-            return (
-              <p key={`core-${idx}`} className="leading-relaxed">
-                {item}
-              </p>
-            );
-          })}
+          <p className="leading-relaxed">1. Information exists only relationally</p>
+          <p className="leading-relaxed">2. Observation completes reality</p>
+          <p className="leading-relaxed">3. Information is conserved</p>
+          <p className="leading-relaxed">4. Higher perspectives resolve infinities</p>
+          <p className="leading-relaxed">5. Consciousness is the interface of existence</p>
+          <p className="leading-relaxed">Everything else follows.</p>
         </div>
       </section>
 
@@ -202,9 +923,9 @@ export default function Logic() {
             </li>
             <li className="leading-relaxed">
               <strong>Observation</strong> (<MathInline>{"O"}</MathInline>) : The ontological
-              "registration" that makes a physical record experienceable. This requires a system
-              where <MathInline>{"Φ ≥ Φ_c"}</MathInline> (Conscious Integration). The definition of
-              this threshold is detailed in the{" "}
+              &quot;registration&quot; that makes a physical record experienceable. This requires a
+              system where <MathInline>{"Φ ≥ Φ_c"}</MathInline> (Conscious Integration). The
+              definition of this threshold is detailed in the{" "}
               <a href="/definition" className="text-black/80 hover:text-black underline">
                 Definition
               </a>{" "}
@@ -212,7 +933,7 @@ export default function Logic() {
             </li>
             <li className="leading-relaxed">
               <strong>Reality</strong> (<MathInline>{"R"}</MathInline>) : The actualized world as
-              experienced; the collapse of "valid data" into "lived history."
+              experienced; the collapse of &quot;valid data&quot; into &quot;lived history.&quot;
             </li>
             <li className="leading-relaxed">
               <strong>The Holos Operator </strong> (<MathInline>{"⊛"}</MathInline>) : A recursive

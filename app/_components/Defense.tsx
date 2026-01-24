@@ -1,6 +1,5 @@
 import { AlertTriangle, Check, X } from "lucide-react";
 import type { ReactNode } from "react";
-import { convertMarkdownToJSX } from "./convertToJSX";
 import MathInline from "./MathInline";
 
 interface Objection {
@@ -9,14 +8,91 @@ interface Objection {
   content: string[];
 }
 
+// Helper function to convert markdown to JSX
+function markdownToJSX(text: string, keyPrefix: string = ""): ReactNode {
+  const elements: ReactNode[] = [];
+  let keyIndex = 0;
+  let remaining = text;
+
+  while (remaining.length > 0) {
+    // Check for bold link **[text](url)**
+    const boldLinkMatch = remaining.match(/^\*\*\[([^\]]+)\]\(([^)]+)\)\*\*/);
+    if (boldLinkMatch) {
+      const [, linkText, url] = boldLinkMatch;
+      elements.push(
+        <strong key={`${keyPrefix}-bold-link-${keyIndex++}`}>
+          <a href={url} target="_blank" rel="noopener noreferrer">
+            {linkText}
+          </a>
+        </strong>
+      );
+      remaining = remaining.slice(boldLinkMatch[0].length);
+      continue;
+    }
+
+    // Check for bold **text**
+    const boldMatch = remaining.match(/^\*\*([^*]+)\*\*/);
+    if (boldMatch) {
+      elements.push(<strong key={`${keyPrefix}-bold-${keyIndex++}`}>{boldMatch[1]}</strong>);
+      remaining = remaining.slice(boldMatch[0].length);
+      continue;
+    }
+
+    // Check for italic *text* (not part of bold)
+    const italicMatch = remaining.match(/^\*([^*]+)\*/);
+    if (italicMatch) {
+      elements.push(<em key={`${keyPrefix}-italic-${keyIndex++}`}>{italicMatch[1]}</em>);
+      remaining = remaining.slice(italicMatch[0].length);
+      continue;
+    }
+
+    // Check for link [text](url)
+    const linkMatch = remaining.match(/^\[([^\]]+)\]\(([^)]+)\)/);
+    if (linkMatch) {
+      const [, linkText, url] = linkMatch;
+      elements.push(
+        <a
+          key={`${keyPrefix}-link-${keyIndex++}`}
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {linkText}
+        </a>
+      );
+      remaining = remaining.slice(linkMatch[0].length);
+      continue;
+    }
+
+    // Find next special character
+    const nextBold = remaining.indexOf("**");
+    const nextItalic = remaining.indexOf("*");
+    const nextLink = remaining.indexOf("[");
+
+    let nextSpecial = remaining.length;
+    if (nextBold !== -1 && nextBold < nextSpecial) nextSpecial = nextBold;
+    if (nextItalic !== -1 && nextItalic < nextSpecial) nextSpecial = nextItalic;
+    if (nextLink !== -1 && nextLink < nextSpecial) nextSpecial = nextLink;
+
+    if (nextSpecial > 0) {
+      elements.push(remaining.slice(0, nextSpecial));
+      remaining = remaining.slice(nextSpecial);
+    } else {
+      elements.push(remaining[0]);
+      remaining = remaining.slice(1);
+    }
+  }
+
+  return elements.length === 1 ? elements[0] : <>{elements}</>;
+}
+
 // Helper function to render text with icons replacing emojis
 function renderWithIcons(text: string, paragraphIndex: number): ReactNode {
-  // First process markdown links and formatting
-  const processedText = convertMarkdownToJSX(text);
+  const keyPrefix = `para-${paragraphIndex}`;
 
   // If there are no icons to replace, return the processed text
   if (!text.includes("✔") && !text.includes("❌") && !text.includes("⚠️")) {
-    return processedText;
+    return markdownToJSX(text, keyPrefix);
   }
 
   // Handle icon replacement by working with the original text and inserting icons
@@ -28,12 +104,12 @@ function renderWithIcons(text: string, paragraphIndex: number): ReactNode {
     const parts = text.split("✔");
     parts.forEach((part, idx) => {
       if (part) {
-        elements.push(convertMarkdownToJSX(part));
+        elements.push(markdownToJSX(part, `${keyPrefix}-part-${idx}`));
       }
       if (idx < parts.length - 1) {
         elements.push(
           <Check
-            key={`check-${paragraphIndex}-${keyIndex++}`}
+            key={`${keyPrefix}-check-${keyIndex++}`}
             className="inline-block w-4 h-4 mx-1 align-text-bottom"
           />
         );
@@ -47,12 +123,12 @@ function renderWithIcons(text: string, paragraphIndex: number): ReactNode {
     const parts = text.split("❌");
     parts.forEach((part, idx) => {
       if (part) {
-        elements.push(convertMarkdownToJSX(part));
+        elements.push(markdownToJSX(part, `${keyPrefix}-part-${idx}`));
       }
       if (idx < parts.length - 1) {
         elements.push(
           <X
-            key={`x-${paragraphIndex}-${keyIndex++}`}
+            key={`${keyPrefix}-x-${keyIndex++}`}
             className="inline-block w-4 h-4 mx-1 align-text-bottom"
           />
         );
@@ -66,12 +142,12 @@ function renderWithIcons(text: string, paragraphIndex: number): ReactNode {
     const parts = text.split("⚠️");
     parts.forEach((part, idx) => {
       if (part) {
-        elements.push(convertMarkdownToJSX(part));
+        elements.push(markdownToJSX(part, `${keyPrefix}-part-${idx}`));
       }
       if (idx < parts.length - 1) {
         elements.push(
           <AlertTriangle
-            key={`alert-${paragraphIndex}-${keyIndex++}`}
+            key={`${keyPrefix}-alert-${keyIndex++}`}
             className="inline-block w-4 h-4 mx-1 align-text-bottom"
           />
         );
@@ -80,7 +156,7 @@ function renderWithIcons(text: string, paragraphIndex: number): ReactNode {
     return <>{elements}</>;
   }
 
-  return processedText;
+  return markdownToJSX(text, keyPrefix);
 }
 
 interface AxiomDefense {
@@ -370,7 +446,7 @@ export default function Defense() {
                       if (para.startsWith("**Response:**")) {
                         return (
                           <p key={`${objection.id}-p-${idx}`} className="text-black/90 pt-2">
-                            {convertMarkdownToJSX(para)}
+                            {markdownToJSX(para, `${objection.id}-response-${idx}`)}
                           </p>
                         );
                       }
@@ -384,7 +460,7 @@ export default function Defense() {
                       if (para.startsWith("- ")) {
                         return (
                           <p key={`${objection.id}-p-${idx}`} className="pl-4 leading-relaxed">
-                            {convertMarkdownToJSX(para)}
+                            {markdownToJSX(para, `${objection.id}-list-${idx}`)}
                           </p>
                         );
                       }

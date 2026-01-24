@@ -435,6 +435,48 @@ export default function Definition() {
           </p>
 
           <p className="leading-relaxed">
+            <strong>Refinement on the Null Set:</strong>
+          </p>
+          <p className="leading-relaxed">
+            When we state <MathInline>{"Φ \\approx 0"}</MathInline> corresponds to the{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Empty_set"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Null Set
+            </a>{" "}
+            (<MathInline>{"\\emptyset"}</MathInline>), we refer to the{" "}
+            <strong>Set of Experiential States</strong>, not physical matter.
+          </p>
+          <ul className="flex flex-col gap-2 pl-6 list-disc">
+            <li className="leading-relaxed">
+              A rock has physical elements (Physical Set{" "}
+              <MathInline>{"\\neq \\emptyset"}</MathInline>).
+            </li>
+            <li className="leading-relaxed">
+              A rock has zero experiential states (Experiential Set{" "}
+              <MathInline>{"= \\emptyset"}</MathInline>).
+            </li>
+            <li className="leading-relaxed">
+              Therefore, structurally, it is an &quot;Empty Set&quot; in the domain of{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Ontology"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ontology
+              </a>
+              .
+            </li>
+          </ul>
+          <p className="leading-relaxed text-black/70 italic">
+            *In simple terms: a rock physically exists (it has atoms, molecules, etc.), but it has
+            no experiences or awareness. So while it&apos;s not empty in physical terms, it is empty
+            in terms of consciousness or experiential states.*
+          </p>
+
+          <p className="leading-relaxed">
             <strong>
               <MathInline>{"Φ \\ge Φ_c"}</MathInline> (Observers):
             </strong>{" "}
