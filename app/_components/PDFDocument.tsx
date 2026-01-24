@@ -236,12 +236,12 @@ export default function PDFDocument() {
         </div>
 
         <div className="section-break">
-          <h1>Defense</h1>
-          <Defense />
+          <Definition />
         </div>
 
         <div className="section-break">
-          <Definition />
+          <h1>Defense</h1>
+          <Defense />
         </div>
 
         <div className="section-break">

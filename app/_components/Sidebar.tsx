@@ -199,23 +199,6 @@ export default function Sidebar() {
             )}
             <li className="mt-2">
               <Link
-                className={`text-lg font-medium ${isDefensePage ? "opacity-100" : "opacity-60"}`}
-                href="/defense"
-              >
-                Defense
-              </Link>
-            </li>
-            {isDefensePage && (
-              <div className="sidebar-subsections sidebar-subsections-enter flex flex-col items-center">
-                {defenseSubsections.map((subsection) => (
-                  <li key={subsection.id} className="sidebar-subsection-item text-xs py-1">
-                    <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
-                  </li>
-                ))}
-              </div>
-            )}
-            <li className="mt-2">
-              <Link
                 className={`text-lg font-medium ${isDefinitionPage ? "opacity-100" : "opacity-60"}`}
                 href="/definition"
               >
@@ -225,6 +208,23 @@ export default function Sidebar() {
             {isDefinitionPage && (
               <div className="sidebar-subsections sidebar-subsections-enter flex flex-col items-center">
                 {definitionSubsections.map((subsection) => (
+                  <li key={subsection.id} className="sidebar-subsection-item text-xs py-1">
+                    <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
+                  </li>
+                ))}
+              </div>
+            )}
+            <li className="mt-2">
+              <Link
+                className={`text-lg font-medium ${isDefensePage ? "opacity-100" : "opacity-60"}`}
+                href="/defense"
+              >
+                Defense
+              </Link>
+            </li>
+            {isDefensePage && (
+              <div className="sidebar-subsections sidebar-subsections-enter flex flex-col items-center">
+                {defenseSubsections.map((subsection) => (
                   <li key={subsection.id} className="sidebar-subsection-item text-xs py-1">
                     <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
                   </li>
