@@ -227,7 +227,7 @@ export default function PDFDocument() {
         </div>
 
         <div className="section-break">
-          <Content />
+          <Content isPDF={true} />
         </div>
 
         <div className="section-break">

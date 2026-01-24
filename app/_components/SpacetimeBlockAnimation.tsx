@@ -1,13 +1,39 @@
 "use client";
 
 import gsap from "gsap";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
-export default function SpacetimeBlockAnimation() {
+interface SpacetimeBlockAnimationProps {
+  isPDF?: boolean;
+}
+
+export default function SpacetimeBlockAnimation({ isPDF = false }: SpacetimeBlockAnimationProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
+  const timelineRef = useRef<gsap.core.Timeline | null>(null);
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+
+  // Check for reduced motion preference
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+    setPrefersReducedMotion(mediaQuery.matches);
+
+    const handleChange = (e: MediaQueryListEvent) => {
+      setPrefersReducedMotion(e.matches);
+      if (e.matches && timelineRef.current) {
+        timelineRef.current.pause();
+      } else if (!e.matches && timelineRef.current) {
+        timelineRef.current.play();
+      }
+    };
+
+    mediaQuery.addEventListener("change", handleChange);
+    return () => mediaQuery.removeEventListener("change", handleChange);
+  }, []);
 
   useEffect(() => {
+    // Skip animation setup in PDF mode or if user prefers reduced motion
+    if (isPDF || prefersReducedMotion) return;
     if (!svgRef.current || !containerRef.current) return;
 
     const svg = svgRef.current;
@@ -42,6 +68,7 @@ export default function SpacetimeBlockAnimation() {
       repeat: -1,
       repeatDelay: 3,
     });
+    timelineRef.current = tl;
 
     // Phase 1: Big Bang point pulses
     tl.add("start")
@@ -184,7 +211,7 @@ export default function SpacetimeBlockAnimation() {
     return () => {
       tl.kill();
     };
-  }, []);
+  }, [isPDF, prefersReducedMotion]);
 
   // Block geometry for 3D perspective effect
   const blockLeft = 80;
@@ -193,11 +220,55 @@ export default function SpacetimeBlockAnimation() {
   const blockBottom = 200;
   const depth = 40;
 
+  // Static PDF version
+  if (isPDF) {
+    return (
+      <div
+        style={{
+          width: "100%",
+          marginTop: "2em",
+          marginBottom: "1em",
+          border: "1px solid rgba(0,0,0,0.1)",
+          borderRadius: "8px",
+          padding: "1.5em",
+          background: "#fafafa",
+        }}
+      >
+        <div style={{ textAlign: "center", marginBottom: "1em" }}>
+          <em style={{ fontSize: "1.1em" }}>The Spacetime Block: An Eternalist View</em>
+        </div>
+        <div style={{ textAlign: "center", color: "rgba(0,0,0,0.7)", fontSize: "0.9em" }}>
+          <p style={{ margin: "0.5em 0" }}>
+            t₀ ——————— [Worldlines through 4D Block] ——————→ t → ∞
+          </p>
+          <p style={{ margin: "0.5em 0" }}>
+            The Big Bang is a geometric boundary, not a moment of absolute creation.
+          </p>
+          <p style={{ margin: "0.5em 0", fontStyle: "italic" }}>
+            All moments exist simultaneously in the Block Universe
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div
+    <figure
       ref={containerRef}
       className="relative w-full mt-8 aspect-video rounded-lg border border-black/10 overflow-hidden bg-white"
+      role="img"
+      aria-label="Animation showing the Big Bang as a geometric boundary of the spacetime block, not a beginning in time"
     >
+      {/* Screen reader description */}
+      <figcaption className="sr-only">
+        The Spacetime Block: An Eternalist View. This animation visualizes the universe as a 4D
+        geometric structure. The Big Bang starts as a point that extrudes into a 3D rectangular
+        prism representing the spacetime block. Worldlines travel through the block from the Big
+        Bang boundary. A &ldquo;Now&rdquo; slice moves through time, but at the end all moments
+        become visible simultaneously, illustrating that past, present, and future are equally real
+        features of a single unified block. The Big Bang is shown as a geometric boundary, not a
+        moment of absolute creation.
+      </figcaption>
       <svg
         ref={svgRef}
         viewBox="0 0 560 315"
@@ -409,6 +480,6 @@ export default function SpacetimeBlockAnimation() {
           All moments exist simultaneously in the Block Universe
         </text>
       </svg>
-    </div>
+    </figure>
   );
 }

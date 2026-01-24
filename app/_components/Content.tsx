@@ -1,11 +1,16 @@
 import BlockUniverseAnimation from "./BlockUniverseAnimation";
+import ConsciousnessAnimation from "./ConsciousnessAnimation";
 import { sections } from "./content-data";
 import Footnotes from "./Footnotes";
 import HolosAnimation from "./HolosAnimation";
 import Section from "./Section";
 import SpacetimeBlockAnimation from "./SpacetimeBlockAnimation";
 
-export default function Content() {
+interface ContentProps {
+  isPDF?: boolean;
+}
+
+export default function Content({ isPDF = false }: ContentProps) {
   return (
     <>
       {sections.map((section) => (
@@ -18,9 +23,10 @@ export default function Content() {
           {section.paragraphs.map((paragraph, pIndex) => (
             <p key={`${section.id}-p-${pIndex}`}>{paragraph}</p>
           ))}
-          {section.id === "introduction" && <HolosAnimation />}
-          {section.id === "meaning-of-life" && <BlockUniverseAnimation />}
-          {section.id === "our-universe" && <SpacetimeBlockAnimation />}
+          {section.id === "introduction" && <HolosAnimation isPDF={isPDF} />}
+          {section.id === "meaning-of-life" && <BlockUniverseAnimation isPDF={isPDF} />}
+          {section.id === "consciousness" && <ConsciousnessAnimation isPDF={isPDF} />}
+          {section.id === "our-universe" && <SpacetimeBlockAnimation isPDF={isPDF} />}
         </Section>
       ))}
 

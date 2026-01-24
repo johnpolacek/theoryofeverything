@@ -1,13 +1,39 @@
 "use client";
 
 import gsap from "gsap";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
-export default function BlockUniverseAnimation() {
+interface BlockUniverseAnimationProps {
+  isPDF?: boolean;
+}
+
+export default function BlockUniverseAnimation({ isPDF = false }: BlockUniverseAnimationProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
+  const timelineRef = useRef<gsap.core.Timeline | null>(null);
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+
+  // Check for reduced motion preference
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+    setPrefersReducedMotion(mediaQuery.matches);
+
+    const handleChange = (e: MediaQueryListEvent) => {
+      setPrefersReducedMotion(e.matches);
+      if (e.matches && timelineRef.current) {
+        timelineRef.current.pause();
+      } else if (!e.matches && timelineRef.current) {
+        timelineRef.current.play();
+      }
+    };
+
+    mediaQuery.addEventListener("change", handleChange);
+    return () => mediaQuery.removeEventListener("change", handleChange);
+  }, []);
 
   useEffect(() => {
+    // Skip animation setup in PDF mode or if user prefers reduced motion
+    if (isPDF || prefersReducedMotion) return;
     if (!svgRef.current || !containerRef.current) return;
 
     const svg = svgRef.current;
@@ -43,6 +69,7 @@ export default function BlockUniverseAnimation() {
       repeat: -1,
       repeatDelay: 2,
     });
+    timelineRef.current = tl;
 
     // Phase 1: Initial state - show ghostly past
     tl.to(ghostLines, {
@@ -212,7 +239,7 @@ export default function BlockUniverseAnimation() {
     return () => {
       tl.kill();
     };
-  }, []);
+  }, [isPDF, prefersReducedMotion]);
 
   // Generate ghost/solid line positions
   const linePositions = [];
@@ -237,11 +264,53 @@ export default function BlockUniverseAnimation() {
     pointPositions.push({ x, y });
   }
 
+  // Static PDF version
+  if (isPDF) {
+    return (
+      <div
+        style={{
+          width: "100%",
+          marginTop: "2em",
+          marginBottom: "1em",
+          border: "1px solid rgba(0,0,0,0.1)",
+          borderRadius: "8px",
+          padding: "1.5em",
+          background: "#fafafa",
+        }}
+      >
+        <div style={{ textAlign: "center", marginBottom: "1em" }}>
+          <em style={{ fontSize: "1.1em" }}>Retrospective Realization in the Block Universe</em>
+        </div>
+        <div style={{ textAlign: "center", color: "rgba(0,0,0,0.7)", fontSize: "0.9em" }}>
+          <p style={{ margin: "0.5em 0" }}>
+            t₀ (Big Bang) ←————— Solidification Wave ←————— Φ (Observer at t_now)
+          </p>
+          <p style={{ margin: "0.5em 0" }}>
+            The observer at the end of the circuit brings the beginning into existence.
+          </p>
+          <p style={{ margin: "0.5em 0", fontStyle: "italic" }}>
+            Future observation validates past reality (Participatory Anthropic Principle)
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div
+    <figure
       ref={containerRef}
       className="relative w-full mt-8 aspect-video rounded-lg border border-black/10 overflow-hidden bg-white"
+      role="img"
+      aria-label="Animation showing retrospective realization in a block universe where future observation validates past reality"
     >
+      {/* Screen reader description */}
+      <figcaption className="sr-only">
+        Retrospective Realization in the Block Universe: In an eternalist view, the spacetime block
+        contains all moments simultaneously. The observer (Φ) at the future end of time triggers a
+        solidification wave that travels backward, transforming ghostly potential past events into
+        solid realized history. This illustrates the Participatory Anthropic Principle—future
+        observation validates past reality.
+      </figcaption>
       <svg
         ref={svgRef}
         viewBox="0 0 560 315"
@@ -452,6 +521,6 @@ export default function BlockUniverseAnimation() {
           Participatory Anthropic Principle
         </text>
       </svg>
-    </div>
+    </figure>
   );
 }
