@@ -1,5 +1,6 @@
 import { sections } from "./content-data";
 import Footnotes from "./Footnotes";
+import HolosAnimation from "./HolosAnimation";
 import Section from "./Section";
 
 export default function Content() {
@@ -15,6 +16,7 @@ export default function Content() {
           {section.paragraphs.map((paragraph, pIndex) => (
             <p key={`${section.id}-p-${pIndex}`}>{paragraph}</p>
           ))}
+          {section.id === "introduction" && <HolosAnimation />}
         </Section>
       ))}
 
