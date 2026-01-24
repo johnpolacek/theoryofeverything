@@ -27,13 +27,13 @@ const theorySubsections: Subsection[] = [
 ];
 
 const logicSubsections: Subsection[] = [
-  { id: "primitive-definitions", title: "Primitive Definitions" },
+  { id: "primitive-definitions", title: "Primitives" },
   { id: "axioms", title: "Axioms" },
-  { id: "foundational-propositions", title: "Foundational Propositions" },
-  { id: "mathematical-formalism", title: "Mathematical Formalism" },
-  { id: "extrapolative-propositions", title: "Extrapolative Propositions" },
-  { id: "minimal-core", title: "Minimal Core" },
-  { id: "phi-operationalization", title: "Operational Definition" },
+  { id: "foundational-propositions", title: "Foundations" },
+  { id: "mathematical-formalism", title: "Math" },
+  { id: "extrapolative-propositions", title: "Extrapolations" },
+  { id: "minimal-core", title: "Core" },
+  { id: "phi-operationalization", title: "Definition" },
 ];
 
 const defenseSubsections: Subsection[] = [
@@ -49,18 +49,18 @@ const defenseSubsections: Subsection[] = [
 
 const definitionSubsections: Subsection[] = [
   { id: "1-the-purpose-of", title: "The Purpose of Φ" },
-  { id: "2-ontological-requirements", title: "Ontological Requirements" },
-  { id: "3-mathematical-formalism", title: "Mathematical Formalism" },
-  { id: "4-ontological-thresholds", title: "Ontological Thresholds" },
-  { id: "5-relationship-to-physics-the-consistency-filter", title: "Relationship to Physics" },
+  { id: "2-ontological-requirements", title: "Ontological" },
+  { id: "3-mathematical-formalism", title: "Mathematical" },
+  { id: "4-ontological-thresholds", title: "Thresholds" },
+  { id: "5-relationship-to-physics-the-consistency-filter", title: "Physics" },
 ];
 
 const predictionsSubsections: Subsection[] = [
-  { id: "primary-prediction", title: "Primary Prediction" },
-  { id: "secondary-predictions", title: "Secondary Predictions" },
-  { id: "tertiary-prediction", title: "Tertiary Prediction" },
-  { id: "extrapolative-prediction", title: "Extrapolative Prediction" },
-  { id: "testable-implications", title: "Testable Implications" },
+  { id: "primary-prediction", title: "Primary" },
+  { id: "secondary-predictions", title: "Secondary" },
+  { id: "tertiary-prediction", title: "Tertiary" },
+  { id: "extrapolative-prediction", title: "Extrapolative" },
+  { id: "testable-implications", title: "Implications" },
   { id: "experiment-1", title: "Experiment 1" },
   { id: "experiment-2", title: "Experiment 2" },
   { id: "experiment-3", title: "Experiment 3" },
