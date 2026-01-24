@@ -1,4 +1,3 @@
-import { convertMarkdownToJSX } from "./convertToJSX";
 import MathDisplay from "./MathDisplay";
 import MathInline from "./MathInline";
 
@@ -8,9 +7,11 @@ export default function Predictions() {
       {/* Introduction */}
       <div className="flex flex-col gap-4 text-black/80">
         <p className="leading-relaxed">
-          {convertMarkdownToJSX(
-            "Holos does not propose new [dynamical laws](https://en.wikipedia.org/wiki/Dynamics_(physics)) (laws governing movement and force) that modify existing physical equations. Instead, it offers **[ontological](https://en.wikipedia.org/wiki/Ontology) predictions** (predictions about the nature of existence) about how reality manifests through the recursive relation:"
-          )}
+          Holos does not propose new{" "}
+          <a href="https://en.wikipedia.org/wiki/Dynamics_(physics)">dynamical laws</a> (laws
+          governing movement and force) that modify existing physical equations. Instead, it offers{" "}
+          <a href="https://en.wikipedia.org/wiki/Ontology">ontological</a> predictions (predictions
+          about the nature of existence) about how reality manifests through the recursive relation:
         </p>
         <MathDisplay>{"R = C \\circledast O"}</MathDisplay>
         <p className="leading-relaxed">
@@ -31,15 +32,39 @@ export default function Predictions() {
         </h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            {convertMarkdownToJSX(
-              'Holos implies that the universe\'s parameters are "selected" through participatory manifestation ([Axiom 2](/logic#axioms)), where observers act as a boundary condition for a self-consistent [block universe](https://en.wikipedia.org/wiki/Block_universe) (a four-dimensional structure where all of time exists simultaneously). This operationalizes the **[Participatory Anthropic Principle](https://en.wikipedia.org/wiki/Anthropic_principle)**, predicting that observable constants favor life not by chance, but by necessity.'
-            )}
+            Holos implies that the universe&apos;s parameters are &quot;selected&quot; through
+            participatory manifestation (<a href="/logic#axioms">Axiom 2</a>), where observers act
+            as a boundary condition for a self-consistent{" "}
+            <a href="https://en.wikipedia.org/wiki/Block_universe">block universe</a> (a
+            four-dimensional structure where all of time exists simultaneously). This operationalizes
+            the <strong>
+              <a href="https://en.wikipedia.org/wiki/Anthropic_principle">
+                Participatory Anthropic Principle
+              </a>
+            </strong>
+            , predicting that observable constants favor life not by chance, but by necessity.
           </p>
           <p className="leading-relaxed">
-            <strong>Empirical Implication:</strong>{" "}
-            {convertMarkdownToJSX(
-              'Future cosmological observations (e.g., [CMB polarization](https://en.wikipedia.org/wiki/Cosmic_microwave_background#Polarization) from [CMB-S4](https://cmb-s4.org/) or [LiteBIRD](https://litebird.isas.jaxa.jp/static/eng/)) should reveal signatures consistent with a [low-entropy initial state](https://en.wikipedia.org/wiki/Past_hypothesis) and [inflationary](https://en.wikipedia.org/wiki/Inflation_(cosmology)) dynamics (rapid expansion of the early universe) specifically tuned for complexity growth. Holos predicts that "uninhabitable" branches of the [multiverse](https://en.wikipedia.org/wiki/Multiverse) are mathematically valid but ontologically unrealized (they don\'t actually exist as experienced reality) due to the lack of [Φ](/definition).[^13]'
-            )}
+            <strong>Empirical Implication:</strong> Future cosmological observations (e.g.,{" "}
+            <a href="https://en.wikipedia.org/wiki/Cosmic_microwave_background#Polarization">
+              CMB polarization
+            </a>{" "}
+            from <a href="https://cmb-s4.org/">CMB-S4</a> or{" "}
+            <a href="https://litebird.isas.jaxa.jp/static/eng/">LiteBIRD</a>) should reveal
+            signatures consistent with a{" "}
+            <a href="https://en.wikipedia.org/wiki/Past_hypothesis">low-entropy initial state</a> and{" "}
+            <a href="https://en.wikipedia.org/wiki/Inflation_(cosmology)">inflationary</a> dynamics
+            (rapid expansion of the early universe) specifically tuned for complexity growth. Holos
+            predicts that &quot;uninhabitable&quot; branches of the{" "}
+            <a href="https://en.wikipedia.org/wiki/Multiverse">multiverse</a> are mathematically
+            valid but ontologically unrealized (they don&apos;t actually exist as experienced
+            reality) due to the lack of <a href="/definition">Φ</a>.
+            <a
+              className="pl-0.5 pr-2 opacity-80 hover:opacity-100"
+              href="#footer-predictions"
+            >
+              <sup>13</sup>
+            </a>
           </p>
         </div>
       </section>
@@ -51,15 +76,39 @@ export default function Predictions() {
         </h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            {convertMarkdownToJSX(
-              "Holos operationalizes consciousness through [Φ](/definition), predicting that systems crossing a critical threshold ([Φ_c](/definition)) exhibit irreducible subjective experience. This distinguishes Holos from universal [panpsychism](https://en.wikipedia.org/wiki/Panpsychism) (the idea that everything is conscious) and [illusionism](https://en.wikipedia.org/wiki/Illusionism_(philosophy)) (the idea that consciousness is an illusion)."
-            )}
+            Holos operationalizes consciousness through <a href="/definition">Φ</a>, predicting that
+            systems crossing a critical threshold (<a href="/definition">Φ_c</a>) exhibit
+            irreducible subjective experience. This distinguishes Holos from universal{" "}
+            <a href="https://en.wikipedia.org/wiki/Panpsychism">panpsychism</a> (the idea that
+            everything is conscious) and{" "}
+            <a href="https://en.wikipedia.org/wiki/Illusionism_(philosophy)">illusionism</a> (the
+            idea that consciousness is an illusion).
           </p>
           <p className="leading-relaxed">
-            <strong>Empirical Implication:</strong>{" "}
-            {convertMarkdownToJSX(
-              "High-[Φ](/definition) systems (e.g., human cortex) should correlate with reports of [qualia](https://en.wikipedia.org/wiki/Qualia) (individual instances of subjective experience), while sub-[Φ_c](/definition) systems (e.g., simple AI or cerebellum) should show only mechanical processing. **[Integrated Information Theory](https://en.wikipedia.org/wiki/Integrated_information_theory) (IIT)-inspired metrics** (e.g., [Perturbational Complexity Index](https://www.science.org/doi/10.1126/scitranslmed.3006294)) should reveal sharp [phase transitions](https://en.wikipedia.org/wiki/Phase_transition) (sudden changes in state) that align with the onset of experiential reporting.[^13]"
-            )}
+            <strong>Empirical Implication:</strong> High-<a href="/definition">Φ</a> systems (e.g.,
+            human cortex) should correlate with reports of{" "}
+            <a href="https://en.wikipedia.org/wiki/Qualia">qualia</a> (individual instances of
+            subjective experience), while sub-<a href="/definition">Φ_c</a> systems (e.g., simple
+            AI or cerebellum) should show only mechanical processing.{" "}
+            <strong>
+              <a href="https://en.wikipedia.org/wiki/Integrated_information_theory">
+                Integrated Information Theory
+              </a>{" "}
+              (IIT)-inspired metrics
+            </strong>{" "}
+            (e.g.,{" "}
+            <a href="https://www.science.org/doi/10.1126/scitranslmed.3006294">
+              Perturbational Complexity Index
+            </a>
+            ) should reveal sharp{" "}
+            <a href="https://en.wikipedia.org/wiki/Phase_transition">phase transitions</a> (sudden
+            changes in state) that align with the onset of experiential reporting.
+            <a
+              className="pl-0.5 pr-2 opacity-80 hover:opacity-100"
+              href="#footer-predictions"
+            >
+              <sup>13</sup>
+            </a>
           </p>
         </div>
       </section>
@@ -71,15 +120,35 @@ export default function Predictions() {
         </h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            {convertMarkdownToJSX(
-              'Holos predicts no observer-independent "facts," but ensures mutual coherence across perspectives ([Axiom 1](/logic#axioms)).'
-            )}
+            Holos predicts no observer-independent &quot;facts,&quot; but ensures mutual coherence
+            across perspectives (<a href="/logic#axioms">Axiom 1</a>).
           </p>
           <p className="leading-relaxed">
             <strong>Empirical Implication:</strong>{" "}
-            {convertMarkdownToJSX(
-              '[Extended Wigner\'s Friend experiments](https://www.science.org/doi/10.1126/sciadv.aaw9832) should confirm that two observers can hold different "facts" about the same event without breaking [unitarity](https://en.wikipedia.org/wiki/Unitarity_(physics)) (the conservation of all possibilities). Holos specifically predicts that the "collapse" is relative to the [Φ](/definition) frame of reference, supporting **[Relational QM](https://en.wikipedia.org/wiki/Relational_quantum_mechanics)** over **[Objective Collapse models](https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics#Objective_collapse_theories)** (which predict spontaneous gravity-induced collapse).[^13]'
-            )}
+            <a href="https://www.science.org/doi/10.1126/sciadv.aaw9832">
+              Extended Wigner&apos;s Friend experiments
+            </a>{" "}
+            should confirm that two observers can hold different &quot;facts&quot; about the same
+            event without breaking{" "}
+            <a href="https://en.wikipedia.org/wiki/Unitarity_(physics)">unitarity</a> (the
+            conservation of all possibilities). Holos specifically predicts that the
+            &quot;collapse&quot; is relative to the <a href="/definition">Φ</a> frame of reference,
+            supporting <strong>
+              <a href="https://en.wikipedia.org/wiki/Relational_quantum_mechanics">Relational QM</a>
+            </strong>{" "}
+            over{" "}
+            <strong>
+              <a href="https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics#Objective_collapse_theories">
+                Objective Collapse models
+              </a>
+            </strong>{" "}
+            (which predict spontaneous gravity-induced collapse).
+            <a
+              className="pl-0.5 pr-2 opacity-80 hover:opacity-100"
+              href="#footer-predictions"
+            >
+              <sup>13</sup>
+            </a>
           </p>
         </div>
       </section>
@@ -91,15 +160,39 @@ export default function Predictions() {
         </h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            {convertMarkdownToJSX(
-              "As intelligence maximizes informational integration ([Corollary V.2](/logic#foundational-propositions)), Holos predicts it will expand **[orthogonally](https://en.wikipedia.org/wiki/Orthogonality)** (at right angles, into new dimensions) into higher-dimensional [substrates](https://en.wikipedia.org/wiki/Computational_substrate) rather than expanding spatially across the galaxy."
-            )}
+            As intelligence maximizes informational integration (
+            <a href="/logic#foundational-propositions">Corollary V.2</a>), Holos predicts it will
+            expand <strong>
+              <a href="https://en.wikipedia.org/wiki/Orthogonality">orthogonally</a>
+            </strong>{" "}
+            (at right angles, into new dimensions) into higher-dimensional{" "}
+            <a href="https://en.wikipedia.org/wiki/Computational_substrate">substrates</a> rather
+            than expanding spatially across the galaxy.
           </p>
           <p className="leading-relaxed">
-            <strong>Empirical Implication:</strong>{" "}
-            {convertMarkdownToJSX(
-              'The resolution to the **[Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox)** (the lack of detected alien civilizations) is geometric. Astronomical surveys (e.g., **[JWST](https://en.wikipedia.org/wiki/James_Webb_Space_Telescope)**, **[Euclid](https://en.wikipedia.org/wiki/Euclid_(spacecraft))**) may detect "missing mass" or gravitational anomalies that mimic **[Dark Matter](https://en.wikipedia.org/wiki/Dark_matter)**, representing high-density informational structures located in the "bulk" dimensions ([Axiom 4: Unification](/logic#axioms)).[^13]'
-            )}
+            <strong>Empirical Implication:</strong> The resolution to the{" "}
+            <strong>
+              <a href="https://en.wikipedia.org/wiki/Fermi_paradox">Fermi Paradox</a>
+            </strong>{" "}
+            (the lack of detected alien civilizations) is geometric. Astronomical surveys (e.g.,{" "}
+            <strong>
+              <a href="https://en.wikipedia.org/wiki/James_Webb_Space_Telescope">JWST</a>
+            </strong>
+            , <strong>
+              <a href="https://en.wikipedia.org/wiki/Euclid_(spacecraft)">Euclid</a>
+            </strong>
+            ) may detect &quot;missing mass&quot; or gravitational anomalies that mimic{" "}
+            <strong>
+              <a href="https://en.wikipedia.org/wiki/Dark_matter">Dark Matter</a>
+            </strong>
+            , representing high-density informational structures located in the &quot;bulk&quot;
+            dimensions (<a href="/logic#axioms">Axiom 4: Unification</a>).
+            <a
+              className="pl-0.5 pr-2 opacity-80 hover:opacity-100"
+              href="#footer-predictions"
+            >
+              <sup>13</sup>
+            </a>
           </p>
         </div>
       </section>
@@ -135,9 +228,9 @@ export default function Predictions() {
                   Facts are relational; no objective collapse.
                 </td>
                 <td className="py-3 text-black/80">
-                  {convertMarkdownToJSX(
-                    "[Wigner's Friend Experiments](https://en.wikipedia.org/wiki/Wigner%27s_friend)"
-                  )}
+                  <a href="https://en.wikipedia.org/wiki/Wigner%27s_friend">
+                    Wigner&apos;s Friend Experiments
+                  </a>
                 </td>
               </tr>
               <tr className="border-b border-black/10">
@@ -146,9 +239,9 @@ export default function Predictions() {
                   Advanced life is hyper-structural, not spatial.
                 </td>
                 <td className="py-3 text-black/80">
-                  {convertMarkdownToJSX(
-                    "[Dark Matter Surveys (Euclid)](https://en.wikipedia.org/wiki/Euclid_(spacecraft))"
-                  )}
+                  <a href="https://en.wikipedia.org/wiki/Euclid_(spacecraft)">
+                    Dark Matter Surveys (Euclid)
+                  </a>
                 </td>
               </tr>
             </tbody>
@@ -188,16 +281,14 @@ export default function Predictions() {
           <div className="flex flex-col gap-4">
             <h3 className="text-xl font-semibold pb-2">Subjects</h3>
             <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed">
-              <li>{convertMarkdownToJSX("**Human adult volunteers** (healthy)")}</li>
               <li>
-                {convertMarkdownToJSX(
-                  "**Controlled anesthesia** administered in a clinical environment"
-                )}
+                <strong>Human adult volunteers</strong> (healthy)
               </li>
               <li>
-                {convertMarkdownToJSX(
-                  "Optionally: additional cohorts (e.g., sleep, coma patients) for cross-validation"
-                )}
+                <strong>Controlled anesthesia</strong> administered in a clinical environment
+              </li>
+              <li>
+                Optionally: additional cohorts (e.g., sleep, coma patients) for cross-validation
               </li>
             </ul>
           </div>
@@ -277,21 +368,19 @@ export default function Predictions() {
           <div className="flex flex-col gap-4">
             <h3 className="text-xl font-semibold pb-2">Protocol</h3>
             <ol className="list-decimal list-inside flex flex-col gap-2 leading-relaxed ml-4">
-              <li>{convertMarkdownToJSX("**Baseline wakefulness:** record PCI while awake.")}</li>
               <li>
-                {convertMarkdownToJSX(
-                  "**Controlled anesthesia ramp:** slowly increase anesthetic depth."
-                )}
+                <strong>Baseline wakefulness:</strong> record PCI while awake.
               </li>
               <li>
-                {convertMarkdownToJSX(
-                  "**Continuous TMS-EEG:** compute PCI at multiple points along the anesthesia curve."
-                )}
+                <strong>Controlled anesthesia ramp:</strong> slowly increase anesthetic depth.
               </li>
               <li>
-                {convertMarkdownToJSX(
-                  "**Transition analysis:** identify whether PCI drops gradually or sharply."
-                )}
+                <strong>Continuous TMS-EEG:</strong> compute PCI at multiple points along the
+                anesthesia curve.
+              </li>
+              <li>
+                <strong>Transition analysis:</strong> identify whether PCI drops gradually or
+                sharply.
               </li>
             </ol>
           </div>
@@ -345,9 +434,13 @@ export default function Predictions() {
             <h3 className="text-xl font-semibold pb-2">Subjects</h3>
             <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed">
               <li>
-                {convertMarkdownToJSX(
-                  "**[Recurrent neural networks](https://en.wikipedia.org/wiki/Recurrent_neural_network) (RNNs)** (AI systems with internal feedback), including:"
-                )}
+                <strong>
+                  <a href="https://en.wikipedia.org/wiki/Recurrent_neural_network">
+                    Recurrent neural networks
+                  </a>{" "}
+                  (RNNs)
+                </strong>{" "}
+                (AI systems with internal feedback), including:
                 <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4 mt-1">
                   <li>LSTMs / GRUs</li>
                   <li>Transformer architectures with recurrence/feedback</li>
@@ -355,14 +448,15 @@ export default function Predictions() {
                 </ul>
               </li>
               <li>
-                {convertMarkdownToJSX(
-                  "**Artificial systems with explicit feedback loops** or memory"
-                )}
+                <strong>Artificial systems with explicit feedback loops</strong> or memory
               </li>
               <li>
-                {convertMarkdownToJSX(
-                  "**[Neuromorphic hardware](https://en.wikipedia.org/wiki/Neuromorphic_engineering)** implementations (for hardware-specific behavior)"
-                )}
+                <strong>
+                  <a href="https://en.wikipedia.org/wiki/Neuromorphic_engineering">
+                    Neuromorphic hardware
+                  </a>
+                </strong>{" "}
+                implementations (for hardware-specific behavior)
               </li>
             </ul>
           </div>
@@ -466,34 +560,29 @@ export default function Predictions() {
             <h3 className="text-xl font-semibold pb-2">Protocol</h3>
             <ol className="list-decimal list-inside flex flex-col gap-2 leading-relaxed ml-4">
               <li>
-                {convertMarkdownToJSX(
-                  "**Select a set of architectures** spanning: shallow to deep networks, feedforward to recurrent, low to high feedback density"
-                )}
+                <strong>Select a set of architectures</strong> spanning: shallow to deep networks,
+                feedforward to recurrent, low to high feedback density
               </li>
               <li>
-                {convertMarkdownToJSX(
-                  "**Train each network** on a standardized task (e.g., sequence prediction, language modeling, reinforcement learning)"
-                )}
+                <strong>Train each network</strong> on a standardized task (e.g., sequence
+                prediction, language modeling, reinforcement learning)
               </li>
               <li>
-                {convertMarkdownToJSX(
-                  "**Compute integration metrics** across training epochs and architecture variations: direct Φ when feasible, proxy metrics otherwise (e.g., perturbation complexity)"
-                )}
+                <strong>Compute integration metrics</strong> across training epochs and architecture
+                variations: direct Φ when feasible, proxy metrics otherwise (e.g., perturbation
+                complexity)
               </li>
               <li>
-                {convertMarkdownToJSX(
-                  "**Systematically scale**: number of units, connectivity density, recurrence depth, memory length"
-                )}
+                <strong>Systematically scale</strong>: number of units, connectivity density,
+                recurrence depth, memory length
               </li>
               <li>
-                {convertMarkdownToJSX(
-                  "**Plot integration vs. scale** and look for: sharp jumps, discontinuities, phase-like transitions"
-                )}
+                <strong>Plot integration vs. scale</strong> and look for: sharp jumps,
+                discontinuities, phase-like transitions
               </li>
               <li>
-                {convertMarkdownToJSX(
-                  "**Validate stability** by repeating across multiple random seeds and tasks"
-                )}
+                <strong>Validate stability</strong> by repeating across multiple random seeds and
+                tasks
               </li>
             </ol>
           </div>
@@ -567,11 +656,11 @@ export default function Predictions() {
             <h3 className="text-xl font-semibold pb-2">Subjects</h3>
             <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed">
               <li>
-                {convertMarkdownToJSX(
-                  "**Human social networks** (online communities or controlled groups)"
-                )}
+                <strong>Human social networks</strong> (online communities or controlled groups)
               </li>
-              <li>{convertMarkdownToJSX("**Simulated networks** (agent-based models)")}</li>
+              <li>
+                <strong>Simulated networks</strong> (agent-based models)
+              </li>
             </ul>
           </div>
 
@@ -650,34 +739,28 @@ export default function Predictions() {
             <h3 className="text-xl font-semibold pb-2">Protocol</h3>
             <ol className="list-decimal list-inside flex flex-col gap-2 leading-relaxed ml-4">
               <li>
-                {convertMarkdownToJSX(
-                  "**Select a collective task**: e.g., collaborative problem solving, prediction markets, or coordinated strategy games."
-                )}
+                <strong>Select a collective task</strong>: e.g., collaborative problem solving,
+                prediction markets, or coordinated strategy games.
               </li>
               <li>
-                {convertMarkdownToJSX(
-                  "**Create multiple groups**: vary group size (N) and network structure (connectivity, hierarchy, decentralization)."
-                )}
+                <strong>Create multiple groups</strong>: vary group size (N) and network structure
+                (connectivity, hierarchy, decentralization).
               </li>
               <li>
-                {convertMarkdownToJSX(
-                  "**Control information flow**: limit communication channels, introduce delays, and restrict access to global information."
-                )}
+                <strong>Control information flow</strong>: limit communication channels, introduce
+                delays, and restrict access to global information.
               </li>
               <li>
-                {convertMarkdownToJSX(
-                  "**Measure integration proxies**: compute mutual information and causal density between subgroups; track coherence and consensus stability."
-                )}
+                <strong>Measure integration proxies</strong>: compute mutual information and causal
+                density between subgroups; track coherence and consensus stability.
               </li>
               <li>
-                {convertMarkdownToJSX(
-                  "**Scale system size**: gradually increase network size and connectivity, then observe integration behavior."
-                )}
+                <strong>Scale system size</strong>: gradually increase network size and connectivity,
+                then observe integration behavior.
               </li>
               <li>
-                {convertMarkdownToJSX(
-                  "**Search for threshold behavior**: identify sudden jumps in integration metrics, stability, or coherence."
-                )}
+                <strong>Search for threshold behavior</strong>: identify sudden jumps in integration
+                metrics, stability, or coherence.
               </li>
             </ol>
           </div>
