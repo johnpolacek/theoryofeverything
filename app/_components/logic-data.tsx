@@ -86,7 +86,7 @@ export const definitions: Definition[] = [
         "Consciousness is the capacity of a system to integrate information into experience."
       ),
       convertMarkdownToJSX(
-        "It is **fundamental in capacity** and **emergent in form**, scaling with informational integration. The formal definition of this capacity is quantified by the ontological parameter [Φ (Phi)](/definition), which measures when a system achieves sufficient integration to register reality."
+        "It is **fundamental in capacity** and **emergent in form**, scaling with informational integration. This capacity is quantified by the ontological parameter [Φ (Phi)](/definition), which measures when a system achieves sufficient integration to register reality."
       ),
     ],
   },
@@ -102,7 +102,7 @@ export const definitions: Definition[] = [
     name: "Holos (⊛)",
     content: [
       convertMarkdownToJSX(
-        "Holos (⊛) is the recursive relational structure formed by Creation and Observation, such that: For conceptual exploration of this framework, see the main [Content](/) section."
+        "Holos (⊛) is the recursive relational structure formed by Creation and Observation, such that:"
       ),
       "",
       createMathDisplay("R = C ⊛ O", "holos-eq"),
@@ -121,7 +121,7 @@ export const axioms: Axiom[] = [
     name: "Relationality",
     statement: convertMarkdownToJSX("No informational state exists independently of relations."),
     explanation: convertMarkdownToJSX(
-      "Reality consists of invariant relational structure, not intrinsic properties. For stress-testing of this axiom, see the [Defense](/defense) section."
+      "Reality consists of invariant relational structure, not intrinsic properties."
     ),
   },
   {
@@ -131,7 +131,7 @@ export const axioms: Axiom[] = [
       "A physical state is not fully actualized until information is integrated into experience by a conscious system."
     ),
     explanation: convertMarkdownToJSX(
-      "Physical description alone is incomplete without experiential registration. This requires systems where [Φ ≥ Φ_c](/definition). For stress-testing of this axiom, see the [Defense](/defense) section."
+      "Physical description alone is incomplete without experiential registration. This requires systems where [Φ ≥ Φ_c](/definition)."
     ),
   },
   {
@@ -139,21 +139,21 @@ export const axioms: Axiom[] = [
     name: "Conservation",
     statement: convertMarkdownToJSX("Information is never destroyed, only transformed."),
     explanation: convertMarkdownToJSX(
-      "All physical and experiential processes are information-preserving. For stress-testing of this axiom, see the [Defense](/defense) section."
+      "All physical and experiential processes are information-preserving."
     ),
   },
   {
     id: "Axiom 4",
     name: "Unification",
     statement: convertMarkdownToJSX(
-      "Apparent infinities and singularities in a given dimensional frame resolve into finite, coherent structures when embedded in a higher-dimensional perspective. For stress-testing of this axiom, see the [Defense](/defense) section."
+      "Apparent infinities and singularities in a given dimensional frame resolve into finite, coherent structures when embedded in a higher-dimensional perspective."
     ),
   },
   {
     id: "Axiom 5",
     name: "Interface",
     statement: convertMarkdownToJSX(
-      "Consciousness is not produced by matter; matter is the experiential interface through which consciousness encounters information. The formal definition of this interface is detailed in the [Definition](/definition) of Φ."
+      "Consciousness is not produced by matter; matter is the experiential interface through which consciousness encounters information."
     ),
   },
 ];
@@ -164,7 +164,7 @@ export const foundationalPropositions: Proposition[] = [
     id: "I",
     name: "Structural Relational Realism",
     statement: convertMarkdownToJSX(
-      "Reality is constituted by relational structure, not by objects with observer-independent essences. For conceptual exploration, see the main [Content](/) section."
+      "Reality is constituted by relational structure, not by objects with observer-independent essences."
     ),
     corollaries: [
       {
@@ -191,7 +191,7 @@ export const foundationalPropositions: Proposition[] = [
     id: "II",
     name: "Participatory Manifestation",
     statement: convertMarkdownToJSX(
-      "Observation is not a passive recording but an ontological completion of informational states. For conceptual exploration, see the main [Content](/) section."
+      "Observation is not a passive recording but an ontological completion of informational states."
     ),
     corollaries: [
       {
@@ -239,7 +239,7 @@ export const foundationalPropositions: Proposition[] = [
     id: "III",
     name: "Block Relational Spacetime",
     statement: convertMarkdownToJSX(
-      "The universe exists as a four-dimensional manifold in which past, present, and future are equally real features of a single geometric structure. For conceptual exploration, see the main [Content](/) section."
+      "The universe exists as a four-dimensional manifold in which past, present, and future are equally real features of a single geometric structure."
     ),
     corollaries: [
       {
@@ -267,7 +267,7 @@ export const foundationalPropositions: Proposition[] = [
     id: "IV",
     name: "Dimensional Resolution of Infinity",
     statement: convertMarkdownToJSX(
-      "Infinities and singularities arise from projection limits, not from physical divergence. For conceptual exploration, see the main [Content](/) section."
+      "Infinities and singularities arise from projection limits, not from physical divergence."
     ),
     corollaries: [
       {
@@ -328,7 +328,7 @@ export const extrapolativePropositions: Proposition[] = [
     id: "VI",
     name: "Transcension of Intelligence (Extrapolation)",
     statement: convertMarkdownToJSX(
-      "As intelligence approaches maximal informational density, it expands orthogonally to three-dimensional space rather than across it. This leads to testable [predictions](/predictions) about the Fermi Paradox and dark matter signatures."
+      "As intelligence approaches maximal informational density, it expands orthogonally to three-dimensional space rather than across it."
     ),
     corollaries: [
       {
@@ -355,7 +355,7 @@ export const extrapolativePropositions: Proposition[] = [
     id: "VII",
     name: "Recursive Closure (Omega Limit)",
     statement: convertMarkdownToJSX(
-      "The limiting case of Holos is a cyclic fixed point where maximal consciousness observes the totality of relational structure. This represents the limit case where [Φ](/definition) approaches infinity, achieving complete ontological registration. For conceptual exploration, see the main [Content](/) section."
+      "The limiting case of Holos is a cyclic fixed point where maximal consciousness observes the totality of relational structure. This represents the limit case where [Φ](/definition) approaches infinity, achieving complete ontological registration."
     ),
     corollaries: [
       {

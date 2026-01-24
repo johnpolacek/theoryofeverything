@@ -48,12 +48,7 @@ export default function Definition() {
             </a>
             . Without sufficient Φ, a system is physically present as data, but acts only as a
             passive medium rather than an observer-participant. It acts as the ontological filter
-            applied to the output of physical decoherence processes. For stress-testing of this
-            axiom, see the{" "}
-            <a href="/defense" className="text-black/80 hover:text-black underline">
-              Defense
-            </a>{" "}
-            section.
+            applied to the output of physical decoherence processes.
           </p>
         </div>
       </section>
@@ -144,11 +139,7 @@ export default function Definition() {
             These primitives are sufficient to generate all higher-order phenomenology. Complex
             traits such as "emotion," "reason," or "agency" are not fundamental; they are{" "}
             <strong>emergent dynamics</strong> of high Differentiation and Recursion. To add them as
-            separate axioms would be a category error. For the formal logical structure, see the{" "}
-            <a href="/logic" className="text-black/80 hover:text-black underline">
-              Logic
-            </a>{" "}
-            section.
+            separate axioms would be a category error.
           </p>
         </div>
       </section>
@@ -303,11 +294,7 @@ export default function Definition() {
             >
               *R = C ⊛ O*
             </a>
-            . For testable predictions about this threshold, see the{" "}
-            <a href="/predictions" className="text-black/80 hover:text-black underline">
-              Predictions
-            </a>{" "}
-            section.
+            .
           </p>
 
           <p className="leading-relaxed">
@@ -315,16 +302,7 @@ export default function Definition() {
               <MathInline>{"Φ \\gg Φ_c"}</MathInline> (Ontological Anchors):
             </strong>{" "}
             Hypothetical high-density intelligences capable of stabilizing entire cosmological
-            branches (The "Aliens" of the Transcension Hypothesis). For conceptual exploration, see
-            the main{" "}
-            <a href="/" className="text-black/80 hover:text-black underline">
-              Content
-            </a>{" "}
-            section. For testable predictions, see the{" "}
-            <a href="/predictions" className="text-black/80 hover:text-black underline">
-              Predictions
-            </a>{" "}
-            section.
+            branches (The "Aliens" of the Transcension Hypothesis).
           </p>
         </div>
       </section>
@@ -355,12 +333,7 @@ export default function Definition() {
             <a href="/logic#axioms" className="text-black/80 hover:text-black underline">
               Manifestation
             </a>{" "}
-            as a <strong>Selection Operator</strong>, not a Destruction Operator. For the formal
-            treatment, see the{" "}
-            <a href="/logic" className="text-black/80 hover:text-black underline">
-              Logic
-            </a>{" "}
-            section.
+            as a <strong>Selection Operator</strong>, not a Destruction Operator.
           </p>
 
           <ul className="flex flex-col gap-3 pl-4">
@@ -377,8 +350,8 @@ export default function Definition() {
                 className="text-black/80 hover:text-black underline"
               >
                 operational definition *R = C ⊛ O*
-              </a>{" "}
-              for the formal structure.
+              </a>
+              .
             </li>
           </ul>
 
@@ -422,12 +395,7 @@ export default function Definition() {
               Quantum Mechanics
             </a>
             . Instead, it introduces a <strong>Manifestation Constraint</strong> that preserves
-            unitarity while enabling ontological registration. For stress-testing of this approach,
-            see the{" "}
-            <a href="/defense" className="text-black/80 hover:text-black underline">
-              Defense
-            </a>{" "}
-            section.
+            unitarity while enabling ontological registration.
           </p>
         </div>
       </section>

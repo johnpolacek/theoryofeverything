@@ -101,7 +101,7 @@ const defenseData: AxiomDefense[] = [
           "Physics describes relations because measurements access relations, not because intrinsic properties do not exist.",
           "",
           "**Response:**",
-          "Holos does not deny ontic structure; it denies *observer-independent intrinsic essence*. For the formal statement, see [Axiom 1](/logic#axioms) in the Logic section.",
+          "Holos does not deny ontic structure; it denies *observer-independent intrinsic essence*.",
           "This aligns with:",
           "- Gauge invariance (only relational quantities are physical)",
           "- General Relativity (no absolute spacetime background)",
@@ -119,7 +119,7 @@ const defenseData: AxiomDefense[] = [
           "Fields possess mass, charge, and spin.",
           "",
           "**Response:**",
-          "These are relational invariants defined through symmetry, interaction, and representation—not standalone substances. For the formal treatment, see [Axiom 1](/logic#axioms) in the Logic section.",
+          "These are relational invariants defined through symmetry, interaction, and representation—not standalone substances.",
           "",
           "**Status:** ✔ Survives",
         ],
@@ -137,7 +137,7 @@ const defenseData: AxiomDefense[] = [
           "Physics experiments (like the [Elitzur–Vaidman bomb tester](https://en.wikipedia.org/wiki/Elitzur%E2%80%93Vaidman_bomb_tester)) show that 'collapse' occurs via mechanical possibilities, even without direct interaction or conscious observers.",
           "",
           "**Response:**",
-          "Holos incorporates decoherence as a function of **Creation (C)**, not Observation (O). See the [Logic](/logic) section for the formal definition of *R = C ⊛ O*.",
+          "Holos incorporates decoherence as a function of **Creation (C)**, not Observation (O). See the [Logic](/logic) section for the operational definition *R = C ⊛ O*.",
           "",
           "- Decoherence explains the **suppression of interference** (how possibilities become distinct).",
           "- It does not explain **actuality** (why one distinct possibility is experienced to the exclusion of others).",
@@ -158,7 +158,7 @@ const defenseData: AxiomDefense[] = [
           "- [Relational QM](https://en.wikipedia.org/wiki/Relational_quantum_mechanics) (observer-relative facts)",
           "- [Participatory Anthropic Principle](https://en.wikipedia.org/wiki/Anthropic_principle) (observers as boundary conditions)",
           "",
-          "Consciousness here means *experiential integration*, not human cognition. The formal definition of this threshold is detailed in the [Definition](/definition) of Φ.",
+          "Consciousness here means *experiential integration*, not human cognition. This threshold is detailed in the [Definition](/definition) of Φ.",
           "",
           "**Status:** ✔ Survives",
         ],
@@ -172,7 +172,7 @@ const defenseData: AxiomDefense[] = [
           "**Response:**",
           "Under [eternalism](https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time) ([block universe](https://en.wikipedia.org/wiki/Block_universe), observation need not be temporally local.",
           "Later observers can consistently instantiate earlier states without causal paradox.",
-          "In [delayed-choice experiments](https://en.wikipedia.org/wiki/Wheeler%27s_delayed-choice_experiment) and [quantum erasers](https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser), future observations retroactively 'manifest' past states, demonstrating that consciousness doesn't need to act in real-time—it's the global self-consistency of the block universe that matters. For conceptual exploration, see the main [Content](/) section.",
+          "In [delayed-choice experiments](https://en.wikipedia.org/wiki/Wheeler%27s_delayed-choice_experiment) and [quantum erasers](https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser), future observations retroactively 'manifest' past states, demonstrating that consciousness doesn't need to act in real-time—it's the global self-consistency of the block universe that matters.",
           "",
           "**Status:** ✔ Survives (conditional on block universe)",
         ],
@@ -190,7 +190,7 @@ const defenseData: AxiomDefense[] = [
           "Classic black hole evaporation implies loss.",
           "",
           "**Response:**",
-          "Modern consensus ([AdS/CFT correspondence](https://en.wikipedia.org/wiki/AdS/CFT_correspondence), [Page curve](https://en.wikipedia.org/wiki/Hawking_radiation#Page_curve), [holographic principle](https://en.wikipedia.org/wiki/Holographic_principle)) supports information conservation. For the formal statement, see [Axiom 3](/logic#axioms) in the Logic section.",
+          "Modern consensus ([AdS/CFT correspondence](https://en.wikipedia.org/wiki/AdS/CFT_correspondence), [Page curve](https://en.wikipedia.org/wiki/Hawking_radiation#Page_curve), [holographic principle](https://en.wikipedia.org/wiki/Holographic_principle)) supports information conservation.",
           "",
           "**Status:** ✔ Strongly survives",
         ],
@@ -227,7 +227,7 @@ const defenseData: AxiomDefense[] = [
           "",
           "**Response:**",
           "Holos asserts conceptual resolution, not empirical proof.",
-          "This mirrors accepted speculative frameworks (inflation, multiverse, string theory). For the formal statement, see [Axiom 4](/logic#axioms) in the Logic section. For conceptual exploration, see the main [Content](/) section.",
+          "This mirrors accepted speculative frameworks (inflation, multiverse, string theory).",
           "",
           "**Status:** ✔ Survives as structural heuristic",
         ],
@@ -239,7 +239,7 @@ const defenseData: AxiomDefense[] = [
           "Not all infinities are physical pathologies.",
           "",
           "**Response:**",
-          "Holos targets *physical* infinities (singularities), not mathematical abstraction. For the formal statement, see [Axiom 4](/logic#axioms) in the Logic section.",
+          "Holos targets *physical* infinities (singularities), not mathematical abstraction.",
           "",
           "**Status:** ✔ Survives",
         ],
@@ -262,7 +262,7 @@ const defenseData: AxiomDefense[] = [
           "- Avoids substance dualism",
           "- Aligns with field-based ontology",
           "",
-          "It is ontological, not mechanistic. The formal definition of consciousness as interface is detailed in the [Definition](/definition) of Φ. For the formal statement, see [Axiom 5](/logic#axioms) in the Logic section.",
+          "It is ontological, not mechanistic. The definition of consciousness as interface is detailed in the [Definition](/definition) of Φ.",
           "",
           "**Status:** ✔ Survives",
         ],
@@ -279,7 +279,7 @@ const defenseData: AxiomDefense[] = [
           "- Will or purpose",
           "- Moral authority",
           "",
-          "It requires only irreducible experience, already acknowledged in philosophy of mind. The formal definition of this capacity is detailed in the [Definition](/definition) of Φ. For the formal statement, see [Axiom 5](/logic#axioms) in the Logic section.",
+          "It requires only irreducible experience, already acknowledged in philosophy of mind. This capacity is detailed in the [Definition](/definition) of Φ.",
           "",
           "**Status:** ✔ Survives",
         ],
@@ -295,7 +295,7 @@ const defenseData: AxiomDefense[] = [
           "",
           "- It does not 'push' atoms (Creation/Dynamics handles that).",
           "- It **selects** which history becomes actualized within the static Spacetime Block.",
-          "- The effect is atemporal and geometric, not kinetic. It is the difference between *drawing* a line (Force) and *observing* where the line must be (Logic). For the formal operational definition, see the [Logic](/logic) section (*R = C ⊛ O*).",
+          "- The effect is atemporal and geometric, not kinetic. It is the difference between *drawing* a line (Force) and *observing* where the line must be (Logic). See the [Logic](/logic) section for the operational definition (*R = C ⊛ O*).",
           "",
           "**Status:** ✔ Survives",
         ],
@@ -357,7 +357,7 @@ export default function Defense() {
               <a href="/logic" className="text-black/80 hover:text-black underline">
                 Logic
               </a>{" "}
-              for formal statement)
+              for formal statement.)
             </p>
             <div className="flex flex-col gap-8">
               {axiom.objections.map((objection) => (
@@ -470,8 +470,8 @@ export default function Defense() {
               true manifestation requires integration into a broader experiential network—ultimately
               culminating in higher consciousness. Systems below <MathInline>{"Φ_c"}</MathInline>{" "}
               can perform mechanical "observations" (decoherence), but only{" "}
-              <MathInline>{"Φ ≥ Φ_c"}</MathInline> manifests experiential reality. The formal
-              definition of this threshold is detailed in the{" "}
+              <MathInline>{"Φ ≥ Φ_c"}</MathInline> manifests experiential reality. This threshold is
+              detailed in the{" "}
               <a href="/definition" className="text-black/80 hover:text-black underline">
                 Definition
               </a>{" "}
@@ -492,8 +492,8 @@ export default function Defense() {
           <div className="flex flex-col gap-2">
             <p className="font-semibold text-black/90">Current Position:</p>
             <p className="leading-relaxed">
-              Consciousness provides ontological completion, not causal intervention. The formal
-              definition of this capacity is quantified by the ontological parameter{" "}
+              Consciousness provides ontological completion, not causal intervention. This capacity
+              is quantified by the ontological parameter{" "}
               <a href="/definition" className="text-black/80 hover:text-black underline">
                 Φ (Phi)
               </a>
@@ -522,11 +522,11 @@ export default function Defense() {
             <a href="/logic" className="text-black/80 hover:text-black underline">
               Logic
             </a>{" "}
-            section. For testable empirical implications, see the{" "}
+            section. For testable empirical implications, see{" "}
             <a href="/predictions" className="text-black/80 hover:text-black underline">
               Predictions
-            </a>{" "}
-            section.
+            </a>
+            .
           </p>
         </div>
       </section>

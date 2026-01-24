@@ -26,11 +26,10 @@ export default function Predictions() {
           >
             Logic
           </a>{" "}
-          section. For the definition of Φ, see the{" "}
+          section. For the definition of Φ, see{" "}
           <a href="/definition" className="text-black/80 hover:text-black underline">
             Definition
-          </a>{" "}
-          section.
+          </a>.
         </p>
       </div>
 
@@ -42,7 +41,7 @@ export default function Predictions() {
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
             {convertMarkdownToJSX(
-              'Holos implies that the universe\'s parameters are "selected" through participatory manifestation ([Axiom 2](/logic#axioms)), where observers act as a boundary condition for a self-consistent [block universe](https://en.wikipedia.org/wiki/Block_universe). This operationalizes the **[Participatory Anthropic Principle](https://en.wikipedia.org/wiki/Anthropic_principle)**, predicting that observable constants favor life not by chance, but by necessity. For conceptual exploration, see the main [Content](/) section.'
+              'Holos implies that the universe\'s parameters are "selected" through participatory manifestation ([Axiom 2](/logic#axioms)), where observers act as a boundary condition for a self-consistent [block universe](https://en.wikipedia.org/wiki/Block_universe). This operationalizes the **[Participatory Anthropic Principle](https://en.wikipedia.org/wiki/Anthropic_principle)**, predicting that observable constants favor life not by chance, but by necessity.'
             )}
           </p>
           <p className="leading-relaxed">
@@ -82,7 +81,7 @@ export default function Predictions() {
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
             {convertMarkdownToJSX(
-              'Holos predicts no observer-independent "facts," but ensures mutual coherence across perspectives ([Axiom 1](/logic#axioms)). For stress-testing of this axiom, see the [Defense](/defense) section.'
+              'Holos predicts no observer-independent "facts," but ensures mutual coherence across perspectives ([Axiom 1](/logic#axioms)).'
             )}
           </p>
           <p className="leading-relaxed">
@@ -102,13 +101,13 @@ export default function Predictions() {
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
             {convertMarkdownToJSX(
-              "As intelligence maximizes informational integration ([Corollary V.2](/logic#foundational-propositions)), Holos predicts it will expand **orthogonally** into higher-dimensional substrates rather than expanding spatially across the galaxy. For conceptual exploration of the Transcension Hypothesis, see the main [Content](/) section."
+              "As intelligence maximizes informational integration ([Corollary V.2](/logic#foundational-propositions)), Holos predicts it will expand **orthogonally** into higher-dimensional substrates rather than expanding spatially across the galaxy."
             )}
           </p>
           <p className="leading-relaxed">
             <strong>Empirical Implication:</strong>{" "}
             {convertMarkdownToJSX(
-              'The resolution to the [Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox) is geometric. Astronomical surveys (e.g., **[JWST](https://en.wikipedia.org/wiki/James_Webb_Space_Telescope)**, **[Euclid](https://en.wikipedia.org/wiki/Euclid_(spacecraft))**) may detect "missing mass" or gravitational anomalies that mimic [Dark Matter](https://en.wikipedia.org/wiki/Dark_matter), representing high-density informational structures located in the "bulk" dimensions ([Axiom 4: Unification](/logic#axioms)).[^13] For conceptual exploration, see the main [Content](/) section.'
+              'The resolution to the [Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox) is geometric. Astronomical surveys (e.g., **[JWST](https://en.wikipedia.org/wiki/James_Webb_Space_Telescope)**, **[Euclid](https://en.wikipedia.org/wiki/Euclid_(spacecraft))**) may detect "missing mass" or gravitational anomalies that mimic [Dark Matter](https://en.wikipedia.org/wiki/Dark_matter), representing high-density informational structures located in the "bulk" dimensions ([Axiom 4: Unification](/logic#axioms)).[^13]'
             )}
           </p>
         </div>
