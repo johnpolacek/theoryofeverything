@@ -123,7 +123,7 @@ export const sections: ContentSection[] = [
         only through the high-level integration found in life. This integration is quantified by the{" "}
         <a href="https://en.wikipedia.org/wiki/Ontology">ontological</a> (relating to existence or
         being) parameter <a href="/definition">Φ (Phi)</a>, which determines when a system becomes
-        capable of registering reality.
+        capable of registering reality (becoming aware of its own existence).
       </>,
       <>
         Humans exhibit consciousness by being self-aware and capable of profound observation and
@@ -147,7 +147,11 @@ export const sections: ContentSection[] = [
         dimension, time.
       </>,
       <>
-        This is our <a href="https://en.wikipedia.org/wiki/Spacetime">Spacetime</a> block.
+        This is our <a href="https://en.wikipedia.org/wiki/Spacetime">spacetime</a>{" "}
+        <a href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)#Block_universe">
+          block
+        </a>
+        —a four-dimensional structure where all moments exist simultaneously.
       </>,
       <>
         What if the Big Bang is not a moment of absolute creation but a boundary within that
@@ -169,12 +173,16 @@ export const sections: ContentSection[] = [
       <>
         This invariance forces space and time to warp to accommodate the constant, shattering the
         notion of a universal &apos;Now&apos; and necessitating that past, present, and future exist
-        simultaneously as a unified geometric solid.
+        simultaneously as a unified{" "}
+        <a href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)#Block_universe">
+          four-dimensional structure
+        </a>
+        .
       </>,
       <>
         Consider beings with an unlimited lifespan and near-instantaneous communication, perceiving
         time as an additional spatial dimension. These beings would not be limited by the
-        unidirectional flow of time as we are.
+        one-way flow of time as we are.
       </>,
       <>
         Instead, they would perceive the curvature of spacetime comprehensively, seeing past,
@@ -184,13 +192,14 @@ export const sections: ContentSection[] = [
       </>,
       <>
         For a photon traveling at the{" "}
-        <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a>, the spacetime
-        interval is zero, a <a href="#footer-spacetime">Null Interval</a>. While a photon does not
+        <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a>, the{" "}
+        <a href="https://en.wikipedia.org/wiki/Spacetime#Spacetime_interval">spacetime interval</a>{" "}
+        is zero, a <a href="#footer-spacetime">null interval</a>. While a photon does not
         possess subjective experience in a biological sense, geometrically, its path effectively
         collapses the universe into a single point of contact where emission and absorption occur
         simultaneously. To a higher-dimensional observer, a photon is not a moving particle, but a
-        static geometric structure—a <a href="#footer-spacetime">Null Geodesic</a>—that permanently
-        connects two points in spacetime like a seam.
+        static geometric structure—a <a href="#footer-spacetime">null geodesic</a> (the path light
+        follows through spacetime)—that permanently connects two points in spacetime like a seam.
       </>,
       <>
         This structure suggests that time does not merely flow forward; it is a completed circuit.
@@ -233,11 +242,12 @@ export const sections: ContentSection[] = [
         and <a href="https://en.wikipedia.org/wiki/Quantum_mechanics">quantum mechanics</a>.
       </>,
       <>
-        In these theories, the additional dimensions are compactified or hidden from our direct
-        observation, yet their influence permeates our lower-dimensional reality. These higher
-        dimensions shape the physical laws and constants that govern our universe, influencing
-        everything from the behavior of subatomic particles to gravitational interactions and the
-        structure of the cosmos.
+        In these theories, the additional dimensions are{" "}
+        <a href="https://en.wikipedia.org/wiki/Compactification_(physics)">compactified</a> (curled
+        up into tiny spaces) or hidden from our direct observation, yet their influence permeates our
+        lower-dimensional reality. These higher dimensions shape the physical laws and constants
+        that govern our universe, influencing everything from the behavior of subatomic particles to
+        gravitational interactions and the structure of the cosmos.
       </>,
       <>
         Like a 3D object casting a 2D shadow, our physical laws may be projections of a
@@ -247,8 +257,11 @@ export const sections: ContentSection[] = [
       <>
         As we control and transform the three dimensional environment around us, consciousness in
         higher dimensions could influence lower dimensions, forming an interconnected cosmic
-        structure. The threshold for such consciousness is reached when systems achieve sufficient
-        informational integration to register ontological states.
+        structure. The threshold for such consciousness is reached when systems achieve sufficient{" "}
+        <a href="https://en.wikipedia.org/wiki/Integrated_information_theory">
+          informational integration
+        </a>{" "}
+        to register ontological states (become aware of their existence).
       </>,
       <>
         From our perspective, light is a mechanism of energy transfer. However, from a
@@ -317,22 +330,26 @@ export const sections: ContentSection[] = [
       <>
         The <a href="https://en.wikipedia.org/wiki/Fermi_paradox">Fermi Paradox</a> questions the
         lack of detected extraterrestrial life, despite the vastness of the universe. Within the
-        context of this framework, this silence is likely a geometric constraint rather than a
-        biological one. This leads to testable <a href="/predictions">predictions</a> about
-        gravitational anomalies and dark matter signatures.
+        context of this framework, this silence is likely a geometric constraint (a limitation
+        imposed by the structure of spacetime dimensions) rather than a biological one. This leads
+        to testable <a href="/predictions">predictions</a> about gravitational anomalies and dark
+        matter signatures.
       </>,
       <>
         If civilizations evolve to understand the higher-dimensional structure of reality, they may
-        inevitably &quot;transcend&quot; by accessing geometries orthogonal to our observable 3D
-        slice. Rather than expanding outwardly across vast physical distances limited by the{" "}
-        <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a>. Advanced
+        inevitably &quot;transcend&quot; by accessing geometries{" "}
+        <a href="https://en.wikipedia.org/wiki/Orthogonality">orthogonal</a> (perpendicular, at
+        right angles) to our observable 3D slice. Rather than expanding outwardly across vast
+        physical distances limited by the <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a>. Advanced
         intelligence likely expands inwardly toward higher densities of information.
       </>,
       <>
         These advanced civilizations would leave no electromagnetic footprint, potentially
         detectable only through gravitational anomalies or unaccounted-for mass (
         <a href="https://en.wikipedia.org/wiki/Dark_matter">Dark Matter</a>) that implies structure
-        in the higher-dimensional bulk. This forms the basis for{" "}
+        in the higher-dimensional{" "}
+        <a href="https://en.wikipedia.org/wiki/Brane_cosmology">bulk</a> (the full
+        higher-dimensional space). This forms the basis for{" "}
         <a href="/predictions">empirical predictions</a> testable through astronomical surveys.
       </>,
       <>
@@ -340,10 +357,11 @@ export const sections: ContentSection[] = [
         <a href="https://www.accelerating.org/articles/transcensionhypothesis">
           Transcension Hypothesis
         </a>{" "}
-        suggests that advanced civilizations migrate into higher-dimensional manifolds or black hole
-        singularities, where computational efficiency approaches infinity and the constraints of
-        spacetime intervals vanish. We do not see them because they have rotated out of our
-        lower-dimensional &quot;shadow,&quot; moving closer to the unified source of reality.
+        suggests that advanced civilizations migrate into higher-dimensional{" "}
+        <a href="https://en.wikipedia.org/wiki/Manifold">manifolds</a> (curved geometric spaces) or
+        black hole singularities, where computational efficiency approaches infinity and the
+        constraints of spacetime intervals vanish. We do not see them because they have rotated out
+        of our lower-dimensional &quot;shadow,&quot; moving closer to the unified source of reality.
         <FootnoteLink number={8} />
       </>,
     ],
@@ -370,10 +388,12 @@ export const sections: ContentSection[] = [
     paragraphs: [
       <>
         Regardless of any label we choose to assign, a final state of consciousness characterized by
-        maximal informational integration (Omniscience), causal completeness (Omnipotence), and
-        non-local topological presence (Omnipresence) is a fundamental aspect of the nature of
-        reality. This represents the limit case where <a href="/definition">Φ</a> approaches
-        infinity, achieving complete ontological registration.
+        maximal informational integration (knowing everything), causal completeness (ability to do
+        anything), and non-local topological presence (being everywhere) is a fundamental aspect of
+        the nature of reality. This represents the{" "}
+        <a href="https://en.wikipedia.org/wiki/Limit_(mathematics)">limit case</a> where{" "}
+        <a href="/definition">Φ</a> approaches infinity, achieving complete ontological registration
+        (full awareness of existence).
       </>,
       <>
         Religious beliefs like <a href="https://en.wikipedia.org/wiki/Panentheism">panentheism</a>,{" "}
@@ -411,7 +431,7 @@ export const sections: ContentSection[] = [
       <>
         What we perceive as an expansive universe may instead be a single informational event
         unfolding in a way that makes distance, duration, and individuality experientially real.
-        Space, time and other dimensions create the conditions that make it possible for our
+        Space, time, and other dimensions create the conditions that make it possible for our
         universe to exist.
       </>,
       <>
@@ -436,7 +456,8 @@ export const sections: ContentSection[] = [
       <>
         <strong>Relationality:</strong> Reality is not composed of isolated objects with intrinsic
         properties, but of relationships and interactions. While the observer determines the
-        perspective, the invariant structure of these relationships remains absolute (
+        perspective, the <a href="https://en.wikipedia.org/wiki/Invariant_(physics)">invariant</a>{" "}
+        (unchanging) structure of these relationships remains absolute (
         <a className="px-0.5 opacity-80 hover:opacity-100" href="#footer-axioms">
           Holos<sup>12</sup>
         </a>
@@ -445,7 +466,9 @@ export const sections: ContentSection[] = [
       <>
         <strong>Manifestation:</strong> Observation is the act of integrating information into an
         experience. Because reality exists as a unified spacetime block, conscious entities
-        participate in the realization of the entire structure, regardless of temporal locality (
+        participate in the realization of the entire structure, regardless of{" "}
+        <a href="https://en.wikipedia.org/wiki/Locality_(physics)">temporal locality</a> (when in
+        time they exist) (
         <a className="px-0.5 opacity-80 hover:opacity-100" href="#footer-life">
           Participatory Principle<sup>1</sup>
         </a>
@@ -462,7 +485,9 @@ export const sections: ContentSection[] = [
       <>
         <strong>Unification:</strong> Apparent infinities in lower dimensions are resolved into
         finite structures when mapped onto higher-dimensional frameworks. These descriptions are
-        required to render the universe intelligible and resolve singularities (
+        required to render the universe intelligible and resolve{" "}
+        <a href="https://en.wikipedia.org/wiki/Gravitational_singularity">singularities</a>{" "}
+        (points where physical laws break down) (
         <a className="px-0.5 opacity-80 hover:opacity-100" href="#footer-dimensions">
           Projective Geometry<sup>5</sup>
         </a>
@@ -484,11 +509,15 @@ export const sections: ContentSection[] = [
     title: "⊛ Holos",
     paragraphs: [
       <>
-        The symbol ⊛ denotes a binary relational operator. Unlike standard multiplication, ⊛ is not
-        scalar or linear; it represents a structured composition that preserves relational
-        consistency under iteration. Formally, ⊛ is defined such that repeated application remains
-        well-defined, allowing the operation to scale across finite and infinite sequences without
-        collapse or divergence. For the complete formal structure, see <a href="/logic">Logic</a>.
+        The symbol ⊛ denotes a binary relational operator. Unlike standard multiplication, ⊛ is not{" "}
+        <a href="https://en.wikipedia.org/wiki/Scalar_(mathematics)">scalar</a> (a single number) or{" "}
+        <a href="https://en.wikipedia.org/wiki/Linear_map">linear</a> (proportional); it represents
+        a structured composition that preserves relational consistency under iteration. Formally, ⊛
+        is defined such that repeated application remains{" "}
+        <a href="https://en.wikipedia.org/wiki/Well-defined_expression">well-defined</a> (has a
+        clear, unambiguous meaning), allowing the operation to scale across finite and infinite
+        sequences without collapse or divergence. For the complete formal structure, see{" "}
+        <a href="/logic">Logic</a>.
       </>,
       <>
         Holos is derived from the Greek word ὅλος (<em>holos</em>), meaning whole, entire, or
@@ -500,15 +529,19 @@ export const sections: ContentSection[] = [
       <>
         Mathematically, ⊛ functions as a recursive operator within a relational system. The output
         of Observation becomes the input condition for subsequent Creation, establishing a closed
-        yet non-static loop. This structure is conceptually aligned with category-theoretic notions
-        of compositionality and endomorphism, where morphisms act on and reproduce the space in
-        which they are defined. The mathematical formalism is detailed in <a href="/logic">Logic</a>
-        .
+        yet non-static loop. This structure is conceptually aligned with{" "}
+        <a href="https://en.wikipedia.org/wiki/Category_theory">category-theoretic</a> notions of
+        compositionality and{" "}
+        <a href="https://en.wikipedia.org/wiki/Endomorphism">endomorphism</a> (functions that map
+        a structure to itself), where <a href="https://en.wikipedia.org/wiki/Morphism">morphisms</a>{" "}
+        (structure-preserving maps) act on and reproduce the space in which they are defined. The
+        mathematical formalism is detailed in <a href="/logic">Logic</a>.
       </>,
       <>
         Importantly, ⊛ does not introduce an additional physical force or dynamical law. It
-        specifies an ontological relation: how reality is constituted through the recursive coupling
-        of generative possibility and registered state.
+        specifies an <a href="https://en.wikipedia.org/wiki/Ontology">ontological</a> (relating to
+        existence) relation: how reality is constituted through the recursive coupling of generative
+        possibility and registered state.
       </>,
     ],
   },
@@ -843,7 +876,7 @@ export const footnotes: FootnoteSection[] = [
         name: "The Transcension Hypothesis",
         url: "https://www.accelerating.org/articles/transcensionhypothesis",
         description:
-          "Suggests that advanced civilizations evolve beyond our observable universe, transcending into higher dimensions or computational substrates.",
+          "Suggests that advanced civilizations evolve beyond our observable universe, transcending into higher dimensions or computational substrates (physical or digital systems that support computation).",
       },
       {
         name: "Technological Singularity",
