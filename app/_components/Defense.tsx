@@ -75,10 +75,12 @@ function markdownToJSX(text: string, keyPrefix: string = ""): ReactNode {
     if (nextLink !== -1 && nextLink < nextSpecial) nextSpecial = nextLink;
 
     if (nextSpecial > 0) {
-      elements.push(remaining.slice(0, nextSpecial));
+      const text = remaining.slice(0, nextSpecial);
+      elements.push(<span key={`${keyPrefix}-text-${keyIndex++}`}>{text}</span>);
       remaining = remaining.slice(nextSpecial);
     } else {
-      elements.push(remaining[0]);
+      const char = remaining[0];
+      elements.push(<span key={`${keyPrefix}-char-${keyIndex++}`}>{char}</span>);
       remaining = remaining.slice(1);
     }
   }
