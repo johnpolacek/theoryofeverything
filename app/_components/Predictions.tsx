@@ -322,10 +322,402 @@ export default function Predictions() {
         </div>
       </section>
 
-      {/* Experimental Protocol: Observer-Cut Sensitivity in Relational Systems */}
+      {/* Experimental Protocol: Integration Phase Transition in Artificial Systems */}
       <section id="experiment-2" className="flex flex-col gap-6">
         <h2 className="text-xl sm:text-2xl font-medium pb-2">
-          Experiment 2. Observer-Cut Sensitivity in Relational Systems
+          Experiment 2. Integration Phase Transition in Artificial Systems (Exploratory)
+        </h2>
+
+        <div className="flex flex-col gap-6 text-black/80">
+          {/* Objective */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Objective</h3>
+            <p className="leading-relaxed">
+              To determine whether integration metrics in recurrent or feedback-based artificial
+              systems exhibit nonlinear, threshold-like behavior as system complexity increases.
+              This tests the Holos-inspired hypothesis that observer-like integration may emerge
+              through a phase transition rather than a continuous gradient.
+            </p>
+          </div>
+
+          {/* Subjects */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Subjects</h3>
+            <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed">
+              <li>
+                {convertMarkdownToJSX("**Recurrent neural networks (RNNs)**, including:")}
+                <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4 mt-1">
+                  <li>LSTMs / GRUs</li>
+                  <li>Transformer architectures with recurrence/feedback</li>
+                  <li>Reservoir networks</li>
+                </ul>
+              </li>
+              <li>
+                {convertMarkdownToJSX(
+                  "**Artificial systems with explicit feedback loops** or memory"
+                )}
+              </li>
+              <li>
+                {convertMarkdownToJSX(
+                  "Optionally: **neuromorphic hardware implementations** (for hardware-specific behavior)"
+                )}
+              </li>
+            </ul>
+          </div>
+
+          {/* Measured Variables */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Measured Variables</h3>
+            <div className="flex flex-col gap-4">
+              <div>
+                <h4 className="font-semibold mb-2">Primary Variables</h4>
+                <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed ml-4">
+                  <li>
+                    <strong>Integrated Information (Φ-like)</strong> metrics computed from internal
+                    activity
+                    <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4 mt-1">
+                      <li>
+                        <em>Direct Φ</em> when feasible
+                      </li>
+                      <li>
+                        <em>Proxy measures</em> when direct computation is intractable (e.g.,{" "}
+                        <strong>perturbation-based complexity</strong> or{" "}
+                        <strong>causal density</strong>)
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Information integration density</strong> (integration per node / per
+                    connection)
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-2">Secondary Variables</h4>
+                <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed ml-4">
+                  <li>
+                    Task performance (e.g., prediction accuracy, memory capacity, language modeling
+                    score)
+                  </li>
+                  <li>
+                    Complexity metrics:
+                    <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4 mt-1">
+                      <li>entropy</li>
+                      <li>mutual information</li>
+                      <li>recurrence strength</li>
+                      <li>attractor dimensionality</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Structural variables:
+                    <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4 mt-1">
+                      <li>network depth</li>
+                      <li>connectivity density</li>
+                      <li>feedback strength</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Prior Work and Status */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Prior Work and Status</h3>
+            <div className="flex flex-col gap-3 leading-relaxed">
+              <p>
+                <strong>Status: Exploratory / Partially Explored</strong>
+              </p>
+              <p>
+                Integrated information and related metrics have been explored in artificial systems,
+                but usually as <strong>correlates of performance</strong>, not as evidence for phase
+                transitions or observer emergence.
+              </p>
+              <p>
+                There is <strong>no established literature</strong> demonstrating a threshold-like
+                transition in artificial systems that mirrors the Holos observer hypothesis.
+              </p>
+              <p>
+                <strong>Relationship to Prior Work</strong>
+                <br />
+                This builds on:
+              </p>
+              <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4">
+                <li>Integrated information theory (Tononi et al.)</li>
+                <li>Complexity metrics in neural networks</li>
+                <li>Studies of phase transitions in learning dynamics</li>
+              </ul>
+              <p>
+                But it is novel in treating integration as a potential{" "}
+                <strong>emergent boundary</strong> rather than a functional performance metric.
+              </p>
+            </div>
+          </div>
+
+          {/* Protocol */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Protocol</h3>
+            <ol className="list-decimal list-inside flex flex-col gap-2 leading-relaxed ml-4">
+              <li>
+                {convertMarkdownToJSX(
+                  "**Select a set of architectures** spanning: shallow to deep networks, feedforward to recurrent, low to high feedback density"
+                )}
+              </li>
+              <li>
+                {convertMarkdownToJSX(
+                  "**Train each network** on a standardized task (e.g., sequence prediction, language modeling, reinforcement learning)"
+                )}
+              </li>
+              <li>
+                {convertMarkdownToJSX(
+                  "**Compute integration metrics** across training epochs and architecture variations: direct Φ when feasible, proxy metrics otherwise (e.g., perturbation complexity)"
+                )}
+              </li>
+              <li>
+                {convertMarkdownToJSX(
+                  "**Systematically scale**: number of units, connectivity density, recurrence depth, memory length"
+                )}
+              </li>
+              <li>
+                {convertMarkdownToJSX(
+                  "**Plot integration vs. scale** and look for: sharp jumps, discontinuities, phase-like transitions"
+                )}
+              </li>
+              <li>
+                {convertMarkdownToJSX(
+                  "**Validate stability** by repeating across multiple random seeds and tasks"
+                )}
+              </li>
+            </ol>
+          </div>
+
+          {/* Prediction */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Prediction</h3>
+            <p className="leading-relaxed">
+              Because this is exploratory, the prediction is intentionally cautious:
+            </p>
+            <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed ml-4">
+              <li>
+                <strong>Primary prediction:</strong> Integration metrics will show{" "}
+                <strong>nonlinear growth</strong>, and under some architectures may display{" "}
+                <strong>phase transition behavior</strong> (sharp changes) as system complexity
+                increases.
+              </li>
+              <li>
+                <strong>Alternative outcome:</strong> Integration grows smoothly without thresholds,
+                suggesting the Holos threshold may require biological substrate or different
+                structural constraints.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Experimental Protocol: Social Network → Integration Thresholds in Collective Systems */}
+      <section id="experiment-3" className="flex flex-col gap-6">
+        <h2 className="text-xl sm:text-2xl font-medium pb-2">
+          Experiment 3. Social Network → Integration Thresholds in Collective Systems (Exploratory)
+        </h2>
+
+        <div className="flex flex-col gap-6 text-black/80">
+          {/* Objective */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Objective (Exploratory)</h3>
+            <p className="leading-relaxed">
+              To explore whether collective systems (human social networks or simulated agent
+              networks) can exhibit <strong>integration thresholds</strong>—sudden nonlinear
+              increases in information integration—as they scale.
+            </p>
+            <p className="leading-relaxed">
+              <strong>Holos relevance:</strong> If observerhood depends on integrated information,
+              then integration thresholds may indicate the emergence of{" "}
+              <em>observer-like integration</em> at the collective level. This experiment does{" "}
+              <strong>not</strong> assume that groups are conscious observers, but explores whether
+              the <em>structural conditions</em> for observerhood can emerge in collective systems.
+            </p>
+          </div>
+
+          {/* Exploratory Note */}
+          <div className="flex flex-col gap-4 border-l-4 border-black/10 pl-4 py-2 bg-black/5">
+            <h3 className="text-lg font-semibold italic">Exploratory Note</h3>
+            <p className="leading-relaxed text-sm">
+              This experiment is exploratory because:
+            </p>
+            <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed text-sm ml-2">
+              <li>It is unclear whether integration thresholds exist in collective systems.</li>
+              <li>
+                It is unclear whether any such threshold would map meaningfully to observerhood.
+              </li>
+              <li>
+                The goal is to discover whether{" "}
+                <strong>integration behaves like a phase transition</strong> in social systems, not
+                to prove group consciousness.
+              </li>
+            </ul>
+          </div>
+
+          {/* Subjects */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Subjects</h3>
+            <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed">
+              <li>
+                {convertMarkdownToJSX(
+                  "**Human social networks** (online communities or controlled groups)"
+                )}
+              </li>
+              <li>{convertMarkdownToJSX("**Simulated networks** (agent-based models)")}</li>
+            </ul>
+          </div>
+
+          {/* Measured Variables */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Measured Variables</h3>
+            <div className="flex flex-col gap-4">
+              <div>
+                <h4 className="font-semibold mb-2">Primary Variables (Integration Proxies)</h4>
+                <p className="text-sm mb-3">
+                  Because direct Φ is not feasible in social systems, use proxies such as:
+                </p>
+                <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed ml-4">
+                  <li>
+                    <strong>Mutual information across subgroups</strong>
+                  </li>
+                  <li>
+                    <strong>Causal density</strong> (how much nodes influence each other)
+                  </li>
+                  <li>
+                    <strong>Network-wide coherence</strong> (synchronization of decisions or
+                    beliefs)
+                  </li>
+                  <li>
+                    <strong>Information integration density</strong> (integration per node)
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-2">Secondary Variables</h4>
+                <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed ml-4">
+                  <li>Task performance (accuracy, response time, coordination)</li>
+                  <li>Network structure (density, centrality, clustering)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Prior Work and Status */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Prior Work and Status</h3>
+            <div className="flex flex-col gap-3 leading-relaxed">
+              <p>
+                <strong>Status: Novel / Exploratory</strong>
+              </p>
+              <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4 mt-1">
+                <li>Social network analysis and collective intelligence are mature fields.</li>
+                <li>
+                  However, no established work tests <strong>integration thresholds</strong> as
+                  evidence of emergent observer-like integration.
+                </li>
+                <li>
+                  This experiment is novel in connecting collective integration to Holos’ observer
+                  hypothesis.
+                </li>
+              </ul>
+              <p>
+                <strong>Relationship to Prior Work</strong>
+                <br />
+                Builds on:
+              </p>
+              <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4">
+                <li>Collective intelligence research</li>
+                <li>Network theory (small-world, scale-free networks)</li>
+                <li>Distributed decision-making and consensus formation</li>
+              </ul>
+              <p>
+                But extends these fields by treating <strong>integration as potentially ontological</strong>, not merely functional.
+              </p>
+            </div>
+          </div>
+
+          {/* Protocol */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Protocol</h3>
+            <ol className="list-decimal list-inside flex flex-col gap-2 leading-relaxed ml-4">
+              <li>
+                {convertMarkdownToJSX(
+                  "**Select a collective task**: e.g., collaborative problem solving, prediction markets, or coordinated strategy games."
+                )}
+              </li>
+              <li>
+                {convertMarkdownToJSX(
+                  "**Create multiple groups**: vary group size (N) and network structure (connectivity, hierarchy, decentralization)."
+                )}
+              </li>
+              <li>
+                {convertMarkdownToJSX(
+                  "**Control information flow**: limit communication channels, introduce delays, and restrict access to global information."
+                )}
+              </li>
+              <li>
+                {convertMarkdownToJSX(
+                  "**Measure integration proxies**: compute mutual information and causal density between subgroups; track coherence and consensus stability."
+                )}
+              </li>
+              <li>
+                {convertMarkdownToJSX(
+                  "**Scale system size**: gradually increase network size and connectivity, then observe integration behavior."
+                )}
+              </li>
+              <li>
+                {convertMarkdownToJSX(
+                  "**Search for threshold behavior**: identify sudden jumps in integration metrics, stability, or coherence."
+                )}
+              </li>
+            </ol>
+          </div>
+
+          {/* Prediction */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Prediction (Exploratory)</h3>
+            <p className="leading-relaxed">
+              <strong>Holos-consistent exploratory prediction:</strong>
+              <br />
+              Collective systems may show <strong>nonlinear threshold behavior</strong> where
+              integration and coherence increase sharply once a critical scale or connectivity is
+              reached.
+            </p>
+            <p className="leading-relaxed">
+              <strong>Alternative outcome:</strong>
+              <br />
+              Integration increases smoothly without threshold behavior, suggesting observer-like
+              integration may be limited to certain physical substrates (e.g., brains) or requires
+              additional constraints.
+            </p>
+          </div>
+
+          {/* Holos Implications */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Holos Implications</h3>
+            <ul className="list-disc list-inside flex flex-col gap-3 leading-relaxed ml-4">
+              <li>
+                <strong>If threshold behavior is observed:</strong> Supports the idea that{" "}
+                <strong>observer-like integration can emerge at multiple scales</strong>, consistent
+                with Holos’ substrate-independent integration hypothesis.
+              </li>
+              <li>
+                <strong>If no threshold behavior is observed:</strong> Suggests that Holos’
+                integration threshold may be <strong>specific to biological brains</strong>, or that
+                collective systems require different structural constraints.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Experimental Protocol: Observer-Cut Sensitivity in Relational Systems */}
+      <section id="experiment-4" className="flex flex-col gap-6">
+        <h2 className="text-xl sm:text-2xl font-medium pb-2">
+          Experiment 4. Observer-Cut Sensitivity in Relational Systems
         </h2>
 
         <div className="flex flex-col gap-6 text-black/80">

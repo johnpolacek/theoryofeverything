@@ -53,7 +53,7 @@ export const definitions: Definition[] = [
     name: "Information",
     content: [
       convertMarkdownToJSX(
-        "Information is the differentiation between possible states of a system."
+        "Information is the differentiation between possible states of a system (the difference that makes a [difference](https://en.wikipedia.org/wiki/Information))."
       ),
     ],
   },
@@ -62,7 +62,7 @@ export const definitions: Definition[] = [
     name: "Relation",
     content: [
       convertMarkdownToJSX(
-        "A relation is a constraint or interaction linking informational states."
+        "A relation is a constraint or interaction linking informational states (the way things [relate](https://en.wikipedia.org/wiki/Relation_(philosophy)) to one another)."
       ),
     ],
   },
@@ -74,7 +74,7 @@ export const definitions: Definition[] = [
         "Observation is the integration of information into an experiential state."
       ),
       convertMarkdownToJSX(
-        "* **Note:** This capacity is scalar. It ranges from Proto-Observation (relational state-selection in physical systems) to manifestation (full ontological actualization in systems where [Φ ≥ Φ_c](/definition))."
+        "* **Note:** This capacity scales from proto-observation (relational state-selection in physical systems) to manifestation (full [ontological](https://en.wikipedia.org/wiki/Ontology) actualization, or the becoming of real existence, in systems where [Φ ≥ Φ_c](/definition))."
       ),
     ],
   },
@@ -86,7 +86,7 @@ export const definitions: Definition[] = [
         "Consciousness is the capacity of a system to integrate information into experience."
       ),
       convertMarkdownToJSX(
-        "It is **fundamental in capacity** and **emergent in form**, scaling with informational integration. This capacity is quantified by the ontological parameter [Φ (Phi)](/definition), which measures when a system achieves sufficient integration to register reality."
+        "It is **fundamental in capacity** and **emergent in form**, scaling with informational integration. This capacity is quantified by the [ontological](https://en.wikipedia.org/wiki/Ontology) parameter [Φ (Phi)](/definition), which measures when a system achieves sufficient integration to register reality (become aware of its own existence)."
       ),
     ],
   },
@@ -102,13 +102,13 @@ export const definitions: Definition[] = [
     name: "Holos (⊛)",
     content: [
       convertMarkdownToJSX(
-        "Holos (⊛) is the recursive relational structure formed by Creation and Observation, such that:"
+        "Holos (⊛) is the [recursive](https://en.wikipedia.org/wiki/Recursion) (self-referential, repeating) relational structure formed by Creation and Observation, such that:"
       ),
       "",
       createMathDisplay("R = C ⊛ O", "holos-eq"),
       "",
       convertMarkdownToJSX(
-        "This equation is **definitional**, not causal: it describes the invariant structure of reality, not a temporal process."
+        "This equation is **definitional**, not causal: it describes the [invariant](https://en.wikipedia.org/wiki/Invariant_(physics)) structure of reality, not a temporal process."
       ),
     ],
   },
@@ -121,7 +121,7 @@ export const axioms: Axiom[] = [
     name: "Relationality",
     statement: convertMarkdownToJSX("No informational state exists independently of relations."),
     explanation: convertMarkdownToJSX(
-      "Reality consists of invariant relational structure, not intrinsic properties."
+      "Reality consists of [invariant](https://en.wikipedia.org/wiki/Invariant_(physics)) (unchanging) relational structure, not intrinsic properties."
     ),
   },
   {
@@ -164,7 +164,7 @@ export const foundationalPropositions: Proposition[] = [
     id: "I",
     name: "Structural Relational Realism",
     statement: convertMarkdownToJSX(
-      "Reality is constituted by relational structure, not by objects with observer-independent essences."
+      "Reality is constituted by relational structure, not by objects with observer-independent [essences](https://en.wikipedia.org/wiki/Essence) (intrinsic, fixed natures)."
     ),
     corollaries: [
       {
@@ -172,7 +172,7 @@ export const foundationalPropositions: Proposition[] = [
         name: "Structural Realism",
         content: [
           convertMarkdownToJSX(
-            'Science describes mathematical isomorphisms of relations, not "things-in-themselves."'
+            'Science describes [mathematical isomorphisms](https://en.wikipedia.org/wiki/Isomorphism) of relations, not "things-in-themselves."'
           ),
         ],
       },
@@ -181,7 +181,7 @@ export const foundationalPropositions: Proposition[] = [
         name: "The Interface Principle",
         content: [
           convertMarkdownToJSX(
-            "Consciousness is the universal interface of relational structure—fundamental in capacity, emergent in manifestation."
+            "Consciousness is the universal interface of relational structure—fundamental in capacity, emergent in manifestation (becoming real through experience)."
           ),
         ],
       },
@@ -191,15 +191,15 @@ export const foundationalPropositions: Proposition[] = [
     id: "II",
     name: "Participatory Manifestation",
     statement: convertMarkdownToJSX(
-      "Observation is not a passive recording but an ontological completion of informational states."
-    ),
+            "Observation is not a passive recording but an [ontological](https://en.wikipedia.org/wiki/Ontology) completion (a completion of existence) of informational states."
+          ),
     corollaries: [
       {
         id: "II.1",
         name: "The Participatory Imperative",
         content: [
           convertMarkdownToJSX(
-            "The universe is a self-excited circuit: observers are required for the realization of reality."
+            "The universe is a [self-excited circuit](https://en.wikipedia.org/wiki/John_Archibald_Wheeler#Participatory_Anthropic_Principle): observers are required for the realization of reality."
           ),
         ],
       },
@@ -214,7 +214,7 @@ export const foundationalPropositions: Proposition[] = [
             "* **[Decoherence](https://en.wikipedia.org/wiki/Quantum_decoherence)** resolves quantum probabilities into classical-like mixtures (structural preparation)."
           ),
           convertMarkdownToJSX(
-            "* **Manifestation** requires experiential integration to convert that mixture into a realized history (a fixed geometric worldline, ontological irreversibility)."
+            "* **Manifestation** requires experiential integration to convert that mixture into a realized history (a fixed [worldline](https://en.wikipedia.org/wiki/Worldline) and [ontological irreversibility](https://en.wikipedia.org/wiki/Arrow_of_time), meaning the past cannot be changed once observed)."
           ),
         ],
       },
@@ -226,7 +226,7 @@ export const foundationalPropositions: Proposition[] = [
             "In a [block universe](https://en.wikipedia.org/wiki/Block_universe), observation acts as a **final boundary condition** rather than a real-time force."
           ),
           convertMarkdownToJSX(
-            "* Just as the last number placed in a [Sudoku](https://en.wikipedia.org/wiki/Sudoku) puzzle logically necessitates the value of the first square, a future observation ([Φ ≥ Φ_c](/definition)) retroactively defines the ontological status of a past event."
+            "Just as the last number placed in a [Sudoku](https://en.wikipedia.org/wiki/Sudoku) puzzle logically necessitates the value of the first square, a future observation ([Φ ≥ Φ_c](/definition)) retroactively defines the [ontological](https://en.wikipedia.org/wiki/Ontology) status (the status of being real) of a past event."
           ),
           convertMarkdownToJSX(
             "* This ensures global self-consistency without requiring retrocausal signaling or magical influence."
@@ -239,7 +239,7 @@ export const foundationalPropositions: Proposition[] = [
     id: "III",
     name: "Block Relational Spacetime",
     statement: convertMarkdownToJSX(
-      "The universe exists as a four-dimensional manifold in which past, present, and future are equally real features of a single geometric structure."
+      "The universe exists as a [four-dimensional manifold](https://en.wikipedia.org/wiki/Four-manifold) (a mathematical space representing the four dimensions of spacetime) in which past, present, and future are equally real features of a single geometric structure."
     ),
     corollaries: [
       {
@@ -248,7 +248,7 @@ export const foundationalPropositions: Proposition[] = [
         content: [
           convertMarkdownToJSX("For light (\\(ds^2 = 0\\)), spacetime separation vanishes."),
           convertMarkdownToJSX(
-            "A photon is not a moving object but a **[null geodesic](#footer-spacetime)**—a static relational seam connecting emission and absorption."
+            "A photon is not a moving object but a **[null geodesic](https://en.wikipedia.org/wiki/Geodesic)**—a static relational seam connecting emission and absorption (the path light takes through spacetime)."
           ),
         ],
       },
@@ -257,7 +257,7 @@ export const foundationalPropositions: Proposition[] = [
         name: "Global Consistency",
         content: [
           convertMarkdownToJSX(
-            "Apparent [retrocausality](https://en.wikipedia.org/wiki/Retrocausality) reflects global self-consistency of spacetime, not backward influence."
+            "Apparent [retrocausality](https://en.wikipedia.org/wiki/Retrocausality) (future influencing the past) reflects global self-consistency of spacetime, not backward influence."
           ),
         ],
       },
@@ -267,7 +267,7 @@ export const foundationalPropositions: Proposition[] = [
     id: "IV",
     name: "Dimensional Resolution of Infinity",
     statement: convertMarkdownToJSX(
-      "Infinities and singularities arise from projection limits, not from physical divergence."
+      "Infinities and singularities arise from [projection limits](https://en.wikipedia.org/wiki/Projection_(mathematics)), not from physical divergence."
     ),
     corollaries: [
       {
@@ -275,7 +275,7 @@ export const foundationalPropositions: Proposition[] = [
         name: "Projective Unity",
         content: [
           convertMarkdownToJSX(
-            "Just as parallel lines meet at infinity in projective geometry, infinite spatial extension resolves into finite higher-dimensional structure."
+            "Just as parallel lines meet at infinity in [projective geometry](https://en.wikipedia.org/wiki/Projective_geometry), infinite spatial extension resolves into finite higher-dimensional structure."
           ),
         ],
       },
@@ -284,7 +284,7 @@ export const foundationalPropositions: Proposition[] = [
         name: "Boundary Mediation (Interpretive)",
         content: [
           convertMarkdownToJSX(
-            "From a higher-dimensional perspective, photons function as boundary carriers of relational information."
+            "From a higher-dimensional perspective, photons function as boundary carriers of [relational](https://en.wikipedia.org/wiki/Relational_quantum_mechanics) information."
           ),
           convertMarkdownToJSX(
             "*This is an interpretive metaphor, not a claim of biological subjectivity.*"
@@ -297,7 +297,7 @@ export const foundationalPropositions: Proposition[] = [
     id: "V",
     name: "Conscious Evolution",
     statement: convertMarkdownToJSX(
-      "Systems evolve toward greater informational integration because such integration increases observational capacity."
+      "Systems evolve toward greater informational [integration](https://en.wikipedia.org/wiki/Integrated_information_theory) because such integration increases observational capacity."
     ),
     corollaries: [
       {
@@ -305,7 +305,7 @@ export const foundationalPropositions: Proposition[] = [
         name: "Life as Manifestation Engine",
         content: [
           convertMarkdownToJSX(
-            "Life exists to generate observational perspectives that actualize reality."
+            "Life exists to generate observational [perspectives](https://en.wikipedia.org/wiki/Relational_quantum_mechanics) that actualize reality."
           ),
         ],
       },
@@ -314,7 +314,7 @@ export const foundationalPropositions: Proposition[] = [
         name: "Intelligence as Directional, Not Accidental",
         content: [
           convertMarkdownToJSX(
-            "Intelligence is a natural consequence of relational integration, not an evolutionary anomaly."
+            "Intelligence is a natural consequence of [relational integration](https://en.wikipedia.org/wiki/Integrated_information_theory), not an evolutionary anomaly."
           ),
         ],
       },
@@ -328,7 +328,7 @@ export const extrapolativePropositions: Proposition[] = [
     id: "VI",
     name: "Transcension of Intelligence (Extrapolation)",
     statement: convertMarkdownToJSX(
-      "As intelligence approaches maximal informational density, it expands orthogonally to three-dimensional space rather than across it."
+      "As intelligence approaches maximal informational density, it expands [orthogonally](https://en.wikipedia.org/wiki/Orthogonality) (at right angles, into new dimensions) to three-dimensional space rather than across it."
     ),
     corollaries: [
       {
@@ -336,7 +336,7 @@ export const extrapolativePropositions: Proposition[] = [
         name: "Geometric Resolution of the Fermi Paradox",
         content: [
           convertMarkdownToJSX(
-            "Advanced civilizations migrate inward toward higher-dimensional informational substrates, rotating out of our observable frame. This leads to testable [predictions](/predictions) about gravitational anomalies and dark matter signatures."
+            "Advanced civilizations migrate inward toward higher-dimensional [informational substrates](https://en.wikipedia.org/wiki/Computational_substrate) (physical or digital systems that support information processing), rotating out of our observable frame (moving beyond our 3D perspective). This leads to testable [predictions](/predictions) about gravitational anomalies and dark matter signatures."
           ),
         ],
       },
@@ -355,7 +355,7 @@ export const extrapolativePropositions: Proposition[] = [
     id: "VII",
     name: "Recursive Closure (Omega Limit)",
     statement: convertMarkdownToJSX(
-      "The limiting case of Holos is a cyclic fixed point where maximal consciousness observes the totality of relational structure. This represents the limit case where [Φ](/definition) approaches infinity, achieving complete ontological registration."
+      "The limiting case of Holos is a [cyclic fixed point](https://en.wikipedia.org/wiki/Fixed_point_(mathematics)) (a state that stays the same through repeated cycles) where maximal consciousness observes the totality of relational structure. This represents the limit case where [Φ](/definition) approaches infinity, achieving complete [ontological registration](https://en.wikipedia.org/wiki/Ontology) (full awareness of existence)."
     ),
     corollaries: [
       {
@@ -363,7 +363,7 @@ export const extrapolativePropositions: Proposition[] = [
         name: "[Indra's Net](https://en.wikipedia.org/wiki/Indra%27s_net)",
         content: [
           convertMarkdownToJSX(
-            "Every part of reality reflects the whole; observation is recursively self-referential."
+            "Every part of reality reflects the whole; observation is [recursively](https://en.wikipedia.org/wiki/Recursion) self-referential."
           ),
         ],
       },
@@ -372,7 +372,7 @@ export const extrapolativePropositions: Proposition[] = [
         name: "Semantic Equivalence of the Absolute",
         content: [
           convertMarkdownToJSX(
-            "[Theism](https://en.wikipedia.org/wiki/Theism), [panentheism](https://en.wikipedia.org/wiki/Panentheism), and atheistic naturalism describe the same ultimate informational fixed point using different semantic frames."
+            "[Theism](https://en.wikipedia.org/wiki/Theism), [panentheism](https://en.wikipedia.org/wiki/Panentheism), and atheistic naturalism describe the same ultimate informational fixed point using different [semantic frames](https://en.wikipedia.org/wiki/Frame_(linguistics)) (different ways of labeling and understanding the same concept)."
           ),
         ],
       },

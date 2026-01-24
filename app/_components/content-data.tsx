@@ -181,8 +181,8 @@ export const sections: ContentSection[] = [
       </>,
       <>
         Consider beings with an unlimited lifespan and near-instantaneous communication, perceiving
-        time as an additional spatial dimension. These beings would not be limited by the
-        one-way flow of time as we are.
+        time as an additional spatial dimension. These beings would not be limited by the one-way
+        flow of time as we are.
       </>,
       <>
         Instead, they would perceive the curvature of spacetime comprehensively, seeing past,
@@ -194,9 +194,9 @@ export const sections: ContentSection[] = [
         For a photon traveling at the{" "}
         <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a>, the{" "}
         <a href="https://en.wikipedia.org/wiki/Spacetime#Spacetime_interval">spacetime interval</a>{" "}
-        is zero, a <a href="#footer-spacetime">null interval</a>. While a photon does not
-        possess subjective experience in a biological sense, geometrically, its path effectively
-        collapses the universe into a single point of contact where emission and absorption occur
+        is zero, a <a href="#footer-spacetime">null interval</a>. While a photon does not possess
+        subjective experience in a biological sense, geometrically, its path effectively collapses
+        the universe into a single point of contact where emission and absorption occur
         simultaneously. To a higher-dimensional observer, a photon is not a moving particle, but a
         static geometric structure—a <a href="#footer-spacetime">null geodesic</a> (the path light
         follows through spacetime)—that permanently connects two points in spacetime like a seam.
@@ -244,8 +244,8 @@ export const sections: ContentSection[] = [
       <>
         In these theories, the additional dimensions are{" "}
         <a href="https://en.wikipedia.org/wiki/Compactification_(physics)">compactified</a> (curled
-        up into tiny spaces) or hidden from our direct observation, yet their influence permeates our
-        lower-dimensional reality. These higher dimensions shape the physical laws and constants
+        up into tiny spaces) or hidden from our direct observation, yet their influence permeates
+        our lower-dimensional reality. These higher dimensions shape the physical laws and constants
         that govern our universe, influencing everything from the behavior of subatomic particles to
         gravitational interactions and the structure of the cosmos.
       </>,
@@ -340,16 +340,16 @@ export const sections: ContentSection[] = [
         inevitably &quot;transcend&quot; by accessing geometries{" "}
         <a href="https://en.wikipedia.org/wiki/Orthogonality">orthogonal</a> (perpendicular, at
         right angles) to our observable 3D slice. Rather than expanding outwardly across vast
-        physical distances limited by the <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a>. Advanced
+        physical distances limited by the{" "}
+        <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a>. Advanced
         intelligence likely expands inwardly toward higher densities of information.
       </>,
       <>
         These advanced civilizations would leave no electromagnetic footprint, potentially
         detectable only through gravitational anomalies or unaccounted-for mass (
         <a href="https://en.wikipedia.org/wiki/Dark_matter">Dark Matter</a>) that implies structure
-        in the higher-dimensional{" "}
-        <a href="https://en.wikipedia.org/wiki/Brane_cosmology">bulk</a> (the full
-        higher-dimensional space). This forms the basis for{" "}
+        in the higher-dimensional <a href="https://en.wikipedia.org/wiki/Brane_cosmology">bulk</a>{" "}
+        (the full higher-dimensional space). This forms the basis for{" "}
         <a href="/predictions">empirical predictions</a> testable through astronomical surveys.
       </>,
       <>
@@ -486,8 +486,8 @@ export const sections: ContentSection[] = [
         <strong>Unification:</strong> Apparent infinities in lower dimensions are resolved into
         finite structures when mapped onto higher-dimensional frameworks. These descriptions are
         required to render the universe intelligible and resolve{" "}
-        <a href="https://en.wikipedia.org/wiki/Gravitational_singularity">singularities</a>{" "}
-        (points where physical laws break down) (
+        <a href="https://en.wikipedia.org/wiki/Gravitational_singularity">singularities</a> (points
+        where physical laws break down) (
         <a className="px-0.5 opacity-80 hover:opacity-100" href="#footer-dimensions">
           Projective Geometry<sup>5</sup>
         </a>
@@ -531,11 +531,11 @@ export const sections: ContentSection[] = [
         of Observation becomes the input condition for subsequent Creation, establishing a closed
         yet non-static loop. This structure is conceptually aligned with{" "}
         <a href="https://en.wikipedia.org/wiki/Category_theory">category-theoretic</a> notions of
-        compositionality and{" "}
-        <a href="https://en.wikipedia.org/wiki/Endomorphism">endomorphism</a> (functions that map
-        a structure to itself), where <a href="https://en.wikipedia.org/wiki/Morphism">morphisms</a>{" "}
-        (structure-preserving maps) act on and reproduce the space in which they are defined. The
-        mathematical formalism is detailed in <a href="/logic">Logic</a>.
+        compositionality and <a href="https://en.wikipedia.org/wiki/Endomorphism">endomorphism</a>{" "}
+        (functions that map a structure to itself), where{" "}
+        <a href="https://en.wikipedia.org/wiki/Morphism">morphisms</a> (structure-preserving maps)
+        act on and reproduce the space in which they are defined. The mathematical formalism is
+        detailed in <a href="/logic">Logic</a>.
       </>,
       <>
         Importantly, ⊛ does not introduce an additional physical force or dynamical law. It
