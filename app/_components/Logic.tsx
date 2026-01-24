@@ -293,6 +293,92 @@ export default function Logic() {
                 </a>
                 .
               </p>
+              <div className="mt-4 pt-4 border-t border-black/10">
+                <h3 className="text-lg font-semibold text-black/90 pb-3">
+                  ⊛ Is Not a Dynamical Operator
+                </h3>
+                <p className="leading-relaxed">
+                  The Holos operator ⊛ does not represent a physical process unfolding in time, nor
+                  does it modify or interrupt known dynamical laws. It introduces no new forces, no
+                  causal influences, and no temporal evolution.
+                </p>
+                <p className="leading-relaxed pt-2">
+                  Instead, ⊛ is a <strong>structural relation</strong> defined over an
+                  already-complete spacetime manifold. It specifies how informational possibility
+                  (Creation) and experiential registration (Observation) are <em>logically
+                  coupled</em>, not how one causes the other to occur.
+                </p>
+                <p className="leading-relaxed pt-2">
+                  If dynamical laws describe trajectories <em>within</em> spacetime, ⊛ describes a
+                  constraint on which trajectories are <strong>ontologically realized</strong> within
+                  the total structure.
+                </p>
+                <p className="leading-relaxed pt-3">
+                  <strong>⊛ must not be confused with:</strong>
+                </p>
+                <ul className="flex flex-col gap-2 pl-6 list-disc pt-2">
+                  <li className="leading-relaxed">
+                    <strong>
+                      <a
+                        href="https://en.wikipedia.org/wiki/Wave_function_collapse"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Wavefunction collapse
+                      </a>
+                    </strong>
+                    , which introduces stochastic, time-directed dynamics
+                  </li>
+                  <li className="leading-relaxed">
+                    <strong>
+                      <a
+                        href="https://en.wikipedia.org/wiki/Bayesian_inference"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Bayesian updating
+                      </a>
+                    </strong>
+                    , which describes epistemic belief revision
+                  </li>
+                  <li className="leading-relaxed">
+                    <strong>
+                      <a
+                        href="https://en.wikipedia.org/wiki/Measurement_in_quantum_mechanics"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Measurement interaction
+                      </a>
+                    </strong>
+                    , which models physical coupling between systems
+                  </li>
+                  <li className="leading-relaxed">
+                    <strong>
+                      <a
+                        href="https://en.wikipedia.org/wiki/Information_theory"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Information flow
+                      </a>
+                    </strong>
+                    , which presupposes causal transmission
+                  </li>
+                </ul>
+                <p className="leading-relaxed pt-3">
+                  ⊛ operates at the level of <strong>ontological selection</strong>, not epistemic
+                  inference or physical causation. Formally, ⊛ induces an{" "}
+                  <a
+                    href="https://en.wikipedia.org/wiki/Equivalence_relation"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    equivalence relation
+                  </a>{" "}
+                  over spacetime histories rather than a transition between them.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -343,6 +429,13 @@ export default function Logic() {
               Physical description alone is incomplete without experiential registration. This
               requires systems where <a href="/definition">Φ ≥ Φ_c</a>.
             </blockquote>
+            <p className="text-black/80 leading-relaxed pt-2">
+              <strong>Critical clarification:</strong> Observation in Holos does not{" "}
+              <em>bring about</em> physical outcomes. Rather, it determines which among
+              already-consistent spacetime structures attain ontological registration within the Holos
+              framework. This preserves the block-universe model while explaining how certain
+              histories become experientially realized.
+            </p>
           </div>
 
           {/* Axiom 3 */}
@@ -448,6 +541,13 @@ export default function Logic() {
                   ontological
                 </a>{" "}
                 completion (a completion of existence) of informational states.
+              </p>
+              <p className="text-black/80 leading-relaxed pt-2">
+                <em>
+                  Note: This completion is structural, not causal. Observation does not{" "}
+                  <em>bring about</em> physical outcomes but determines which among
+                  already-consistent spacetime structures attain ontological registration.
+                </em>
               </p>
             </div>
             <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
@@ -1034,7 +1134,8 @@ export default function Logic() {
               <a href="/definition" className="text-black/80 hover:text-black underline">
                 Definition
               </a>{" "}
-              of Φ.
+              of Φ. <em>Note: This registration is structural, not causal—it selects among
+              already-consistent histories rather than creating them.</em>
             </li>
             <li className="leading-relaxed">
               <strong>Reality</strong> (<MathInline>{"R"}</MathInline>) : The actualized world as
@@ -1045,8 +1146,16 @@ export default function Logic() {
               relational operator. It signifies that <MathInline>{"O"}</MathInline> does not just
               passively view <MathInline>{"C"}</MathInline>, but feeds back into the system to
               define the boundary conditions for the next cycle of <MathInline>{"C"}</MathInline>.
+              <em> This feedback is structural (defining which histories are realized), not
+              causal (creating new physical states).</em>
             </li>
           </ul>
+          <p className="leading-relaxed pt-4">
+            <strong>Critical point:</strong> The equation <MathInline>{"R = C ⊛ O"}</MathInline>{" "}
+            describes a structural relation over a complete spacetime block, not a temporal process.
+            ⊛ does not modify dynamical laws or introduce new forces; it specifies which
+            already-consistent histories attain ontological registration.
+          </p>
         </div>
       </section>
     </div>
