@@ -4,7 +4,7 @@ import MathInline from "./MathInline";
 
 interface Objection {
   id: string;
-  title: string;
+  title: ReactNode;
   content: string[];
 }
 
@@ -174,7 +174,18 @@ const defenseData: AxiomDefense[] = [
     objections: [
       {
         id: "1.1",
-        title: "This is just [instrumentalism](https://en.wikipedia.org/wiki/Instrumentalism)",
+        title: (
+          <>
+            This is just{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Instrumentalism"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              instrumentalism
+            </a>
+          </>
+        ),
         content: [
           "Physics describes relations because measurements access relations, not because intrinsic properties do not exist.",
           "",
@@ -275,8 +286,18 @@ const defenseData: AxiomDefense[] = [
       },
       {
         id: "3.2",
-        title:
-          "Wavefunction collapse is [non-unitary](https://en.wikipedia.org/wiki/Unitarity_(physics))",
+        title: (
+          <>
+            Wavefunction collapse is{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Unitarity_(physics)"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              non-unitary
+            </a>
+          </>
+        ),
         content: [
           "Collapse appears to violate unitarity (the principle that probabilities always sum to 100%).",
           "",
@@ -365,7 +386,19 @@ const defenseData: AxiomDefense[] = [
       },
       {
         id: "5.3",
-        title: "This implies [psychokinesis](https://en.wikipedia.org/wiki/Psychokinesis) (Psi)",
+        title: (
+          <>
+            This implies{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Psychokinesis"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              psychokinesis
+            </a>{" "}
+            (Psi)
+          </>
+        ),
         content: [
           "If consciousness determines reality, does the mind exert a physical force on matter?",
           "",

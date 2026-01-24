@@ -208,7 +208,9 @@ export const sections: ContentSection[] = [
         suggest that correlations are established across spacetime independent of linear duration.
         This reinforces the idea that the universe is a globally self-consistent block, where past
         and future are not sequential causes, but mutually defining parts of a singular geometric
-        structure. Extended Wigner&apos;s Friend experiments provide{" "}
+        structure. Extended{" "}
+        <a href="https://en.wikipedia.org/wiki/Wigner%27s_friend">Wigner&apos;s Friend</a>{" "}
+        <a href="https://en.wikipedia.org/wiki/Wigner%27s_friend">experiments</a> provide{" "}
         <a href="/predictions">testable predictions</a> for relational quantum mechanics.
         <FootnoteLink number={4} />
       </>,
