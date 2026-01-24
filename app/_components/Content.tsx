@@ -3,6 +3,7 @@ import ConsciousnessAnimation from "./ConsciousnessAnimation";
 import { sections } from "./content-data";
 import Footnotes from "./Footnotes";
 import HolosAnimation from "./HolosAnimation";
+import InvarianceWarpAnimation from "./InvarianceWarpAnimation";
 import Section from "./Section";
 import SpacetimeBlockAnimation from "./SpacetimeBlockAnimation";
 
@@ -27,6 +28,7 @@ export default function Content({ isPDF = false }: ContentProps) {
           {section.id === "meaning-of-life" && <BlockUniverseAnimation isPDF={isPDF} />}
           {section.id === "consciousness" && <ConsciousnessAnimation isPDF={isPDF} />}
           {section.id === "our-universe" && <SpacetimeBlockAnimation isPDF={isPDF} />}
+          {section.id === "spacetime" && <InvarianceWarpAnimation isPDF={isPDF} />}
         </Section>
       ))}
 
