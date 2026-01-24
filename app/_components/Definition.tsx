@@ -238,17 +238,15 @@ export default function Definition() {
             <strong>structured informational state vector</strong> describing multiple dimensions of
             experiential integration.
           </p>
-          <p className="leading-relaxed">
-            Formally, Φ may be represented as:
-          </p>
+          <p className="leading-relaxed">Formally, Φ may be represented as:</p>
           <MathDisplay>
             {
               "\\Phi = (\\Phi_{\\text{int}}, \\Phi_{\\text{diff}}, \\Phi_{\\text{rec}}, \\Phi_{\\text{temp}}, \\Phi_{\\text{cc}})"
             }
           </MathDisplay>
           <p className="leading-relaxed">
-            where each component captures a distinct constraint on informational organization necessary
-            for ontological registration.
+            where each component captures a distinct constraint on informational organization
+            necessary for ontological registration.
           </p>
           <p className="leading-relaxed">
             Observer systems are not defined by exceeding a single Φ value, but by occupying a{" "}
@@ -257,8 +255,8 @@ export default function Definition() {
             differentiation, recursion, temporal coherence, and cross-contextual stability.
           </p>
           <p className="leading-relaxed">
-            The Φ-space may be treated as a statistical manifold, allowing informational curvature to
-            represent constraints on experiential coherence without invoking additional physical
+            The Φ-space may be treated as a statistical manifold, allowing informational curvature
+            to represent constraints on experiential coherence without invoking additional physical
             dynamics.
           </p>
 
