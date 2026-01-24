@@ -61,6 +61,10 @@ const predictionsSubsections: Subsection[] = [
   { id: "tertiary-prediction", title: "Tertiary Prediction" },
   { id: "extrapolative-prediction", title: "Extrapolative Prediction" },
   { id: "testable-implications", title: "Testable Implications" },
+  { id: "experiment-1", title: "Experiment 1" },
+  { id: "experiment-2", title: "Experiment 2" },
+  { id: "experiment-3", title: "Experiment 3" },
+  { id: "experiment-4", title: "Experiment 4" },
 ];
 
 export default function Sidebar() {

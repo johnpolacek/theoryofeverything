@@ -19,17 +19,8 @@ export default function Predictions() {
           integration (with <MathInline>{"Φ \\ge Φ_c"}</MathInline>). These predictions arise from
           the axioms and the <MathInline>{"Φ_c"}</MathInline> threshold, and are intended as
           consistency checks that align with empirical data. For the formal operational definition,
-          see the{" "}
-          <a
-            href="/logic#phi-operationalization"
-          >
-            Logic
-          </a>{" "}
-          section. For the definition of Φ, see{" "}
-          <a href="/definition">
-            Definition
-          </a>
-          .
+          see the <a href="/logic#phi-operationalization">Logic</a> section. For the definition of
+          Φ, see <a href="/definition">Definition</a>.
         </p>
       </div>
 

@@ -333,15 +333,8 @@ export default function Defense() {
           An adversarial review from the perspective of a theoretical physicist
         </p>
         <p className="text-black/70 text-sm">
-          For formal definitions of the axioms, see the{" "}
-          <a href="/logic">
-            Logic
-          </a>{" "}
-          section. For conceptual exploration, see the main{" "}
-          <a href="/">
-            Content
-          </a>{" "}
-          section.
+          For formal definitions of the axioms, see the <a href="/logic">Logic</a> section. For
+          conceptual exploration, see the main <a href="/">Content</a> section.
         </p>
       </div>
 
@@ -363,11 +356,7 @@ export default function Defense() {
                     : axiom.name === "Unification"
                       ? "Apparent infinities resolve from higher-dimensional perspectives."
                       : "Consciousness is the fundamental interface of reality."}{" "}
-              (See{" "}
-              <a href="/logic">
-                Logic
-              </a>{" "}
-              for formal statement.)
+              (See <a href="/logic">Logic</a> for formal statement.)
             </p>
             <div className="flex flex-col gap-8">
               {axiom.objections.map((objection) => (
@@ -484,10 +473,8 @@ export default function Defense() {
               can perform mechanical "observations" (decoherence), but only{" "}
               <MathInline>{"Φ ≥ Φ_c"}</MathInline> manifests experiential reality (makes it real
               through experience). This threshold is detailed in the{" "}
-              <a href="/definition">
-                Definition
-              </a>{" "}
-              of Φ. See the [Logic](/logic) section for the operational definition *R = C ⊛ O*.
+              <a href="/definition">Definition</a> of Φ. See the [Logic](/logic) section for the
+              operational definition *R = C ⊛ O*.
             </p>
           </div>
         </div>
@@ -507,11 +494,8 @@ export default function Defense() {
               Consciousness provides [ontological
               completion](https://en.wikipedia.org/wiki/Ontology) (the final step in making
               something real), not causal intervention. This capacity is quantified by the
-              ontological parameter{" "}
-              <a href="/definition">
-                Φ (Phi)
-              </a>
-              , which measures when a system achieves sufficient integration to register reality.
+              ontological parameter <a href="/definition">Φ (Phi)</a>, which measures when a system
+              achieves sufficient integration to register reality.
             </p>
             <p className="leading-relaxed italic text-black/70 pt-2">
               This is coherent but not yet explanatory.
@@ -532,15 +516,8 @@ export default function Defense() {
             <li>Its strength is global unification across physics and philosophy</li>
           </ul>
           <p className="leading-relaxed pt-4">
-            For the formal logical structure, see the{" "}
-            <a href="/logic">
-              Logic
-            </a>{" "}
-            section. For testable empirical implications, see{" "}
-            <a href="/predictions">
-              Predictions
-            </a>
-            .
+            For the formal logical structure, see the <a href="/logic">Logic</a> section. For
+            testable empirical implications, see <a href="/predictions">Predictions</a>.
           </p>
         </div>
       </section>
