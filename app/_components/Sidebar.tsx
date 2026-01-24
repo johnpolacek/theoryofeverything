@@ -133,7 +133,7 @@ export default function Sidebar() {
         }}
         className={`fixed xl:static top-0 left-0 w-full xl:w-auto h-screen overflow-auto transition-transform duration-300 bg-white z-10 ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"} xl:translate-x-0`}
       >
-        <nav className="w-full h-screen top-0 left-0 border-r border-black/30 border-dashed overflow-auto flex flex-col">
+        <nav className="w-full h-screen top-0 left-0 border-r border-black/20 border-dashed overflow-auto flex flex-col">
           <a
             href={getLink("#home")}
             className="flex items-center justify-center xl:border-b xl:border-black/30 xl:border-dashed h-[160px] w-full relative top-[6.6vh] xl:top-0"
