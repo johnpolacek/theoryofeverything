@@ -96,18 +96,18 @@ const defenseData: AxiomDefense[] = [
     objections: [
       {
         id: "1.1",
-        title: "This is just instrumentalism",
+        title: "This is just [instrumentalism](https://en.wikipedia.org/wiki/Instrumentalism)",
         content: [
           "Physics describes relations because measurements access relations, not because intrinsic properties do not exist.",
           "",
           "**Response:**",
-          "Holos does not deny ontic structure; it denies *observer-independent intrinsic essence*.",
+          "Holos does not deny [ontic structure](https://en.wikipedia.org/wiki/Ontology) (the existence of real things); it denies *observer-independent intrinsic essence* (the idea that things have a fixed nature outside of their relationships).",
           "This aligns with:",
-          "- Gauge invariance (only relational quantities are physical)",
-          "- General Relativity (no absolute spacetime background)",
-          "- Relational Quantum Mechanics (observer-relative states)",
+          "- [Gauge invariance](https://en.wikipedia.org/wiki/Gauge_theory) (only relational quantities are physical)",
+          "- [General Relativity](https://en.wikipedia.org/wiki/General_relativity) (no absolute spacetime background)",
+          "- [Relational Quantum Mechanics](https://en.wikipedia.org/wiki/Relational_quantum_mechanics) (observer-relative states)",
           "",
-          "Intrinsic properties that are never physically accessible are epistemically inert.",
+          "Intrinsic properties that are never physically accessible are [epistemically inert](https://en.wiktionary.org/wiki/epistemically) (they don't add anything to our knowledge).",
           "",
           "**Status:** ✔ Survives",
         ],
@@ -119,7 +119,7 @@ const defenseData: AxiomDefense[] = [
           "Fields possess mass, charge, and spin.",
           "",
           "**Response:**",
-          "These are relational invariants defined through symmetry, interaction, and representation—not standalone substances.",
+          "These are relational invariants defined through [symmetry](https://en.wikipedia.org/wiki/Symmetry_(physics)), interaction, and representation—not standalone substances.",
           "",
           "**Status:** ✔ Survives",
         ],
@@ -137,7 +137,7 @@ const defenseData: AxiomDefense[] = [
           "Physics experiments (like the [Elitzur–Vaidman bomb tester](https://en.wikipedia.org/wiki/Elitzur%E2%80%93Vaidman_bomb_tester)) show that 'collapse' occurs via mechanical possibilities, even without direct interaction or conscious observers.",
           "",
           "**Response:**",
-          "Holos incorporates decoherence as a function of **Creation (C)**, not Observation (O). See the [Logic](/logic) section for the operational definition *R = C ⊛ O*.",
+          "Holos incorporates [decoherence](https://en.wikipedia.org/wiki/Quantum_decoherence) (the process where quantum systems interact with their environment) as a function of **Creation (C)**, not Observation (O). See the [Logic](/logic) section for the operational definition *R = C ⊛ O*.",
           "",
           "- Decoherence explains the **suppression of interference** (how possibilities become distinct).",
           "- It does not explain **actuality** (why one distinct possibility is experienced to the exclusion of others).",
@@ -150,15 +150,15 @@ const defenseData: AxiomDefense[] = [
         id: "2.2",
         title: "Consciousness-based interpretations are fringe",
         content: [
-          "[Von Neumann–Wigner interpretation](https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Wigner_interpretation) is historically marginal.",
+          "[Von Neumann–Wigner interpretation](https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Wigner_interpretation) is historically less commonly accepted.",
           "",
           "**Response:**",
           "Holos is compatible with modern frameworks:",
           "- [Quantum Darwinism](https://en.wikipedia.org/wiki/Quantum_Darwinism) (redundant classical information)",
           "- [Relational QM](https://en.wikipedia.org/wiki/Relational_quantum_mechanics) (observer-relative facts)",
-          "- [Participatory Anthropic Principle](https://en.wikipedia.org/wiki/Anthropic_principle) (observers as boundary conditions)",
+          "- [Participatory Anthropic Principle](https://en.wikipedia.org/wiki/Anthropic_principle) (observers as [boundary conditions](https://en.wikipedia.org/wiki/Boundary_value_problem))",
           "",
-          "Consciousness here means *experiential integration*, not human cognition. This threshold is detailed in the [Definition](/definition) of Φ.",
+          "Consciousness here means *experiential integration* (the joining of information into a single experience), not human cognition. This threshold is detailed in the [Definition](/definition) of Φ.",
           "",
           "**Status:** ✔ Survives",
         ],
@@ -170,7 +170,7 @@ const defenseData: AxiomDefense[] = [
           "Early cosmology predates life.",
           "",
           "**Response:**",
-          "Under [eternalism](https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time) ([block universe](https://en.wikipedia.org/wiki/Block_universe), observation need not be temporally local.",
+          "Under [eternalism](https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)) ([block universe](https://en.wikipedia.org/wiki/Block_universe)), observation need not be temporally local (happening at the same time as the event).",
           "Later observers can consistently instantiate earlier states without causal paradox.",
           "In [delayed-choice experiments](https://en.wikipedia.org/wiki/Wheeler%27s_delayed-choice_experiment) and [quantum erasers](https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser), future observations retroactively 'manifest' past states, demonstrating that consciousness doesn't need to act in real-time—it's the global self-consistency of the block universe that matters.",
           "",
@@ -197,14 +197,14 @@ const defenseData: AxiomDefense[] = [
       },
       {
         id: "3.2",
-        title: "Wavefunction collapse is non-unitary",
+        title: "Wavefunction collapse is [non-unitary](https://en.wikipedia.org/wiki/Unitarity_(physics))",
         content: [
-          "Collapse appears to violate unitarity.",
+          "Collapse appears to violate unitarity (the principle that probabilities always sum to 100%).",
           "",
           "**Response:**",
           "Unitarity holds in:",
           "- [Many-Worlds interpretation](https://en.wikipedia.org/wiki/Many-worlds_interpretation)",
-          "- Decoherence",
+          "- [Decoherence](https://en.wikipedia.org/wiki/Quantum_decoherence)",
           "- [Relational QM](https://en.wikipedia.org/wiki/Relational_quantum_mechanics)",
           "- Holographic frameworks",
           "",
@@ -229,17 +229,17 @@ const defenseData: AxiomDefense[] = [
           "Holos asserts conceptual resolution, not empirical proof.",
           "This mirrors accepted speculative frameworks (inflation, multiverse, string theory).",
           "",
-          "**Status:** ✔ Survives as structural heuristic",
+          "**Status:** ✔ Survives as structural [heuristic](https://en.wikipedia.org/wiki/Heuristic) (a useful mental shortcut)",
         ],
       },
       {
         id: "4.2",
         title: "Some infinities are purely mathematical",
         content: [
-          "Not all infinities are physical pathologies.",
+          "Not all infinities are physical [pathologies](https://en.wikipedia.org/wiki/Pathological_(mathematics)) (problems where equations break down).",
           "",
           "**Response:**",
-          "Holos targets *physical* infinities (singularities), not mathematical abstraction.",
+          "Holos targets *physical* infinities ([singularities](https://en.wikipedia.org/wiki/Gravitational_singularity)), not mathematical abstraction.",
           "",
           "**Status:** ✔ Survives",
         ],
@@ -257,10 +257,10 @@ const defenseData: AxiomDefense[] = [
           "[Panpsychism](https://en.wikipedia.org/wiki/Panpsychism) lacks mechanistic detail.",
           "",
           "**Response:**",
-          "[Panpsychism](https://en.wikipedia.org/wiki/Panpsychism) explains continuity:",
-          "- Avoids emergence ex nihilo",
-          "- Avoids substance dualism",
-          "- Aligns with field-based ontology",
+          "[Panpsychism](https://en.wikipedia.org/wiki/Panpsychism) (the idea that consciousness is a fundamental property of matter) explains continuity:",
+          "- Avoids [emergence ex nihilo](https://en.wikipedia.org/wiki/Ex_nihilo) (life coming from absolutely nothing)",
+          "- Avoids [substance dualism](https://en.wikipedia.org/wiki/Mind%E2%80%93body_dualism) (the idea that mind and body are separate substances)",
+          "- Aligns with field-based [ontology](https://en.wikipedia.org/wiki/Ontology) (the study of being and existence)",
           "",
           "It is ontological, not mechanistic. The definition of consciousness as interface is detailed in the [Definition](/definition) of Φ.",
           "",
@@ -279,23 +279,23 @@ const defenseData: AxiomDefense[] = [
           "- Will or purpose",
           "- Moral authority",
           "",
-          "It requires only irreducible experience, already acknowledged in philosophy of mind. This capacity is detailed in the [Definition](/definition) of Φ.",
+          "It requires only irreducible experience (experience that cannot be simplified further), already acknowledged in [philosophy of mind](https://en.wikipedia.org/wiki/Philosophy_of_mind). This capacity is detailed in the [Definition](/definition) of Φ.",
           "",
           "**Status:** ✔ Survives",
         ],
       },
       {
         id: "5.3",
-        title: "This implies psychokinesis (Psi)",
+        title: "This implies [psychokinesis](https://en.wikipedia.org/wiki/Psychokinesis) (Psi)",
         content: [
           "If consciousness determines reality, does the mind exert a physical force on matter?",
           "",
           "**Response:**",
-          "**No.** Holos posits that consciousness is a **logical constraint**, not a dynamical force.",
+          "**No.** Holos posits that consciousness is a **logical constraint**, not a [dynamical](https://en.wikipedia.org/wiki/Dynamics_(physics)) force.",
           "",
           "- It does not 'push' atoms (Creation/Dynamics handles that).",
-          "- It **selects** which history becomes actualized within the static Spacetime Block.",
-          "- The effect is atemporal and geometric, not kinetic. It is the difference between *drawing* a line (Force) and *observing* where the line must be (Logic). See the [Logic](/logic) section for the operational definition (*R = C ⊛ O*).",
+          "- It **selects** which history becomes actualized within the static [Spacetime Block](https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)#Block_universe).",
+          "- The effect is [atemporal](https://en.wiktionary.org/wiki/atemporal) (outside of time) and geometric, not kinetic. It is the difference between *drawing* a line (Force) and *observing* where the line must be (Logic). See the [Logic](/logic) section for the operational definition (*R = C ⊛ O*).",
           "",
           "**Status:** ✔ Survives",
         ],
@@ -305,12 +305,12 @@ const defenseData: AxiomDefense[] = [
 ];
 
 const crossAxiomCheck = [
-  { risk: "Violates causality", result: "❌ No" },
-  { risk: "Contradicts relativity", result: "❌ No" },
-  { risk: "Breaks unitarity", result: "❌ No" },
+  { risk: "Violates [causality](https://en.wikipedia.org/wiki/Causality)", result: "❌ No" },
+  { risk: "Contradicts [relativity](https://en.wikipedia.org/wiki/Theory_of_relativity)", result: "❌ No" },
+  { risk: "Breaks [unitarity](https://en.wikipedia.org/wiki/Unitarity_(physics))", result: "❌ No" },
   { risk: "Requires new forces", result: "❌ No" },
-  { risk: "Anthropocentric", result: "❌ No" },
-  { risk: "Fully falsifiable", result: "⚠️ No (interpretive framework)" },
+  { risk: "[Anthropocentric](https://en.wikipedia.org/wiki/Anthropocentrism)", result: "❌ No" },
+  { risk: "Fully [falsifiable](https://en.wikipedia.org/wiki/Falsifiability)", result: "⚠️ No (interpretive framework)" },
 ];
 
 export default function Defense() {
@@ -448,9 +448,9 @@ export default function Defense() {
             falsifications of objective collapse models—pose challenges to consciousness-centric
             interpretations. They suggest quantum "measurements" can occur through purely physical
             processes without requiring a conscious observer. However, Holos accommodates these
-            findings by refining how observation operates, emphasizing its ontological role over a
+            findings by refining how observation operates, emphasizing its [ontological role](https://en.wikipedia.org/wiki/Ontology) (how it relates to existence) over a
             causal one. These experiments inform testable [predictions](/predictions) about
-            relational quantum mechanics.
+            [relational quantum mechanics](https://en.wikipedia.org/wiki/Relational_quantum_mechanics).
           </p>
 
           <div className="flex flex-col gap-4">
@@ -470,7 +470,7 @@ export default function Defense() {
               true manifestation requires integration into a broader experiential network—ultimately
               culminating in higher consciousness. Systems below <MathInline>{"Φ_c"}</MathInline>{" "}
               can perform mechanical "observations" (decoherence), but only{" "}
-              <MathInline>{"Φ ≥ Φ_c"}</MathInline> manifests experiential reality. This threshold is
+              <MathInline>{"Φ ≥ Φ_c"}</MathInline> manifests experiential reality (makes it real through experience). This threshold is
               detailed in the{" "}
               <a href="/definition" className="text-black/80 hover:text-black underline">
                 Definition
@@ -492,7 +492,7 @@ export default function Defense() {
           <div className="flex flex-col gap-2">
             <p className="font-semibold text-black/90">Current Position:</p>
             <p className="leading-relaxed">
-              Consciousness provides ontological completion, not causal intervention. This capacity
+              Consciousness provides [ontological completion](https://en.wikipedia.org/wiki/Ontology) (the final step in making something real), not causal intervention. This capacity
               is quantified by the ontological parameter{" "}
               <a href="/definition" className="text-black/80 hover:text-black underline">
                 Φ (Phi)

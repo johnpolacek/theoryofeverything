@@ -9,7 +9,7 @@ export default function Predictions() {
       <div className="flex flex-col gap-4 text-black/80">
         <p className="leading-relaxed">
           {convertMarkdownToJSX(
-            "Holos does not propose new dynamical laws or forces that modify existing physical equations. Instead, it offers **ontological predictions** about how reality manifests through the recursive relation:"
+            "Holos does not propose new [dynamical laws](https://en.wikipedia.org/wiki/Dynamics_(physics)) (laws governing movement and force) that modify existing physical equations. Instead, it offers **[ontological](https://en.wikipedia.org/wiki/Ontology) predictions** (predictions about the nature of existence) about how reality manifests through the recursive relation:"
           )}
         </p>
         <MathDisplay>{"R = C \\circledast O"}</MathDisplay>
@@ -42,13 +42,13 @@ export default function Predictions() {
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
             {convertMarkdownToJSX(
-              'Holos implies that the universe\'s parameters are "selected" through participatory manifestation ([Axiom 2](/logic#axioms)), where observers act as a boundary condition for a self-consistent [block universe](https://en.wikipedia.org/wiki/Block_universe). This operationalizes the **[Participatory Anthropic Principle](https://en.wikipedia.org/wiki/Anthropic_principle)**, predicting that observable constants favor life not by chance, but by necessity.'
+              'Holos implies that the universe\'s parameters are "selected" through participatory manifestation ([Axiom 2](/logic#axioms)), where observers act as a boundary condition for a self-consistent [block universe](https://en.wikipedia.org/wiki/Block_universe) (a four-dimensional structure where all of time exists simultaneously). This operationalizes the **[Participatory Anthropic Principle](https://en.wikipedia.org/wiki/Anthropic_principle)**, predicting that observable constants favor life not by chance, but by necessity.'
             )}
           </p>
           <p className="leading-relaxed">
             <strong>Empirical Implication:</strong>{" "}
             {convertMarkdownToJSX(
-              'Future cosmological observations (e.g., CMB polarization from [CMB-S4](https://cmb-s4.org/) or [LiteBIRD](https://litebird.isas.jaxa.jp/static/eng/)) should reveal signatures consistent with a low-entropy initial state and [inflationary](https://en.wikipedia.org/wiki/Inflation_(cosmology)) dynamics specifically tuned for complexity growth. Holos predicts that "uninhabitable" branches of the [multiverse](https://en.wikipedia.org/wiki/Multiverse) are mathematically valid but ontologically unrealized due to the lack of [Φ](/definition).[^13]'
+              'Future cosmological observations (e.g., [CMB polarization](https://en.wikipedia.org/wiki/Cosmic_microwave_background#Polarization) from [CMB-S4](https://cmb-s4.org/) or [LiteBIRD](https://litebird.isas.jaxa.jp/static/eng/)) should reveal signatures consistent with a [low-entropy initial state](https://en.wikipedia.org/wiki/Past_hypothesis) and [inflationary](https://en.wikipedia.org/wiki/Inflation_(cosmology)) dynamics (rapid expansion of the early universe) specifically tuned for complexity growth. Holos predicts that "uninhabitable" branches of the [multiverse](https://en.wikipedia.org/wiki/Multiverse) are mathematically valid but ontologically unrealized (they don\'t actually exist as experienced reality) due to the lack of [Φ](/definition).[^13]'
             )}
           </p>
         </div>
@@ -62,13 +62,13 @@ export default function Predictions() {
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
             {convertMarkdownToJSX(
-              "Holos operationalizes consciousness through [Φ](/definition), predicting that systems crossing a critical threshold ([Φ_c](/definition)) exhibit irreducible subjective experience. This distinguishes Holos from universal panpsychism (where everything is conscious) and illusionism (where nothing is)."
+              "Holos operationalizes consciousness through [Φ](/definition), predicting that systems crossing a critical threshold ([Φ_c](/definition)) exhibit irreducible subjective experience. This distinguishes Holos from universal [panpsychism](https://en.wikipedia.org/wiki/Panpsychism) (the idea that everything is conscious) and [illusionism](https://en.wikipedia.org/wiki/Illusionism_(philosophy)) (the idea that consciousness is an illusion)."
             )}
           </p>
           <p className="leading-relaxed">
             <strong>Empirical Implication:</strong>{" "}
             {convertMarkdownToJSX(
-              "High-[Φ](/definition) systems (e.g., human cortex) should correlate with reports of [qualia](https://en.wikipedia.org/wiki/Qualia), while sub-[Φ_c](/definition) systems (e.g., simple AI or cerebellum) should show only mechanical processing. **[Integrated Information Theory](https://en.wikipedia.org/wiki/Integrated_information_theory) (IIT)-inspired metrics** (e.g., [Perturbational Complexity Index](https://www.science.org/doi/10.1126/scitranslmed.3006294)) should reveal sharp phase transitions that align with the onset of experiential reporting.[^13]"
+              "High-[Φ](/definition) systems (e.g., human cortex) should correlate with reports of [qualia](https://en.wikipedia.org/wiki/Qualia) (individual instances of subjective experience), while sub-[Φ_c](/definition) systems (e.g., simple AI or cerebellum) should show only mechanical processing. **[Integrated Information Theory](https://en.wikipedia.org/wiki/Integrated_information_theory) (IIT)-inspired metrics** (e.g., [Perturbational Complexity Index](https://www.science.org/doi/10.1126/scitranslmed.3006294)) should reveal sharp [phase transitions](https://en.wikipedia.org/wiki/Phase_transition) (sudden changes in state) that align with the onset of experiential reporting.[^13]"
             )}
           </p>
         </div>
@@ -88,7 +88,7 @@ export default function Predictions() {
           <p className="leading-relaxed">
             <strong>Empirical Implication:</strong>{" "}
             {convertMarkdownToJSX(
-              '[Extended Wigner\'s Friend experiments](https://www.science.org/doi/10.1126/sciadv.aaw9832) should confirm that two observers can hold different "facts" about the same event without breaking unitarity. Holos specifically predicts that the "collapse" is relative to the [Φ](/definition) frame of reference, supporting **[Relational QM](https://en.wikipedia.org/wiki/Relational_quantum_mechanics)** over [Objective Collapse models](https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics#Objective_collapse_theories) (which predict spontaneous gravity-induced collapse).[^13]'
+              '[Extended Wigner\'s Friend experiments](https://www.science.org/doi/10.1126/sciadv.aaw9832) should confirm that two observers can hold different "facts" about the same event without breaking [unitarity](https://en.wikipedia.org/wiki/Unitarity_(physics)) (the conservation of all possibilities). Holos specifically predicts that the "collapse" is relative to the [Φ](/definition) frame of reference, supporting **[Relational QM](https://en.wikipedia.org/wiki/Relational_quantum_mechanics)** over **[Objective Collapse models](https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics#Objective_collapse_theories)** (which predict spontaneous gravity-induced collapse).[^13]'
             )}
           </p>
         </div>
@@ -102,13 +102,13 @@ export default function Predictions() {
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
             {convertMarkdownToJSX(
-              "As intelligence maximizes informational integration ([Corollary V.2](/logic#foundational-propositions)), Holos predicts it will expand **orthogonally** into higher-dimensional substrates rather than expanding spatially across the galaxy."
+              "As intelligence maximizes informational integration ([Corollary V.2](/logic#foundational-propositions)), Holos predicts it will expand **[orthogonally](https://en.wikipedia.org/wiki/Orthogonality)** (at right angles, into new dimensions) into higher-dimensional [substrates](https://en.wikipedia.org/wiki/Computational_substrate) rather than expanding spatially across the galaxy."
             )}
           </p>
           <p className="leading-relaxed">
             <strong>Empirical Implication:</strong>{" "}
             {convertMarkdownToJSX(
-              'The resolution to the [Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox) is geometric. Astronomical surveys (e.g., **[JWST](https://en.wikipedia.org/wiki/James_Webb_Space_Telescope)**, **[Euclid](https://en.wikipedia.org/wiki/Euclid_(spacecraft))**) may detect "missing mass" or gravitational anomalies that mimic [Dark Matter](https://en.wikipedia.org/wiki/Dark_matter), representing high-density informational structures located in the "bulk" dimensions ([Axiom 4: Unification](/logic#axioms)).[^13]'
+              'The resolution to the **[Fermi Paradox](https://en.wikipedia.org/wiki/Fermi_paradox)** (the lack of detected alien civilizations) is geometric. Astronomical surveys (e.g., **[JWST](https://en.wikipedia.org/wiki/James_Webb_Space_Telescope)**, **[Euclid](https://en.wikipedia.org/wiki/Euclid_(spacecraft))**) may detect "missing mass" or gravitational anomalies that mimic **[Dark Matter](https://en.wikipedia.org/wiki/Dark_matter)**, representing high-density informational structures located in the "bulk" dimensions ([Axiom 4: Unification](/logic#axioms)).[^13]'
             )}
           </p>
         </div>
@@ -181,9 +181,10 @@ export default function Predictions() {
             <p className="leading-relaxed">
               To test whether the emergence of the{" "}
               <a href="/definition#2-ontological-requirements">Observer</a> (
-              <MathInline>{"O"}</MathInline>) constitutes a critical phase transition rather than a
-              linear gradient. Holos predicts that consciousness requires a specific density of
-              integrated information (
+              <MathInline>{"O"}</MathInline>) constitutes a critical{" "}
+              <a href="https://en.wikipedia.org/wiki/Phase_transition">phase transition</a> (a
+              sudden change in state) rather than a linear gradient (a smooth change). Holos
+              predicts that consciousness requires a specific density of integrated information (
               <a href="/definition">
                 <MathInline>{"Φ_c"}</MathInline>
               </a>
@@ -223,12 +224,12 @@ export default function Predictions() {
                       <a href="#secondary-predictions">PCI (Perturbational Complexity Index)</a>
                     </strong>
                     <br />
-                    Computed from TMS-EEG responses to quantify integrated information capacity.
+                    Computed from **[TMS-EEG](https://en.wikipedia.org/wiki/Transcranial_magnetic_stimulation#TMS-EEG)** responses (brain stimulation followed by recording) to quantify integrated information capacity.
                   </li>
                   <li>
                     <strong>Consciousness state</strong>
                     <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4 mt-1">
-                      <li>Wakefulness vs. sedation vs. unconsciousness (clinically assessed)</li>
+                      <li>Wakefulness vs. sedation (calm state induced by medicine) vs. unconsciousness (clinically assessed)</li>
                       <li>Subjective reports (when possible)</li>
                     </ul>
                   </li>
@@ -238,7 +239,7 @@ export default function Predictions() {
                 <h4 className="font-semibold mb-2">Secondary Variables</h4>
                 <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed ml-4">
                   <li>EEG spectral power, functional connectivity, and complexity metrics</li>
-                  <li>Anesthesia depth (e.g., propofol concentration, BIS index)</li>
+                  <li>Anesthesia depth (e.g., [propofol](https://en.wikipedia.org/wiki/Propofol) concentration, [BIS index](https://en.wikipedia.org/wiki/Bispectral_index))</li>
                 </ul>
               </div>
             </div>
@@ -345,7 +346,7 @@ export default function Predictions() {
             <h3 className="text-xl font-semibold pb-2">Subjects</h3>
             <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed">
               <li>
-                {convertMarkdownToJSX("**Recurrent neural networks (RNNs)**, including:")}
+                {convertMarkdownToJSX("**[Recurrent neural networks](https://en.wikipedia.org/wiki/Recurrent_neural_network) (RNNs)** (AI systems with internal feedback), including:")}
                 <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4 mt-1">
                   <li>LSTMs / GRUs</li>
                   <li>Transformer architectures with recurrence/feedback</li>
@@ -359,7 +360,7 @@ export default function Predictions() {
               </li>
               <li>
                 {convertMarkdownToJSX(
-                  "Optionally: **neuromorphic hardware implementations** (for hardware-specific behavior)"
+                  "**[Neuromorphic hardware](https://en.wikipedia.org/wiki/Neuromorphic_engineering)** implementations (for hardware-specific behavior)"
                 )}
               </li>
             </ul>
@@ -380,9 +381,9 @@ export default function Predictions() {
                         <em>Direct Φ</em> when feasible
                       </li>
                       <li>
-                        <em>Proxy measures</em> when direct computation is intractable (e.g.,{" "}
+                        <em>Proxy measures</em> when direct computation is intractable (too difficult to calculate directly), such as{" "}
                         <strong>perturbation-based complexity</strong> or{" "}
-                        <strong>causal density</strong>)
+                        <strong>[causal density](https://en.wikipedia.org/wiki/Causal_density)</strong>
                       </li>
                     </ul>
                   </li>
@@ -402,8 +403,8 @@ export default function Predictions() {
                   <li>
                     Complexity metrics:
                     <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4 mt-1">
-                      <li>entropy</li>
-                      <li>mutual information</li>
+                      <li>[entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory))</li>
+                      <li>[mutual information](https://en.wikipedia.org/wiki/Mutual_information)</li>
                       <li>recurrence strength</li>
                       <li>attractor dimensionality</li>
                     </ul>
@@ -541,9 +542,7 @@ export default function Predictions() {
           {/* Exploratory Note */}
           <div className="flex flex-col gap-4 border-l-4 border-black/10 pl-4 py-2 bg-black/5">
             <h3 className="text-lg font-semibold italic">Exploratory Note</h3>
-            <p className="leading-relaxed text-sm">
-              This experiment is exploratory because:
-            </p>
+            <p className="leading-relaxed text-sm">This experiment is exploratory because:</p>
             <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed text-sm ml-2">
               <li>It is unclear whether integration thresholds exist in collective systems.</li>
               <li>
@@ -634,7 +633,8 @@ export default function Predictions() {
                 <li>Distributed decision-making and consensus formation</li>
               </ul>
               <p>
-                But extends these fields by treating <strong>integration as potentially ontological</strong>, not merely functional.
+                But extends these fields by treating{" "}
+                <strong>integration as potentially ontological</strong>, not merely functional.
               </p>
             </div>
           </div>
@@ -740,16 +740,14 @@ export default function Predictions() {
           <div className="flex flex-col gap-4">
             <h3 className="text-xl font-semibold pb-2">Subjects</h3>
             <p className="leading-relaxed">
-              A <strong>superconducting qubit array</strong> with <strong>N qubits</strong> (e.g.,
-              8–20 qubits), in a controlled lab environment.
+              A **[superconducting qubit](https://en.wikipedia.org/wiki/Superconducting_quantum_computing) array** (a basic quantum computer system) with **N qubits** (e.g., 8–20 qubits), in a controlled lab environment.
             </p>
             <p className="leading-relaxed">
               The array is prepared and evolved under a known{" "}
               <a href="https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)">
                 Hamiltonian
-              </a>
-              , with controlled noise and{" "}
-              <a href="https://en.wikipedia.org/wiki/Quantum_decoherence">decoherence</a>.
+              </a> (the mathematical description of the system's total energy), with controlled noise and{" "}
+              <a href="https://en.wikipedia.org/wiki/Quantum_decoherence">decoherence</a> (the loss of quantum information to the environment).
             </p>
           </div>
 
@@ -816,14 +814,14 @@ export default function Predictions() {
                 </a>{" "}
                 argues that states are relative to observers.{" "}
                 <a href="https://en.wikipedia.org/wiki/Coarse-grained_modeling">
-                  Coarse-graining in statistical mechanics
-                </a>{" "}
+                  Coarse-graining
+                </a> (simplifying complex data into broader categories) in statistical mechanics
                 shows that different partitions give different effective descriptions.
               </p>
               <p>
                 However, these approaches typically treat partitions as{" "}
-                <strong>epistemic tools</strong> (how we describe the system), not as{" "}
-                <strong>ontological constructors</strong> of reality.
+                <strong>[epistemic tools](https://en.wikipedia.org/wiki/Epistemology)</strong> (how we describe the system), not as{" "}
+                <strong>ontological constructors</strong> (the builders of existence) of reality.
               </p>
               <p>
                 Holos extends this by claiming that{" "}

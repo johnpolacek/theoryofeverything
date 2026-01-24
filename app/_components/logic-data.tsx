@@ -191,8 +191,8 @@ export const foundationalPropositions: Proposition[] = [
     id: "II",
     name: "Participatory Manifestation",
     statement: convertMarkdownToJSX(
-            "Observation is not a passive recording but an [ontological](https://en.wikipedia.org/wiki/Ontology) completion (a completion of existence) of informational states."
-          ),
+      "Observation is not a passive recording but an [ontological](https://en.wikipedia.org/wiki/Ontology) completion (a completion of existence) of informational states."
+    ),
     corollaries: [
       {
         id: "II.1",
