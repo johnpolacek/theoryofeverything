@@ -230,7 +230,39 @@ export default function Definition() {
             <MathInline>{"M"}</MathInline>. The state of the system is a point on this manifold.
           </p>
 
+          <h3 className="text-xl font-semibold text-black/90 pt-2">
+            3.1 Φ as an Informational State Vector
+          </h3>
           <p className="leading-relaxed">
+            Φ is not treated as a single scalar quantity, but as a{" "}
+            <strong>structured informational state vector</strong> describing multiple dimensions of
+            experiential integration.
+          </p>
+          <p className="leading-relaxed">
+            Formally, Φ may be represented as:
+          </p>
+          <MathDisplay>
+            {
+              "\\Phi = (\\Phi_{\\text{int}}, \\Phi_{\\text{diff}}, \\Phi_{\\text{rec}}, \\Phi_{\\text{temp}}, \\Phi_{\\text{cc}})"
+            }
+          </MathDisplay>
+          <p className="leading-relaxed">
+            where each component captures a distinct constraint on informational organization necessary
+            for ontological registration.
+          </p>
+          <p className="leading-relaxed">
+            Observer systems are not defined by exceeding a single Φ value, but by occupying a{" "}
+            <strong>bounded region</strong> within Φ-space. Ontological observation occurs when a
+            system&apos;s Φ-vector lies within a regime characterized by sufficient integration,
+            differentiation, recursion, temporal coherence, and cross-contextual stability.
+          </p>
+          <p className="leading-relaxed">
+            The Φ-space may be treated as a statistical manifold, allowing informational curvature to
+            represent constraints on experiential coherence without invoking additional physical
+            dynamics.
+          </p>
+
+          <p className="leading-relaxed pt-4">
             <strong>Definition (Informational Curvature):</strong>
           </p>
           <p className="leading-relaxed">

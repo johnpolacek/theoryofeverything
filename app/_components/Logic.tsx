@@ -305,13 +305,13 @@ export default function Logic() {
                 <p className="leading-relaxed pt-2">
                   Instead, ⊛ is a <strong>structural relation</strong> defined over an
                   already-complete spacetime manifold. It specifies how informational possibility
-                  (Creation) and experiential registration (Observation) are <em>logically
-                  coupled</em>, not how one causes the other to occur.
+                  (Creation) and experiential registration (Observation) are{" "}
+                  <em>logically coupled</em>, not how one causes the other to occur.
                 </p>
                 <p className="leading-relaxed pt-2">
                   If dynamical laws describe trajectories <em>within</em> spacetime, ⊛ describes a
-                  constraint on which trajectories are <strong>ontologically realized</strong> within
-                  the total structure.
+                  constraint on which trajectories are <strong>ontologically realized</strong>{" "}
+                  within the total structure.
                 </p>
                 <p className="leading-relaxed pt-3">
                   <strong>⊛ must not be confused with:</strong>
@@ -432,8 +432,8 @@ export default function Logic() {
             <p className="text-black/80 leading-relaxed pt-2">
               <strong>Critical clarification:</strong> Observation in Holos does not{" "}
               <em>bring about</em> physical outcomes. Rather, it determines which among
-              already-consistent spacetime structures attain ontological registration within the Holos
-              framework. This preserves the block-universe model while explaining how certain
+              already-consistent spacetime structures attain ontological registration within the
+              Holos framework. This preserves the block-universe model while explaining how certain
               histories become experientially realized.
             </p>
           </div>
@@ -1134,8 +1134,11 @@ export default function Logic() {
               <a href="/definition" className="text-black/80 hover:text-black underline">
                 Definition
               </a>{" "}
-              of Φ. <em>Note: This registration is structural, not causal—it selects among
-              already-consistent histories rather than creating them.</em>
+              of Φ.{" "}
+              <em>
+                Note: This registration is structural, not causal—it selects among
+                already-consistent histories rather than creating them.
+              </em>
             </li>
             <li className="leading-relaxed">
               <strong>Reality</strong> (<MathInline>{"R"}</MathInline>) : The actualized world as
@@ -1146,8 +1149,11 @@ export default function Logic() {
               relational operator. It signifies that <MathInline>{"O"}</MathInline> does not just
               passively view <MathInline>{"C"}</MathInline>, but feeds back into the system to
               define the boundary conditions for the next cycle of <MathInline>{"C"}</MathInline>.
-              <em> This feedback is structural (defining which histories are realized), not
-              causal (creating new physical states).</em>
+              <em>
+                {" "}
+                This feedback is structural (defining which histories are realized), not causal
+                (creating new physical states).
+              </em>
             </li>
           </ul>
           <p className="leading-relaxed pt-4">
