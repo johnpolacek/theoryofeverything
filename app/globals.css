@@ -34,8 +34,18 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: pretty;
+}
+
 p {
   line-height: 1.66;
+  text-wrap: pretty;
 }
 
 /* Link styling */
