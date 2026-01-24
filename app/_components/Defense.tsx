@@ -449,36 +449,42 @@ const crossAxiomCheck = [
 const comparativeFrameworks = [
   {
     framework: "Standard Physicalism",
+    url: "https://en.wikipedia.org/wiki/Physicalism",
     claim: "Physical laws fully describe reality",
     agrees: "Physical laws are complete and never violated",
     differs: "Physical structure alone does not explain why reality is experienced",
   },
   {
     framework: "Many-Worlds Interpretation",
+    url: "https://en.wikipedia.org/wiki/Many-worlds_interpretation",
     claim: "All possible quantum outcomes are equally real",
     agrees: "Physics evolves consistently without collapse",
     differs: "Not all possible worlds are realized as experienced reality",
   },
   {
     framework: "Collapse Interpretations",
+    url: "https://en.wikipedia.org/wiki/Wave_function_collapse",
     claim: "Observation causes physical collapse",
     agrees: "Observation is important to interpretation",
     differs: "Observation does not change or interrupt physical laws",
   },
   {
     framework: "Integrated Information Theory (IIT)",
+    url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
     claim: "Consciousness depends on integrated information (Φ)",
     agrees: "Information integration is required for experience",
     differs: "Φ alone does not guarantee that experience actually occurs",
   },
   {
     framework: "Panpsychism",
+    url: "https://en.wikipedia.org/wiki/Panpsychism",
     claim: "Everything has some form of consciousness",
     agrees: "Information is fundamental to reality",
     differs: "Consciousness is not present everywhere by default",
   },
   {
     framework: "Structural Realism",
+    url: "https://en.wikipedia.org/wiki/Structural_realism",
     claim: "Reality is defined by relations, not objects",
     agrees: "Reality is fundamentally relational",
     differs: "Some structures are not realized unless they can be experienced",
@@ -695,7 +701,16 @@ export default function Defense() {
               <tbody>
                 {comparativeFrameworks.map((row) => (
                   <tr key={row.framework} className="border-b border-black/10">
-                    <td className="py-3 pr-4 font-medium text-black/90">{row.framework}</td>
+                    <td className="py-3 pr-4 font-medium text-black/90">
+                      <a
+                        href={row.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline"
+                      >
+                        {row.framework}
+                      </a>
+                    </td>
                     <td className="py-3 pr-4 text-black/80">{row.claim}</td>
                     <td className="py-3 pr-4 text-black/80">{row.agrees}</td>
                     <td className="py-3 text-black/80">{row.differs}</td>
