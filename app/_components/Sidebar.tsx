@@ -1,5 +1,6 @@
 "use client";
 import { Download } from "lucide-react";
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
@@ -144,74 +145,104 @@ export default function Sidebar() {
           </a>
           <ol className="flex flex-col h-full xl:h-auto gap-2 pt-12 pb-16 justify-center items-center xl:justify-start flex-grow text-sm">
             <li>
-              <a className="text-lg font-medium" href="/">
+              <Link
+                className={`text-lg font-medium ${isTheoryPage ? "opacity-100" : "opacity-60"}`}
+                href="/"
+              >
                 Overview
-              </a>
+              </Link>
             </li>
-            {isTheoryPage &&
-              theorySubsections.map((subsection) => (
-                <li key={subsection.id}>
-                  {subsection.id === "holos" ? (
-                    <a
-                      className="flex items-center gap-1 -ml-0.5 pb-2"
-                      href={getLink(`#${subsection.id}`)}
-                    >
-                      <img
-                        src="/icon.svg"
-                        alt="Asterisk in a Circle"
-                        className="w-4 h-4 scale-90"
-                      />
-                      <span>{subsection.title}</span>
-                    </a>
-                  ) : (
-                    <a href={getLink(`#${subsection.id}`)}>{subsection.title}</a>
-                  )}
-                </li>
-              ))}
+            {isTheoryPage && (
+              <div className="sidebar-subsections sidebar-subsections-enter flex flex-col items-center">
+                {theorySubsections.map((subsection) => (
+                  <li key={subsection.id} className="sidebar-subsection-item py-1">
+                    {subsection.id === "holos" ? (
+                      <a
+                        className="flex items-center justify-center gap-1"
+                        href={getLink(`#${subsection.id}`)}
+                      >
+                        <img
+                          src="/icon.svg"
+                          alt="Asterisk in a Circle"
+                          className="w-4 h-4 scale-90"
+                        />
+                        <span>{subsection.title}</span>
+                      </a>
+                    ) : (
+                      <a href={getLink(`#${subsection.id}`)}>{subsection.title}</a>
+                    )}
+                  </li>
+                ))}
+              </div>
+            )}
             <li className="mt-2">
-              <a className="text-lg font-medium" href="/logic">
+              <Link
+                className={`text-lg font-medium ${isLogicPage ? "opacity-100" : "opacity-60"}`}
+                href="/logic"
+              >
                 Logic
-              </a>
+              </Link>
             </li>
-            {isLogicPage &&
-              logicSubsections.map((subsection) => (
-                <li key={subsection.id} className="text-xs">
-                  <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
-                </li>
-              ))}
+            {isLogicPage && (
+              <div className="sidebar-subsections sidebar-subsections-enter flex flex-col items-center">
+                {logicSubsections.map((subsection) => (
+                  <li key={subsection.id} className="sidebar-subsection-item text-xs py-1">
+                    <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
+                  </li>
+                ))}
+              </div>
+            )}
             <li className="mt-2">
-              <a className="text-lg font-medium" href="/defense">
+              <Link
+                className={`text-lg font-medium ${isDefensePage ? "opacity-100" : "opacity-60"}`}
+                href="/defense"
+              >
                 Defense
-              </a>
+              </Link>
             </li>
-            {isDefensePage &&
-              defenseSubsections.map((subsection) => (
-                <li key={subsection.id} className="text-xs">
-                  <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
-                </li>
-              ))}
+            {isDefensePage && (
+              <div className="sidebar-subsections sidebar-subsections-enter flex flex-col items-center">
+                {defenseSubsections.map((subsection) => (
+                  <li key={subsection.id} className="sidebar-subsection-item text-xs py-1">
+                    <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
+                  </li>
+                ))}
+              </div>
+            )}
             <li className="mt-2">
-              <a className="text-lg font-medium" href="/definition">
+              <Link
+                className={`text-lg font-medium ${isDefinitionPage ? "opacity-100" : "opacity-60"}`}
+                href="/definition"
+              >
                 Definition
-              </a>
+              </Link>
             </li>
-            {isDefinitionPage &&
-              definitionSubsections.map((subsection) => (
-                <li key={subsection.id} className="text-xs">
-                  <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
-                </li>
-              ))}
+            {isDefinitionPage && (
+              <div className="sidebar-subsections sidebar-subsections-enter flex flex-col items-center">
+                {definitionSubsections.map((subsection) => (
+                  <li key={subsection.id} className="sidebar-subsection-item text-xs py-1">
+                    <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
+                  </li>
+                ))}
+              </div>
+            )}
             <li className="mt-2">
-              <a className="text-lg font-medium" href="/predictions">
+              <Link
+                className={`text-lg font-medium ${isPredictionsPage ? "opacity-100" : "opacity-60"}`}
+                href="/predictions"
+              >
                 Predictions
-              </a>
+              </Link>
             </li>
-            {isPredictionsPage &&
-              predictionsSubsections.map((subsection) => (
-                <li key={subsection.id} className="text-xs">
-                  <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
-                </li>
-              ))}
+            {isPredictionsPage && (
+              <div className="sidebar-subsections sidebar-subsections-enter flex flex-col items-center">
+                {predictionsSubsections.map((subsection) => (
+                  <li key={subsection.id} className="sidebar-subsection-item text-xs py-1">
+                    <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
+                  </li>
+                ))}
+              </div>
+            )}
           </ol>
           <div className="w-full flex justify-center pb-8 px-8 xl:px-4 mb-2">
             <button
@@ -220,7 +251,7 @@ export default function Sidebar() {
                 e.stopPropagation();
                 handleDownload();
               }}
-              className="text-xs border border-black/40 px-4 py-2 rounded transition-colors flex items-center gap-1.5 opacity-80 hover:opacity-100"
+              className="text-xs border border-black/40 px-4 py-2 rounded transition-all flex items-center gap-1.5 opacity-80 hover:opacity-100 hover:scale-[1.03] active:scale-[0.98]"
             >
               <Download size={12} aria-hidden="true" />
               Download

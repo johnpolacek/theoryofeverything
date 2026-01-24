@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Defense from "../_components/Defense";
 import Footer from "../_components/Footer";
 import Header from "../_components/Header";
+import PageTransition from "../_components/PageTransition";
 import Sidebar from "../_components/Sidebar";
 
 export const metadata: Metadata = {
@@ -28,9 +29,11 @@ export default function DefensePage() {
       <Sidebar />
       <div className="grow h-full overflow-auto">
         <Header />
-        <main className="px-8 pt-12 pb-24 lg:px-16">
-          <Defense />
-        </main>
+        <PageTransition>
+          <main className="px-8 pt-12 pb-24 lg:px-16">
+            <Defense />
+          </main>
+        </PageTransition>
         <Footer />
       </div>
     </div>

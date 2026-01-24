@@ -197,7 +197,8 @@ const defenseData: AxiomDefense[] = [
       },
       {
         id: "3.2",
-        title: "Wavefunction collapse is [non-unitary](https://en.wikipedia.org/wiki/Unitarity_(physics))",
+        title:
+          "Wavefunction collapse is [non-unitary](https://en.wikipedia.org/wiki/Unitarity_(physics))",
         content: [
           "Collapse appears to violate unitarity (the principle that probabilities always sum to 100%).",
           "",
@@ -306,11 +307,20 @@ const defenseData: AxiomDefense[] = [
 
 const crossAxiomCheck = [
   { risk: "Violates [causality](https://en.wikipedia.org/wiki/Causality)", result: "❌ No" },
-  { risk: "Contradicts [relativity](https://en.wikipedia.org/wiki/Theory_of_relativity)", result: "❌ No" },
-  { risk: "Breaks [unitarity](https://en.wikipedia.org/wiki/Unitarity_(physics))", result: "❌ No" },
+  {
+    risk: "Contradicts [relativity](https://en.wikipedia.org/wiki/Theory_of_relativity)",
+    result: "❌ No",
+  },
+  {
+    risk: "Breaks [unitarity](https://en.wikipedia.org/wiki/Unitarity_(physics))",
+    result: "❌ No",
+  },
   { risk: "Requires new forces", result: "❌ No" },
   { risk: "[Anthropocentric](https://en.wikipedia.org/wiki/Anthropocentrism)", result: "❌ No" },
-  { risk: "Fully [falsifiable](https://en.wikipedia.org/wiki/Falsifiability)", result: "⚠️ No (interpretive framework)" },
+  {
+    risk: "Fully [falsifiable](https://en.wikipedia.org/wiki/Falsifiability)",
+    result: "⚠️ No (interpretive framework)",
+  },
 ];
 
 export default function Defense() {
@@ -448,9 +458,11 @@ export default function Defense() {
             falsifications of objective collapse models—pose challenges to consciousness-centric
             interpretations. They suggest quantum "measurements" can occur through purely physical
             processes without requiring a conscious observer. However, Holos accommodates these
-            findings by refining how observation operates, emphasizing its [ontological role](https://en.wikipedia.org/wiki/Ontology) (how it relates to existence) over a
+            findings by refining how observation operates, emphasizing its [ontological
+            role](https://en.wikipedia.org/wiki/Ontology) (how it relates to existence) over a
             causal one. These experiments inform testable [predictions](/predictions) about
-            [relational quantum mechanics](https://en.wikipedia.org/wiki/Relational_quantum_mechanics).
+            [relational quantum
+            mechanics](https://en.wikipedia.org/wiki/Relational_quantum_mechanics).
           </p>
 
           <div className="flex flex-col gap-4">
@@ -470,8 +482,8 @@ export default function Defense() {
               true manifestation requires integration into a broader experiential network—ultimately
               culminating in higher consciousness. Systems below <MathInline>{"Φ_c"}</MathInline>{" "}
               can perform mechanical "observations" (decoherence), but only{" "}
-              <MathInline>{"Φ ≥ Φ_c"}</MathInline> manifests experiential reality (makes it real through experience). This threshold is
-              detailed in the{" "}
+              <MathInline>{"Φ ≥ Φ_c"}</MathInline> manifests experiential reality (makes it real
+              through experience). This threshold is detailed in the{" "}
               <a href="/definition" className="text-black/80 hover:text-black underline">
                 Definition
               </a>{" "}
@@ -492,8 +504,10 @@ export default function Defense() {
           <div className="flex flex-col gap-2">
             <p className="font-semibold text-black/90">Current Position:</p>
             <p className="leading-relaxed">
-              Consciousness provides [ontological completion](https://en.wikipedia.org/wiki/Ontology) (the final step in making something real), not causal intervention. This capacity
-              is quantified by the ontological parameter{" "}
+              Consciousness provides [ontological
+              completion](https://en.wikipedia.org/wiki/Ontology) (the final step in making
+              something real), not causal intervention. This capacity is quantified by the
+              ontological parameter{" "}
               <a href="/definition" className="text-black/80 hover:text-black underline">
                 Φ (Phi)
               </a>

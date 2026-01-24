@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Footer from "../_components/Footer";
 import Header from "../_components/Header";
+import PageTransition from "../_components/PageTransition";
 import Predictions from "../_components/Predictions";
 import Sidebar from "../_components/Sidebar";
 
@@ -27,9 +28,11 @@ export default function PredictionsPage() {
       <Sidebar />
       <div className="grow h-full overflow-auto">
         <Header />
-        <main className="px-8 pt-12 pb-24 lg:px-16">
-          <Predictions />
-        </main>
+        <PageTransition>
+          <main className="px-8 pt-12 pb-24 lg:px-16">
+            <Predictions />
+          </main>
+        </PageTransition>
         <Footer />
       </div>
     </div>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Footer from "../_components/Footer";
 import Header from "../_components/Header";
 import Logic from "../_components/Logic";
+import PageTransition from "../_components/PageTransition";
 import Sidebar from "../_components/Sidebar";
 
 export const metadata: Metadata = {
@@ -29,9 +30,11 @@ export default function LogicPage() {
       <div className="grow flex flex-col h-full min-h-0">
         <div className="flex-1 overflow-auto min-h-0">
           <Header />
-          <main className="px-8 pt-12 pb-24 lg:px-16">
-            <Logic />
-          </main>
+          <PageTransition>
+            <main className="px-8 pt-12 pb-24 lg:px-16">
+              <Logic />
+            </main>
+          </PageTransition>
         </div>
         <Footer />
       </div>

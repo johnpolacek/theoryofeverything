@@ -1,6 +1,7 @@
 import Content from "./_components/Content";
 import Footer from "./_components/Footer";
 import Header from "./_components/Header";
+import PageTransition from "./_components/PageTransition";
 import Sidebar from "./_components/Sidebar";
 
 export default function Home() {
@@ -9,7 +10,9 @@ export default function Home() {
       <Sidebar />
       <div className="grow h-full overflow-auto">
         <Header />
-        <Content />
+        <PageTransition>
+          <Content />
+        </PageTransition>
         <Footer />
       </div>
     </div>

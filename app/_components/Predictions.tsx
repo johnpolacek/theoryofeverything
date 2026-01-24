@@ -224,12 +224,18 @@ export default function Predictions() {
                       <a href="#secondary-predictions">PCI (Perturbational Complexity Index)</a>
                     </strong>
                     <br />
-                    Computed from **[TMS-EEG](https://en.wikipedia.org/wiki/Transcranial_magnetic_stimulation#TMS-EEG)** responses (brain stimulation followed by recording) to quantify integrated information capacity.
+                    Computed from
+                    **[TMS-EEG](https://en.wikipedia.org/wiki/Transcranial_magnetic_stimulation#TMS-EEG)**
+                    responses (brain stimulation followed by recording) to quantify integrated
+                    information capacity.
                   </li>
                   <li>
                     <strong>Consciousness state</strong>
                     <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4 mt-1">
-                      <li>Wakefulness vs. sedation (calm state induced by medicine) vs. unconsciousness (clinically assessed)</li>
+                      <li>
+                        Wakefulness vs. sedation (calm state induced by medicine) vs.
+                        unconsciousness (clinically assessed)
+                      </li>
                       <li>Subjective reports (when possible)</li>
                     </ul>
                   </li>
@@ -239,7 +245,10 @@ export default function Predictions() {
                 <h4 className="font-semibold mb-2">Secondary Variables</h4>
                 <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed ml-4">
                   <li>EEG spectral power, functional connectivity, and complexity metrics</li>
-                  <li>Anesthesia depth (e.g., [propofol](https://en.wikipedia.org/wiki/Propofol) concentration, [BIS index](https://en.wikipedia.org/wiki/Bispectral_index))</li>
+                  <li>
+                    Anesthesia depth (e.g., [propofol](https://en.wikipedia.org/wiki/Propofol)
+                    concentration, [BIS index](https://en.wikipedia.org/wiki/Bispectral_index))
+                  </li>
                 </ul>
               </div>
             </div>
@@ -346,7 +355,9 @@ export default function Predictions() {
             <h3 className="text-xl font-semibold pb-2">Subjects</h3>
             <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed">
               <li>
-                {convertMarkdownToJSX("**[Recurrent neural networks](https://en.wikipedia.org/wiki/Recurrent_neural_network) (RNNs)** (AI systems with internal feedback), including:")}
+                {convertMarkdownToJSX(
+                  "**[Recurrent neural networks](https://en.wikipedia.org/wiki/Recurrent_neural_network) (RNNs)** (AI systems with internal feedback), including:"
+                )}
                 <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4 mt-1">
                   <li>LSTMs / GRUs</li>
                   <li>Transformer architectures with recurrence/feedback</li>
@@ -381,9 +392,12 @@ export default function Predictions() {
                         <em>Direct Φ</em> when feasible
                       </li>
                       <li>
-                        <em>Proxy measures</em> when direct computation is intractable (too difficult to calculate directly), such as{" "}
+                        <em>Proxy measures</em> when direct computation is intractable (too
+                        difficult to calculate directly), such as{" "}
                         <strong>perturbation-based complexity</strong> or{" "}
-                        <strong>[causal density](https://en.wikipedia.org/wiki/Causal_density)</strong>
+                        <strong>
+                          [causal density](https://en.wikipedia.org/wiki/Causal_density)
+                        </strong>
                       </li>
                     </ul>
                   </li>
@@ -404,7 +418,9 @@ export default function Predictions() {
                     Complexity metrics:
                     <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4 mt-1">
                       <li>[entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory))</li>
-                      <li>[mutual information](https://en.wikipedia.org/wiki/Mutual_information)</li>
+                      <li>
+                        [mutual information](https://en.wikipedia.org/wiki/Mutual_information)
+                      </li>
                       <li>recurrence strength</li>
                       <li>attractor dimensionality</li>
                     </ul>
@@ -740,14 +756,19 @@ export default function Predictions() {
           <div className="flex flex-col gap-4">
             <h3 className="text-xl font-semibold pb-2">Subjects</h3>
             <p className="leading-relaxed">
-              A **[superconducting qubit](https://en.wikipedia.org/wiki/Superconducting_quantum_computing) array** (a basic quantum computer system) with **N qubits** (e.g., 8–20 qubits), in a controlled lab environment.
+              A **[superconducting
+              qubit](https://en.wikipedia.org/wiki/Superconducting_quantum_computing) array** (a
+              basic quantum computer system) with **N qubits** (e.g., 8–20 qubits), in a controlled
+              lab environment.
             </p>
             <p className="leading-relaxed">
               The array is prepared and evolved under a known{" "}
               <a href="https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)">
                 Hamiltonian
-              </a> (the mathematical description of the system's total energy), with controlled noise and{" "}
-              <a href="https://en.wikipedia.org/wiki/Quantum_decoherence">decoherence</a> (the loss of quantum information to the environment).
+              </a>{" "}
+              (the mathematical description of the system's total energy), with controlled noise and{" "}
+              <a href="https://en.wikipedia.org/wiki/Quantum_decoherence">decoherence</a> (the loss
+              of quantum information to the environment).
             </p>
           </div>
 
@@ -813,15 +834,15 @@ export default function Predictions() {
                   Relational Quantum Mechanics
                 </a>{" "}
                 argues that states are relative to observers.{" "}
-                <a href="https://en.wikipedia.org/wiki/Coarse-grained_modeling">
-                  Coarse-graining
-                </a> (simplifying complex data into broader categories) in statistical mechanics
-                shows that different partitions give different effective descriptions.
+                <a href="https://en.wikipedia.org/wiki/Coarse-grained_modeling">Coarse-graining</a>{" "}
+                (simplifying complex data into broader categories) in statistical mechanics shows
+                that different partitions give different effective descriptions.
               </p>
               <p>
                 However, these approaches typically treat partitions as{" "}
-                <strong>[epistemic tools](https://en.wikipedia.org/wiki/Epistemology)</strong> (how we describe the system), not as{" "}
-                <strong>ontological constructors</strong> (the builders of existence) of reality.
+                <strong>[epistemic tools](https://en.wikipedia.org/wiki/Epistemology)</strong> (how
+                we describe the system), not as <strong>ontological constructors</strong> (the
+                builders of existence) of reality.
               </p>
               <p>
                 Holos extends this by claiming that{" "}

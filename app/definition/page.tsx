@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Definition from "../_components/Definition";
 import Footer from "../_components/Footer";
 import Header from "../_components/Header";
+import PageTransition from "../_components/PageTransition";
 import Sidebar from "../_components/Sidebar";
 
 export const metadata: Metadata = {
@@ -28,9 +29,11 @@ export default function DefinitionPage() {
       <Sidebar />
       <div className="grow h-full overflow-auto">
         <Header />
-        <main className="px-8 pt-12 pb-24 lg:px-16">
-          <Definition />
-        </main>
+        <PageTransition>
+          <main className="px-8 pt-12 pb-24 lg:px-16">
+            <Definition />
+          </main>
+        </PageTransition>
         <Footer />
       </div>
     </div>
