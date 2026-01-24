@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Footer from "../_components/Footer";
 import Header from "../_components/Header";
-import PageTransition from "../_components/PageTransition";
+import PageTransition from "@/app/_components/PageTransition";
 import Predictions from "../_components/Predictions";
 import Sidebar from "../_components/Sidebar";
 

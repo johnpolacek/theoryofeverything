@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Defense from "../_components/Defense";
 import Footer from "../_components/Footer";
 import Header from "../_components/Header";
-import PageTransition from "../_components/PageTransition";
+import PageTransition from "@/app/_components/PageTransition";
 import Sidebar from "../_components/Sidebar";
 
 export const metadata: Metadata = {

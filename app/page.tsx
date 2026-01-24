@@ -1,8 +1,8 @@
-import Content from "./_components/Content";
-import Footer from "./_components/Footer";
-import Header from "./_components/Header";
-import PageTransition from "./_components/PageTransition";
-import Sidebar from "./_components/Sidebar";
+import Content from "@/app/_components/Content";
+import Footer from "@/app/_components/Footer";
+import Header from "@/app/_components/Header";
+import PageTransition from "@/app/_components/PageTransition";
+import Sidebar from "@/app/_components/Sidebar";
 
 export default function Home() {
   return (
