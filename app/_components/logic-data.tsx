@@ -248,7 +248,7 @@ export const foundationalPropositions: Proposition[] = [
         content: [
           convertMarkdownToJSX("For light (\\(ds^2 = 0\\)), spacetime separation vanishes."),
           convertMarkdownToJSX(
-            "A photon is not a moving object but a **[null geodesic](#footer-time)**—a static relational seam connecting emission and absorption."
+            "A photon is not a moving object but a **[null geodesic](#footer-spacetime)**—a static relational seam connecting emission and absorption."
           ),
         ],
       },

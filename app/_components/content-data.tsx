@@ -152,6 +152,7 @@ export const sections: ContentSection[] = [
       <>
         What if the Big Bang is not a moment of absolute creation but a boundary within that
         structure? Are there other structures?
+        <FootnoteLink number={3} />
       </>,
     ],
   },
@@ -184,11 +185,11 @@ export const sections: ContentSection[] = [
       <>
         For a photon traveling at the{" "}
         <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a>, the spacetime
-        interval is zero, a <a href="#footer-time">Null Interval</a>. While a photon does not
+        interval is zero, a <a href="#footer-spacetime">Null Interval</a>. While a photon does not
         possess subjective experience in a biological sense, geometrically, its path effectively
         collapses the universe into a single point of contact where emission and absorption occur
         simultaneously. To a higher-dimensional observer, a photon is not a moving particle, but a
-        static geometric structure—a <a href="#footer-time">Null Geodesic</a>—that permanently
+        static geometric structure—a <a href="#footer-spacetime">Null Geodesic</a>—that permanently
         connects two points in spacetime like a seam.
       </>,
       <>

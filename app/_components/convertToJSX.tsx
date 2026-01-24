@@ -182,18 +182,18 @@ export function convertMarkdownToJSX(text: string): React.ReactNode {
 // Map footnote numbers to their footer IDs
 function getFooterIdForNumber(num: number): string {
   const footerMap: Record<number, string> = {
-    1: "footer-axioms",
-    2: "footer-life",
-    3: "footer-consciousness",
-    4: "footer-universe",
-    5: "footer-spacetime",
-    6: "footer-dimensions",
-    7: "footer-infinity",
-    8: "footer-blackholes",
-    9: "footer-aliens",
-    10: "footer-simulation",
-    11: "footer-god",
-    12: "footer-why",
+    1: "footer-life",
+    2: "footer-consciousness",
+    3: "footer-universe",
+    4: "footer-spacetime",
+    5: "footer-dimensions",
+    6: "footer-infinity",
+    7: "footer-blackholes",
+    8: "footer-aliens",
+    9: "footer-simulation",
+    10: "footer-god",
+    11: "footer-why",
+    12: "footer-axioms",
     13: "footer-predictions",
   };
   return footerMap[num] || "footer-why";
