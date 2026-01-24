@@ -446,6 +446,45 @@ const crossAxiomCheck = [
   },
 ];
 
+const comparativeFrameworks = [
+  {
+    framework: "Standard Physicalism",
+    claim: "Physical laws fully describe reality",
+    agrees: "Physical laws are complete and never violated",
+    differs: "Physical structure alone does not explain why reality is experienced",
+  },
+  {
+    framework: "Many-Worlds Interpretation",
+    claim: "All possible quantum outcomes are equally real",
+    agrees: "Physics evolves consistently without collapse",
+    differs: "Not all possible worlds are realized as experienced reality",
+  },
+  {
+    framework: "Collapse Interpretations",
+    claim: "Observation causes physical collapse",
+    agrees: "Observation is important to interpretation",
+    differs: "Observation does not change or interrupt physical laws",
+  },
+  {
+    framework: "Integrated Information Theory (IIT)",
+    claim: "Consciousness depends on integrated information (Φ)",
+    agrees: "Information integration is required for experience",
+    differs: "Φ alone does not guarantee that experience actually occurs",
+  },
+  {
+    framework: "Panpsychism",
+    claim: "Everything has some form of consciousness",
+    agrees: "Information is fundamental to reality",
+    differs: "Consciousness is not present everywhere by default",
+  },
+  {
+    framework: "Structural Realism",
+    claim: "Reality is defined by relations, not objects",
+    agrees: "Reality is fundamentally relational",
+    differs: "Some structures are not realized unless they can be experienced",
+  },
+];
+
 export default function Defense() {
   return (
     <div className="flex flex-col gap-12 max-w-[50rem]">
@@ -525,9 +564,9 @@ export default function Defense() {
         );
       })}
 
-      {/* Cross-Axiom Consistency Check */}
-      <section id="cross-axiom-consistency-check" className="flex flex-col gap-6">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">Cross-Axiom Consistency Check</h2>
+      {/* Failure Modes / Stress-Testing */}
+      <section id="failure-modes-stress-testing" className="flex flex-col gap-6">
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">Failure Modes / Stress-Testing</h2>
         <div className="overflow-x-auto">
           <table className="w-full border-collapse">
             <thead>
@@ -627,9 +666,64 @@ export default function Defense() {
         </div>
       </section>
 
-      {/* Final Verdict */}
-      <section id="final-verdict" className="flex flex-col gap-6">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">Final Verdict</h2>
+      {/* Positioning Holos Among Competing Interpretations */}
+      <section id="positioning-holos" className="flex flex-col gap-6">
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">
+          Positioning Holos Among Competing Interpretations
+        </h2>
+        <div className="flex flex-col gap-6 text-black/80">
+          <p className="leading-relaxed">
+            The table below compares Holos with several common ways of interpreting reality and
+            consciousness. The goal is not to refute these views, but to make clear what Holos
+            accepts, what it rejects, and why it takes a different approach.
+          </p>
+
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="border-b border-black/30">
+                  <th className="text-left py-2 pr-4 font-semibold text-black/90">Framework</th>
+                  <th className="text-left py-2 pr-4 font-semibold text-black/90">Main Claim</th>
+                  <th className="text-left py-2 pr-4 font-semibold text-black/90">
+                    Where Holos Agrees
+                  </th>
+                  <th className="text-left py-2 font-semibold text-black/90">
+                    Where Holos Differs
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {comparativeFrameworks.map((row) => (
+                  <tr key={row.framework} className="border-b border-black/10">
+                    <td className="py-3 pr-4 font-medium text-black/90">{row.framework}</td>
+                    <td className="py-3 pr-4 text-black/80">{row.claim}</td>
+                    <td className="py-3 pr-4 text-black/80">{row.agrees}</td>
+                    <td className="py-3 text-black/80">{row.differs}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <p className="leading-relaxed">
+            Holos does not propose new physical laws or mechanisms. Instead, it asks a different
+            question: why certain physically consistent structures are experienced as reality at
+            all. Its answer is that experience is not an afterthought, but a condition for
+            ontological realization.
+          </p>
+
+          <div className="border border-black/10 bg-black/[0.02] p-6 rounded-lg italic">
+            <p className="font-semibold not-italic mb-2">In simple terms:</p>
+            Physics explains how reality behaves. Holos asks why any of it is experienced. It argues
+            that not all possible realities are equally real — only those that can support coherent
+            experience are realized.
+          </div>
+        </div>
+      </section>
+
+      {/* Conclusion */}
+      <section id="conclusion" className="flex flex-col gap-6">
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">Conclusion</h2>
         <div className="flex flex-col gap-3 text-black/80">
           <ul className="list-disc list-inside flex flex-col gap-2 pl-2">
             <li>Holos is internally consistent</li>

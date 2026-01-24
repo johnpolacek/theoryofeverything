@@ -42,9 +42,10 @@ const defenseSubsections: Subsection[] = [
   { id: "axiom-3", title: "Conservation" },
   { id: "axiom-4", title: "Unification" },
   { id: "axiom-5", title: "Interface" },
-  { id: "cross-axiom-consistency-check", title: "Consistency" },
+  { id: "failure-modes-stress-testing", title: "Stress-Testing" },
   { id: "primary-unresolved-challenge", title: "Challenge" },
-  { id: "final-verdict", title: "Final Verdict" },
+  { id: "positioning-holos", title: "Comparison" },
+  { id: "conclusion", title: "Conclusion" },
 ];
 
 const definitionSubsections: Subsection[] = [
