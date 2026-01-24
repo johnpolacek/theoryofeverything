@@ -1,5 +1,5 @@
 "use client";
-import { Download } from "lucide-react";
+import { Download, MenuIcon } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -118,9 +118,9 @@ export default function Sidebar() {
               setIsSidebarOpen(!isSidebarOpen);
             }
           }}
-          className="absolute top-2 left-2 cursor-pointer"
+          className={`absolute top-2 left-2 cursor-pointer ease-in-out transition-all duration-300 ${isSidebarOpen ? "translate-x-[calc(100vw-3rem)]" : "translate-x-0"}`}
         >
-          <img src="/icon.svg" alt="Holos" title="Holos" className="w-5 h-5 lg:w-8 lg:h-8" />
+          <MenuIcon size={20} aria-hidden="true" />
         </button>
       </div>
       <aside
@@ -131,12 +131,12 @@ export default function Sidebar() {
             setIsSidebarOpen(false);
           }
         }}
-        className={`w-full h-screen overflow-auto transition-transform duration-300 bg-white ${isSidebarOpen ? "transform translate-x-0" : "fixed transform -translate-x-full z-10"} xl:static xl:transform-none`}
+        className={`fixed xl:static top-0 left-0 w-full xl:w-auto h-screen overflow-auto transition-transform duration-300 bg-white z-10 ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"} xl:translate-x-0`}
       >
         <nav className="w-full h-screen top-0 left-0 border-r border-black/20 border-dashed overflow-auto flex flex-col">
           <a
             href={getLink("#home")}
-            className="hidden xl:flex items-center justify-center border-b border-black/20 border-dashed h-[160px] w-full"
+            className="flex items-center justify-center xl:border-b xl:border-black/20 xl:border-dashed h-[160px] w-full relative top-[6.6vh] xl:top-0"
           >
             <div className="flex flex-col items-center justify-center py-8 opacity-60">
               <img
