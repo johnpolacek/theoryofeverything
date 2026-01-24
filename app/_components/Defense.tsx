@@ -334,11 +334,11 @@ export default function Defense() {
         </p>
         <p className="text-black/70 text-sm">
           For formal definitions of the axioms, see the{" "}
-          <a href="/logic" className="text-black/80 hover:text-black underline">
+          <a href="/logic">
             Logic
           </a>{" "}
           section. For conceptual exploration, see the main{" "}
-          <a href="/" className="text-black/80 hover:text-black underline">
+          <a href="/">
             Content
           </a>{" "}
           section.
@@ -364,7 +364,7 @@ export default function Defense() {
                       ? "Apparent infinities resolve from higher-dimensional perspectives."
                       : "Consciousness is the fundamental interface of reality."}{" "}
               (See{" "}
-              <a href="/logic" className="text-black/80 hover:text-black underline">
+              <a href="/logic">
                 Logic
               </a>{" "}
               for formal statement.)
@@ -484,7 +484,7 @@ export default function Defense() {
               can perform mechanical "observations" (decoherence), but only{" "}
               <MathInline>{"Φ ≥ Φ_c"}</MathInline> manifests experiential reality (makes it real
               through experience). This threshold is detailed in the{" "}
-              <a href="/definition" className="text-black/80 hover:text-black underline">
+              <a href="/definition">
                 Definition
               </a>{" "}
               of Φ. See the [Logic](/logic) section for the operational definition *R = C ⊛ O*.
@@ -508,7 +508,7 @@ export default function Defense() {
               completion](https://en.wikipedia.org/wiki/Ontology) (the final step in making
               something real), not causal intervention. This capacity is quantified by the
               ontological parameter{" "}
-              <a href="/definition" className="text-black/80 hover:text-black underline">
+              <a href="/definition">
                 Φ (Phi)
               </a>
               , which measures when a system achieves sufficient integration to register reality.
@@ -533,11 +533,11 @@ export default function Defense() {
           </ul>
           <p className="leading-relaxed pt-4">
             For the formal logical structure, see the{" "}
-            <a href="/logic" className="text-black/80 hover:text-black underline">
+            <a href="/logic">
               Logic
             </a>{" "}
             section. For testable empirical implications, see{" "}
-            <a href="/predictions" className="text-black/80 hover:text-black underline">
+            <a href="/predictions">
               Predictions
             </a>
             .

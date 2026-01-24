@@ -3,6 +3,7 @@ import {
   definitions,
   extrapolativePropositions,
   foundationalPropositions,
+  mathematicalFormalism,
   minimalCore,
 } from "./logic-data";
 import MathInline from "./MathInline";
@@ -105,9 +106,27 @@ export default function Logic() {
         </div>
       </section>
 
-      {/* IV. Extrapolative Propositions */}
+      {/* IV. Mathematical Formalism */}
+      <section id="mathematical-formalism" className="flex flex-col gap-6">
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">IV. {mathematicalFormalism.title}</h2>
+        <div className="flex flex-col gap-4 text-black/80">
+          {mathematicalFormalism.content.map((item, idx) => {
+            if (item === "") return <br key={`formalism-br-${idx}`} />;
+            if (typeof item === "string") {
+              return (
+                <p key={`formalism-p-${idx}`} className="leading-relaxed">
+                  {item}
+                </p>
+              );
+            }
+            return <div key={`formalism-content-${idx}`}>{item}</div>;
+          })}
+        </div>
+      </section>
+
+      {/* V. Extrapolative Propositions */}
       <section id="extrapolative-propositions" className="flex flex-col gap-6">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">IV. Extrapolative Propositions</h2>
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">V. Extrapolative Propositions</h2>
         <div className="flex flex-col gap-8">
           {extrapolativePropositions.map((prop) => (
             <div key={prop.id} className="flex flex-col gap-4">
@@ -140,9 +159,9 @@ export default function Logic() {
         </div>
       </section>
 
-      {/* V. Minimal Core */}
-      <section className="flex flex-col gap-6">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">V. Minimal Core</h2>
+      {/* VI. Minimal Core */}
+      <section id="minimal-core" className="flex flex-col gap-6">
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">VI. Minimal Core</h2>
         <div className="flex flex-col gap-3 text-black/80">
           {minimalCore.map((item, idx) => {
             if (item === "") return <br key={`core-br-${idx}`} />;
@@ -155,13 +174,18 @@ export default function Logic() {
         </div>
       </section>
 
-      {/* VI. Operational Definition */}
+      {/* VII. Operational Definition */}
       <section id="phi-operationalization" className="flex flex-col gap-6">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">VI. Operational Definition</h2>
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">VII. Operational Definition</h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
             The foundational axiom of Holos defines reality as the recursive relation between
-            Creation and Observation:
+            Creation and Observation. For the formal Category Theory definition using endofunctors,
+            see{" "}
+            <a href="#mathematical-formalism" className="text-black/80 hover:text-black underline">
+              Section IV: Mathematical Formalism
+            </a>
+            .
           </p>
           <div className="my-4 py-4 px-6 bg-black/5 border-l-2 border-black/20 font-mono text-center text-lg">
             R = C ⊛ O

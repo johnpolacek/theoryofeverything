@@ -30,9 +30,10 @@ const logicSubsections: Subsection[] = [
   { id: "primitive-definitions", title: "Primitive Definitions" },
   { id: "axioms", title: "Axioms" },
   { id: "foundational-propositions", title: "Foundational Propositions" },
+  { id: "mathematical-formalism", title: "Mathematical Formalism" },
   { id: "extrapolative-propositions", title: "Extrapolative Propositions" },
   { id: "minimal-core", title: "Minimal Core" },
-  { id: "phi-operationalization", title: "Operationalization" },
+  { id: "phi-operationalization", title: "Operational Definition" },
 ];
 
 const defenseSubsections: Subsection[] = [

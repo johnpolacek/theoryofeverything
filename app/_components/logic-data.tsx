@@ -322,6 +322,60 @@ export const foundationalPropositions: Proposition[] = [
   },
 ];
 
+// Mathematical Formalism Section
+export interface MathematicalFormalism {
+  title: string;
+  content: React.ReactNode[];
+}
+
+export const mathematicalFormalism: MathematicalFormalism = {
+  title: "Mathematical Formalism: The Holos Functor",
+  content: [
+    convertMarkdownToJSX(
+      "To formalize the recursive nature of the ⊛ relation, we model the universe as a Category **C**, where objects are informational states and morphisms are the transformations between them."
+    ),
+    "",
+    convertMarkdownToJSX("**Definition 1 (The Holos Endofunctor):**"),
+    convertMarkdownToJSX(
+      "Let **H: C → C** be an endofunctor representing the Holos operator. This functor maps the category of reality onto itself through the composite action of Creation (**C**) and Observation (**O**)."
+    ),
+    "",
+    createMathDisplay("H = O \\circ C", "holos-functor"),
+    "",
+    convertMarkdownToJSX("Where:"),
+    convertMarkdownToJSX(
+      "* **C** (Creation) maps a state **s** to a manifold of possible histories (Quantum Evolution)."
+    ),
+    convertMarkdownToJSX(
+      "* **O** (Observation) maps that manifold back to a single actualized state **s'** (State Reduction / Manifestation)."
+    ),
+    "",
+    convertMarkdownToJSX(
+      "The recursive evolution of reality is the iterative application of this functor:"
+    ),
+    "",
+    createMathDisplay("s_{n+1} = H(s_n) = O(C(s_n))", "holos-recursion"),
+    "",
+    convertMarkdownToJSX("**Visualizing the Loop**"),
+    convertMarkdownToJSX(
+      "The Holos framework can be visualized as a commutative diagram where reality (**R**) is preserved across the transformation:"
+    ),
+    "",
+    createMathDisplay(
+      "\\begin{array}{ccc} s_0 & \\xrightarrow{C} & P \\\\ & & \\downarrow O \\\\ s_1 & \\xleftarrow{H} & R \\end{array}",
+      "commutative-diagram"
+    ),
+    "",
+    convertMarkdownToJSX("Where:"),
+    convertMarkdownToJSX("* **s₀**: Initial State"),
+    convertMarkdownToJSX("* **C**: Creation (generates set of Possibilities **P**)"),
+    convertMarkdownToJSX("* **O**: Observation (selects Reality **R**)"),
+    convertMarkdownToJSX(
+      "* **H**: The realized reality becomes the initial state for the next cycle."
+    ),
+  ],
+};
+
 // Extrapolative Propositions (VI-VII)
 export const extrapolativePropositions: Proposition[] = [
   {
@@ -353,13 +407,28 @@ export const extrapolativePropositions: Proposition[] = [
   },
   {
     id: "VII",
-    name: "Recursive Closure (Omega Limit)",
+    name: "Recursive Closure (Terminal Coalgebra)",
     statement: convertMarkdownToJSX(
-      "The limiting case of Holos is a [cyclic fixed point](https://en.wikipedia.org/wiki/Fixed_point_(mathematics)) (a state that stays the same through repeated cycles) where maximal consciousness observes the totality of relational structure. This represents the limit case where [Φ](/definition) approaches infinity, achieving complete [ontological registration](https://en.wikipedia.org/wiki/Ontology) (full awareness of existence)."
+      'The "Omega Limit" described in the content section is formally defined as the **Terminal Coalgebra** of the Holos functor.'
     ),
     corollaries: [
       {
         id: "VII.1",
+        name: "Terminal Coalgebra Definition",
+        content: [
+          convertMarkdownToJSX(
+            'If reality is the trajectory of the functor **H**, then the "final" state of maximal integration is the fixed point where the system becomes isomorphic to its own transformation:'
+          ),
+          "",
+          createMathDisplay("\\Omega \\cong H(\\Omega)", "terminal-coalgebra"),
+          "",
+          convertMarkdownToJSX(
+            'This equation implies that at the limit **Ω**, the distinction between the observer and the observed collapses. The state **Ω** contains all the information required to generate itself. This provides a rigorous mathematical basis for the concept of "Unitary Presence" or "God" without invoking theology—it is simply the structural limit of the recursive system.'
+          ),
+        ],
+      },
+      {
+        id: "VII.2",
         name: "[Indra's Net](https://en.wikipedia.org/wiki/Indra%27s_net)",
         content: [
           convertMarkdownToJSX(
@@ -368,7 +437,7 @@ export const extrapolativePropositions: Proposition[] = [
         ],
       },
       {
-        id: "VII.2",
+        id: "VII.3",
         name: "Semantic Equivalence of the Absolute",
         content: [
           convertMarkdownToJSX(

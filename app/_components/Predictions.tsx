@@ -22,12 +22,11 @@ export default function Predictions() {
           see the{" "}
           <a
             href="/logic#phi-operationalization"
-            className="text-black/80 hover:text-black underline"
           >
             Logic
           </a>{" "}
           section. For the definition of Φ, see{" "}
-          <a href="/definition" className="text-black/80 hover:text-black underline">
+          <a href="/definition">
             Definition
           </a>
           .

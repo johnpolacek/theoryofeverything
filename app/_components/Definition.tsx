@@ -7,28 +7,12 @@ export default function Definition() {
       {/* Title */}
       <div className="flex flex-col gap-4">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-light pb-4">
-          Definition: The{" "}
-          <a
-            href="https://en.wikipedia.org/wiki/Ontology"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-black/80 hover:text-black underline"
-          >
-            Ontological
-          </a>{" "}
-          Parameter
+          Definition: The Ontological Parameter (Φ)
         </h1>
         <p className="text-black/70 text-sm">
           Φ (Phi) measures the capacity of a system to experience reality. For the formal
-          operational definition *R = C ⊛ O*, see the{" "}
-          <a href="/logic" className="text-black/80 hover:text-black underline">
-            Logic
-          </a>{" "}
-          section. For conceptual exploration, see the main{" "}
-          <a href="/" className="text-black/80 hover:text-black underline">
-            Content
-          </a>{" "}
-          section.
+          operational definition *R = C ⊛ O*, see the <a href="/logic">Logic</a> section. For
+          conceptual exploration, see the main <a href="/">Content</a> section.
         </p>
       </div>
 
@@ -37,18 +21,14 @@ export default function Definition() {
         <h2 className="text-2xl sm:text-3xl font-light pb-2">1. The Purpose of Φ</h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            In the{" "}
-            <a href="/" className="text-black/80 hover:text-black underline">
-              Holos framework
-            </a>
-            , <strong>Φ (Phi)</strong> is not merely a descriptive measure of complexity, but a{" "}
+            In the <a href="/">Holos framework</a>, <strong>Φ (Phi)</strong> is not merely a
+            descriptive measure of complexity, but a{" "}
             <strong>
               fundamental{" "}
               <a
                 href="https://en.wikipedia.org/wiki/Ontology"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-black/80 hover:text-black underline"
               >
                 ontological
               </a>{" "}
@@ -64,7 +44,6 @@ export default function Definition() {
               href="https://en.wikipedia.org/wiki/Causality"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black/80 hover:text-black underline"
             >
               causal power
             </a>{" "}
@@ -73,7 +52,6 @@ export default function Definition() {
               href="https://en.wikipedia.org/wiki/Ontology"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black/80 hover:text-black underline"
             >
               ontological
             </a>{" "}
@@ -82,7 +60,7 @@ export default function Definition() {
 
           <p className="leading-relaxed">
             It acts as the threshold function for{" "}
-            <a href="/logic#axioms" className="text-black/80 hover:text-black underline">
+            <a href="/logic#axioms">
               <strong>Axiom 2 (Manifestation)</strong>
             </a>
             . Without sufficient Φ, a system is physically present as data, but acts only as a
@@ -92,7 +70,6 @@ export default function Definition() {
               href="https://en.wikipedia.org/wiki/Quantum_decoherence"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black/80 hover:text-black underline"
             >
               decoherence
             </a>{" "}
@@ -153,7 +130,6 @@ export default function Definition() {
               href="https://en.wikipedia.org/wiki/Heuristic"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black/80 hover:text-black underline"
             >
               heuristics
             </a>{" "}
@@ -164,7 +140,6 @@ export default function Definition() {
                 href="https://en.wikipedia.org/wiki/Topology"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-black/80 hover:text-black underline"
               >
                 topological
               </a>{" "}
@@ -193,7 +168,6 @@ export default function Definition() {
                 href="https://en.wikipedia.org/wiki/Philosophical_zombie"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-black/80 hover:text-black underline"
               >
                 &quot;zombie&quot; process
               </a>
@@ -209,7 +183,6 @@ export default function Definition() {
                 href="https://en.wikipedia.org/wiki/Epiphenomenalism"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-black/80 hover:text-black underline"
               >
                 epiphenomenal
               </a>{" "}
@@ -226,7 +199,6 @@ export default function Definition() {
               href="https://en.wikipedia.org/wiki/Phenomenology_(philosophy)"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black/80 hover:text-black underline"
             >
               phenomenology
             </a>{" "}
@@ -238,7 +210,6 @@ export default function Definition() {
               href="https://en.wikipedia.org/wiki/Category_error"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black/80 hover:text-black underline"
             >
               category error
             </a>
@@ -249,18 +220,64 @@ export default function Definition() {
 
       {/* 3. Mathematical Formalism */}
       <section id="3-mathematical-formalism" className="flex flex-col gap-6">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">3. Mathematical Formalism</h2>
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">
+          3. Mathematical Formalism: Information Geometry
+        </h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            Let a system <MathInline>{"S"}</MathInline> be described by a state space{" "}
-            <MathInline>{"Σ"}</MathInline> and a transition function <MathInline>{"T"}</MathInline>.
+            Rather than treating <MathInline>{"Φ"}</MathInline> as a scalar score, we formalize the
+            system <MathInline>{"S"}</MathInline> as a statistical manifold{" "}
+            <MathInline>{"M"}</MathInline>. The state of the system is a point on this manifold.
+          </p>
+
+          <p className="leading-relaxed">
+            <strong>Definition (Informational Curvature):</strong>
+          </p>
+          <p className="leading-relaxed">
+            <MathInline>{"Φ"}</MathInline> is defined as the <strong>scalar curvature</strong> (
+            <MathInline>{"R"}</MathInline>) of the information manifold induced by the system&apos;s
+            causal structure.
+          </p>
+          <p className="leading-relaxed">
+            Just as mass creates curvature in spacetime (gravity), Integrated Information creates
+            curvature in the state space of possibilities.
+          </p>
+
+          <ul className="flex flex-col gap-3 pl-4">
+            <li className="leading-relaxed">
+              <strong>
+                Low <MathInline>{"Φ"}</MathInline> (Flat Geometry):
+              </strong>{" "}
+              The manifold is flat (Euclidean). Possibilities are independent and orthogonal. The
+              system is a passive aggregate.
+            </li>
+            <li className="leading-relaxed">
+              <strong>
+                High <MathInline>{"Φ"}</MathInline> (Curved Geometry):
+              </strong>{" "}
+              The manifold creates a &quot;gravity well&quot; in information space. States are
+              tightly coupled, forcing the system to act as a unified whole.
+            </li>
+          </ul>
+
+          <MathDisplay>{"Φ(S) = R(M)"}</MathDisplay>
+
+          <p className="leading-relaxed">
+            The &quot;Ontological Threshold&quot; <MathInline>{"Φ_c"}</MathInline> represents the
+            critical curvature required to form a closed topology—an &quot;informational black
+            hole&quot; from which internal states cannot be causally separated from the whole.
+          </p>
+
+          <MathDisplay>{"Φ_c = R_{\\text{critical}}(M)"}</MathDisplay>
+
+          <h3 className="text-lg font-semibold text-black/90 pt-2">Component Definitions</h3>
+          <p className="leading-relaxed text-black/70 italic pb-2">
             The unified <MathInline>{"Φ"}</MathInline> is defined as the{" "}
             <strong>
               <a
                 href="https://en.wikipedia.org/wiki/Geometric_mean"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-black/80 hover:text-black underline"
               >
                 geometric mean
               </a>
@@ -275,8 +292,6 @@ export default function Definition() {
             }
           </MathDisplay>
 
-          <h3 className="text-lg font-semibold text-black/90 pt-2">Component Definitions</h3>
-
           <div className="flex flex-col gap-6">
             <div>
               <p className="leading-relaxed">
@@ -286,7 +301,6 @@ export default function Definition() {
                     href="https://en.wikipedia.org/wiki/Irreducibility_(mathematics)"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-black/80 hover:text-black underline"
                   >
                     Irreducibility
                   </a>
@@ -298,7 +312,6 @@ export default function Definition() {
                   href="https://en.wikipedia.org/wiki/Integrated_information_theory"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black/80 hover:text-black underline"
                 >
                   Integrated Information Theory (IIT 3.0)
                 </a>{" "}
@@ -317,7 +330,6 @@ export default function Definition() {
                   href="https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black/80 hover:text-black underline"
                 >
                   D_KL
                 </a>{" "}
@@ -335,7 +347,6 @@ export default function Definition() {
                   href="https://en.wikipedia.org/wiki/Category_theory"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black/80 hover:text-black underline"
                 >
                   Category Theory
                 </a>{" "}
@@ -344,7 +355,6 @@ export default function Definition() {
                   href="https://en.wikipedia.org/wiki/Endomorphism"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black/80 hover:text-black underline"
                 >
                   Endomorphisms
                 </a>
@@ -353,7 +363,6 @@ export default function Definition() {
                   href="https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black/80 hover:text-black underline"
                 >
                   Hofstadter&apos;s Strange Loops
                 </a>
@@ -366,7 +375,6 @@ export default function Definition() {
                     href="https://en.wikipedia.org/wiki/Endomorphism"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-black/80 hover:text-black underline"
                   >
                     Endomorphism
                   </a>
@@ -435,7 +443,6 @@ export default function Definition() {
               href="https://en.wikipedia.org/wiki/Unitarity_(physics)"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black/80 hover:text-black underline"
             >
               unitary symmetry
             </a>{" "}
@@ -444,19 +451,12 @@ export default function Definition() {
               href="https://en.wikipedia.org/wiki/Ontology"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black/80 hover:text-black underline"
             >
               ontological
             </a>{" "}
             registration (making reality definite through conscious experience). This threshold
             enables the operational definition{" "}
-            <a
-              href="/logic#phi-operationalization"
-              className="text-black/80 hover:text-black underline"
-            >
-              *R = C ⊛ O*
-            </a>
-            .
+            <a href="/logic#phi-operationalization">*R = C ⊛ O*</a>.
           </p>
 
           <p className="leading-relaxed">
@@ -488,17 +488,13 @@ export default function Definition() {
               href="https://en.wikipedia.org/wiki/Unitarity_(physics)"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black/80 hover:text-black underline"
             >
               Unitarity
             </a>{" "}
             (the principle that probabilities must always sum to 1). Holos preserves this by
-            defining{" "}
-            <a href="/logic#axioms" className="text-black/80 hover:text-black underline">
-              Manifestation
-            </a>{" "}
-            as a <strong>Selection Operator</strong> (choosing one path among many), not a
-            Destruction Operator.
+            defining <a href="/logic#axioms">Manifestation</a> as a{" "}
+            <strong>Selection Operator</strong> (choosing one path among many), not a Destruction
+            Operator.
           </p>
 
           <ul className="flex flex-col gap-3 pl-4">
@@ -510,13 +506,7 @@ export default function Definition() {
               <strong>In Holos:</strong> Unobserved branches remain in{" "}
               <MathInline>{"C"}</MathInline> (Creation) as valid but un-manifested structures
               (potential histories). See the{" "}
-              <a
-                href="/logic#phi-operationalization"
-                className="text-black/80 hover:text-black underline"
-              >
-                operational definition *R = C ⊛ O*
-              </a>
-              .
+              <a href="/logic#phi-operationalization">operational definition *R = C ⊛ O*</a>.
             </li>
           </ul>
 
@@ -528,7 +518,6 @@ export default function Definition() {
               href="https://en.wikipedia.org/wiki/Hilbert_space"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black/80 hover:text-black underline"
             >
               Hilbert space
             </a>{" "}
@@ -550,7 +539,6 @@ export default function Definition() {
               href="https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black/80 hover:text-black underline"
             >
               Schrödinger Equation
             </a>
@@ -559,7 +547,6 @@ export default function Definition() {
               href="https://en.wikipedia.org/wiki/Quantum_mechanics"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black/80 hover:text-black underline"
             >
               Quantum Mechanics
             </a>
@@ -569,7 +556,6 @@ export default function Definition() {
               href="https://en.wikipedia.org/wiki/Ontology"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-black/80 hover:text-black underline"
             >
               ontological
             </a>{" "}
