@@ -29,7 +29,8 @@ export default function Predictions() {
           section. For the definition of Φ, see{" "}
           <a href="/definition" className="text-black/80 hover:text-black underline">
             Definition
-          </a>.
+          </a>
+          .
         </p>
       </div>
 
@@ -317,6 +318,229 @@ export default function Predictions() {
                 of integration, weakening the Holos claim.
               </li>
             </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Experimental Protocol: Observer-Cut Sensitivity in Relational Systems */}
+      <section id="experiment-2" className="flex flex-col gap-6">
+        <h2 className="text-xl sm:text-2xl font-medium pb-2">
+          Experiment 2. Observer-Cut Sensitivity in Relational Systems
+        </h2>
+
+        <div className="flex flex-col gap-6 text-black/80">
+          {/* Objective */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Objective</h3>
+            <p className="leading-relaxed">
+              Test whether the same physical system can yield{" "}
+              <strong>multiple internally consistent realities</strong>, depending only on how the
+              system is partitioned and observed.
+            </p>
+            <p className="leading-relaxed">
+              Holos predicts that <strong>no single partition is privileged</strong>, and that
+              &quot;reality&quot; is created relationally through the{" "}
+              <a href="https://en.wikipedia.org/wiki/Observer_effect_(physics)">observer cut</a>.
+            </p>
+          </div>
+
+          {/* Subjects */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Subjects</h3>
+            <p className="leading-relaxed">
+              A <strong>superconducting qubit array</strong> with <strong>N qubits</strong> (e.g.,
+              8–20 qubits), in a controlled lab environment.
+            </p>
+            <p className="leading-relaxed">
+              The array is prepared and evolved under a known{" "}
+              <a href="https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)">
+                Hamiltonian
+              </a>
+              , with controlled noise and{" "}
+              <a href="https://en.wikipedia.org/wiki/Quantum_decoherence">decoherence</a>.
+            </p>
+          </div>
+
+          {/* Measured Variables */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Measured Variables</h3>
+            <div className="flex flex-col gap-4">
+              <div>
+                <h4 className="font-semibold mb-2">Primary Variables</h4>
+                <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed ml-4">
+                  <li>
+                    <strong>Measurement outcomes</strong> for each cut:
+                    <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4 mt-1">
+                      <li>
+                        <em>Cut A</em>: Individual qubit readouts
+                      </li>
+                      <li>
+                        <em>Cut B</em>: Regional collective readouts (groups of qubits)
+                      </li>
+                      <li>
+                        <em>Cut C</em>: Global collective readouts (whole array)
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong>Internal consistency metrics</strong> within each cut
+                    <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4 mt-1">
+                      <li>Repeatability</li>
+                      <li>Predictive stability</li>
+                      <li>Statistical coherence</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-2">Secondary Variables</h4>
+                <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed ml-4">
+                  <li>
+                    <a href="https://en.wikipedia.org/wiki/Entropy_(information_theory)">Entropy</a>{" "}
+                    estimates for each cut
+                  </li>
+                  <li>Correlation patterns (local vs global)</li>
+                  <li>Decoherence rate and noise floor</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Prior Work and Status */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Prior Work and Status</h3>
+            <div className="flex flex-col gap-3 leading-relaxed">
+              <p>
+                <strong>Status: Partially Explored</strong>
+              </p>
+              <p>
+                <strong>Relationship to Prior Work</strong>
+                <br />
+                <a href="https://en.wikipedia.org/wiki/Quantum_Darwinism">Quantum Darwinism</a>{" "}
+                shows that certain system-environment boundaries become &quot;classical&quot;
+                because multiple observers can access the same information.{" "}
+                <a href="https://en.wikipedia.org/wiki/Relational_quantum_mechanics">
+                  Relational Quantum Mechanics
+                </a>{" "}
+                argues that states are relative to observers.{" "}
+                <a href="https://en.wikipedia.org/wiki/Coarse-grained_modeling">
+                  Coarse-graining in statistical mechanics
+                </a>{" "}
+                shows that different partitions give different effective descriptions.
+              </p>
+              <p>
+                However, these approaches typically treat partitions as{" "}
+                <strong>epistemic tools</strong> (how we describe the system), not as{" "}
+                <strong>ontological constructors</strong> of reality.
+              </p>
+              <p>
+                Holos extends this by claiming that{" "}
+                <strong>each observer cut produces a complete reality</strong>, not merely a useful
+                description.
+              </p>
+            </div>
+          </div>
+
+          {/* Protocol */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Protocol</h3>
+            <ol className="list-decimal list-inside flex flex-col gap-2 leading-relaxed ml-4">
+              <li>
+                <strong>Prepare</strong> the qubit array in a known initial state.
+              </li>
+              <li>
+                <strong>Evolve</strong> the system under a controlled Hamiltonian for a fixed time.
+              </li>
+              <li>
+                <strong>Measure</strong> the system using three distinct observer cuts:
+                <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed ml-4 mt-2">
+                  <li>
+                    <strong>Cut A — Local Observer</strong>
+                    <br />
+                    Measure <strong>each qubit individually</strong>
+                    <br />
+                    Record 8–20 bitstrings per trial
+                  </li>
+                  <li>
+                    <strong>Cut B — Regional Observer</strong>
+                    <br />
+                    Measure <strong>groups of qubits</strong> (e.g., 4-qubit blocks)
+                    <br />
+                    Record collective outcomes (e.g., parity, correlation patterns)
+                  </li>
+                  <li>
+                    <strong>Cut C — Global Observer</strong>
+                    <br />
+                    Measure only a <strong>single global property</strong>
+                    <br />
+                    Example: total parity or total magnetization
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Repeat</strong> many trials to collect statistical distributions for each
+                cut.
+              </li>
+              <li>
+                <strong>Compare:</strong>
+                <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4 mt-1">
+                  <li>Internal stability within each cut</li>
+                  <li>Whether any cut can predict the outcomes of other cuts</li>
+                  <li>Whether a single unified description exists</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+
+          {/* Prediction */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">Prediction</h3>
+            <div className="flex flex-col gap-3">
+              <div>
+                <p className="leading-relaxed">
+                  <strong>If Holos is correct</strong>
+                </p>
+                <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed ml-4">
+                  <li>
+                    Each observer cut yields a{" "}
+                    <strong>stable, self-consistent set of outcomes</strong>.
+                  </li>
+                  <li>No single cut can fully reproduce the statistics of the others.</li>
+                  <li>Multiple &quot;realities&quot; coexist, each valid within its cut.</li>
+                </ul>
+              </div>
+              <div>
+                <p className="leading-relaxed">
+                  <strong>If standard physical realism is correct</strong>
+                </p>
+                <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed ml-4">
+                  <li>
+                    One cut will ultimately reduce to another (e.g., local outcomes fully determine
+                    global outcomes).
+                  </li>
+                  <li>
+                    The global description should be derivable from the local one (or vice versa).
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* What this tests in Holos */}
+          <div className="flex flex-col gap-4">
+            <h3 className="text-xl font-semibold pb-2">What this tests in Holos</h3>
+            <p className="leading-relaxed">
+              This experiment tests the <a href="/logic#axioms">Axiom of Relationality</a>:
+            </p>
+            <blockquote className="border-l-4 border-black/20 pl-4 italic text-black/70 my-2">
+              Reality is not absolute; it is defined by the relationship between system and
+              observer.
+            </blockquote>
+            <p className="leading-relaxed">
+              If the results show <strong>multiple, irreducible, stable realities</strong>, it
+              supports the idea that <strong>observer cuts are ontologically constitutive</strong>{" "}
+              rather than merely descriptive.
+            </p>
           </div>
         </div>
       </section>
