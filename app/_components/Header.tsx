@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header
       id="home"
-      className="flex flex-col items-center justify-center sm:gap-2 relative p-8 lg:px-16 border-b border-black/20 border-dashed xl:h-[160px] animate pointer-events-none"
+      className="flex flex-col items-center justify-center sm:gap-2 relative p-8 lg:px-16 border-b border-black/30 border-dashed xl:h-[160px] animate pointer-events-none"
     >
       <img
         src="/icon.svg"

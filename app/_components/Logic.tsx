@@ -405,7 +405,7 @@ export default function Logic() {
             <p className="text-black/80 leading-relaxed">
               No informational state exists independently of relations.
             </p>
-            <blockquote className="pl-4 border-l-2 border-black/20 text-black/70 italic my-2">
+            <blockquote className="pl-4 border-l-2 border-black/30 text-black/70 italic my-2">
               Reality consists of{" "}
               <a
                 href="https://en.wikipedia.org/wiki/Invariant_(physics)"
@@ -425,7 +425,7 @@ export default function Logic() {
               A physical state is not fully actualized until information is integrated into
               experience by a conscious system.
             </p>
-            <blockquote className="pl-4 border-l-2 border-black/20 text-black/70 italic my-2">
+            <blockquote className="pl-4 border-l-2 border-black/30 text-black/70 italic my-2">
               Physical description alone is incomplete without experiential registration. This
               requires systems where <a href="/definition">Φ ≥ Φ_c</a>.
             </blockquote>
@@ -444,7 +444,7 @@ export default function Logic() {
             <p className="text-black/80 leading-relaxed">
               Information is never destroyed, only transformed.
             </p>
-            <blockquote className="pl-4 border-l-2 border-black/20 text-black/70 italic my-2">
+            <blockquote className="pl-4 border-l-2 border-black/30 text-black/70 italic my-2">
               All physical and experiential processes are information-preserving.
             </blockquote>
           </div>
@@ -1113,7 +1113,7 @@ export default function Logic() {
             </a>
             .
           </p>
-          <div className="my-4 py-4 px-6 bg-black/5 border-l-2 border-black/20 font-mono text-center text-lg">
+          <div className="my-4 py-4 px-6 bg-black/5 border-l-2 border-black/30 font-mono text-center text-lg">
             R = C ⊛ O
           </div>
           <p className="leading-relaxed">

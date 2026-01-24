@@ -195,7 +195,7 @@ export default function Predictions() {
         <div className="overflow-x-auto">
           <table className="w-full border-collapse">
             <thead>
-              <tr className="border-b border-black/20">
+              <tr className="border-b border-black/30">
                 <th className="text-left py-2 pr-8 font-semibold text-black/90">Domain</th>
                 <th className="text-left py-2 pr-8 font-semibold text-black/90">Prediction</th>
                 <th className="text-left py-2 font-semibold text-black/90">Testable Via</th>
@@ -994,7 +994,7 @@ export default function Predictions() {
             <p className="leading-relaxed">
               This experiment tests the <a href="/logic#axioms">Axiom of Relationality</a>:
             </p>
-            <blockquote className="border-l-4 border-black/20 pl-4 italic text-black/70 my-2">
+            <blockquote className="border-l-4 border-black/30 pl-4 italic text-black/70 my-2">
               Reality is not absolute; it is defined by the relationship between system and
               observer.
             </blockquote>

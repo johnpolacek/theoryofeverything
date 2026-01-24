@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
-import Footer from "../_components/Footer";
-import Header from "../_components/Header";
-import PageTransition from "@/app/_components/PageTransition";
+import PageLayout from "../_components/PageLayout";
 import Predictions from "../_components/Predictions";
-import Sidebar from "../_components/Sidebar";
 
 export const metadata: Metadata = {
   title: "Predictions | Interpretive Framework for Reality, Consciousness, and Spacetime",
@@ -24,17 +21,8 @@ export const metadata: Metadata = {
 
 export default function PredictionsPage() {
   return (
-    <div className="xl:grid grid-cols-[1fr_5fr] justify-stretch w-full max-w-[1280px] overflow-hidden mx-auto h-screen">
-      <Sidebar />
-      <div className="grow h-full overflow-auto">
-        <Header />
-        <PageTransition>
-          <main className="px-8 pt-12 pb-24 lg:px-16">
-            <Predictions />
-          </main>
-        </PageTransition>
-        <Footer />
-      </div>
-    </div>
+    <PageLayout>
+      <Predictions />
+    </PageLayout>
   );
 }

@@ -531,7 +531,7 @@ export default function Defense() {
         <div className="overflow-x-auto">
           <table className="w-full border-collapse">
             <thead>
-              <tr className="border-b border-black/20">
+              <tr className="border-b border-black/30">
                 <th className="text-left py-2 pr-8 font-semibold text-black/90">Risk</th>
                 <th className="text-left py-2 font-semibold text-black/90">Result</th>
               </tr>
@@ -608,7 +608,7 @@ export default function Defense() {
         <h2 className="text-2xl sm:text-3xl font-light pb-2">Primary Unresolved Challenge</h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="font-semibold text-black/90">The Explanatory Gap:</p>
-          <blockquote className="pl-4 border-l-2 border-black/20 italic text-black/70">
+          <blockquote className="pl-4 border-l-2 border-black/30 italic text-black/70">
             How does consciousness complete reality without altering physical equations?
           </blockquote>
           <div className="flex flex-col gap-2">

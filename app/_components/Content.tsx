@@ -4,7 +4,7 @@ import Section from "./Section";
 
 export default function Content() {
   return (
-    <main>
+    <>
       {sections.map((section) => (
         <Section
           key={section.id}
@@ -21,6 +21,6 @@ export default function Content() {
       <Section id="footnotes" title="Footnotes">
         <Footnotes />
       </Section>
-    </main>
+    </>
   );
 }

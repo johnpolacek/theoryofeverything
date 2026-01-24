@@ -37,7 +37,7 @@ export default function Definition() {
             .
           </p>
 
-          <blockquote className="pl-4 border-l-2 border-black/20 text-black/70 italic my-2">
+          <blockquote className="pl-4 border-l-2 border-black/30 text-black/70 italic my-2">
             <strong>Definition:</strong> Φ quantifies the degree to which a system integrates
             information such that it possesses the{" "}
             <a

@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useRef } from "react";
-import type React from "react";
 import katex from "katex";
+import type React from "react";
+import { useEffect, useRef } from "react";
 
 // Only import CSS in browser environment
 if (typeof window !== "undefined") {
@@ -28,9 +28,11 @@ export default function MathDisplay({ children }: MathDisplayProps) {
   }, [mathContent]);
 
   return (
-    <div className="my-4 py-4 px-6 bg-black/5 border-l-2 border-black/20 font-mono text-center text-lg">
+    <div className="my-4 py-4 px-6 bg-black/5 border-l-2 border-black/30 font-mono text-center text-lg">
       {/* Include math content as text for SSR/PDF generation, will be replaced by KaTeX on client */}
-      <div ref={containerRef} className="math-display">{mathContent}</div>
+      <div ref={containerRef} className="math-display">
+        {mathContent}
+      </div>
     </div>
   );
 }
