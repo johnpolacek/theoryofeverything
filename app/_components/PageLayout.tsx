@@ -19,7 +19,7 @@ export default function PageLayout({ children }: PageLayoutProps) {
       <div className="grow h-full overflow-auto">
         <Header />
         <PageTransition>
-          <main className="px-8 pt-12 pb-24 lg:px-16">{children}</main>
+          <main className="px-0 sm:px-8 pt-12 pb-24 lg:px-16">{children}</main>
         </PageTransition>
         <Footer />
       </div>
