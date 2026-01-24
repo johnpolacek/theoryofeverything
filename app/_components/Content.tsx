@@ -1,3 +1,4 @@
+import BlockUniverseAnimation from "./BlockUniverseAnimation";
 import { sections } from "./content-data";
 import Footnotes from "./Footnotes";
 import HolosAnimation from "./HolosAnimation";
@@ -17,6 +18,7 @@ export default function Content() {
             <p key={`${section.id}-p-${pIndex}`}>{paragraph}</p>
           ))}
           {section.id === "introduction" && <HolosAnimation />}
+          {section.id === "meaning-of-life" && <BlockUniverseAnimation />}
         </Section>
       ))}
 
