@@ -240,11 +240,11 @@ export default function PDFDocument() {
         </div>
 
         <div className="section-break">
-          <h1>Defense</h1>
           <Defense />
         </div>
 
         <div className="section-break">
+          <h1>Predictions</h1>
           <Predictions />
         </div>
       </body>
