@@ -514,19 +514,24 @@ export const sections: ContentSection[] = [
         The symbol ⊛ denotes a binary relational operator. Unlike standard multiplication, ⊛ is not{" "}
         <a href="https://en.wikipedia.org/wiki/Scalar_(mathematics)">scalar</a> (a single number) or{" "}
         <a href="https://en.wikipedia.org/wiki/Linear_map">linear</a> (proportional); it represents
-        a structured composition that preserves relational consistency under iteration. Formally, ⊛
-        is defined such that repeated application remains{" "}
+        a structured composition that preserves relationships even when applied repeatedly.
+        Formally, ⊛ is defined such that repeated application remains{" "}
         <a href="https://en.wikipedia.org/wiki/Well-defined_expression">well-defined</a> (has a
-        clear, unambiguous meaning), allowing the operation to scale across finite and infinite
-        sequences without collapse or divergence. For the complete formal structure, see{" "}
-        <a href="/logic">Logic</a>.
+        clear, unambiguous meaning), allowing the operation to work consistently across finite and
+        infinite sequences. Mathematically, ⊛ is realized as an{" "}
+        <a href="https://en.wikipedia.org/wiki/Functor">endofunctor</a> (a structure that maps a
+        system onto itself while preserving its relationships) on the category of informational
+        states, ensuring that recursive application preserves relational structure and admits stable
+        configurations. The full formalization appears in the <a href="/logic">Logic</a> section.
       </>,
       <>
         Holos is derived from the Greek word ὅλος (<em>holos</em>), meaning whole, entire, or
         complete. In this framework, ⊛ symbolically represents the Holos operator: a recursive
         relational process in which Creation and Observation are not independent terms but mutually
-        conditioning components of a single ontological cycle. The operational definition{" "}
-        <em>R = C ⊛ O</em> is formally developed in <a href="/logic">Logic</a>.
+        conditioning components of a single cycle that defines reality. Creation generates
+        possibilities, Observation selects from them, and the result feeds back into the next cycle.
+        The operational definition <em>R = C ⊛ O</em> is formally developed in{" "}
+        <a href="/logic">Logic</a>.
       </>,
       <>
         Mathematically, ⊛ functions as a recursive operator within a relational system. The output
@@ -540,9 +545,13 @@ export const sections: ContentSection[] = [
         detailed in <a href="/logic">Logic</a>.
       </>,
       <>
-        Importantly, ⊛ does not introduce an additional physical force or dynamical law. It
-        specifies an <a href="https://en.wikipedia.org/wiki/Ontology">ontological</a> (relating to
-        existence) relation: how reality is constituted through the recursive coupling of generative
+        Importantly, ⊛ is <strong>structural, not dynamical</strong>. It does not introduce an
+        additional physical force or dynamical law, nor does it describe how physical states evolve
+        in time. Instead, it specifies how the generation of possibilities (Creation) and their
+        registration as experience (Observation) are <em>logically connected</em> within a complete
+        spacetime structure where all moments already exist. It specifies an{" "}
+        <a href="https://en.wikipedia.org/wiki/Ontology">ontological</a> (relating to existence)
+        relation: how reality is constituted through the recursive coupling of generative
         possibility and registered state.
       </>,
     ],
