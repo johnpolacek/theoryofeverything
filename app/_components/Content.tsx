@@ -7,6 +7,7 @@ import InvarianceWarpAnimation from "./InvarianceWarpAnimation";
 import NullIntervalAnimation from "./NullIntervalAnimation";
 import QuantumEraserAnimation from "./QuantumEraserAnimation";
 import Section from "./Section";
+import ShadowProjectionAnimation from "./ShadowProjectionAnimation";
 import SpacetimeBlockAnimation from "./SpacetimeBlockAnimation";
 
 interface ContentProps {
@@ -37,6 +38,7 @@ export default function Content({ isPDF = false }: ContentProps) {
               <QuantumEraserAnimation isPDF={isPDF} />
             </>
           )}
+          {section.id === "higher-dimensions" && <ShadowProjectionAnimation isPDF={isPDF} />}
         </Section>
       ))}
 
