@@ -23,7 +23,7 @@ export default function Section({
         </h2>
       )}
       <div
-        className={`max-w-[50rem] flex flex-col gap-6 text-lg ${isNote ? "text-black/70 italic" : "text-black/80"}`}
+        className={`mx-auto flex flex-col gap-6 text-lg ${isNote ? "text-black/70 italic" : "text-black/80"}`}
       >
         {children}
       </div>
