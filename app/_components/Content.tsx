@@ -7,10 +7,12 @@ import HolographicSingularityAnimation from "./HolographicSingularityAnimation";
 import InfiniteWrapAnimation from "./InfiniteWrapAnimation";
 import InvarianceWarpAnimation from "./InvarianceWarpAnimation";
 import NullIntervalAnimation from "./NullIntervalAnimation";
+import OmegaLimitAnimation from "./OmegaLimitAnimation";
 import QuantumEraserAnimation from "./QuantumEraserAnimation";
 import Section from "./Section";
 import ShadowProjectionAnimation from "./ShadowProjectionAnimation";
 import SpacetimeBlockAnimation from "./SpacetimeBlockAnimation";
+import TranscensionAnimation from "./TranscensionAnimation";
 
 interface ContentProps {
   isPDF?: boolean;
@@ -43,6 +45,8 @@ export default function Content({ isPDF = false }: ContentProps) {
           {section.id === "higher-dimensions" && <ShadowProjectionAnimation isPDF={isPDF} />}
           {section.id === "infinity" && <InfiniteWrapAnimation isPDF={isPDF} />}
           {section.id === "black-holes" && <HolographicSingularityAnimation isPDF={isPDF} />}
+          {section.id === "aliens" && <TranscensionAnimation isPDF={isPDF} />}
+          {section.id === "god" && <OmegaLimitAnimation isPDF={isPDF} />}
         </Section>
       ))}
 
