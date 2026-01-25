@@ -4,25 +4,17 @@ export default function Footer() {
       <div className="flex justify-between pb-4">
         <div>
           <p className="text-sm text-black/60 pt-1 mb-4">
-            Holos is an independent research project by a software engineer exploring reality
-            through systems, observation, and experience.
-          </p>
-          <p className="text-sm italic text-black/50">
-            Published on{" "}
-            <a
-              className="text-black/70 hover:text-black border-b border-black/30"
-              href="https://github.com/johnpolacek/theoryofeverything"
-            >
-              6/19/2024
-            </a>
-            . Updated 1/21/2026.
+            Holos is an independent research project by a{" "}
+            <a href="https://johnpolacek.com">software engineer</a> exploring reality through
+            systems, observation, and experience, written in public as part of an ongoing process of
+            thinking, not as a finalized doctrine.
           </p>
         </div>
         <div className="flex items-start gap-4 mb-4">
           <div>
             <a
               className="text-sm text-black/80 hover:text-black border-b border-black/30"
-              href="https://github.com/johnpolacek/theoryofeverything/discussions"
+              href="https://github.com/johnpolacek/Holos/discussions"
             >
               Discuss
             </a>
@@ -30,7 +22,7 @@ export default function Footer() {
           <div>
             <a
               className="text-sm text-black/80 hover:text-black border-b border-black/30"
-              href="https://github.com/johnpolacek/theoryofeverything"
+              href="https://github.com/johnpolacek/Holos"
             >
               Contribute
             </a>
