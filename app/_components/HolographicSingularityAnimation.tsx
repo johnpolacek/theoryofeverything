@@ -42,14 +42,14 @@ export default function HolographicSingularityAnimation({ isPDF = false }: Holog
     const singularityLabel = svg.querySelector("#singularity-label") as SVGTextElement;
     const eventHorizon = svg.querySelector("#event-horizon") as SVGCircleElement;
     const horizonLabel = svg.querySelector("#horizon-label") as SVGTextElement;
-    const packets = svg.querySelectorAll(".info-packet");
-    const bits = svg.querySelectorAll(".horizon-bit");
+    const packets = Array.from(svg.querySelectorAll(".info-packet"));
+    const bits = Array.from(svg.querySelectorAll(".horizon-bit"));
     const phiSymbol = svg.querySelector("#phi-symbol") as SVGTextElement;
     const phiLabel = svg.querySelector("#phi-label") as SVGTextElement;
-    const scannerBeams = svg.querySelectorAll(".scanner-beam");
+    const scannerBeams = Array.from(svg.querySelectorAll(".scanner-beam"));
     const caption = svg.querySelector("#caption") as SVGTextElement;
-    const reconstructionLines = svg.querySelectorAll(".reconstruction-line");
-    const reconstructedShapes = svg.querySelectorAll(".reconstructed-shape");
+    const reconstructionLines = Array.from(svg.querySelectorAll(".reconstruction-line"));
+    const reconstructedShapes = Array.from(svg.querySelectorAll(".reconstructed-shape"));
     const reconstructionLabelGroup = svg.querySelector("#reconstruction-label-group") as SVGGElement;
 
     // Initial states
