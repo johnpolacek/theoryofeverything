@@ -10,6 +10,7 @@ import InvarianceWarpAnimation from "./InvarianceWarpAnimation";
 import NullIntervalAnimation from "./NullIntervalAnimation";
 import OmegaLimitAnimation from "./OmegaLimitAnimation";
 import OntologicalAnchorAnimation from "./OntologicalAnchorAnimation";
+import OperatorAnatomyDiagram from "./OperatorAnatomyDiagram";
 import QuantumEraserAnimation from "./QuantumEraserAnimation";
 import Section from "./Section";
 import ShadowProjectionAnimation from "./ShadowProjectionAnimation";
@@ -66,6 +67,7 @@ export default function Content({ isPDF = false }: ContentProps) {
           {section.id === "aliens" && <TranscensionAnimation isPDF={isPDF} />}
           {section.id === "god" && <OmegaLimitAnimation isPDF={isPDF} />}
           {section.id === "why" && <OntologicalAnchorAnimation isPDF={isPDF} />}
+          {section.id === "holos" && <OperatorAnatomyDiagram isPDF={isPDF} />}
         </Section>
       ))}
 
