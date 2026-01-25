@@ -1,3 +1,4 @@
+import AxiomDiagram from "./AxiomDiagram";
 import BlockUniverseAnimation from "./BlockUniverseAnimation";
 import ConsciousnessAnimation from "./ConsciousnessAnimation";
 import { sections } from "./content-data";
@@ -29,9 +30,25 @@ export default function Content({ isPDF = false }: ContentProps) {
           title={section.title}
           variant={section.id === "extrapolation" ? "note" : undefined}
         >
-          {section.paragraphs.map((paragraph, pIndex) => (
-            <p key={`${section.id}-p-${pIndex}`}>{paragraph}</p>
-          ))}
+          {section.id === "axioms"
+            ? section.paragraphs.map((paragraph, pIndex) => {
+                const axiomMap: Record<number, "relationality" | "manifestation" | "conservation" | "unification" | "interface"> = {
+                  1: "relationality",
+                  2: "manifestation",
+                  3: "conservation",
+                  4: "unification",
+                  5: "interface",
+                };
+                return (
+                  <div key={`${section.id}-p-${pIndex}`}>
+                    <p>{paragraph}</p>
+                    {axiomMap[pIndex] && <AxiomDiagram axiom={axiomMap[pIndex]} isPDF={isPDF} />}
+                  </div>
+                );
+              })
+            : section.paragraphs.map((paragraph, pIndex) => (
+                <p key={`${section.id}-p-${pIndex}`}>{paragraph}</p>
+              ))}
           {section.id === "introduction" && <HolosAnimation isPDF={isPDF} />}
           {section.id === "meaning-of-life" && <BlockUniverseAnimation isPDF={isPDF} />}
           {section.id === "consciousness" && <ConsciousnessAnimation isPDF={isPDF} />}
