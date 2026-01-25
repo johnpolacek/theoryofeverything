@@ -3,6 +3,7 @@ import ConsciousnessAnimation from "./ConsciousnessAnimation";
 import { sections } from "./content-data";
 import Footnotes from "./Footnotes";
 import HolosAnimation from "./HolosAnimation";
+import HolographicSingularityAnimation from "./HolographicSingularityAnimation";
 import InfiniteWrapAnimation from "./InfiniteWrapAnimation";
 import InvarianceWarpAnimation from "./InvarianceWarpAnimation";
 import NullIntervalAnimation from "./NullIntervalAnimation";
@@ -41,6 +42,7 @@ export default function Content({ isPDF = false }: ContentProps) {
           )}
           {section.id === "higher-dimensions" && <ShadowProjectionAnimation isPDF={isPDF} />}
           {section.id === "infinity" && <InfiniteWrapAnimation isPDF={isPDF} />}
+          {section.id === "black-holes" && <HolographicSingularityAnimation isPDF={isPDF} />}
         </Section>
       ))}
 

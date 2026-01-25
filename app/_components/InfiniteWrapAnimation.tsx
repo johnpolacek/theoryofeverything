@@ -40,7 +40,7 @@ export default function InfiniteWrapAnimation({ isPDF = false }: InfiniteWrapAni
             <p style={{ margin: "0.5em 0" }}>→ ∞ in all directions</p>
           </div>
           <div style={{ textAlign: "center" }}>
-            <p style={{ margin: "0.5em 0", fontWeight: "bold" }}>Higher-Dimensional View</p>
+            <p style={{ margin: "0.5em 0", fontWeight: "bold" }}>Higher-Dimensional Observer</p>
             <p style={{ margin: "0.5em 0" }}>Grid wrapped into sphere</p>
             <p style={{ margin: "0.5em 0" }}>Φ = Point at Infinity</p>
           </div>
