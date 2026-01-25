@@ -2,12 +2,13 @@ import BlockUniverseAnimation from "./BlockUniverseAnimation";
 import ConsciousnessAnimation from "./ConsciousnessAnimation";
 import { sections } from "./content-data";
 import Footnotes from "./Footnotes";
-import HolosAnimation from "./HolosAnimation";
 import HolographicSingularityAnimation from "./HolographicSingularityAnimation";
+import HolosAnimation from "./HolosAnimation";
 import InfiniteWrapAnimation from "./InfiniteWrapAnimation";
 import InvarianceWarpAnimation from "./InvarianceWarpAnimation";
 import NullIntervalAnimation from "./NullIntervalAnimation";
 import OmegaLimitAnimation from "./OmegaLimitAnimation";
+import OntologicalAnchorAnimation from "./OntologicalAnchorAnimation";
 import QuantumEraserAnimation from "./QuantumEraserAnimation";
 import Section from "./Section";
 import ShadowProjectionAnimation from "./ShadowProjectionAnimation";
@@ -47,6 +48,7 @@ export default function Content({ isPDF = false }: ContentProps) {
           {section.id === "black-holes" && <HolographicSingularityAnimation isPDF={isPDF} />}
           {section.id === "aliens" && <TranscensionAnimation isPDF={isPDF} />}
           {section.id === "god" && <OmegaLimitAnimation isPDF={isPDF} />}
+          {section.id === "why" && <OntologicalAnchorAnimation isPDF={isPDF} />}
         </Section>
       ))}
 
