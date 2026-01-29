@@ -40,7 +40,7 @@ const defenseSubsections: Subsection[] = [
   { id: "axiom-1", title: "Relationality" },
   { id: "axiom-2", title: "Manifestation" },
   { id: "axiom-3", title: "Conservation" },
-  { id: "axiom-4", title: "Unification" },
+  { id: "axiom-4", title: "Topological Unification" },
   { id: "axiom-5", title: "Interface" },
   { id: "failure-modes-stress-testing", title: "Stress-Testing" },
   { id: "primary-unresolved-challenge", title: "Challenge" },

@@ -1,5 +1,5 @@
-// Make React available globally before any imports that use JSX
-// This is needed because logic-data.tsx uses JSX at module load time
+// Make React available globally before any imports that use JSX.
+// PDFDocument → Content → content-data.tsx, and content-data exports JSX at module load time.
 import React from "react";
 if (typeof global !== "undefined" && !global.React) {
   global.React = React;

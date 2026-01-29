@@ -220,7 +220,7 @@ export default function Predictions() {
             &quot;alien buildings,&quot; but rather the{" "}
             <strong>Gravitational Footprint of Informational Integration</strong>—the gravitational
             signature of integrated informational structures in the bulk dimensions (
-            <a href="/logic#axioms">Axiom 4: Unification</a>).
+            <a href="/logic#axioms">Axiom 4: Topological Unification</a>).
             <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-predictions">
               <sup>13</sup>
             </a>

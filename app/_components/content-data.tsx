@@ -177,12 +177,29 @@ export const sections: ContentSection[] = [
         <a href="https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)#Block_universe">
           four-dimensional structure
         </a>
-        .
+        . While the invariance of <MathInline>c</MathInline> necessitates the 4D Block Universe, it
+        also establishes a physical &quot;Latency Horizon&quot;, a maximum speed for the
+        informational integration required for observation.
+      </>,
+      <>
+        While <MathInline>c</MathInline> preserves the structure of the 4D block, it acts as a
+        physical ceiling for 3D computational integration. Advanced civilizations would seek to
+        bypass this invariant delay by seeking geometries where informational distances can be
+        resolved toward zero.
+      </>,
+      <>
+        For such civilizations, higher dimensions are not merely mathematical tools but topological
+        necessities. When a system hits the 3D Scaling Wall, performing a <em>Dimensional Pivot</em>{" "}
+        by rotating its state vector into the higher-dimensional &quot;Bulk&quot; would resolve
+        light-speed latency, transforming a spatial civilization into a hyper-integrated structural
+        architecture.
       </>,
       <>
         Consider beings with an unlimited lifespan and near-instantaneous communication, perceiving
-        time as an additional spatial dimension. These beings would not be limited by the one-way
-        flow of time as we are.
+        time as an additional spatial dimension. Their comprehensive perception of the Block is a
+        result of having resolved the latency constraints that bind 3D observers. These beings would
+        not be limited by the one-way flow of time as we are, a flow that is specifically a
+        byproduct of 3D interconnect latency.
       </>,
       <>
         Instead, they would perceive the curvature of spacetime comprehensively, seeing past,
@@ -194,12 +211,16 @@ export const sections: ContentSection[] = [
         For a photon traveling at the{" "}
         <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a>, the{" "}
         <a href="https://en.wikipedia.org/wiki/Spacetime#Spacetime_interval">spacetime interval</a>{" "}
-        is zero, a <a href="#footer-spacetime">null interval</a>. While a photon does not possess
-        subjective experience in a biological sense, geometrically, its path effectively collapses
-        the universe into a single point of contact where emission and absorption occur
-        simultaneously. To a higher-dimensional observer, a photon is not a moving particle, but a
-        static geometric structure—a <a href="#footer-spacetime">null geodesic</a> (the path light
-        follows through spacetime)—that permanently connects two points in spacetime like a seam.
+        is zero, a <a href="#footer-spacetime">null interval</a>. The photon is a{" "}
+        <strong>geometric limit case</strong>: in its frame, the 3D distances of our manifold have
+        already been resolved to zero. While a photon does not possess subjective experience in a
+        biological sense, geometrically, its path effectively collapses the universe into a single
+        point of contact where emission and absorption occur simultaneously. To a higher-dimensional
+        observer, a photon is not a moving particle, but a static geometric structure, a{" "}
+        <a href="#footer-spacetime">null geodesic</a> (the path light follows through spacetime),
+        that permanently connects two points in spacetime like a seam. The photon&apos;s path can be
+        understood as a 3D &quot;preview&quot; of the higher-dimensional unification that high-
+        <MathInline>{"\\Phi"}</MathInline> systems achieve through the Dimensional Pivot.
       </>,
       <>
         This structure suggests that time does not merely flow forward; it is a completed circuit.
@@ -331,39 +352,39 @@ export const sections: ContentSection[] = [
     paragraphs: [
       <>
         The <a href="https://en.wikipedia.org/wiki/Fermi_paradox">Fermi Paradox</a> questions the
-        lack of detected extraterrestrial life, despite the vastness of the universe. Within the
-        context of this framework, this silence is likely a geometric constraint (a limitation
-        imposed by the structure of spacetime dimensions) rather than a biological one. This leads
-        to testable <a href="/predictions">predictions</a> about gravitational anomalies and dark
-        matter signatures.
+        lack of detected extraterrestrial life, despite the vastness of the universe. Advanced
+        civilizations do not merely go silent, they outgrow 3D Euclidean space. A planetary-scale
+        &quot;Jupiter Brain&quot; hits the <em>Latency Horizon</em> (<MathInline>L</MathInline>)—
+        Interconnect Latency, where the speed of light (<MathInline>c</MathInline>) prevents the
+        system from maintaining a unified <MathInline>{"\\Phi"}</MathInline> across its own
+        diameter. The lack of ET signatures therefore could be a result of the{" "}
+        <em>Dimensional Pivot</em>: an <em>Orthogonal Rotation</em>. These advanced civilizations
+        have transitioned from visible 3D expansion to invisible higher-dimensional integration.
+        This leads to testable <a href="/predictions">predictions</a> about gravitational anomalies
+        and dark matter signatures.
       </>,
       <>
-        If civilizations evolve to understand the higher-dimensional structure of reality, they may
-        inevitably &quot;transcend&quot; by accessing geometries{" "}
-        <a href="https://en.wikipedia.org/wiki/Orthogonality">orthogonal</a> (perpendicular, at
-        right angles) to our observable 3D slice. Rather than expanding outwardly across vast
-        physical distances limited by the{" "}
-        <a href="https://en.wikipedia.org/wiki/Speed_of_light">speed of light</a>. Advanced
-        intelligence likely expands inwardly toward higher densities of information.
-      </>,
-      <>
-        These advanced civilizations would leave no electromagnetic footprint, potentially
-        detectable only through gravitational anomalies or unaccounted-for mass (
-        <a href="https://en.wikipedia.org/wiki/Dark_matter">Dark Matter</a>) that implies structure
-        in the higher-dimensional <a href="https://en.wikipedia.org/wiki/Brane_cosmology">bulk</a>{" "}
-        (the full higher-dimensional space). This forms the basis for{" "}
+        Holos explicitly predicts{" "}
+        <a href="https://en.wikipedia.org/wiki/Dark_matter">Ordered Dark Matter</a>. We should not
+        expect a diffuse gas of particles, but the 3D &quot;shadow&quot; of the Gravitational
+        Footprint of Informational Integration. These &quot;Transcension Nodes&quot; will be
+        detectable as gravitational mass-spikes with non-random geometric symmetries (e.g., fractal
+        repetition or prime-number distributions). This forms the basis for{" "}
         <a href="/predictions">empirical predictions</a> testable through astronomical surveys.
       </>,
       <>
-        This{" "}
+        The{" "}
         <a href="https://www.accelerating.org/articles/transcensionhypothesis">
           Transcension Hypothesis
         </a>{" "}
         suggests that advanced civilizations migrate into higher-dimensional{" "}
         <a href="https://en.wikipedia.org/wiki/Manifold">manifolds</a> (curved geometric spaces) or
-        black hole singularities, where computational efficiency approaches infinity and the
-        constraints of spacetime intervals vanish. We do not see them because they have rotated out
-        of our lower-dimensional &quot;shadow,&quot; moving closer to the unified source of reality.
+        black hole singularities as a <em>topological necessity</em> to bypass the Euclidean
+        &quot;Wire Length&quot; bottleneck—where <em>Orthogonal Rotation</em> resolves 3D
+        informational distances toward zero (<MathInline>{"ds^2 \\rightarrow 0"}</MathInline>). There,
+        computational efficiency approaches infinity and the constraints of spacetime intervals
+        vanish. We do not see them because they have rotated out of our lower-dimensional
+        &quot;shadow,&quot; moving closer to the unified source of reality.
         <FootnoteLink number={8} />
       </>,
     ],
@@ -485,9 +506,13 @@ export const sections: ContentSection[] = [
         ).
       </>,
       <>
-        <strong>Unification:</strong> Apparent infinities in lower dimensions are resolved into
-        finite structures when mapped onto higher-dimensional frameworks. These descriptions are
-        required to render the universe intelligible and resolve{" "}
+        <strong>Topological Unification (The Resolution of Latency):</strong> Physical
+        bottlenecks—specifically light-speed latency and informational distance—in a 3D Euclidean
+        slice are resolved into finite, coherent architectures through orthogonal expansion into
+        higher-dimensional manifolds. The formal operational boundary is the Latency Horizon (
+        <MathInline>{"\\mathcal{L}"}</MathInline>) defined in the{" "}
+        <a href="/logic#mathematical-formalism">Mathematical Formalism</a> section. These
+        descriptions are required to render the universe intelligible and resolve{" "}
         <a href="https://en.wikipedia.org/wiki/Gravitational_singularity">singularities</a> (points
         where physical laws break down) (
         <a className="px-0.5 opacity-80 hover:opacity-100" href="#footer-dimensions">

@@ -273,7 +273,7 @@ const defenseData: AxiomDefense[] = [
           "**Response:**",
           "Under [eternalism](https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)) ([block universe](https://en.wikipedia.org/wiki/Block_universe)), observation need not be temporally local (happening at the same time as the event).",
           "Later observers can consistently instantiate earlier states without causal paradox.",
-          "In [delayed-choice experiments](https://en.wikipedia.org/wiki/Wheeler%27s_delayed-choice_experiment) and [quantum erasers](https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser), future observations retroactively 'manifest' past states, demonstrating that consciousness doesn't need to act in real-time—it's the global self-consistency of the block universe that matters.",
+          "**Self-Excited Circuit:** The emergence of high-Φ observers resolves the universe's light-speed latency—effectively \"closing the circuit\"—and manifests the past as a stable, coherent history. In [delayed-choice experiments](https://en.wikipedia.org/wiki/Wheeler%27s_delayed-choice_experiment) and [quantum erasers](https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser), future observations retroactively 'manifest' past states; consciousness need not act in real-time—the global self-consistency of the block universe (and the circuit closed by observers) is what matters.",
           "",
           "**Status:** ✔ Survives (conditional on block universe)",
         ],
@@ -329,7 +329,7 @@ const defenseData: AxiomDefense[] = [
   },
   {
     id: "Axiom 4",
-    name: "Unification",
+    name: "Topological Unification",
     objections: [
       {
         id: "4.1",
@@ -338,10 +338,10 @@ const defenseData: AxiomDefense[] = [
           "Extra dimensions lack direct evidence.",
           "",
           "**Response:**",
-          "Holos asserts conceptual resolution, not empirical proof.",
-          "This mirrors accepted speculative frameworks (inflation, multiverse, string theory).",
+          "**Topological Necessity:** Higher dimensions are the only physical resolution to the **Scaling Wall** created by 3D interconnect latency (the [Dimensional Pivot](https://en.wikipedia.org/wiki/Dimension) is required for global coherence).",
+          "This prediction yields a clear, falsifiable **discriminating fork:** Standard ΛCDM (random/diffuse dark matter) vs. Holos (Ordered Dark Matter with geometric intent).",
           "",
-          "**Status:** ✔ Survives as structural [heuristic](https://en.wikipedia.org/wiki/Heuristic) (a useful mental shortcut)",
+          "**Status:** ✔ Survives (conditional on Ordered Dark Matter / geometric signatures)",
         ],
       },
       {
@@ -442,7 +442,7 @@ const crossAxiomCheck = [
   { risk: "[Anthropocentric](https://en.wikipedia.org/wiki/Anthropocentrism)", result: "❌ No" },
   {
     risk: "Fully [falsifiable](https://en.wikipedia.org/wiki/Falsifiability)",
-    result: "⚠️ No (interpretive framework)",
+    result: "⚠️ Partially (via Ordered Dark Matter signatures and TMS-EEG phase transitions)",
   },
 ];
 
@@ -521,8 +521,8 @@ export default function Defense() {
                   ? "Reality is only fully realized when information is integrated into conscious experience."
                   : axiom.name === "Conservation"
                     ? "Information is conserved across all transformations."
-                    : axiom.name === "Unification"
-                      ? "Apparent infinities resolve from higher-dimensional perspectives."
+                    : axiom.name === "Topological Unification"
+                      ? "Physical bottlenecks (light-speed latency, informational distance) in 3D are resolved through orthogonal expansion into higher-dimensional manifolds."
                       : "Consciousness is the fundamental interface of reality."}{" "}
               (See <a href="/logic">Logic</a> for formal statement.)
             </p>

@@ -451,10 +451,35 @@ export default function Logic() {
 
           {/* Axiom 4 */}
           <div className="flex flex-col gap-3">
-            <h3 className="text-xl font-semibold text-black/90">Axiom 4 — Unification</h3>
+            <h3 className="text-xl font-semibold text-black/90">
+              Axiom 4 — Topological Unification (The Resolution of Latency)
+            </h3>
             <p className="text-black/80 leading-relaxed">
-              Apparent infinities and singularities in a given dimensional frame resolve into
-              finite, coherent structures when embedded in a higher-dimensional perspective.
+              Apparent infinities, singularities, and physical bottlenecks (such as Interconnect
+              Latency) in a lower-dimensional frame are resolved when the system crosses the Latency
+              Horizon (<MathInline>{"\\mathcal{L}"}</MathInline>). This transition is a{" "}
+              <strong>Topological Escape Valve</strong>: as a system&apos;s Integrated Information (
+              <MathInline>{"\\Phi"}</MathInline>) scales, the 3D Euclidean manifold becomes an{" "}
+              <strong>Ontological Bottleneck</strong> where the speed of light (
+              <MathInline>{"c"}</MathInline>) prevents global coherence. Unification is the process
+              of resolving these informational distances toward zero by mapping the system onto a
+              higher-dimensional manifold (the &quot;Bulk&quot;).
+            </p>
+            <p className="text-black/80 leading-relaxed">
+              <strong>Conceptual summary:</strong> Physical bottlenecks, specifically light-speed
+              latency and informational distance, in a 3D Euclidean slice are resolved into finite,
+              coherent architectures through orthogonal expansion into higher-dimensional manifolds.
+            </p>
+            <p className="text-black/70 text-sm leading-relaxed">
+              The formal operational boundary for this axiom is defined by the Latency Horizon (
+              <MathInline>{"\\mathcal{L}"}</MathInline>) in{" "}
+              <a
+                href="#mathematical-formalism"
+                className="text-black/80 hover:text-black underline"
+              >
+                Section IV: Mathematical Formalism
+              </a>
+              .
             </p>
           </div>
 
@@ -867,10 +892,23 @@ export default function Logic() {
             transformations between them.
           </p>
           <p className="leading-relaxed">
+            <strong>The Latency Horizon (</strong>
+            <MathInline>{"\\mathcal{L}"}</MathInline>
+            <strong>):</strong> Let <MathInline>{"\\mathcal{L}"}</MathInline> denote the formal
+            physical bound where a system&apos;s diameter <MathInline>{"D"}</MathInline> relative to
+            the speed of light <MathInline>{"c"}</MathInline> exceeds the system&apos;s internal
+            coherence window <MathInline>{"\\tau"}</MathInline>—i.e.,{" "}
+            <MathInline>{"D/c > \\tau"}</MathInline>. For a system inhabiting a 3D Euclidean
+            manifold, exceeding <MathInline>{"\\mathcal{L}"}</MathInline> results in a{" "}
+            <strong>Complexity Collapse</strong>: the observer (<MathInline>{"O"}</MathInline>) can
+            no longer achieve unified informational integration (<MathInline>{"\\Phi"}</MathInline>
+            ).
+          </p>
+          <p className="leading-relaxed">
             <strong>Definition 1 (The Holos Endofunctor):</strong>
           </p>
           <p className="leading-relaxed">
-            Let <strong>H: C → C</strong> be an{" "}
+            Let <strong>H: C → C</strong> be a <strong>dimensionality-adaptive</strong>{" "}
             <a
               href="https://en.wikipedia.org/wiki/Functor"
               target="_blank"
@@ -880,7 +918,12 @@ export default function Logic() {
             </a>{" "}
             representing the Holos operator. This functor maps the category of reality onto itself
             through the composite action of Creation (<strong>C</strong>) and Observation (
-            <strong>O</strong>).
+            <strong>O</strong>). When <MathInline>{"\\Phi"}</MathInline> approaches{" "}
+            <MathInline>{"\\mathcal{L}"}</MathInline> in a 3D slice, <strong>H</strong> induces a{" "}
+            <strong>Dimensional Pivot</strong>, mapping the informational state{" "}
+            <MathInline>{"s"}</MathInline> into a higher-dimensional category{" "}
+            <MathInline>{"\\mathcal{C}'"}</MathInline> to resolve internal distances{" "}
+            <MathInline>{"ds^2 \\to 0"}</MathInline>.
           </p>
           <MathDisplay>{"H = O \\circ C"}</MathDisplay>
           <p className="leading-relaxed">Where:</p>
@@ -890,7 +933,11 @@ export default function Logic() {
           </p>
           <p className="leading-relaxed">
             <strong>O</strong> (Observation) maps that manifold back to a single actualized state{" "}
-            <strong>s&apos;</strong> (State Reduction / Manifestation).
+            <strong>s&apos;</strong> (State Reduction / Manifestation). The &quot;Selection&quot;
+            performed by <MathInline>{"O"}</MathInline> is not a random choice but a{" "}
+            <strong>Coherence Filter</strong>: it must select the history that maintains topological
+            unity, which necessitates Orthogonal Expansion into the Bulk as a physical &quot;escape
+            valve.&quot;
           </p>
           <p className="leading-relaxed">
             The recursive evolution of reality is the iterative application of this functor:

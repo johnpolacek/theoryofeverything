@@ -236,8 +236,8 @@ export async function generatePDF(html: string): Promise<Buffer> {
 
 export async function renderPDFDocument(): Promise<string> {
   const renderToString = await getRenderToString();
-  // Import React first and make it globally available before importing PDFDocument
-  // This is needed because logic-data.tsx uses JSX at module load time
+  // Import React first and make it globally available before importing PDFDocument.
+  // PDFDocument → Content → content-data.tsx, and content-data exports JSX at module load time.
   const ReactModule = await import("react");
   if (typeof global !== "undefined" && !global.React) {
     global.React = ReactModule;
