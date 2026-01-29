@@ -34,7 +34,10 @@ export default function Content({ isPDF = false }: ContentProps) {
         >
           {section.id === "axioms"
             ? section.paragraphs.map((paragraph, pIndex) => {
-                const axiomMap: Record<number, "relationality" | "manifestation" | "conservation" | "unification" | "interface"> = {
+                const axiomMap: Record<
+                  number,
+                  "relationality" | "manifestation" | "conservation" | "unification" | "interface"
+                > = {
                   1: "relationality",
                   2: "manifestation",
                   3: "conservation",
@@ -53,7 +56,12 @@ export default function Content({ isPDF = false }: ContentProps) {
                 const checkForDiv = (node: React.ReactNode): boolean => {
                   if (typeof node !== "object" || node === null) return false;
                   if ("type" in node && node.type === "div") return true;
-                  if ("props" in node && node.props && typeof node.props === "object" && "children" in node.props) {
+                  if (
+                    "props" in node &&
+                    node.props &&
+                    typeof node.props === "object" &&
+                    "children" in node.props
+                  ) {
                     const children = node.props.children;
                     if (Array.isArray(children)) {
                       return children.some(checkForDiv);
