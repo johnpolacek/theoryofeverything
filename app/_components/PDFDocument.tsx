@@ -52,6 +52,7 @@ export default function PDFDocument() {
             margin: 0 auto;
             padding: 20px;
             font-size: 1rem;
+            text-wrap: pretty;
           }
           *:not(.katex):not(.katex *) {
             font-family: inherit;
@@ -60,44 +61,71 @@ export default function PDFDocument() {
           .katex, .katex * {
             font-family: KaTeX_Main, Times New Roman, serif !important;
           }
+          h1, h2, h3, h4 {
+            text-wrap: balance;
+          }
           h1 {
             font-size: 2.5em;
             font-weight: 300;
-            margin-top: 1em;
-            margin-bottom: 0.5em;
+            margin-top: 0.75em;
+            margin-bottom: 0.35em;
             page-break-after: avoid;
           }
           h2 {
             font-size: 2em;
             font-weight: 300;
-            margin-top: 1.5em;
-            margin-bottom: 0.5em;
+            margin-top: 1em;
+            margin-bottom: 0.35em;
             page-break-after: avoid;
           }
           h3 {
             font-size: 1.5em;
             font-weight: 600;
-            margin-top: 1em;
-            margin-bottom: 0.5em;
+            margin-top: 0.75em;
+            margin-bottom: 0.35em;
             page-break-after: avoid;
           }
           h4 {
             font-size: 1.2em;
             font-weight: 600;
-            margin-top: 0.8em;
-            margin-bottom: 0.4em;
+            margin-top: 0.6em;
+            margin-bottom: 0.3em;
             page-break-after: avoid;
           }
           p {
-            margin-bottom: 1em;
-            line-height: 1.8;
+            margin-bottom: 0.7em;
+            line-height: 1.7;
+            text-wrap: pretty;
           }
           ul, ol {
-            margin-bottom: 1em;
+            margin-bottom: 0.7em;
             padding-left: 2em;
+            margin-top: 0;
+          }
+          /* Flex layout (used in footnotes and elsewhere) */
+          .flex {
+            display: flex;
+          }
+          .flex-col {
+            flex-direction: column;
+          }
+          /* Footnotes: sup + ul side by side */
+          .flex:not(.flex-col) > sup {
+            flex-shrink: 0;
+            align-self: flex-start;
+            position: relative;
+            top: -4px;
+            padding-right: 0.5rem;
+          }
+          .flex:not(.flex-col) > ul {
+            flex: 1;
+            margin-top: 0;
+            padding-left: 0;
+            list-style-type: disc;
+            list-style-position: inside;
           }
           li {
-            margin-bottom: 0.5em;
+            margin-bottom: 0.35em;
           }
           blockquote {
             border-left: 2px solid #ccc;
@@ -109,10 +137,10 @@ export default function PDFDocument() {
           }
           .section-break {
             page-break-before: always;
-            margin-top: 2em;
+            margin-top: 1.25em;
           }
           .math-display {
-            margin: 1.5em 0;
+            margin: 1em 0;
             padding: 1em;
             background: #f5f5f5;
             border-left: 2px solid #ccc;
