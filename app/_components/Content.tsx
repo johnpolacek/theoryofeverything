@@ -16,6 +16,7 @@ import QuantumEraserAnimation from "./QuantumEraserAnimation";
 import Section from "./Section";
 import ShadowProjectionAnimation from "./ShadowProjectionAnimation";
 import SpacetimeBlockAnimation from "./SpacetimeBlockAnimation";
+import TeemingDarkAnimation from "./TeemingDarkAnimation";
 import TranscensionAnimation from "./TranscensionAnimation";
 
 interface ContentProps {
@@ -92,6 +93,7 @@ export default function Content({ isPDF = false }: ContentProps) {
           {section.id === "infinity" && <InfiniteWrapAnimation isPDF={isPDF} />}
           {section.id === "black-holes" && <HolographicSingularityAnimation isPDF={isPDF} />}
           {section.id === "aliens" && <TranscensionAnimation isPDF={isPDF} />}
+          {section.id === "the-teeming-dark" && <TeemingDarkAnimation isPDF={isPDF} />}
           {section.id === "god" && <OmegaLimitAnimation isPDF={isPDF} />}
           {section.id === "why" && <OntologicalAnchorAnimation isPDF={isPDF} />}
           {section.id === "holos" && <OperatorAnatomyDiagram isPDF={isPDF} />}
