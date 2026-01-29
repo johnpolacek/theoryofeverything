@@ -170,7 +170,7 @@ export async function generatePDF(html: string): Promise<Buffer> {
     // Wait for KaTeX to finish rendering
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
-    // Wrap all instances of ⊛ with a span that uses Times New Roman font
+    // Wrap all instances of ⊛ and → with a span that uses Times New Roman font
     await page.evaluate(() => {
       const walker = document.createTreeWalker(
         document.body,
@@ -181,7 +181,8 @@ export async function generatePDF(html: string): Promise<Buffer> {
       const textNodes: Text[] = [];
       let node;
       while (node = walker.nextNode()) {
-        if (node.textContent?.includes('⊛')) {
+        const text = node.textContent || '';
+        if (text.includes('⊛') || text.includes('→')) {
           textNodes.push(node as Text);
         }
       }
@@ -191,20 +192,22 @@ export async function generatePDF(html: string): Promise<Buffer> {
         if (!parent) return;
         
         const text = textNode.textContent || '';
-        const parts = text.split('⊛');
+        // Split by both ⊛ and →, preserving the delimiters
+        const parts = text.split(/(⊛|→)/);
         
         if (parts.length > 1) {
           const fragment = document.createDocumentFragment();
           
-          parts.forEach((part, index) => {
-            if (part) {
-              fragment.appendChild(document.createTextNode(part));
-            }
-            if (index < parts.length - 1) {
+          parts.forEach((part) => {
+            if (!part) return;
+            
+            if (part === '⊛' || part === '→') {
               const span = document.createElement('span');
               span.style.fontFamily = 'Times New Roman, Times, serif';
-              span.textContent = '⊛';
+              span.textContent = part;
               fragment.appendChild(span);
+            } else {
+              fragment.appendChild(document.createTextNode(part));
             }
           });
           
