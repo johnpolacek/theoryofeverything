@@ -196,14 +196,31 @@ export default function Predictions() {
             <strong>
               <a href="https://en.wikipedia.org/wiki/Euclid_(spacecraft)">Euclid</a>
             </strong>
-            ) are detecting small-scale dark matter nodes that defy the standard{" "}
+            ) are detecting <strong>super-compact subhaloes</strong> that violate standard{" "}
+            <a href="https://en.wikipedia.org/wiki/Navarro%E2%80%93Frenk%E2%80%93White_profile">
+              NFW (Navarro-Frenk-White) density profiles
+            </a>{" "}
+            and defy the{" "}
             <strong>
               <a href="https://en.wikipedia.org/wiki/Lambda-CDM_model">Cold Dark Matter (CDM)</a>
             </strong>{" "}
-            diffuse model. These observations align with Holos&apos; prediction of{" "}
-            <strong>non-random anisotropy and geometric symmetry</strong> in dark matter subhaloes
-            (mass-spikes), representing the gravitational signature of integrated informational
-            structures in the bulk dimensions (<a href="/logic#axioms">Axiom 4: Unification</a>).
+            diffuse model. Holos predicts that these <strong>Ordered Dark Matter</strong> subhaloes
+            will exhibit <strong>Geometric Intent</strong>—non-natural symmetries such as fractal
+            repetition, prime-number density distributions, or geometric lattices (e.g., cubic or
+            tetrahedral mass-spikes)—that cannot be explained by{" "}
+            <a href="https://en.wikipedia.org/wiki/Tidal_stripping">tidal stripping</a> or{" "}
+            <a href="https://en.wikipedia.org/wiki/Collisionless_Boltzmann_equation">
+              collisionless dynamics
+            </a>{" "}
+            of standard CDM. These architectures display <strong>Integrated Structural Logic</strong>:
+            the mass distribution mirrors a high-<a href="/definition">
+              <MathInline>{"Φ"}</MathInline>
+            </a>{" "}
+            computational network rather than an entropic cloud. This is not evidence of
+            &quot;alien buildings,&quot; but rather the{" "}
+            <strong>Gravitational Footprint of Informational Integration</strong>—the gravitational
+            signature of integrated informational structures in the bulk dimensions (
+            <a href="/logic#axioms">Axiom 4: Unification</a>).
             <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-predictions">
               <sup>13</sup>
             </a>
@@ -255,11 +272,9 @@ export default function Predictions() {
                   architectures.
                 </td>
                 <td className="py-3 text-black/80">
-                  High-resolution gravitational lensing maps (
-                  <a href="https://en.wikipedia.org/wiki/James_Webb_Space_Telescope">JWST</a>/
-                  <a href="https://en.wikipedia.org/wiki/Euclid_(spacecraft)">Euclid</a>);
-                  Statistical analysis for non-random anisotropy and geometric symmetry in dark matter
-                  subhaloes (mass-spikes).
+                  Fourier analysis of gravitational lensing maps to detect non-stochastic
+                  periodicities; Statistical search for non-natural geometric symmetry (Anisotropy)
+                  in small-scale dark matter nodes.
                 </td>
               </tr>
             </tbody>
@@ -322,8 +337,12 @@ export default function Predictions() {
                     <strong>
                       <a href="#secondary-predictions">PCI (Perturbational Complexity Index)</a>
                     </strong>
-                    Computed from
-                    **[TMS-EEG](https://en.wikipedia.org/wiki/Transcranial_magnetic_stimulation#TMS-EEG)**
+                    Computed from{" "}
+                    <strong>
+                      <a href="https://en.wikipedia.org/wiki/Transcranial_magnetic_stimulation#TMS-EEG">
+                        TMS-EEG
+                      </a>
+                    </strong>{" "}
                     responses (brain stimulation followed by recording) to quantify integrated
                     information capacity.
                   </li>
@@ -344,8 +363,9 @@ export default function Predictions() {
                 <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed ml-4">
                   <li>EEG spectral power, functional connectivity, and complexity metrics</li>
                   <li>
-                    Anesthesia depth (e.g., [propofol](https://en.wikipedia.org/wiki/Propofol)
-                    concentration, [BIS index](https://en.wikipedia.org/wiki/Bispectral_index))
+                    Anesthesia depth (e.g.,{" "}
+                    <a href="https://en.wikipedia.org/wiki/Propofol">propofol</a> concentration,{" "}
+                    <a href="https://en.wikipedia.org/wiki/Bispectral_index">BIS index</a>)
                   </li>
                 </ul>
               </div>
@@ -357,12 +377,12 @@ export default function Predictions() {
             <h3 className="text-xl font-semibold pb-2">Prior Work and Status</h3>
             <div className="flex flex-col gap-3 leading-relaxed">
               <p>
-                <strong>Status: Established / Partially Explored</strong>
+                <strong>Status: Established / Partially Explored</strong>{" "}
                 PCI has already been validated as a robust measure of consciousness across sleep and
                 anesthesia, and is widely used in neuroscience.
               </p>
               <p>
-                <strong>Relationship to Prior Work</strong>
+                <strong>Relationship to Prior Work</strong>{" "}
                 PCI was introduced and developed to measure consciousness capacity by evaluating
                 brain responses to perturbation. It has been shown to reliably differentiate
                 conscious wakefulness from unconscious states (sleep, anesthesia, vegetative
@@ -495,7 +515,7 @@ export default function Predictions() {
                         difficult to calculate directly), such as{" "}
                         <strong>perturbation-based complexity</strong> or{" "}
                         <strong>
-                          [causal density](https://en.wikipedia.org/wiki/Causal_density)
+                          <a href="https://en.wikipedia.org/wiki/Causal_density">causal density</a>
                         </strong>
                       </li>
                     </ul>
@@ -516,9 +536,15 @@ export default function Predictions() {
                   <li>
                     Complexity metrics:
                     <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4 mt-1">
-                      <li>[entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory))</li>
                       <li>
-                        [mutual information](https://en.wikipedia.org/wiki/Mutual_information)
+                        <a href="https://en.wikipedia.org/wiki/Entropy_(information_theory)">
+                          entropy
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://en.wikipedia.org/wiki/Mutual_information">
+                          mutual information
+                        </a>
                       </li>
                       <li>recurrence strength</li>
                       <li>attractor dimensionality</li>
@@ -554,7 +580,7 @@ export default function Predictions() {
                 transition in artificial systems that mirrors the Holos observer hypothesis.
               </p>
               <p>
-                <strong>Relationship to Prior Work</strong>
+                <strong>Relationship to Prior Work</strong>{" "}
                 This builds on:
               </p>
               <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4">
@@ -732,7 +758,7 @@ export default function Predictions() {
                 </li>
               </ul>
               <p>
-                <strong>Relationship to Prior Work</strong>
+                <strong>Relationship to Prior Work</strong>{" "}
                 Builds on:
               </p>
               <ul className="list-disc list-inside flex flex-col gap-1 leading-relaxed ml-4">
@@ -840,10 +866,15 @@ export default function Predictions() {
           <div className="flex flex-col gap-4">
             <h3 className="text-xl font-semibold pb-2">Subjects</h3>
             <p className="leading-relaxed">
-              A **[superconducting
-              qubit](https://en.wikipedia.org/wiki/Superconducting_quantum_computing) array** (a
-              basic quantum computer system) with **N qubits** (e.g., 8–20 qubits), in a controlled
-              lab environment.
+              A{" "}
+              <strong>
+                <a href="https://en.wikipedia.org/wiki/Superconducting_quantum_computing">
+                  superconducting qubit
+                </a>{" "}
+                array
+              </strong>{" "}
+              (a basic quantum computer system) with <strong>N qubits</strong> (e.g., 8–20 qubits), in
+              a controlled lab environment.
             </p>
             <p className="leading-relaxed">
               The array is prepared and evolved under a known{" "}
@@ -909,7 +940,7 @@ export default function Predictions() {
                 <strong>Status: Partially Explored</strong>
               </p>
               <p>
-                <strong>Relationship to Prior Work</strong>
+                <strong>Relationship to Prior Work</strong>{" "}
                 <a href="https://en.wikipedia.org/wiki/Quantum_Darwinism">Quantum Darwinism</a>{" "}
                 shows that certain system-environment boundaries become &quot;classical&quot;
                 because multiple observers can access the same information.{" "}
@@ -923,8 +954,10 @@ export default function Predictions() {
               </p>
               <p>
                 However, these approaches typically treat partitions as{" "}
-                <strong>[epistemic tools](https://en.wikipedia.org/wiki/Epistemology)</strong> (how
-                we describe the system), not as <strong>ontological constructors</strong> (the
+                <strong>
+                  <a href="https://en.wikipedia.org/wiki/Epistemology">epistemic tools</a>
+                </strong>{" "}
+                (how we describe the system), not as <strong>ontological constructors</strong> (the
                 builders of existence) of reality.
               </p>
               <p>
