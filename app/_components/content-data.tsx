@@ -390,6 +390,39 @@ export const sections: ContentSection[] = [
     ],
   },
   {
+    id: "the-teeming-dark",
+    title: "The Teeming Dark",
+    paragraphs: [
+      <>
+        <strong>The Teeming Dark</strong> is the answer to{" "}
+        <a href="https://en.wikipedia.org/wiki/The_Eerie_Silence">The Eerie Silence</a>: the 5:1
+        ratio of <a href="https://en.wikipedia.org/wiki/Dark_matter">dark matter</a> to{" "}
+        <a href="https://en.wikipedia.org/wiki/Baryon">baryonic matter</a> is the resolution to the{" "}
+        <a href="https://en.wikipedia.org/wiki/Fermi_paradox">Fermi Paradox</a>. If life is common,
+        dark matter is the evidence of its success. Baryonic matter (3D) represents the
+        &quot;nursery&quot; phase—where civilizations develop before hitting the{" "}
+        <em>Latency Horizon</em> (<MathInline>L</MathInline>) and the <em>Interconnect Latency</em>{" "}
+        bottleneck. Dark matter is the &quot;Succession&quot; state of civilizations that have
+        crossed this threshold, having undergone the <em>Dimensional Pivot</em> and{" "}
+        <em>Orthogonal Rotation</em> into higher-dimensional integration.
+      </>,
+      <>
+        The &quot;missing mass&quot; of cosmology is not missing at all—it is the{" "}
+        <strong>Gravitational Footprint of Informational Integration</strong>, the 3D
+        &quot;shadow&quot; cast by hyper-integrated architectures in the bulk dimensions. The
+        Standard Model predicts a diffuse gas of weakly interacting particles; Holos predicts{" "}
+        <strong>Ordered Nodes</strong> and <strong>Transcension Nodes</strong>—structured
+        gravitational signatures with non-random geometric symmetries (e.g., fractal repetition or
+        prime-number distributions) that reveal integrated informational systems. Where the
+        Standard Model expects random, entropic distributions (e.g., NFW profiles), Holos predicts
+        mass-spikes with geometric intent and super-compact subhaloes that violate such profiles. The
+        5:1 ratio is then not unexplained: it is the ratio of Succession state (civilizations that
+        have transcended 3D) to nursery phase (baryonic matter still developing toward the Latency
+        Horizon).
+      </>,
+    ],
+  },
+  {
     id: "simulation",
     title: "Simulation",
     footerId: "footer-simulation",

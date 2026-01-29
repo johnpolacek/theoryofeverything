@@ -1,3 +1,4 @@
+import type React from "react";
 import AxiomDiagram from "./AxiomDiagram";
 import BlockUniverseAnimation from "./BlockUniverseAnimation";
 import ConsciousnessAnimation from "./ConsciousnessAnimation";
@@ -47,9 +48,27 @@ export default function Content({ isPDF = false }: ContentProps) {
                   </div>
                 );
               })
-            : section.paragraphs.map((paragraph, pIndex) => (
-                <p key={`${section.id}-p-${pIndex}`}>{paragraph}</p>
-              ))}
+            : section.paragraphs.map((paragraph, pIndex) => {
+                // Check if paragraph is a fragment containing a div (for subsections with tables)
+                const checkForDiv = (node: React.ReactNode): boolean => {
+                  if (typeof node !== "object" || node === null) return false;
+                  if ("type" in node && node.type === "div") return true;
+                  if ("props" in node && node.props && typeof node.props === "object" && "children" in node.props) {
+                    const children = node.props.children;
+                    if (Array.isArray(children)) {
+                      return children.some(checkForDiv);
+                    }
+                    return checkForDiv(children);
+                  }
+                  return false;
+                };
+                const isDivContent = checkForDiv(paragraph);
+                return isDivContent ? (
+                  <div key={`${section.id}-p-${pIndex}`}>{paragraph}</div>
+                ) : (
+                  <p key={`${section.id}-p-${pIndex}`}>{paragraph}</p>
+                );
+              })}
           {section.id === "introduction" && <HolosAnimation isPDF={isPDF} />}
           {section.id === "meaning-of-life" && <BlockUniverseAnimation isPDF={isPDF} />}
           {section.id === "consciousness" && <ConsciousnessAnimation isPDF={isPDF} />}
