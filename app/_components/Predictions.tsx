@@ -153,22 +153,42 @@ export default function Predictions() {
         </h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            As intelligence maximizes informational integration (
-            <a href="/logic#foundational-propositions">Corollary V.2</a>), Holos predicts it will
-            expand{" "}
+            Holos frames the Transcension Hypothesis as a{" "}
             <strong>
-              <a href="https://en.wikipedia.org/wiki/Orthogonality">orthogonally</a>
+              <a href="https://en.wikipedia.org/wiki/Phase_transition">Topological Phase Transition</a>
             </strong>{" "}
-            (at right angles, into new dimensions) into higher-dimensional{" "}
-            <a href="https://en.wikipedia.org/wiki/Computational_substrate">substrates</a> rather
-            than expanding spatially across the galaxy.
+            driven by the <strong>Interconnect Latency</strong> of 3D space. As intelligence maximizes
+            informational integration (
+            <a href="/logic#foundational-propositions">Corollary V.2</a>), the system&apos;s{" "}
+            <a href="/definition">
+              <MathInline>{"Φ"}</MathInline>
+            </a>{" "}
+            scales, but physical distances in a 3D Euclidean manifold create a{" "}
+            <strong>propagation delay</strong> that violates the system&apos;s internal coherence—the{" "}
+            <strong>Wire Length</strong> argument.
           </p>
           <p className="leading-relaxed">
-            <strong>Empirical Implication:</strong> The resolution to the{" "}
+            The transition is defined as a <strong>Dimensional Pivot</strong>: The system rotates its
+            state vector into the higher-dimensional &quot;Bulk&quot; to resolve internal informational
+            distances toward zero, achieving <strong>Manifold Resolution</strong> through{" "}
+            <strong>Orthogonal Expansion</strong>. This <strong>Non-Natural Geometry</strong> represents
+            a fundamental shift from spatial expansion to structural integration.
+          </p>
+          <p className="leading-relaxed">
+            <strong>Empirical Implication:</strong> Holos explicitly predicts{" "}
+            <strong>Ordered Dark Matter</strong>—not a diffuse gas of{" "}
+            <a href="https://en.wikipedia.org/wiki/Weakly_interacting_massive_particles">WIMPs</a>{" "}
+            (Weakly Interacting Massive Particles), but the gravitational footprint of highly integrated,
+            non-random architectures. The resolution to the{" "}
             <strong>
               <a href="https://en.wikipedia.org/wiki/Fermi_paradox">Fermi Paradox</a>
             </strong>{" "}
-            (the lack of detected alien civilizations) is geometric. Astronomical surveys (e.g.,{" "}
+            (the lack of detected alien civilizations) is geometric: advanced intelligence is a
+            structural feature of the higher-dimensional bulk; baryonic matter is the 3D
+            &quot;shadow&quot; of these hyper-integrated architectures.
+          </p>
+          <p className="leading-relaxed">
+            Modern astronomical surveys (e.g.,{" "}
             <strong>
               <a href="https://en.wikipedia.org/wiki/James_Webb_Space_Telescope">JWST</a>
             </strong>
@@ -176,12 +196,14 @@ export default function Predictions() {
             <strong>
               <a href="https://en.wikipedia.org/wiki/Euclid_(spacecraft)">Euclid</a>
             </strong>
-            ) may detect &quot;missing mass&quot; or gravitational anomalies that mimic{" "}
+            ) are detecting small-scale dark matter nodes that defy the standard{" "}
             <strong>
-              <a href="https://en.wikipedia.org/wiki/Dark_matter">Dark Matter</a>
-            </strong>
-            , representing high-density informational structures located in the &quot;bulk&quot;
-            dimensions (<a href="/logic#axioms">Axiom 4: Unification</a>).
+              <a href="https://en.wikipedia.org/wiki/Lambda-CDM_model">Cold Dark Matter (CDM)</a>
+            </strong>{" "}
+            diffuse model. These observations align with Holos&apos; prediction of{" "}
+            <strong>non-random anisotropy and geometric symmetry</strong> in dark matter subhaloes
+            (mass-spikes), representing the gravitational signature of integrated informational
+            structures in the bulk dimensions (<a href="/logic#axioms">Axiom 4: Unification</a>).
             <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-predictions">
               <sup>13</sup>
             </a>
@@ -228,12 +250,16 @@ export default function Predictions() {
               <tr className="border-b border-black/10">
                 <td className="py-3 pr-8 text-black/80">Astrophysics</td>
                 <td className="py-3 pr-8 text-black/80">
-                  Advanced life is hyper-structural, not spatial.
+                  Advanced intelligence is a structural feature of the higher-dimensional bulk;
+                  baryonic matter is the 3D &quot;shadow&quot; of these hyper-integrated
+                  architectures.
                 </td>
                 <td className="py-3 text-black/80">
-                  <a href="https://en.wikipedia.org/wiki/Euclid_(spacecraft)">
-                    Dark Matter Surveys (Euclid)
-                  </a>
+                  High-resolution gravitational lensing maps (
+                  <a href="https://en.wikipedia.org/wiki/James_Webb_Space_Telescope">JWST</a>/
+                  <a href="https://en.wikipedia.org/wiki/Euclid_(spacecraft)">Euclid</a>);
+                  Statistical analysis for non-random anisotropy and geometric symmetry in dark matter
+                  subhaloes (mass-spikes).
                 </td>
               </tr>
             </tbody>
