@@ -126,6 +126,10 @@ export const sections: ContentSection[] = [
         capable of registering reality (becoming aware of its own existence).
       </>,
       <>
+        The universe is structured to maximize this integration (Φ), driving systems to evolve from
+        simple physical interactions into complex, substrate-independent informational structures.
+      </>,
+      <>
         Humans exhibit consciousness by being self-aware and capable of profound observation and
         interaction with our environment. Consciousness is not a &quot;ghost&quot; smuggled into the
         machine of physics, but the means to convert the universe from a closed loop of silent
@@ -381,9 +385,9 @@ export const sections: ContentSection[] = [
         <a href="https://en.wikipedia.org/wiki/Manifold">manifolds</a> (curved geometric spaces) or
         black hole singularities as a <em>topological necessity</em> to bypass the Euclidean
         &quot;Wire Length&quot; bottleneck—where <em>Orthogonal Rotation</em> resolves 3D
-        informational distances toward zero (<MathInline>{"ds^2 \\rightarrow 0"}</MathInline>). There,
-        computational efficiency approaches infinity and the constraints of spacetime intervals
-        vanish. We do not see them because they have rotated out of our lower-dimensional
+        informational distances toward zero (<MathInline>{"ds^2 \\rightarrow 0"}</MathInline>).
+        There, computational efficiency approaches infinity and the constraints of spacetime
+        intervals vanish. We do not see them because they have rotated out of our lower-dimensional
         &quot;shadow,&quot; moving closer to the unified source of reality.
         <FootnoteLink number={8} />
       </>,
@@ -413,12 +417,12 @@ export const sections: ContentSection[] = [
         Standard Model predicts a diffuse gas of weakly interacting particles; Holos predicts{" "}
         <strong>Ordered Nodes</strong> and <strong>Transcension Nodes</strong>—structured
         gravitational signatures with non-random geometric symmetries (e.g., fractal repetition or
-        prime-number distributions) that reveal integrated informational systems. Where the
-        Standard Model expects random, entropic distributions (e.g., NFW profiles), Holos predicts
-        mass-spikes with geometric intent and super-compact subhaloes that violate such profiles. The
-        5:1 ratio is then not unexplained: it is the ratio of Succession state (civilizations that
-        have transcended 3D) to nursery phase (baryonic matter still developing toward the Latency
-        Horizon).
+        prime-number distributions) that reveal integrated informational systems. Where the Standard
+        Model expects random, entropic distributions (e.g., NFW profiles), Holos predicts
+        mass-spikes with geometric intent and super-compact subhaloes that violate such profiles.
+        The 5:1 ratio is then not unexplained: it is the ratio of Succession state (civilizations
+        that have transcended 3D) to nursery phase (baryonic matter still developing toward the
+        Latency Horizon).
       </>,
     ],
   },
