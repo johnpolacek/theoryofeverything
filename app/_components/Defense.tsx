@@ -493,7 +493,7 @@ const comparativeFrameworks = [
 
 export default function Defense() {
   return (
-    <div className="flex flex-col gap-12 max-w-[50rem]">
+    <div className="flex flex-col gap-12 max-w-[50rem] px-8 lg:px-16">
       {/* Title */}
       <div className="flex flex-col gap-4">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-light pb-4">Stress-Testing Holos</h1>

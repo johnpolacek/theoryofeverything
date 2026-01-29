@@ -3,7 +3,7 @@ import MathInline from "./MathInline";
 
 export default function Logic() {
   return (
-    <div className="flex flex-col gap-12 max-w-[50rem]">
+    <div className="flex flex-col gap-12 max-w-[50rem] px-8 lg:px-16">
       {/* I. Primitive Definitions */}
       <section id="primitive-definitions" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">I. Primitive Definitions</h2>

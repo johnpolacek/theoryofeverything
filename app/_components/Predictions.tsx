@@ -3,7 +3,7 @@ import MathInline from "./MathInline";
 
 export default function Predictions() {
   return (
-    <div className="flex flex-col gap-12 max-w-[50rem]">
+    <div className="flex flex-col gap-12 max-w-[50rem] px-8 lg:px-16">
       {/* Introduction */}
       <div className="flex flex-col gap-4 text-black/80">
         <p className="leading-relaxed">
