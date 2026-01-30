@@ -237,6 +237,34 @@ export default function Predictions() {
               <sup>13</sup>
             </a>
           </p>
+          <p className="leading-relaxed">
+            <strong>JWST Confirmation (COSMOS-Web, Jan 2026):</strong> The{" "}
+            <a href="https://arxiv.org/abs/2601.17239" target="_blank" rel="noopener noreferrer">
+              COSMOS-Web survey
+            </a>{" "}
+            (arXiv:2601.17239v1) reports structure more refined than the &quot;fuzzy halos&quot; of
+            standard CDM: <strong>granular structure</strong> and <strong>mass-spikes</strong> that
+            do not match smooth NFW profiles. Mass peaks appear <strong>without clear
+            counterparts</strong> in X-rays or galaxies at coordinates such as (150.21, 2.06).
+            Holos interprets these as gravitational footprints of Ordered Dark Matter, consistent
+            with the Succession architecture.
+          </p>
+          <p className="leading-relaxed">
+            <strong>DESI Confirmation (2025–2026):</strong> The{" "}
+            <a
+              href="https://www.quantamagazine.org/is-dark-energy-getting-weaker-new-evidence-strengthens-the-case-20250319/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Dark Energy Spectroscopic Instrument (DESI)
+            </a>{" "}
+            data show that <strong>dark energy is weakening</strong> over time. Combined with other
+            data (supernovae, cosmic microwave background), the tension with the constant dark
+            energy of Lambda-CDM has strengthened (e.g. 4.2 sigma in 2025). For Holos, this is
+            consistent with vacuum energy being converted into dark-matter architecture. The
+            Dimensional Pivot is not random decay. It is energy flow from the vacuum into the dark
+            sector, accelerating structure growth, as in Interacting Dark Energy (IDE) models.
+          </p>
         </div>
       </section>
 

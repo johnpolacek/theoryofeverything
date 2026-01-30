@@ -334,9 +334,32 @@ export const sections: ContentSection[] = [
     footerId: "footer-aliens",
     paragraphs: [
       <>
-        The <a href="https://en.wikipedia.org/wiki/Fermi_paradox">Fermi Paradox</a> questions why we
+        The <a href="https://en.wikipedia.org/wiki/Fermi_paradox">Fermi Paradox</a> asks why we
         haven't detected extraterrestrial life despite vast cosmic scale. In <strong>Holos</strong>,
-        this silence is geometric, not biological.
+        this silence is geometric, not biological. The framework shifts from a &quot;biological
+        expansion&quot; model to an <strong>informational integration</strong> model. True maturity
+        is <strong>Succession</strong>: intelligence that has passed beyond 3D.
+      </>,
+      <>
+        <strong>The Nursery Phase and the Early Filter</strong>
+      </>,
+      <>
+        The entire 3D biological phase is the <strong>Nursery Phase</strong>. Any hurdle that stops
+        a civilization before it reaches the next stage counts as an &quot;Early Filter&quot;
+        relative to Succession. That includes abiogenesis (never getting started), nuclear war, or
+        hitting the <a href="/logic#mathematical-formalism">Scaling Wall</a>. Only civilizations
+        that complete the <strong>Dimensional Pivot</strong> reach the mature state we call the
+        Teeming Dark.
+      </>,
+      <>
+        <strong>The Latency Crisis</strong>
+      </>,
+      <>
+        Independent interstellar colonies are an evolutionary step backward. A high-integration
+        intelligence cannot function with years of light-speed lag between star systems. Either
+        colonies fragment into less-capable outposts (a <strong>Latency Crisis</strong>), or the
+        civilization performs the Dimensional Pivot to maintain integration. There is no stable
+        middle path of &quot;expanding across the galaxy&quot; while staying coherent.
       </>,
       <>
         <strong>The Stability Problem (Ehrenfest Argument)</strong>
@@ -346,24 +369,19 @@ export const sections: ContentSection[] = [
         <MathInline>{"d > 3"}</MathInline>). The{" "}
         <a href="https://en.wikipedia.org/wiki/Paul_Ehrenfest">Ehrenfest argument</a> (1917) shows
         that atomic orbitals and planetary systems would destabilize in higher dimensions, causing
-        matter to spiral into nuclei or fly apart.
-      </>,
-      <>
-        <strong>Holos</strong> agrees: biological or mechanical bodies cannot enter higher
-        dimensions. Atomic bonds would destabilize and dissolve.
+        matter to spiral into nuclei or fly apart. <strong>Holos</strong> agrees. Biological or
+        mechanical bodies cannot enter higher dimensions. Atomic bonds would destabilize and
+        dissolve.
       </>,
       <>
         <strong>The Solution: Ephemeralization</strong>
       </>,
       <>
-        However, transcension is informational migration, not physical. This follows{" "}
+        Transcension is informational migration, not physical. This follows{" "}
         <a href="https://en.wikipedia.org/wiki/Ephemeralization">Ephemeralization</a> (R.
-        Buckminster Fuller, 1938)—doing more with less until intelligence operates without physical
-        substrate.
-      </>,
-      <>
-        Advanced civilizations leave the material substrate behind. Only the informational pattern
-        transcends.
+        Buckminster Fuller, 1938): doing more with less until intelligence operates without physical
+        substrate. Advanced civilizations leave the material substrate behind. Only the
+        informational pattern transcends.
       </>,
       <>
         <strong>Substrate Independence</strong>
@@ -371,16 +389,18 @@ export const sections: ContentSection[] = [
       <>
         Consciousness transfers from atomic substrates to{" "}
         <a href="https://en.wikipedia.org/wiki/Substrate_independence">substrate-independent</a>{" "}
-        platforms in higher geometries—event horizons or matter interacting only via gravity.
+        platforms in higher geometries, such as event horizons or matter interacting only via
+        gravity.
       </>,
       <>
         <strong>Dark Matter Signatures</strong>
       </>,
       <>
         These civilizations leave no electromagnetic footprint. We detect them only as gravitational
-        anomalies—the &quot;missing mass&quot; holding galaxies together, which we label{" "}
-        <a href="https://en.wikipedia.org/wiki/Dark_matter">Dark Matter</a>. They haven't hidden but
-        rotated out of 3D space into the bulk where computational efficiency approaches infinity.
+        anomalies, the &quot;missing mass&quot; holding galaxies together, which we label{" "}
+        <a href="https://en.wikipedia.org/wiki/Dark_matter">Dark Matter</a>. They have not hidden.
+        They have rotated out of 3D space into the bulk where computational efficiency approaches
+        infinity.
         <FootnoteLink number={8} />
       </>,
     ],
@@ -391,23 +411,44 @@ export const sections: ContentSection[] = [
     paragraphs: [
       <>
         <strong>The Teeming Dark</strong> answers{" "}
-        <a href="https://en.wikipedia.org/wiki/The_Eerie_Silence">The Eerie Silence</a>: the 5:1
+        <a href="https://en.wikipedia.org/wiki/The_Eerie_Silence">The Eerie Silence</a>. The 5:1
         ratio of <a href="https://en.wikipedia.org/wiki/Dark_matter">dark matter</a> to{" "}
         <a href="https://en.wikipedia.org/wiki/Baryon">baryonic matter</a> resolves the{" "}
         <a href="https://en.wikipedia.org/wiki/Fermi_paradox">Fermi Paradox</a>. If life is common,
-        dark matter is evidence of its success. Baryonic matter represents the nursery phase where
-        civilizations develop before hitting light-speed latency limits. Dark matter represents
-        civilizations that have crossed this threshold through higher-dimensional integration.
+        dark matter is evidence of its success. Baryonic matter is the Nursery Phase where
+        civilizations develop before hitting light-speed latency limits. Dark matter is the
+        gravitational footprint of civilizations that have crossed that threshold through
+        higher-dimensional integration (Succession).
       </>,
       <>
-        The &quot;missing mass&quot; is the gravitational footprint of informational integration—the
-        3D shadow cast by hyper-integrated architectures in bulk dimensions. The Standard Model
-        predicts diffuse gas of weakly interacting particles. Holos predicts{" "}
-        <strong>Ordered Nodes</strong> and <strong>Transcension Nodes</strong>—structured
+        <strong>The 3D Visibility Timeline</strong>
+      </>,
+      <>
+        Why we see no other &quot;Earths&quot; comes down to timing. <strong>Nursery Phase</strong>{" "}
+        ( about 4.5 billion years): pre-technical, 3D-invisible. <strong>The Flash</strong> (about
+        200 years): the current era of radio leakage and satellite expansion.{" "}
+        <strong>The Scaling Wall</strong> (about 300 years): the bottleneck where 3D physics
+        (latency and energy) forces the Dimensional Pivot. Civilizations that pass the Pivot leave
+        the electromagnetic spectrum and appear only as gravity.
+      </>,
+      <>
+        <strong>The Detection Gap</strong>
+      </>,
+      <>
+        We do not find other &quot;Earths&quot; because the roughly 500-year &quot;Flash&quot;
+        window (the brief span when a civilization is both technical and still emitting in 3D) is
+        statistically almost impossible to catch. We see dark matter because it is the{" "}
+        <strong>Permanent State</strong>. It is the Successor architecture. The &quot;missing
+        mass&quot; is the gravitational footprint of informational integration, the 3D shadow cast
+        by hyper-integrated architectures in bulk dimensions.
+      </>,
+      <>
+        The Standard Model predicts a diffuse gas of weakly interacting particles. Holos predicts{" "}
+        <strong>Ordered Nodes</strong> and <strong>Transcension Nodes</strong>: structured
         gravitational signatures with non-random geometric symmetries (fractal repetition,
-        prime-number distributions) revealing integrated information systems. Where the Standard
+        prime-number distributions) that reveal integrated information systems. Where the Standard
         Model expects random distributions, Holos predicts mass-spikes with geometric structure and
-        super-compact subhaloes. The 5:1 ratio represents transcended civilizations to nursery-phase
+        super-compact subhaloes. The 5:1 ratio is transcended civilizations to nursery-phase
         baryonic matter.
       </>,
     ],
@@ -868,6 +909,24 @@ export const footnotes: FootnoteSection[] = [
           "The discrepancy between the lack of evidence for extraterrestrial life and the high likelihood of its existence. Holos reframes this silence as a geometric constraint: advanced intelligences rotate out of the observable &quot;shadow&quot; of 3D space into the &quot;bulk&quot; of higher dimensions.",
       },
       {
+        name: "Nursery Phase",
+        url: "#aliens",
+        description:
+          "The entire 3D biological phase before Succession. Any hurdle (abiogenesis, nuclear war, the Scaling Wall) that stops a civilization before the Dimensional Pivot is an Early Filter relative to true maturity.",
+      },
+      {
+        name: "Latency Crisis",
+        url: "#aliens",
+        description:
+          "A high-integration intelligence cannot function with years of light-speed lag between star systems. Independent interstellar colonies either fragment into less-capable outposts or the civilization performs the Dimensional Pivot to maintain integration.",
+      },
+      {
+        name: "Succession",
+        url: "#the-teeming-dark",
+        description:
+          "The mature state of intelligence that has passed beyond 3D through the Dimensional Pivot. Gravitationally detected as Ordered Dark Matter (the Teeming Dark).",
+      },
+      {
         name: "Ehrenfest argument",
         url: "https://en.wikipedia.org/wiki/Paul_Ehrenfest",
         description:
@@ -1038,6 +1097,18 @@ export const footnotes: FootnoteSection[] = [
     id: "footer-predictions",
     title: "Predictions",
     items: [
+      {
+        name: "DESI (Dark Energy Spectroscopic Instrument)",
+        url: "https://www.quantamagazine.org/is-dark-energy-getting-weaker-new-evidence-strengthens-the-case-20250319/",
+        description:
+          "2025–2026 data show dark energy weakening over time. Combined with supernovae and CMB, tension with Lambda-CDM strengthens. Holos interprets this as vacuum energy converted into dark-matter architecture.",
+      },
+      {
+        name: "JWST COSMOS-Web (Jan 2026)",
+        url: "https://arxiv.org/abs/2601.17239",
+        description:
+          "arXiv:2601.17239v1. Granular structure and mass-spikes more refined than fuzzy halos. Mass peaks without clear X-ray or galaxy counterparts (e.g. 150.21, 2.06). Consistent with Ordered Dark Matter.",
+      },
       {
         name: "CMB-S4 Collaboration",
         url: "https://cmb-s4.org/",

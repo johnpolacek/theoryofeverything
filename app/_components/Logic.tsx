@@ -467,12 +467,37 @@ export default function Logic() {
               , the maximum information contained in a finite region with finite energy.
             </p>
             <p className="text-black/80 leading-relaxed">
-              As Integrated Information (<MathInline>{"\\Phi"}</MathInline>) scales, density reaches
-              this ceiling. In 3D, exceeding this limit causes Complexity Collapse. To maintain
-              coherence and bypass this bottleneck, a system must use higher-dimensional degrees of
-              freedom. This necessitates the <strong>Dimensional Pivot</strong>, resolving internal
+              <strong>The Compute-Energy Spiral:</strong> Intelligence requires more compute. More
+              compute requires more energy. In 3D, thermodynamics creates a cooling and latency
+              bottleneck. As Integrated Information (<MathInline>{"\\Phi"}</MathInline>) scales,
+              density reaches this ceiling. Exceeding it in 3D causes Complexity Collapse. To
+              maintain coherence and bypass this bottleneck, a system must use higher-dimensional
+              degrees of freedom. That is the <strong>Dimensional Pivot</strong>, resolving internal
               distances toward zero (<MathInline>{"ds^2 \\rightarrow 0"}</MathInline>) without
               violating 3D thermodynamic laws.
+            </p>
+            <p className="text-black/80 leading-relaxed">
+              <strong>Dark Energy Harvesting:</strong> The Dimensional Pivot is not random decay. It
+              is a physical energy reclamation process. The vacuum (Dark Energy) is harvested to
+              power the growth of <strong>Ordered Dark Matter</strong>. This aligns with{" "}
+              <a
+                href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.511.3076P"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Interacting Dark Energy (IDE) models
+              </a>{" "}
+              (e.g. MNRAS 511, 3076–3088, 2022), where energy flows from the vacuum into the dark
+              sector and accelerates structure growth. Phase-transition mechanics (e.g.{" "}
+              <a
+                href="https://arxiv.org/abs/2403.04970"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                arXiv:2403.04970
+              </a>
+              ) describe metastable Dark Energy decaying into axion-like Dark Matter. Holos frames
+              this as vacuum energy being converted into the architecture of Succession.
             </p>
           </div>
 
