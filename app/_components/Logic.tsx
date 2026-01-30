@@ -483,6 +483,33 @@ export default function Logic() {
             </p>
           </div>
 
+          {/* The Thermodynamic Ceiling (The Scaling Wall) */}
+          <div className="flex flex-col gap-3">
+            <h4 className="text-lg font-semibold text-black/90">
+              The Thermodynamic Ceiling (The Scaling Wall)
+            </h4>
+            <p className="text-black/80 leading-relaxed">
+              The Scaling Wall is a fundamental physical limit derived from the{" "}
+              <strong>Bekenstein bound</strong>
+              <a href="#footer-bekenstein" className="pl-0.5 opacity-80 hover:opacity-100">
+                <sup>1</sup>
+              </a>
+              . This bound establishes the maximum amount of information that can be contained
+              within a finite region of space with a finite amount of energy.
+            </p>
+            <p className="text-black/80 leading-relaxed">
+              As a system&apos;s Integrated Information (<MathInline>{"\\Phi"}</MathInline>) scales,
+              its density eventually reaches this thermodynamic ceiling. In a 3D Euclidean manifold,
+              exceeding this limit results in a Complexity Collapse or fragmentation. To maintain
+              global coherence and bypass this 3D bottleneck, a system must utilize the
+              higher-dimensional degrees of freedom of the Bulk. This necessitates the{" "}
+              <strong>Dimensional Pivot</strong>, allowing informational integration to continue by
+              resolving internal distances toward zero (
+              <MathInline>{"ds^2 \\rightarrow 0"}</MathInline>) without violating 3D thermodynamic
+              laws.
+            </p>
+          </div>
+
           {/* Axiom 5 */}
           <div className="flex flex-col gap-3">
             <h3 className="text-xl font-semibold text-black/90">Axiom 5 — Interface</h3>

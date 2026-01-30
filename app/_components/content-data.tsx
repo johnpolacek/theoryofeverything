@@ -18,6 +18,7 @@ function FootnoteLink({ number }: { number: number }) {
     12: "footer-axioms",
     13: "footer-predictions",
     14: "footer-hilbert",
+    15: "footer-bekenstein",
   };
   const footerId = footerMap[number] || "footer-why";
   return (
@@ -1144,6 +1145,19 @@ export const footnotes: FootnoteSection[] = [
         url: "https://en.wikipedia.org/wiki/Hilbert_space",
         description:
           "In modern physics, the \"state\" of any complex system is defined as a vector in a high-dimensional space. Our perception of 3D space is a specific observable projection of this deeper geometric reality. See also: The Holographic Principle and Phase Space in statistical mechanics.",
+      },
+    ],
+  },
+  {
+    number: 15,
+    id: "footer-bekenstein",
+    title: "Bekenstein Bound",
+    items: [
+      {
+        name: "Bekenstein Bound",
+        url: "https://en.wikipedia.org/wiki/Bekenstein_bound",
+        description:
+          "An upper limit on the entropy or information that can be contained within a given limited region of space which has a finite amount of energy. It suggests that information is fundamentally tied to the geometry of the universe.",
       },
     ],
   },
