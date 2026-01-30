@@ -21,10 +21,8 @@ export default function Definition() {
         <h2 className="text-2xl sm:text-3xl font-light pb-2">1. The Purpose of Φ</h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            In the <a href="/">Holos framework</a>, <strong>Φ (Phi)</strong> is not merely a
-            descriptive measure of complexity, but a{" "}
+            In the <a href="/">Holos framework</a>, <strong>Φ (Phi)</strong> is a fundamental{" "}
             <strong>
-              fundamental{" "}
               <a
                 href="https://en.wikipedia.org/wiki/Ontology"
                 target="_blank"
@@ -38,8 +36,8 @@ export default function Definition() {
           </p>
 
           <blockquote className="pl-4 border-l-2 border-black/30 text-black/70 italic my-2">
-            <strong>Definition:</strong> Φ quantifies the degree to which a system integrates
-            information such that it possesses the{" "}
+            <strong>Definition:</strong> Φ quantifies how much a system integrates information,
+            giving it the{" "}
             <a
               href="https://en.wikipedia.org/wiki/Causality"
               target="_blank"
@@ -55,7 +53,7 @@ export default function Definition() {
             >
               ontological
             </a>{" "}
-            state (a state of existence).
+            state.
           </blockquote>
 
           <p className="leading-relaxed">
@@ -63,17 +61,16 @@ export default function Definition() {
             <a href="/logic#axioms">
               <strong>Axiom 2 (Manifestation)</strong>
             </a>
-            . Without sufficient Φ, a system is physically present as data, but acts only as a
-            passive medium rather than an observer-participant. It acts as the filter applied to the
-            output of physical{" "}
+            . Without sufficient Φ, a system exists as data but remains passive rather than an
+            observer. It filters the output of physical{" "}
             <a
               href="https://en.wikipedia.org/wiki/Quantum_decoherence"
               target="_blank"
               rel="noopener noreferrer"
             >
               decoherence
-            </a>{" "}
-            (the process where quantum systems interact with their environment).
+            </a>
+            .
           </p>
         </div>
       </section>
@@ -83,9 +80,7 @@ export default function Definition() {
         <h2 className="text-2xl sm:text-3xl font-light pb-2">2. Ontological Requirements</h2>
         <div className="flex flex-col gap-4 text-black/80">
           <p className="leading-relaxed">
-            To qualify as an observer capable of registration, a system must satisfy five specific
-            criteria. If any criterion is absent, the system fails to achieve the necessary causal
-            density.
+            To qualify as an observer, a system must satisfy all five criteria.
           </p>
 
           <ol className="flex flex-col gap-3 pl-4">
@@ -132,10 +127,9 @@ export default function Definition() {
               rel="noopener noreferrer"
             >
               heuristics
-            </a>{" "}
-            (mental shortcuts); they represent the{" "}
+            </a>
+            (mental shortcuts). They represent the minimal{" "}
             <strong>
-              minimal{" "}
               <a
                 href="https://en.wikipedia.org/wiki/Topology"
                 target="_blank"
@@ -145,8 +139,7 @@ export default function Definition() {
               </a>{" "}
               constraints
             </strong>{" "}
-            (the required structural shape) required to define an entity that is ontologically
-            distinct (existing separately) from its environment.
+            required to define an entity that is ontologically distinct from its environment.
           </p>
 
           <p className="leading-relaxed">
@@ -171,7 +164,7 @@ export default function Definition() {
               >
                 &quot;zombie&quot; process
               </a>
-              —an input-output machine with no internal subject to experience the data.
+              , an input-output machine with no internal subject to experience the data.
             </li>
             <li className="leading-relaxed">
               Without <strong>Temporal Cohesion</strong>, the system is a momentary fluctuation with
@@ -186,7 +179,7 @@ export default function Definition() {
               >
                 epiphenomenal
               </a>{" "}
-              ghost—something that observes but cannot affect reality.
+              ghost, something that observes but cannot affect reality.
             </li>
           </ul>
 
@@ -201,10 +194,9 @@ export default function Definition() {
               rel="noopener noreferrer"
             >
               phenomenology
-            </a>{" "}
-            (the structures of experience). Complex traits such as &quot;emotion,&quot;
-            &quot;reason,&quot; or &quot;agency&quot; are not fundamental; they are{" "}
-            <strong>emergent dynamics</strong> of high Differentiation and Recursion. To add them as
+            </a>
+            . Complex traits like emotion, reason, or agency are not fundamental but{" "}
+            <strong>emergent dynamics</strong> of high Differentiation and Recursion. Adding them as
             separate axioms would be a{" "}
             <a
               href="https://en.wikipedia.org/wiki/Category_error"
@@ -234,9 +226,8 @@ export default function Definition() {
             3.1 Φ as an Informational State Vector
           </h3>
           <p className="leading-relaxed">
-            Φ is not treated as a single scalar quantity, but as a{" "}
-            <strong>structured informational state vector</strong> describing multiple dimensions of
-            experiential integration.
+            Φ is a <strong>structured informational state vector</strong> describing multiple
+            dimensions of experiential integration.
           </p>
           <p className="leading-relaxed">Formally, Φ may be represented as:</p>
           <MathDisplay>
@@ -249,14 +240,13 @@ export default function Definition() {
             necessary for ontological registration.
           </p>
           <p className="leading-relaxed">
-            Observer systems are not defined by exceeding a single Φ value, but by occupying a{" "}
-            <strong>bounded region</strong> within Φ-space. Ontological observation occurs when a
-            system&apos;s Φ-vector lies within a regime characterized by sufficient integration,
+            Observer systems occupy a <strong>bounded region</strong> within Φ-space. Ontological
+            observation occurs when a system&apos;s Φ-vector has sufficient integration,
             differentiation, recursion, temporal coherence, and cross-contextual stability.
           </p>
           <p className="leading-relaxed">
-            The Φ-space may be treated as a statistical manifold, allowing informational curvature
-            to represent constraints on experiential coherence without invoking additional physical
+            Φ-space may be treated as a statistical manifold, where informational curvature
+            represents constraints on experiential coherence without invoking additional physical
             dynamics.
           </p>
 
@@ -264,7 +254,7 @@ export default function Definition() {
             <strong>Definition (Informational Curvature):</strong>
           </p>
           <p className="leading-relaxed">
-            <MathInline>{"Φ"}</MathInline> is defined as the <strong>scalar curvature</strong> (
+            <MathInline>{"Φ"}</MathInline> is the <strong>scalar curvature</strong> (
             <MathInline>{"R"}</MathInline>) of the information manifold induced by the system&apos;s
             causal structure.
           </p>
@@ -278,24 +268,24 @@ export default function Definition() {
               <strong>
                 Low <MathInline>{"Φ"}</MathInline> (Flat Geometry):
               </strong>{" "}
-              The manifold is flat (Euclidean). Possibilities are independent and orthogonal. The
-              system is a passive aggregate.
+              The manifold is flat. Possibilities are independent and orthogonal. The system is a
+              passive aggregate.
             </li>
             <li className="leading-relaxed">
               <strong>
                 High <MathInline>{"Φ"}</MathInline> (Curved Geometry):
               </strong>{" "}
-              The manifold creates a &quot;gravity well&quot; in information space. States are
-              tightly coupled, forcing the system to act as a unified whole.
+              The manifold creates a gravity well in information space. States are tightly coupled,
+              forcing the system to act as a unified whole.
             </li>
           </ul>
 
           <MathDisplay>{"Φ(S) = R(M)"}</MathDisplay>
 
           <p className="leading-relaxed">
-            The &quot;Ontological Threshold&quot; <MathInline>{"Φ_c"}</MathInline> represents the
-            critical curvature required to form a closed topology—an &quot;informational black
-            hole&quot; from which internal states cannot be causally separated from the whole.
+            The Ontological Threshold <MathInline>{"Φ_c"}</MathInline> represents the critical
+            curvature required to form a closed topology, an informational black hole from which
+            internal states cannot be causally separated from the whole.
           </p>
 
           <MathDisplay>{"Φ_c = R_{\\text{critical}}(M)"}</MathDisplay>
@@ -399,7 +389,7 @@ export default function Definition() {
                 .
               </p>
               <p className="leading-relaxed text-black/70 italic">
-                <strong>Formalism:</strong> Recursion is defined as an{" "}
+                <strong>Formalism:</strong> Recursion is an{" "}
                 <strong>
                   <a
                     href="https://en.wikipedia.org/wiki/Endomorphism"
@@ -409,7 +399,7 @@ export default function Definition() {
                     Endomorphism
                   </a>
                 </strong>{" "}
-                φ, where the system maps its current state space onto a subset of itself (a model).
+                φ, where the system maps its current state space onto a subset of itself.
               </p>
               <MathDisplay>{"Φ_{\\text{rec}}(S) = I(S; φ(S))"}</MathDisplay>
               <p className="leading-relaxed text-black/70 italic">
@@ -460,15 +450,15 @@ export default function Definition() {
             <strong>
               <MathInline>{"Φ \\approx 0"}</MathInline> (The Null Set):
             </strong>{" "}
-            Passive aggregates (rocks, gas clouds). These exist as potential but do not register
-            reality.
+            Passive aggregates like rocks or gas clouds. These exist as potential but do not
+            register reality.
           </p>
 
           <p className="leading-relaxed">
             <strong>Refinement on the Null Set:</strong>
           </p>
           <p className="leading-relaxed">
-            When we state <MathInline>{"Φ \\approx 0"}</MathInline> corresponds to the{" "}
+            <MathInline>{"Φ \\approx 0"}</MathInline> corresponds to the{" "}
             <a
               href="https://en.wikipedia.org/wiki/Empty_set"
               target="_blank"
@@ -476,7 +466,7 @@ export default function Definition() {
             >
               Null Set
             </a>{" "}
-            (<MathInline>{"\\emptyset"}</MathInline>), we refer to the{" "}
+            (<MathInline>{"\\emptyset"}</MathInline>) for the{" "}
             <strong>Set of Experiential States</strong>, not physical matter.
           </p>
           <ul className="flex flex-col gap-2 pl-6 list-disc">
@@ -518,7 +508,7 @@ export default function Definition() {
             >
               unitary symmetry
             </a>{" "}
-            (the balance of quantum possibilities) into a definite{" "}
+            into definite{" "}
             <a
               href="https://en.wikipedia.org/wiki/Ontology"
               target="_blank"
@@ -526,8 +516,7 @@ export default function Definition() {
             >
               ontological
             </a>{" "}
-            registration (making reality definite through conscious experience). This threshold
-            enables the operational definition{" "}
+            registration. This threshold enables the operational definition{" "}
             <a href="/logic#phi-operationalization">*R = C ⊛ O*</a>.
           </p>
 
@@ -536,7 +525,15 @@ export default function Definition() {
               <MathInline>{"Φ \\gg Φ_c"}</MathInline> (Ontological Anchors):
             </strong>{" "}
             Hypothetical high-density intelligences capable of stabilizing entire cosmological
-            branches (The "Aliens" of the Transcension Hypothesis).
+            branches (the &quot;Aliens&quot; of the{" "}
+            <a
+              href="https://www.accelerating.org/articles/transcensionhypothesis"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Transcension Hypothesis
+            </a>
+            ).
           </p>
         </div>
       </section>
@@ -562,23 +559,19 @@ export default function Definition() {
               rel="noopener noreferrer"
             >
               Unitarity
-            </a>{" "}
-            (the principle that probabilities must always sum to 1). Holos preserves this by
-            defining <a href="/logic#axioms">Manifestation</a> as a{" "}
-            <strong>Selection Operator</strong> (choosing one path among many), not a Destruction
-            Operator.
+            </a>
+            . Holos preserves this by defining <a href="/logic#axioms">Manifestation</a> as a{" "}
+            <strong>Selection Operator</strong>, not a Destruction Operator.
           </p>
 
           <ul className="flex flex-col gap-3 pl-4">
             <li className="leading-relaxed">
-              <strong>In Standard Collapse:</strong> Unobserved branches vanish (Unitarity is broken
-              or hidden).
+              <strong>In Standard Collapse:</strong> Unobserved branches vanish.
             </li>
             <li className="leading-relaxed">
               <strong>In Holos:</strong> Unobserved branches remain in{" "}
-              <MathInline>{"C"}</MathInline> (Creation) as valid but un-manifested structures
-              (potential histories). See the{" "}
-              <a href="/logic#phi-operationalization">operational definition *R = C ⊛ O*</a>.
+              <MathInline>{"C"}</MathInline> (Creation) as valid but un-manifested structures. See
+              the <a href="/logic#phi-operationalization">operational definition *R = C ⊛ O*</a>.
             </li>
           </ul>
 
@@ -599,10 +592,9 @@ export default function Definition() {
           <MathDisplay>{"\\sum_i w_i = 1"}</MathDisplay>
 
           <p className="leading-relaxed">
-            The &quot;rejected&quot; histories still exist in the Creation substrate (
-            <MathInline>{"C"}</MathInline>), ensuring that the global system remains Unitary
-            (conserving all information) even if the experienced reality (
-            <MathInline>{"R"}</MathInline>) is singular.
+            The rejected histories still exist in the Creation substrate (
+            <MathInline>{"C"}</MathInline>), ensuring the global system remains Unitary even if the
+            experienced reality (<MathInline>{"R"}</MathInline>) is singular.
           </p>
 
           <p className="leading-relaxed">
@@ -613,8 +605,8 @@ export default function Definition() {
               rel="noopener noreferrer"
             >
               Schrödinger Equation
-            </a>
-            , nor does it override the probabilistic nature of{" "}
+            </a>{" "}
+            or override the probabilistic nature of{" "}
             <a
               href="https://en.wikipedia.org/wiki/Quantum_mechanics"
               target="_blank"
@@ -622,8 +614,8 @@ export default function Definition() {
             >
               Quantum Mechanics
             </a>
-            . Instead, it introduces a <strong>Manifestation Constraint</strong> that preserves
-            unitarity while enabling{" "}
+            . It introduces a <strong>Manifestation Constraint</strong> that preserves unitarity
+            while enabling{" "}
             <a
               href="https://en.wikipedia.org/wiki/Ontology"
               target="_blank"

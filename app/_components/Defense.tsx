@@ -238,7 +238,7 @@ const defenseData: AxiomDefense[] = [
           "Physics experiments (like the [Elitzur–Vaidman bomb tester](https://en.wikipedia.org/wiki/Elitzur%E2%80%93Vaidman_bomb_tester)) show that 'collapse' occurs via mechanical possibilities, even without direct interaction or conscious observers.",
           "",
           "**Response:**",
-          "Holos incorporates [decoherence](https://en.wikipedia.org/wiki/Quantum_decoherence) (the process where quantum systems interact with their environment) as a function of **Creation (C)**, not Observation (O). See the [Logic](/logic) section for the operational definition *R = C ⊛ O*.",
+          "Holos incorporates [decoherence](https://en.wikipedia.org/wiki/Quantum_decoherence) as a function of **Creation (C)**, not Observation (O). See the [Logic](/logic) section for the operational definition *R = C ⊛ O*.",
           "",
           "- Decoherence explains the **suppression of interference** (how possibilities become distinct).",
           "- It does not explain **actuality** (why one distinct possibility is experienced to the exclusion of others).",
@@ -271,9 +271,9 @@ const defenseData: AxiomDefense[] = [
           "Early cosmology predates life.",
           "",
           "**Response:**",
-          "Under [eternalism](https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)) ([block universe](https://en.wikipedia.org/wiki/Block_universe)), observation need not be temporally local (happening at the same time as the event).",
+          "Under [eternalism](https://en.wikipedia.org/wiki/Eternalism_(philosophy_of_time)) ([block universe](https://en.wikipedia.org/wiki/Block_universe)), observation need not be temporally local.",
           "Later observers can consistently instantiate earlier states without causal paradox.",
-          "**Self-Excited Circuit:** The emergence of high-Φ observers resolves the universe's light-speed latency—effectively \"closing the circuit\"—and manifests the past as a stable, coherent history. In [delayed-choice experiments](https://en.wikipedia.org/wiki/Wheeler%27s_delayed-choice_experiment) and [quantum erasers](https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser), future observations retroactively 'manifest' past states; consciousness need not act in real-time—the global self-consistency of the block universe (and the circuit closed by observers) is what matters.",
+          "**Self-Excited Circuit:** The emergence of high-Φ observers resolves the universe's light-speed latency, effectively closing the circuit, and manifests the past as a stable, coherent history. In [delayed-choice experiments](https://en.wikipedia.org/wiki/Wheeler%27s_delayed-choice_experiment) and [quantum erasers](https://en.wikipedia.org/wiki/Delayed-choice_quantum_eraser), future observations retroactively manifest past states. Consciousness need not act in real-time. The global self-consistency of the block universe matters.",
           "",
           "**Status:** ✔ Survives (conditional on block universe)",
         ],
@@ -363,10 +363,10 @@ const defenseData: AxiomDefense[] = [
           "**Critique:** As established by Paul Ehrenfest (1917), stable atomic orbitals and planetary orbits require a three-dimensional inverse-square law. In dimensions $d > 3$, gravity and electromagnetism fall off too sharply ($1/r^{d-1}$), causing matter to either fly apart or collapse. A physical observer entering 5D space would dissolve.",
           "",
           "**Response:**",
-          "**Holos agrees:** A biological or mechanical body cannot enter higher dimensions. However, **Holos** posits that Transcension is an **informational migration**, not a spatial one.",
+          "**Holos agrees:** Biological or mechanical bodies cannot enter higher dimensions. However, Transcension is **informational migration**, not spatial.",
           "- **Ephemeralization:** Following Fuller's principle (1938), advanced civilizations migrate from material expansion toward higher informational density.",
-          "- **The Metamorphosis:** The \"cocoon\" of baryonic matter is left behind; only the informational pattern \"transcends\" to substrate-independent platforms (e.g., black hole event horizons or shadow sectors) that are native to those geometries.",
-          "- **Ontological Driver:** Unlike the standard Transcension Hypothesis (which argues for energy efficiency), **Holos** argues the driver is ontological: to maximize Φ by rotating closer to the unified source of reality.",
+          "- **The Metamorphosis:** The cocoon of [baryonic matter](https://en.wikipedia.org/wiki/Baryon) is left behind. Only the informational pattern transcends to substrate-independent platforms (e.g., black hole event horizons or [shadow sectors](https://en.wikipedia.org/wiki/Hidden_sector)) that are native to those geometries.",
+          "- **Ontological Driver:** Unlike the standard [Transcension Hypothesis](https://www.accelerating.org/articles/transcensionhypothesis), Holos argues the driver is ontological: to maximize Φ by rotating closer to the unified source of reality.",
           "",
           "**Status:** ✔ Survives",
         ],
@@ -406,7 +406,7 @@ const defenseData: AxiomDefense[] = [
           "- Will or purpose",
           "- Moral authority",
           "",
-          "It requires only irreducible experience (experience that cannot be simplified further), already acknowledged in [philosophy of mind](https://en.wikipedia.org/wiki/Philosophy_of_mind). This capacity is detailed in the [Definition](/definition) of Φ.",
+          "It requires only irreducible experience, already acknowledged in [philosophy of mind](https://en.wikipedia.org/wiki/Philosophy_of_mind). This capacity is detailed in the [Definition](/definition) of Φ.",
           "",
           "**Status:** ✔ Survives",
         ],
@@ -488,7 +488,7 @@ const comparativeFrameworks = [
     url: "https://en.wikipedia.org/wiki/Integrated_information_theory",
     claim: "Consciousness depends on integrated information (Φ)",
     agrees: "Information integration is required for experience",
-    differs: "Φ alone does not guarantee that experience actually occurs",
+    differs: "Φ alone does not guarantee experience occurs",
   },
   {
     framework: "Panpsychism",
@@ -533,7 +533,7 @@ export default function Defense() {
               {axiom.name === "Relationality"
                 ? "Reality is defined by relationships, not intrinsic properties."
                 : axiom.name === "Manifestation"
-                  ? "Reality is only fully realized when information is integrated into conscious experience."
+                  ? "Reality is fully realized when information is integrated into conscious experience."
                   : axiom.name === "Conservation"
                     ? "Information is conserved across all transformations."
                     : axiom.name === "Topological Unification"
@@ -626,14 +626,12 @@ export default function Defense() {
         </h2>
         <div className="flex flex-col gap-6 text-black/80">
           <p className="leading-relaxed">
-            Recent experiments—interaction-free measurements, debunked psi claims, and partial
-            falsifications of objective collapse models—pose challenges to consciousness-centric
-            interpretations. They suggest quantum "measurements" can occur through purely physical
-            processes without requiring a conscious observer. However, Holos accommodates these
-            findings by refining how observation operates, emphasizing its [ontological
-            role](https://en.wikipedia.org/wiki/Ontology) (how it relates to existence) over a
-            causal one. These experiments inform testable [predictions](/predictions) about
-            [relational quantum
+            Recent experiments pose challenges to consciousness-centric interpretations. They
+            suggest quantum measurements can occur through purely physical processes without
+            requiring a conscious observer. However, Holos accommodates these findings by refining
+            how observation operates, emphasizing its [ontological
+            role](https://en.wikipedia.org/wiki/Ontology) over a causal one. These experiments
+            inform testable [predictions](/predictions) about [relational quantum
             mechanics](https://en.wikipedia.org/wiki/Relational_quantum_mechanics).
           </p>
 
@@ -643,19 +641,16 @@ export default function Defense() {
             </h3>
             <p className="leading-relaxed">
               Interaction-free measurements show information extraction without direct particle
-              interaction or consciousness. Decoherence (environmental interactions suppressing
-              interference) provides the physical mechanism that prepares information for
-              experiential registration, but not the full "discovery."
+              interaction or consciousness. Decoherence provides the physical mechanism that
+              prepares information for experiential registration, but not the full discovery.
             </p>
             <p className="leading-relaxed">
-              <strong>Holos Response:</strong> Decoherence is part of Creation (generating
-              classical-like states), but Observation "registers" them experientially in the
-              recursive loop. Mechanical interactions handle physical "collapse" or decoherence, but
-              true manifestation requires integration into a broader experiential network—ultimately
-              culminating in higher consciousness. Systems below <MathInline>{"Φ_c"}</MathInline>{" "}
-              can perform mechanical "observations" (decoherence), but only{" "}
-              <MathInline>{"Φ ≥ Φ_c"}</MathInline> manifests experiential reality (makes it real
-              through experience). This threshold is detailed in the{" "}
+              <strong>Holos Response:</strong> Decoherence is part of Creation, but Observation
+              registers them experientially in the recursive loop. Mechanical interactions handle
+              physical collapse or decoherence, but true manifestation requires integration into a
+              broader experiential network. Systems below <MathInline>{"Φ_c"}</MathInline> can
+              perform mechanical observations, but only <MathInline>{"Φ ≥ Φ_c"}</MathInline>{" "}
+              manifests experiential reality. This threshold is detailed in the{" "}
               <a href="/definition">Definition</a> of Φ. See the [Logic](/logic) section for the
               operational definition *R = C ⊛ O*.
             </p>
@@ -736,17 +731,16 @@ export default function Defense() {
           </div>
 
           <p className="leading-relaxed">
-            Holos does not propose new physical laws or mechanisms. Instead, it asks a different
-            question: why certain physically consistent structures are experienced as reality at
-            all. Its answer is that experience is not an afterthought, but a condition for
-            ontological realization.
+            Holos does not propose new physical laws or mechanisms. It asks a different question:
+            why certain physically consistent structures are experienced as reality at all.
+            Experience is not an afterthought but a condition for ontological realization.
           </p>
 
           <div className="border border-black/10 bg-black/[0.02] p-6 rounded-lg italic">
             <p className="font-semibold not-italic mb-2">In simple terms:</p>
-            Physics explains how reality behaves. Holos asks why any of it is experienced. It argues
-            that not all possible realities are equally real — only those that can support coherent
-            experience are realized.
+            Physics explains how reality behaves. Holos asks why any of it is experienced. Not all
+            possible realities are equally real. Only those that can support coherent experience are
+            realized.
           </div>
         </div>
       </section>
@@ -761,7 +755,13 @@ export default function Defense() {
             <li>Comparable to serious interpretive frameworks (Many-Worlds, Eternalism)</li>
             <li>Its weakness is explanatory depth regarding physical mechanism.</li>
             <li>
-              Its strength is {markdownToJSX("**providing the ontological layer**", "conclusion-strength")} missing from standard theories (e.g., Transcension, Cosmological Natural Selection)—explaining {markdownToJSX("*why*", "conclusion-why")} the universe fosters complexity (to maximize <MathInline>{"Φ"}</MathInline>) rather than just {markdownToJSX("*how*", "conclusion-how")} it occurs.
+              Its strength is{" "}
+              {markdownToJSX("**providing the ontological layer**", "conclusion-strength")} missing
+              from standard theories (e.g., Transcension, [Cosmological Natural
+              Selection](https://en.wikipedia.org/wiki/Cosmological_natural_selection)). It explains{" "}
+              {markdownToJSX("*why*", "conclusion-why")} the universe fosters complexity (to
+              maximize <MathInline>{"Φ"}</MathInline>) rather than just{" "}
+              {markdownToJSX("*how*", "conclusion-how")} it occurs.
             </li>
           </ul>
           <p className="leading-relaxed pt-4">
