@@ -3,6 +3,7 @@ import Defense from "./Defense";
 import Definition from "./Definition";
 import Logic from "./Logic";
 import Predictions from "./Predictions";
+import { sections } from "../../lib/navigation";
 
 export default function PDFDocument() {
   return (
@@ -197,6 +198,60 @@ export default function PDFDocument() {
           .title-main .tracking-wide {
             letter-spacing: 0.05em;
           }
+          .toc-page {
+            padding-top: 1em;
+          }
+          .toc-page h1 {
+            font-size: 1.5em;
+            font-weight: 300;
+            margin-bottom: 1em;
+            border-bottom: 1px solid rgba(0,0,0,0.2);
+            padding-bottom: 0.25em;
+          }
+          .toc-columns {
+            column-count: 2;
+            column-gap: 2em;
+            font-size: 0.75em;
+          }
+          .toc-section {
+            break-inside: avoid;
+            margin-bottom: 0.75em;
+          }
+          .toc-section-title {
+            font-size: 1.1em;
+            font-weight: 600;
+            margin-bottom: 0.2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+          }
+          .toc-section-title a {
+            text-decoration: none;
+            color: #000;
+          }
+          .toc-page-num {
+            font-weight: 400;
+            color: rgba(0,0,0,0.6);
+            margin-left: 0.5em;
+          }
+          .toc-subsections {
+            list-style: none;
+            padding-left: 0.75em;
+            margin: 0;
+          }
+          .toc-subsections li {
+            margin-bottom: 0.15em;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+          }
+          .toc-subsections a {
+            text-decoration: none;
+            color: rgba(0,0,0,0.8);
+          }
+          .toc-subsections .toc-page-num {
+            font-size: 0.9em;
+          }
         `}</style>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -254,24 +309,46 @@ export default function PDFDocument() {
           </div>
         </div>
 
-        <div className="section-break">
+        <div className="section-break toc-page">
+          <h1>Table of Contents</h1>
+          <div className="toc-columns">
+            {sections.map((section) => (
+              <div key={section.id} className="toc-section">
+                <div className="toc-section-title">
+                  <a href={`#${section.id}`}>{section.title}</a>
+                  <span className="toc-page-num" data-toc-target={section.id} />
+                </div>
+                <ul className="toc-subsections">
+                  {section.subsections.map((sub) => (
+                    <li key={sub.id}>
+                      <a href={`#${sub.id}`}>{sub.title}</a>
+                      <span className="toc-page-num" data-toc-target={sub.id} />
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div id="overview" className="section-break">
           <Content isPDF={true} />
         </div>
 
-        <div className="section-break">
+        <div id="logic" className="section-break">
           <h1>Logic</h1>
           <Logic />
         </div>
 
-        <div className="section-break">
+        <div id="definition" className="section-break">
           <Definition />
         </div>
 
-        <div className="section-break">
+        <div id="defense" className="section-break">
           <Defense />
         </div>
 
-        <div className="section-break">
+        <div id="predictions" className="section-break">
           <h1>Predictions</h1>
           <Predictions />
         </div>

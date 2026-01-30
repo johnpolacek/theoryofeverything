@@ -359,7 +359,7 @@ export default function Logic() {
       </section>
 
       {/* II. Axioms */}
-      <section id="axioms" className="flex flex-col gap-6">
+      <section id="logic-axioms" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">II. Axioms</h2>
         <p className="text-black/70 italic text-sm pb-2">
           For stress-testing and responses to objections, see the{" "}

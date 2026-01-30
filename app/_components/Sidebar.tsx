@@ -3,72 +3,13 @@ import { Download, MenuIcon } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-
-interface Subsection {
-  id: string;
-  title: string;
-}
-
-const theorySubsections: Subsection[] = [
-  { id: "introduction", title: "Introduction" },
-  { id: "meaning-of-life", title: "Meaning of Life" },
-  { id: "consciousness", title: "Consciousness" },
-  { id: "our-universe", title: "Our Universe" },
-  { id: "spacetime", title: "Spacetime" },
-  { id: "extrapolation", title: "A Note on Extrapolation" },
-  { id: "higher-dimensions", title: "Higher Dimensions" },
-  { id: "infinity", title: "Infinity" },
-  { id: "black-holes", title: "Black Holes" },
-  { id: "aliens", title: "Aliens" },
-  { id: "the-teeming-dark", title: "The Teeming Dark" },
-  { id: "simulation", title: "Simulation" },
-  { id: "god", title: "God" },
-  { id: "why", title: "Why?" },
-  { id: "axioms", title: "Axioms" },
-  { id: "holos", title: "Holos" },
-];
-
-const logicSubsections: Subsection[] = [
-  { id: "primitive-definitions", title: "Primitives" },
-  { id: "axioms", title: "Axioms" },
-  { id: "foundational-propositions", title: "Foundations" },
-  { id: "mathematical-formalism", title: "Math" },
-  { id: "extrapolative-propositions", title: "Extrapolations" },
-  { id: "minimal-core", title: "Core" },
-  { id: "phi-operationalization", title: "Definition" },
-];
-
-const defenseSubsections: Subsection[] = [
-  { id: "axiom-1", title: "Relationality" },
-  { id: "axiom-2", title: "Manifestation" },
-  { id: "axiom-3", title: "Conservation" },
-  { id: "axiom-4", title: "Topological Unification" },
-  { id: "axiom-5", title: "Interface" },
-  { id: "failure-modes-stress-testing", title: "Stress-Testing" },
-  { id: "primary-unresolved-challenge", title: "Challenge" },
-  { id: "positioning-holos", title: "Comparison" },
-  { id: "conclusion", title: "Conclusion" },
-];
-
-const definitionSubsections: Subsection[] = [
-  { id: "1-the-purpose-of", title: "The Purpose of Φ" },
-  { id: "2-ontological-requirements", title: "Ontological" },
-  { id: "3-mathematical-formalism", title: "Mathematical" },
-  { id: "4-ontological-thresholds", title: "Thresholds" },
-  { id: "5-relationship-to-physics-the-consistency-filter", title: "Physics" },
-];
-
-const predictionsSubsections: Subsection[] = [
-  { id: "primary-prediction", title: "Primary" },
-  { id: "secondary-predictions", title: "Secondary" },
-  { id: "tertiary-prediction", title: "Tertiary" },
-  { id: "extrapolative-prediction", title: "Extrapolative" },
-  { id: "testable-implications", title: "Implications" },
-  { id: "experiment-1", title: "Experiment 1" },
-  { id: "experiment-2", title: "Experiment 2" },
-  { id: "experiment-3", title: "Experiment 3" },
-  { id: "experiment-4", title: "Experiment 4" },
-];
+import {
+  theorySubsections,
+  logicSubsections,
+  defenseSubsections,
+  definitionSubsections,
+  predictionsSubsections,
+} from "../../lib/navigation";
 
 export default function Sidebar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
