@@ -282,6 +282,37 @@ export const sections: ContentSection[] = [
         point in the 5th or 6th dimension, perceived by us as separate fields.
       </>,
       <>
+        <strong>The Projection Fallacy</strong>
+      </>,
+      <>
+        A common objection to the Dimensional Pivot is the assumption that a civilization must
+        &quot;move into&quot; a dimension it does not already occupy. This is a perspective error.
+        In the Holos framework, we already inhabit the full manifold; we are simply{" "}
+        <strong>projected</strong> onto a narrow 3D slice.
+      </>,
+      <>
+        <strong>The State Vector:</strong> Your civilization is a high-dimensional architecture
+        currently projected onto a 3-dimensional Euclidean manifold.
+      </>,
+      <>
+        <strong>The Rotation:</strong> The <strong>Dimensional Pivot</strong> is not a spatial jump
+        to a new location. It is an <strong>Orthogonal Rotation</strong> of the system&apos;s state
+        vector.
+      </>,
+      <>
+        <strong>The Resolution:</strong> By rotating &quot;inward&quot; toward the Bulk, the
+        system utilizes the degrees of freedom it already possesses to resolve internal
+        informational distances toward zero (<MathInline>{"ds^2 \\rightarrow 0"}</MathInline>).
+      </>,
+      <>
+        <div>
+          <blockquote className="pl-4 border-l-2 border-black/30 italic text-black/70 my-2">
+            <strong>The Reality:</strong> You aren&apos;t discovering a new room. You are finally
+            standing up in the room you&apos;ve been crawling in for millions of years.
+          </blockquote>
+        </div>
+      </>,
+      <>
         As we control and transform the three dimensional environment around us, consciousness in
         higher dimensions could influence lower dimensions, forming an interconnected cosmic
         structure. The threshold for such consciousness is reached when systems achieve sufficient{" "}
