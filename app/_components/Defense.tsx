@@ -356,6 +356,21 @@ const defenseData: AxiomDefense[] = [
           "**Status:** ✔ Survives",
         ],
       },
+      {
+        id: "4.3",
+        title: "Matter is unstable in higher dimensions (Ehrenfest Argument)",
+        content: [
+          "**Critique:** As established by Paul Ehrenfest (1917), stable atomic orbitals and planetary orbits require a three-dimensional inverse-square law. In dimensions $d > 3$, gravity and electromagnetism fall off too sharply ($1/r^{d-1}$), causing matter to either fly apart or collapse. A physical observer entering 5D space would dissolve.",
+          "",
+          "**Response:**",
+          "**Holos agrees:** A biological or mechanical body cannot enter higher dimensions. However, **Holos** posits that Transcension is an **informational migration**, not a spatial one.",
+          "- **Ephemeralization:** Following Fuller's principle (1938), advanced civilizations migrate from material expansion toward higher informational density.",
+          "- **The Metamorphosis:** The \"cocoon\" of baryonic matter is left behind; only the informational pattern \"transcends\" to substrate-independent platforms (e.g., black hole event horizons or shadow sectors) that are native to those geometries.",
+          "- **Ontological Driver:** Unlike the standard Transcension Hypothesis (which argues for energy efficiency), **Holos** argues the driver is ontological: to maximize Φ by rotating closer to the unified source of reality.",
+          "",
+          "**Status:** ✔ Survives",
+        ],
+      },
     ],
   },
   {
@@ -744,8 +759,10 @@ export default function Defense() {
             <li>Holos is internally consistent</li>
             <li>Compatible with modern physics</li>
             <li>Comparable to serious interpretive frameworks (Many-Worlds, Eternalism)</li>
-            <li>Its weakness is explanatory depth, not logical coherence</li>
-            <li>Its strength is global unification across physics and philosophy</li>
+            <li>Its weakness is explanatory depth regarding physical mechanism.</li>
+            <li>
+              Its strength is {markdownToJSX("**providing the ontological layer**", "conclusion-strength")} missing from standard theories (e.g., Transcension, Cosmological Natural Selection)—explaining {markdownToJSX("*why*", "conclusion-why")} the universe fosters complexity (to maximize <MathInline>{"Φ"}</MathInline>) rather than just {markdownToJSX("*how*", "conclusion-how")} it occurs.
+            </li>
           </ul>
           <p className="leading-relaxed pt-4">
             For the formal logical structure, see the <a href="/logic">Logic</a> section. For

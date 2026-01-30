@@ -356,39 +356,61 @@ export const sections: ContentSection[] = [
     paragraphs: [
       <>
         The <a href="https://en.wikipedia.org/wiki/Fermi_paradox">Fermi Paradox</a> questions the
-        lack of detected extraterrestrial life, despite the vastness of the universe. Advanced
-        civilizations do not merely go silent, they outgrow 3D Euclidean space. A planetary-scale
-        &quot;Jupiter Brain&quot; hits the <em>Latency Horizon</em> (<MathInline>L</MathInline>)—
-        Interconnect Latency, where the speed of light (<MathInline>c</MathInline>) prevents the
-        system from maintaining a unified <MathInline>{"\\Phi"}</MathInline> across its own
-        diameter. The lack of ET signatures therefore could be a result of the{" "}
-        <em>Dimensional Pivot</em>: an <em>Orthogonal Rotation</em>. These advanced civilizations
-        have transitioned from visible 3D expansion to invisible higher-dimensional integration.
-        This leads to testable <a href="/predictions">predictions</a> about gravitational anomalies
-        and dark matter signatures.
+        lack of detected extraterrestrial life despite the vastness of the universe. Within the
+        context of <strong>Holos</strong>, this silence is a geometric constraint rather than a
+        biological one.
       </>,
       <>
-        Holos explicitly predicts{" "}
-        <a href="https://en.wikipedia.org/wiki/Dark_matter">Ordered Dark Matter</a>. We should not
-        expect a diffuse gas of particles, but the 3D &quot;shadow&quot; of the Gravitational
-        Footprint of Informational Integration. These &quot;Transcension Nodes&quot; will be
-        detectable as gravitational mass-spikes with non-random geometric symmetries (e.g., fractal
-        repetition or prime-number distributions). This forms the basis for{" "}
-        <a href="/predictions">empirical predictions</a> testable through astronomical surveys.
+        <strong>The Stability Problem (Ehrenfest Argument)</strong>
       </>,
       <>
-        The{" "}
-        <a href="https://www.accelerating.org/articles/transcensionhypothesis">
-          Transcension Hypothesis
-        </a>{" "}
-        suggests that advanced civilizations migrate into higher-dimensional{" "}
-        <a href="https://en.wikipedia.org/wiki/Manifold">manifolds</a> (curved geometric spaces) or
-        black hole singularities as a <em>topological necessity</em> to bypass the Euclidean
-        &quot;Wire Length&quot; bottleneck—where <em>Orthogonal Rotation</em> resolves 3D
-        informational distances toward zero (<MathInline>{"ds^2 \\rightarrow 0"}</MathInline>).
-        There, computational efficiency approaches infinity and the constraints of spacetime
-        intervals vanish. We do not see them because they have rotated out of our lower-dimensional
-        &quot;shadow,&quot; moving closer to the unified source of reality.
+        Critics often argue that accessing higher dimensions is impossible because standard matter
+        is unstable in dimensions greater than three (<MathInline>{"d > 3"}</MathInline>). As
+        established by the{" "}
+        <a href="https://en.wikipedia.org/wiki/Paul_Ehrenfest">Ehrenfest argument</a> (1917), atomic
+        orbitals and planetary systems governed by inverse-square laws would destabilize in a 5th
+        spatial dimension, causing matter to either spiral into nuclei/stars or fly apart.
+      </>,
+      <>
+        <strong>Holos</strong> agrees: A biological or mechanical body cannot enter higher
+        dimensions. The atomic bonds would destabilize, and the structure would dissolve.
+      </>,
+      <>
+        <strong>The Solution: Ephemeralization</strong>
+      </>,
+      <>
+        However, Transcension is not a spatial migration of bodies, but an{" "}
+        <em>informational migration</em>. This follows the trajectory of{" "}
+        <a href="https://en.wikipedia.org/wiki/Ephemeralization">Ephemeralization</a> (R.
+        Buckminster Fuller, 1938)—the technological process of doing &quot;more and more with less
+        and less&quot; until intelligence can &quot;do everything with nothing&quot;.
+      </>,
+      <>
+        Just as a caterpillar must dissolve its physical structure to reorganize into a butterfly,
+        advanced civilizations undergo a metamorphosis where the &quot;cocoon&quot; of matter is
+        left behind. Only the informational pattern &quot;transcends.&quot;
+      </>,
+      <>
+        <strong>Substrate Independence</strong>
+      </>,
+      <>
+        Rather than expanding outwardly across vast physical distances, advanced intelligence
+        migrates inwardly toward higher densities of information. They transfer their consciousness
+        from unstable atomic substrates to{" "}
+        <a href="https://en.wikipedia.org/wiki/Substrate_independence">substrate-independent</a>{" "}
+        platforms capable of existing in higher geometries—such as the event horizons of black holes
+        or &quot;shadow sectors&quot; (matter interacting only via gravity).
+      </>,
+      <>
+        <strong>Dark Matter Signatures</strong>
+      </>,
+      <>
+        To us, these civilizations effectively disappear. They leave no electromagnetic footprint
+        (no radio waves, no Dyson spheres). We detect them only as <em>gravitational anomalies</em>
+        —the unexplained &quot;missing mass&quot; holding galaxies together, which we currently
+        label as <a href="https://en.wikipedia.org/wiki/Dark_matter">Dark Matter</a>. They are not
+        hiding; they have simply rotated out of the observable &quot;shadow&quot; of 3D space to
+        access the &quot;bulk&quot; of reality where computational efficiency approaches infinity.
         <FootnoteLink number={8} />
       </>,
     ],
@@ -919,49 +941,55 @@ export const footnotes: FootnoteSection[] = [
         name: "Fermi Paradox",
         url: "https://en.wikipedia.org/wiki/Fermi_paradox",
         description:
-          "The discrepancy between the lack of evidence for extraterrestrial life and the high likelihood of its existence.",
+          "The discrepancy between the lack of evidence for extraterrestrial life and the high likelihood of its existence. Holos reframes this silence as a geometric constraint: advanced intelligences rotate out of the observable &quot;shadow&quot; of 3D space into the &quot;bulk&quot; of higher dimensions.",
       },
       {
-        name: "Rare Earth Hypothesis",
-        url: "https://en.wikipedia.org/wiki/Rare_Earth_hypothesis",
+        name: "Ehrenfest argument",
+        url: "https://en.wikipedia.org/wiki/Paul_Ehrenfest",
         description:
-          "Argues biological complexity in the universe requires the coincidence of a large number of very low probability events.",
-      },
-      {
-        name: "Shadow Sectors",
-        url: "https://en.wikipedia.org/wiki/Dark_matter",
-        description:
-          'Theoretical matter composed of particles that interact with gravity but not with electromagnetic radiation. These "shadow particles" could exist in parallel dimensions, sharing our gravitational reality but remaining invisible to our observations.',
-      },
-      {
-        name: "Bulk Beings",
-        url: "https://en.wikipedia.org/wiki/Brane_cosmology",
-        description:
-          'Hypothetical entities that could inhabit the higher-dimensional "bulk" space in brane cosmology, potentially existing just millimeters away from our three-dimensional brane but invisible to electromagnetic detection.',
-      },
-      {
-        name: "The Planetarium Hypothesis",
-        url: "https://en.wikipedia.org/wiki/Planetarium_hypothesis",
-        description:
-          "Proposes that what we perceive as the universe might be an artificial simulation created by an advanced civilization.",
-      },
-      {
-        name: "The Transcension Hypothesis",
-        url: "https://www.accelerating.org/articles/transcensionhypothesis",
-        description:
-          "Suggests that advanced civilizations evolve beyond our observable universe, transcending into higher dimensions or computational substrates (physical or digital systems that support computation).",
-      },
-      {
-        name: "Technological Singularity",
-        url: "https://en.wikipedia.org/wiki/Technological_singularity",
-        description:
-          "A hypothetical future point when technological growth becomes uncontrollable and irreversible, resulting in unforeseeable changes to human civilization.",
+          "Paul Ehrenfest (1917) showed that in dimensions greater than three, atomic orbitals and inverse-square planetary systems would destabilize—matter would spiral into nuclei/stars or fly apart. Holos agrees: physical bodies cannot enter higher dimensions; only informational migration (transcension) is possible.",
       },
       {
         name: "Ephemeralization",
         url: "https://en.wikipedia.org/wiki/Ephemeralization",
         description:
-          "Technological advancement to do more and more with less and less until one can do everything with nothing.",
+          "R. Buckminster Fuller (1938): the process of doing &quot;more and more with less and less&quot; until intelligence can &quot;do everything with nothing&quot;. Advanced civilizations migrate inwardly toward higher densities of information rather than expanding outwardly across physical space.",
+      },
+      {
+        name: "The Transcension Hypothesis",
+        url: "https://www.accelerating.org/articles/transcensionhypothesis",
+        description:
+          "John Smart (2011): advanced civilizations migrate to inner space and eventually to black holes for efficiency—not as spatial migration of bodies, but as informational migration. The &quot;cocoon&quot; of matter is left behind; only the informational pattern transcends.",
+      },
+      {
+        name: "Cosmological natural selection",
+        url: "https://en.wikipedia.org/wiki/Cosmological_natural_selection",
+        description:
+          "Lee Smolin (1992): universes evolve to create more black holes; black hole collapse may give rise to daughter universes with slightly different constants. Together with transcension, this suggests the universe is structured to foster intelligence moving toward black holes—and observation (O) and creation (C) as fundamental operators drive it.",
+      },
+      {
+        name: "Substrate independence",
+        url: "https://en.wikipedia.org/wiki/Substrate_independence",
+        description:
+          "The view that mental states can be realized by different physical substrates. Advanced intelligence may transfer from unstable atomic substrates to substrate-independent platforms in higher geometries (e.g., event horizons, &quot;shadow sectors&quot;) capable of existing where matter cannot.",
+      },
+      {
+        name: "Dark matter",
+        url: "https://en.wikipedia.org/wiki/Dark_matter",
+        description:
+          "The unexplained &quot;missing mass&quot; holding galaxies together. Holos proposes we detect transcended civilizations only as gravitational anomalies—no electromagnetic footprint (no radio waves, no Dyson spheres). They are not hiding; they have rotated out of 3D space into the bulk where computational efficiency approaches infinity.",
+      },
+      {
+        name: "Dyson sphere",
+        url: "https://en.wikipedia.org/wiki/Dyson_sphere",
+        description:
+          "A hypothetical megastructure that would encompass a star to capture its energy. Their absence in our observations is consistent with transcension: advanced civilizations leave no such electromagnetic footprint.",
+      },
+      {
+        name: "Brane cosmology",
+        url: "https://en.wikipedia.org/wiki/Brane_cosmology",
+        description:
+          'Higher-dimensional &quot;bulk&quot; space in which our 3D universe may be embedded as a brane. Intelligences that transcend 3D rotate out of our observable &quot;shadow&quot; into this bulk, moving closer to what Holos frames as the unified source of reality.',
       },
     ],
   },

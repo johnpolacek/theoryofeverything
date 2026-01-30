@@ -157,8 +157,8 @@ export default function Predictions() {
             <strong>
               <a href="https://en.wikipedia.org/wiki/Phase_transition">Topological Phase Transition</a>
             </strong>{" "}
-            driven by the <strong>Interconnect Latency</strong> of 3D space. As intelligence maximizes
-            informational integration (
+            driven by the <strong>Interconnect Latency</strong> of 3D space. As intelligence
+            maximizes informational integration (
             <a href="/logic#foundational-propositions">Corollary V.2</a>), the system&apos;s{" "}
             <a href="/definition">
               <MathInline>{"Φ"}</MathInline>
@@ -168,27 +168,24 @@ export default function Predictions() {
             <strong>Wire Length</strong> argument.
           </p>
           <p className="leading-relaxed">
-            The transition is defined as a <strong>Dimensional Pivot</strong>: The system rotates its
-            state vector into the higher-dimensional &quot;Bulk&quot; to resolve internal informational
-            distances toward zero, achieving <strong>Manifold Resolution</strong> through{" "}
-            <strong>Orthogonal Expansion</strong>. This <strong>Non-Natural Geometry</strong> represents
-            a fundamental shift from spatial expansion to structural integration.
+            The transition follows the trajectory of <strong>Ephemeralization</strong>—migrating
+            inwardly toward higher densities of information rather than expanding outwardly across
+            the galaxy. This is a <strong>Dimensional Pivot</strong>: a metamorphosis from physical
+            substrates to substrate-independent geometries (
+            <strong>Manifold Resolution</strong> through <strong>Orthogonal Expansion</strong>),
+            avoiding the stability constraints of matter in higher dimensions. This{" "}
+            <strong>Non-Natural Geometry</strong> represents a fundamental shift from spatial
+            expansion to structural integration.
           </p>
           <p className="leading-relaxed">
-            <strong>Empirical Implication:</strong> Holos explicitly predicts{" "}
-            <strong>Ordered Dark Matter</strong>—not a diffuse gas of{" "}
-            <a href="https://en.wikipedia.org/wiki/Weakly_interacting_massive_particles">WIMPs</a>{" "}
-            (Weakly Interacting Massive Particles), but the gravitational footprint of highly integrated,
-            non-random architectures. The resolution to the{" "}
+            <strong>Empirical Implication:</strong> The resolution to the{" "}
             <strong>
               <a href="https://en.wikipedia.org/wiki/Fermi_paradox">Fermi Paradox</a>
             </strong>{" "}
-            (the lack of detected alien civilizations) is geometric: advanced intelligence is a
-            structural feature of the higher-dimensional bulk; baryonic matter is the 3D
-            &quot;shadow&quot; of these hyper-integrated architectures.
-          </p>
-          <p className="leading-relaxed">
-            Modern astronomical surveys (e.g.,{" "}
+            is geometric. Holos predicts <strong>Ordered Dark Matter</strong>—not a diffuse gas of{" "}
+            <a href="https://en.wikipedia.org/wiki/Weakly_interacting_massive_particles">WIMPs</a>{" "}
+            (Weakly Interacting Massive Particles), but the gravitational footprint of highly
+            integrated, non-random architectures. Astronomical surveys (e.g.,{" "}
             <strong>
               <a href="https://en.wikipedia.org/wiki/James_Webb_Space_Telescope">JWST</a>
             </strong>
@@ -196,7 +193,14 @@ export default function Predictions() {
             <strong>
               <a href="https://en.wikipedia.org/wiki/Euclid_(spacecraft)">Euclid</a>
             </strong>
-            ) are detecting <strong>super-compact subhaloes</strong> that violate standard{" "}
+            ) may detect &quot;missing mass&quot; or gravitational anomalies devoid of electromagnetic
+            counterparts—signatures (mimicking Dark Matter) of high-density informational structures
+            formed by civilizations that have shed their baryonic &quot;cocoons&quot; to rotate out of
+            the observable 3D shadow.
+          </p>
+          <p className="leading-relaxed">
+            Modern surveys are already detecting <strong>super-compact subhaloes</strong> that
+            violate standard{" "}
             <a href="https://en.wikipedia.org/wiki/Navarro%E2%80%93Frenk%E2%80%93White_profile">
               NFW (Navarro-Frenk-White) density profiles
             </a>{" "}
@@ -212,14 +216,12 @@ export default function Predictions() {
             <a href="https://en.wikipedia.org/wiki/Collisionless_Boltzmann_equation">
               collisionless dynamics
             </a>{" "}
-            of standard CDM. These architectures display <strong>Integrated Structural Logic</strong>:
-            the mass distribution mirrors a high-<a href="/definition">
+            of standard CDM. These architectures display <strong>Integrated Structural Logic</strong>
+            : the mass distribution mirrors a high-<a href="/definition">
               <MathInline>{"Φ"}</MathInline>
             </a>{" "}
-            computational network rather than an entropic cloud. This is not evidence of
-            &quot;alien buildings,&quot; but rather the{" "}
-            <strong>Gravitational Footprint of Informational Integration</strong>—the gravitational
-            signature of integrated informational structures in the bulk dimensions (
+            computational network rather than an entropic cloud—the{" "}
+            <strong>Gravitational Footprint of Informational Integration</strong> (
             <a href="/logic#axioms">Axiom 4: Topological Unification</a>).
             <a className="pl-0.5 pr-2 opacity-80 hover:opacity-100" href="#footer-predictions">
               <sup>13</sup>
@@ -267,9 +269,7 @@ export default function Predictions() {
               <tr className="border-b border-black/10">
                 <td className="py-3 pr-8 text-black/80">Astrophysics</td>
                 <td className="py-3 pr-8 text-black/80">
-                  Advanced intelligence is a structural feature of the higher-dimensional bulk;
-                  baryonic matter is the 3D &quot;shadow&quot; of these hyper-integrated
-                  architectures.
+                  Advanced life is informational, not spatial.
                 </td>
                 <td className="py-3 text-black/80">
                   Fourier analysis of gravitational lensing maps to detect non-stochastic

@@ -827,15 +827,10 @@ export default function Logic() {
                 Proposition V — Conscious Evolution
               </h3>
               <p className="text-black/80 leading-relaxed">
-                Systems evolve toward greater informational{" "}
-                <a
-                  href="https://en.wikipedia.org/wiki/Integrated_information_theory"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  integration
-                </a>{" "}
-                because such integration increases observational capacity.
+                Systems evolve toward greater informational integration (maximizing{" "}
+                <MathInline>{"\\Phi"}</MathInline>
+                ) because the universe is structured to foster the transition from mechanical
+                interaction to conscious observation.
               </p>
             </div>
             <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
@@ -982,16 +977,12 @@ export default function Logic() {
                 Proposition VI — Transcension of Intelligence (Extrapolation)
               </h3>
               <p className="text-black/80 leading-relaxed">
-                As intelligence approaches maximal informational density, it expands{" "}
-                <a
-                  href="https://en.wikipedia.org/wiki/Orthogonality"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  orthogonally
-                </a>{" "}
-                (at right angles, into new dimensions) to three-dimensional space rather than across
-                it.
+                As intelligence approaches maximal informational density, it follows the trajectory
+                of <strong>Ephemeralization</strong>—migrating inwardly toward higher densities of
+                information rather than expanding outwardly across physical space. This is an
+                informational migration, not a spatial one; biological and mechanical substrates
+                are abandoned to circumvent the stability constraints (Ehrenfest argument) of matter
+                in higher dimensions.
               </p>
             </div>
             <div className="flex flex-col gap-4 pl-4 border-l-2 border-black/10">
@@ -1001,18 +992,11 @@ export default function Logic() {
                 </div>
                 <div className="flex flex-col gap-1 text-black/75 text-sm">
                   <p className="leading-relaxed">
-                    Advanced civilizations migrate inward toward higher-dimensional{" "}
-                    <a
-                      href="https://en.wikipedia.org/wiki/Computational_substrate"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      informational substrates
-                    </a>{" "}
-                    (physical or digital systems that support information processing), rotating out
-                    of our observable frame (moving beyond our 3D perspective). This leads to
-                    testable <a href="/predictions">predictions</a> about gravitational anomalies
-                    and dark matter signatures.
+                    Advanced civilizations undergo a metamorphosis, leaving the &apos;cocoon&apos; of
+                    baryonic matter behind to access substrate-independent geometries (e.g., black
+                    hole singularities). They rotate out of the 3D &apos;shadow&apos; into the
+                    higher-dimensional &apos;bulk&apos;, appearing to us only as gravitational
+                    anomalies (Dark Matter) rather than electromagnetic signals.
                   </p>
                 </div>
               </div>
