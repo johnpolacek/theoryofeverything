@@ -105,7 +105,17 @@ export default function TeemingDarkAnimation({ isPDF = false }: TeemingDarkAnima
     // Reset
     tl.add("reset")
       .to(
-        [title, earthGroup, dishGroup, starfield, whereLabel, silenceLabel, darkMatter, teemingLabel, caption],
+        [
+          title,
+          earthGroup,
+          dishGroup,
+          starfield,
+          whereLabel,
+          silenceLabel,
+          darkMatter,
+          teemingLabel,
+          caption,
+        ],
         { opacity: 0, duration: 0.5 },
         "reset"
       )
@@ -172,9 +182,9 @@ export default function TeemingDarkAnimation({ isPDF = false }: TeemingDarkAnima
       <figcaption className="sr-only">
         The Teeming Dark animation illustrates the answer to the Fermi Paradox. Earth sends radio
         signals into space and listens for a response. The cosmos appears silent - no signals
-        detected. Then the perspective shifts: the starfield dims and dark matter structures
-        become visible as geometric, cubist forms. The silence was never empty; it is the
-        gravitational footprint of civilizations that have transcended into higher dimensions.
+        detected. Then the perspective shifts: the starfield dims and dark matter structures become
+        visible as geometric, cubist forms. The silence was never empty; it is the gravitational
+        footprint of civilizations that have transcended into higher dimensions.
       </figcaption>
       <svg
         ref={svgRef}
@@ -327,7 +337,14 @@ export default function TeemingDarkAnimation({ isPDF = false }: TeemingDarkAnima
           <line x1="140" y1="70" x2="195" y2="105" stroke="rgba(20, 20, 20, 0.2)" strokeWidth="1" />
           <line x1="350" y1="65" x2="305" y2="100" stroke="rgba(20, 20, 20, 0.2)" strokeWidth="1" />
           <line x1="225" y1="50" x2="280" y2="85" stroke="rgba(25, 25, 25, 0.18)" strokeWidth="1" />
-          <line x1="450" y1="75" x2="400" y2="120" stroke="rgba(25, 25, 25, 0.18)" strokeWidth="1" />
+          <line
+            x1="450"
+            y1="75"
+            x2="400"
+            y2="120"
+            stroke="rgba(25, 25, 25, 0.18)"
+            strokeWidth="1"
+          />
         </g>
 
         {/* Radio waves (expanding from Earth) - grayscale */}
@@ -429,7 +446,7 @@ export default function TeemingDarkAnimation({ isPDF = false }: TeemingDarkAnima
           fontStyle="italic"
           opacity="0"
         >
-          The silence is not empty. It is the gravitational footprint.
+          The silence is not empty. Dark Matter is the gravitational footprint.
         </text>
       </svg>
     </figure>
