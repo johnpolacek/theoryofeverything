@@ -17,6 +17,7 @@ function FootnoteLink({ number }: { number: number }) {
     11: "footer-why",
     12: "footer-axioms",
     13: "footer-predictions",
+    14: "footer-hilbert",
   };
   const footerId = footerMap[number] || "footer-why";
   return (
@@ -286,23 +287,25 @@ export const sections: ContentSection[] = [
       </>,
       <>
         A common objection to the Dimensional Pivot is the assumption that a civilization must
-        &quot;move into&quot; a dimension it does not already occupy. This is a perspective error.
-        In the Holos framework, we already inhabit the full manifold; we are simply{" "}
-        <strong>projected</strong> onto a narrow 3D slice.
+        &quot;move into&quot; a dimension it does not already inhabit. This is a perspective error
+        rooted in a 3D-only bias. In the Holos framework, we already inhabit the full manifold; we
+        are simply <strong>projected</strong> onto a narrow 3D basis.
       </>,
       <>
-        <strong>The State Vector:</strong> Your civilization is a high-dimensional architecture
+        <strong>The State Vector:</strong> Just as a quantum system is described by a state vector
+        in a high-dimensional <strong>Hilbert Space</strong>
+        <FootnoteLink number={14} />, a civilization is an integrated architecture whose state is
         currently projected onto a 3-dimensional Euclidean manifold.
       </>,
       <>
-        <strong>The Rotation:</strong> The <strong>Dimensional Pivot</strong> is not a spatial jump
-        to a new location. It is an <strong>Orthogonal Rotation</strong> of the system&apos;s state
-        vector.
+        <strong>The Rotation:</strong> The <strong>Dimensional Pivot</strong> is not a spatial
+        displacement to a new location. It is an <strong>Orthogonal Rotation</strong> of the
+        system&apos;s state vector into the existing degrees of freedom of the Bulk.
       </>,
       <>
-        <strong>The Resolution:</strong> By rotating &quot;inward&quot; toward the Bulk, the
-        system utilizes the degrees of freedom it already possesses to resolve internal
-        informational distances toward zero (<MathInline>{"ds^2 \\rightarrow 0"}</MathInline>).
+        <strong>The Resolution:</strong> By rotating &quot;inward,&quot; the system utilizes these
+        higher-dimensional degrees of freedom to resolve internal informational distances toward
+        zero (<MathInline>{"ds^2 \\rightarrow 0"}</MathInline>), bypassing the 3D Latency Horizon.
       </>,
       <>
         <div>
@@ -1188,6 +1191,19 @@ export const footnotes: FootnoteSection[] = [
         name: "Bekenstein, J. (2003)",
         url: "https://www.scientificamerican.com/article/information-in-the-holographic-univ/",
         description: "Information in the holographic universe. Scientific American.",
+      },
+    ],
+  },
+  {
+    number: 14,
+    id: "footer-hilbert",
+    title: "Hilbert Space & Degrees of Freedom",
+    items: [
+      {
+        name: "Hilbert Space",
+        url: "https://en.wikipedia.org/wiki/Hilbert_space",
+        description:
+          "In modern physics, the \"state\" of any complex system is defined as a vector in a high-dimensional space. Our perception of 3D space is a specific observable projection of this deeper geometric reality. See also: The Holographic Principle and Phase Space in statistical mechanics.",
       },
     ],
   },
