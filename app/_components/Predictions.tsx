@@ -238,16 +238,17 @@ export default function Predictions() {
             </a>
           </p>
           <p className="leading-relaxed">
-            <strong>JWST Confirmation (COSMOS-Web, Jan 2026):</strong> The{" "}
-            <a href="https://arxiv.org/abs/2601.17239" target="_blank" rel="noopener noreferrer">
-              COSMOS-Web survey
-            </a>{" "}
-            (arXiv:2601.17239v1) reports structure more refined than the &quot;fuzzy halos&quot; of
-            standard CDM: <strong>granular structure</strong> and <strong>mass-spikes</strong> that
-            do not match smooth NFW profiles. Mass peaks appear <strong>without clear
-            counterparts</strong> in X-rays or galaxies at coordinates such as (150.21, 2.06).
-            Holos interprets these as gravitational footprints of Ordered Dark Matter, consistent
-            with the Succession architecture.
+            <strong>Discriminating Fork: Mass-Spikes vs. Random Clouds:</strong> Standard CDM
+            predicts <strong>fuzzy, diffuse halos</strong> of dark matter. The January 2026 JWST
+            COSMOS-Web data (<a href="https://arxiv.org/abs/2601.17239" target="_blank" rel="noopener noreferrer">arXiv:2601.17239v1</a>) instead reveal{" "}
+            <strong>granular structure</strong> and <strong>mass-spikes</strong> that are more
+            refined and localized than standard simulations allow. <strong>Succession
+            Evidence:</strong> These spikes are candidate <strong>Ordered Nodes</strong> (transitioned
+            civilizations): massive gravitational signatures with no luminous counterparts (no
+            stars or gas). Mass peaks without clear X-ray or galaxy counterparts appear at
+            coordinates (RA, Dec) ≈ (150.21, 2.06) and (150.32, 2.28) in the 2026 COSMOS-Web map.
+            Holos interprets these as candidate Succession Nodes where the IDE energy transfer
+            (vacuum → Ordered Dark Matter) is complete.
           </p>
           <p className="leading-relaxed">
             <strong>DESI Confirmation (2025–2026):</strong> The{" "}

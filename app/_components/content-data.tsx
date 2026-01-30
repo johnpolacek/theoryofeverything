@@ -556,8 +556,8 @@ export const sections: ContentSection[] = [
         ).
       </>,
       <>
-        <strong>Topological Unification:</strong> Physical limits in 3D space—light-speed latency
-        and informational distance—resolve through expansion into higher dimensions. The formal
+        <strong>Topological Unification:</strong> Physical limits in 3D space (light-speed latency
+        and informational distance) resolve through expansion into higher dimensions. The formal
         boundary is the Latency Horizon (<MathInline>{"\\mathcal{L}"}</MathInline>) defined in{" "}
         <a href="/logic#mathematical-formalism">Mathematical Formalism</a>. These descriptions help
         resolve <a href="https://en.wikipedia.org/wiki/Gravitational_singularity">singularities</a>{" "}
@@ -566,6 +566,15 @@ export const sections: ContentSection[] = [
           Projective Geometry<sup>5</sup>
         </a>
         ).
+      </>,
+      <>
+        <strong>The Energy Conversion Logic (how the Pivot is powered):</strong> The Dimensional
+        Pivot is a phase transition where a civilization taps into the &quot;False Vacuum&quot; (Dark
+        Energy) to resolve 3D latency. In standard physics, energy has a mass equivalent (
+        <MathInline>{"E = mc^2"}</MathInline>). When Dark Energy is harvested, that energy does not
+        vanish. It shows up in our 3D view as an increase in localized Dark Matter density. The
+        weakening of Dark Energy detected by DESI in 2025 is the thermodynamic signature: the
+        exhaustion of that &quot;fuel&quot; in regions where Succession has already occurred.
       </>,
       <>
         <strong>Interface:</strong> Consciousness is the interface through which the universe
@@ -1107,7 +1116,13 @@ export const footnotes: FootnoteSection[] = [
         name: "JWST COSMOS-Web (Jan 2026)",
         url: "https://arxiv.org/abs/2601.17239",
         description:
-          "arXiv:2601.17239v1. Granular structure and mass-spikes more refined than fuzzy halos. Mass peaks without clear X-ray or galaxy counterparts (e.g. 150.21, 2.06). Consistent with Ordered Dark Matter.",
+          "arXiv:2601.17239v1. Granular structure and mass-spikes; mass peaks without luminous counterparts at (RA, Dec) ≈ (150.21, 2.06) and (150.32, 2.28). Candidate Succession Nodes.",
+      },
+      {
+        name: "Metastable DE / Axion-like DM (2024)",
+        url: "https://arxiv.org/abs/2403.04970",
+        description:
+          "Phase transition: metastable Dark Energy decaying into axion-like Dark Matter (m ~ 10^-13 GeV). Physical substrate for informational migration into the Bulk.",
       },
       {
         name: "CMB-S4 Collaboration",

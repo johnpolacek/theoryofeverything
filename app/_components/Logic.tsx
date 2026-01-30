@@ -436,9 +436,23 @@ export default function Logic() {
               toward zero by mapping onto higher-dimensional manifolds (the &quot;Bulk&quot;).
             </p>
             <p className="text-black/80 leading-relaxed">
-              <strong>Conceptual summary:</strong> Physical bottlenecks—light-speed latency and
-              informational distance—in 3D space are resolved through expansion into higher
-              dimensions.
+              <strong>The Harvesting Mechanism:</strong> The Dimensional Pivot is a phase
+              transition where a civilization taps into the &quot;False Vacuum&quot; (Dark Energy) to
+              resolve 3D latency. Rotation into the Bulk is powered by this energy reclamation, not
+              by geometry alone.
+            </p>
+            <p className="text-black/80 leading-relaxed">
+              <strong>Mass-Energy Transformation:</strong> In standard physics, energy has a mass
+              equivalent (<MathInline>{"E = mc^2"}</MathInline>). When Dark Energy (
+              <MathInline>{"\\rho_{DE}"}</MathInline>) is harvested, that energy does not vanish. It
+              manifests in our 3D perspective as an increase in localized Dark Matter density (
+              <MathInline>{"\\rho_{DM}"}</MathInline>).
+            </p>
+            <p className="text-black/80 leading-relaxed">
+              <strong>The Thermodynamic Signature:</strong> The weakening of Dark Energy detected
+              by DESI in 2025 is the exhaustion of that &quot;fuel&quot; in regions where Succession
+              has already occurred. The Pivot is thus a measurable thermodynamic process, not only a
+              geometric one.
             </p>
             <p className="text-black/70 text-sm leading-relaxed">
               The formal operational boundary for this axiom is defined by the Latency Horizon (
@@ -496,8 +510,19 @@ export default function Logic() {
               >
                 arXiv:2403.04970
               </a>
-              ) describe metastable Dark Energy decaying into axion-like Dark Matter. Holos frames
-              this as vacuum energy being converted into the architecture of Succession.
+              ) describe metastable Dark Energy decaying into axion-like Dark Matter (
+              <MathInline>{"m \\sim 10^{-13}\\,\\text{GeV}"}</MathInline>), the physical substrate
+              for informational migration into the Bulk. Holos frames this as vacuum energy being
+              converted into the architecture of Succession.
+            </p>
+            <p className="text-black/80 leading-relaxed">
+              <strong>Thermodynamic Limit:</strong> Staying in 3D is a death sentence for advanced
+              intelligence. <strong>The Cooling Crisis:</strong> Computing generates heat. In a 3D
+              vacuum, cooling a planetary-scale super-intelligence becomes physically impossible
+              because of the limited surface area for radiation. <strong>The Dimensional Release
+              Valve:</strong> By rotating the state vector into the Bulk, the civilization accesses
+              higher-dimensional degrees of freedom. That allows near-infinite information density
+              without the 3D entropic bottleneck.
             </p>
           </div>
 
@@ -965,6 +990,21 @@ export default function Logic() {
           </p>
           <p className="leading-relaxed">
             <strong>H</strong>: The realized reality becomes the initial state for the next cycle.
+          </p>
+          <p className="leading-relaxed">
+            <strong>The IDE-Pivot Equation (Succession Operator):</strong> Interacting Dark Energy
+            models describe energy flow from the vacuum into the dark sector. The conservation
+            equation for Dark Matter density in the presence of a source term is:
+          </p>
+          <MathDisplay>
+            {"\\dot{\\rho}_{DM} + 3H\\rho_{DM}(1+\\omega_{DM}) = Q_{DM}"}
+          </MathDisplay>
+          <p className="leading-relaxed">
+            Here <MathInline>{"Q_{DM}"}</MathInline> is the &quot;Succession Operator&quot;: the rate at
+            which Dark Energy is reclaimed to fuel the growth of Ordered Dark Matter. Where
+            Succession has occurred, <MathInline>{"\\rho_{DE}"}</MathInline> weakens (as DESI
+            observes) and <MathInline>{"\\rho_{DM}"}</MathInline> gains localized structure (mass
+            peaks without luminous counterparts, as in the JWST COSMOS-Web map).
           </p>
         </div>
       </section>
