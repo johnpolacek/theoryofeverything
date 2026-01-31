@@ -636,7 +636,7 @@ export default function Logic() {
                 </div>
                 <div className="flex flex-col gap-1 text-black/75 text-sm">
                   <p className="leading-relaxed">
-                    Consciousness is the universal interface of relational structure—fundamental in
+                    Consciousness is the universal interface of relational structure. Fundamental in
                     capacity, emergent in manifestation (becoming real through experience).
                   </p>
                 </div>

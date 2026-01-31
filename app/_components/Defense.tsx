@@ -220,7 +220,7 @@ const defenseData: AxiomDefense[] = [
           "Fields possess mass, charge, and spin.",
           "",
           "**Response:**",
-          "These are relational invariants defined through [symmetry](https://en.wikipedia.org/wiki/Symmetry_(physics)), interaction, and representation—not standalone substances.",
+          "These are relational invariants defined through [symmetry](https://en.wikipedia.org/wiki/Symmetry_(physics)), interaction, and representation. Not standalone substances.",
           "",
           "**Status:** ✔ Survives",
         ],
