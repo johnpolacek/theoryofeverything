@@ -463,15 +463,41 @@ export const sections: ContentSection[] = [
         higher-dimensional architectures.
       </>,
       <>
-        <strong>The 5:1 Ratio: The Maturity Index</strong>
+        <strong>The Remodeling of the Halo</strong>
       </>,
       <>
-        Standard cosmology treats the 5:1 ratio as a static value from the Big Bang. Holos predicts
-        this ratio is <strong>increasing over cosmic time</strong>. The 2025 DESI data (Dark Energy
-        weakening) implies vacuum energy is being converted into Dark Matter. The 5:1 ratio
-        represents the <strong>Maturity Index</strong> of our local universe: 5/6ths of the
-        &quot;matter&quot; in the cosmos has already hit the Scaling Wall and transitioned into the
-        Bulk. We are the 1/6th still in the nursery.
+        While Primordial Dark Matter existed from the early universe to seed the first galaxies
+        (the initial 5:1 scaffolding visible in the Cosmic Microwave Background), it was
+        &quot;dead&quot; structural weight. The transition to Ordered Dark Matter is not just the{" "}
+        <em>addition</em> of mass via vacuum harvesting, but the <strong>densification</strong> of
+        the existing halo.
+      </>,
+      <>
+        <strong>Standard Model:</strong> Predicts the halo remains a diffuse, collisionless cloud
+        forever. <strong>Holos Prediction:</strong> As civilizations Pivot, they harvest vacuum
+        energy and &quot;gather&quot; the diffuse primordial background, compressing it into
+        hyper-dense computational substrates.
+      </>,
+      <>
+        <strong>The Observable Shift:</strong> We should see the Dark Matter profile of older
+        galaxies shifting from smooth and diffuse (
+        <a href="https://en.wikipedia.org/wiki/Navarro%E2%80%93Frenk%E2%80%93White_profile">
+          NFW profiles
+        </a>
+        ) to spiky and granular as the civilization matures and remodels its local gravity well.
+        The <strong>Maturity Index</strong> is thus simpler to read: the more granular the halo,
+        the older the civilization.
+      </>,
+      <>
+        <strong>The Increasing Density</strong>
+      </>,
+      <>
+        The 2025 DESI data (Dark Energy weakening) implies vacuum energy is being converted into
+        Dark Matter. This provides the fuel for both adding new mass and reorganizing existing
+        primordial dark matter into ordered architectures. The process is thermodynamic, not
+        mystical. The 5:1 ratio existed from the early universe, but Holos predicts the{" "}
+        <em>texture</em> and <em>local density</em> of that dark matter changes over cosmic time as
+        civilizations perform the Dimensional Pivot.
       </>,
       <>
         <strong>The 3D Visibility Timeline</strong>
