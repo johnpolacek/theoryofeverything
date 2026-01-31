@@ -663,13 +663,19 @@ export const sections: ContentSection[] = [
         ).
       </>,
       <>
-        <strong>The Energy Conversion Logic (how the Pivot is powered):</strong> The Dimensional
-        Pivot is a phase transition where a civilization taps into the &quot;False Vacuum&quot; (Dark
-        Energy) to resolve 3D latency. In standard physics, energy has a mass equivalent (
-        <MathInline>{"E = mc^2"}</MathInline>). When Dark Energy is harvested, that energy does not
-        vanish. It shows up in our 3D view as an increase in localized Dark Matter density. The
-        weakening of Dark Energy detected by DESI in 2025 is the thermodynamic signature: the
-        exhaustion of that &quot;fuel&quot; in regions where Succession has already occurred.
+        <strong>The Energy Conversion Logic</strong>
+      </>,
+      <>
+        The Dimensional Pivot is a phase transition where a civilization taps into the vacuum energy
+        of space to resolve 3D latency. This mechanism matches{" "}
+        <a href="https://en.wikipedia.org/wiki/Dark_energy#Interacting_dark_energy">
+          Interacting Dark Energy
+        </a>{" "}
+        models where energy from the vacuum is transferred into the dark matter sector. In the Holos
+        framework this is not random decay. It is the physical signature of Ephemeralization. The
+        civilization harvests the potential energy of empty space to construct its higher
+        dimensional architecture. This conversion process appears in our observations as a weakening
+        of Dark Energy and a corresponding growth of Ordered Dark Matter.
       </>,
       <>
         <strong>Interface:</strong> Consciousness is the interface through which the universe
