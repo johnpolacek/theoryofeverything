@@ -203,9 +203,9 @@ export default function Predictions() {
             </strong>
             ) may detect missing mass or gravitational anomalies devoid of electromagnetic
             counterparts. These are signatures of high-density informational structures formed by
-            civilizations that have shed their{" "}
-            <a href="https://en.wikipedia.org/wiki/Baryon">baryonic</a> cocoons to rotate out of the
-            observable 3D shadow.
+            civilizations that have transmuted their{" "}
+            <a href="https://en.wikipedia.org/wiki/Baryon">baryonic</a> substrate into Shadow Matter
+            (axion-like particles) to rotate out of the observable 3D shadow.
           </p>
           <p className="leading-relaxed">
             Modern surveys are already detecting <strong>super-compact subhaloes</strong> that

@@ -398,11 +398,15 @@ export const sections: ContentSection[] = [
         <strong>The Solution: Ephemeralization</strong>
       </>,
       <>
-        Transcension is informational migration, not physical. This follows{" "}
+        Transcension is informational migration rather than physical travel. This follows{" "}
         <a href="https://en.wikipedia.org/wiki/Ephemeralization">Ephemeralization</a> (R.
-        Buckminster Fuller, 1938): doing more with less until intelligence operates without physical
-        substrate. Advanced civilizations leave the material substrate behind. Only the
-        informational pattern transcends.
+        Buckminster Fuller, 1938), which is the process of doing more with less until intelligence
+        operates without physical substrate. Advanced civilizations do not simply abandon their
+        physical bodies. They transmute them. The baryonic matter is consumed to fuel the phase
+        transition into the Bulk. To remain invisible to our telescopes, the waste heat from this
+        process is shunted into higher dimensions or emitted as gravitational waves rather than
+        light. The 3D structure dissolves because its energy is conserved and remapped onto the
+        shadow architecture.
       </>,
       <>
         <strong>Shadow Matter (Substrate Independence)</strong>
@@ -421,6 +425,18 @@ export const sections: ContentSection[] = [
         ) shows that the resulting particles from this transition match{" "}
         <a href="https://en.wikipedia.org/wiki/Axion">axion-like particles</a>. That provides a
         specific particle-physics candidate for the shadow architecture.
+      </>,
+      <>
+        <strong>Terminology:</strong> Shadow Matter refers to the physical substance (the
+        axion-like particle substrate). Ordered Dark Matter refers to the large-scale structure
+        (the resulting non-random gravitational halos and mass-spikes) that this substance forms.
+      </>,
+      <>
+        <strong>The Transmutation:</strong> The baryonic substrate is not abandoned. It is consumed
+        to fuel the phase transition. Just as a caterpillar dissolves its structure to build the
+        butterfly, the civilization&apos;s 3D matter is transmuted into the axion-like architecture
+        of Shadow Matter. The energy is conserved and re-mapped onto higher-dimensional geometry.
+        We see no ruins because the ruins were the fuel.
       </>,
       <>
         <strong>Dark Matter Signatures</strong>
@@ -1036,7 +1052,7 @@ export const footnotes: FootnoteSection[] = [
         name: "The Transcension Hypothesis",
         url: "https://www.accelerating.org/articles/transcensionhypothesis",
         description:
-          "John Smart (2011): advanced civilizations migrate to inner space and eventually to black holes for efficiency—not as spatial migration of bodies, but as informational migration. The &quot;cocoon&quot; of matter is left behind; only the informational pattern transcends.",
+          "John Smart (2011): advanced civilizations migrate to inner space and eventually to black holes for efficiency. Holos extends this by asserting that the baryonic substrate is transmuted (consumed as fuel for the phase transition) rather than merely abandoned, ensuring no visible ruins remain.",
       },
       {
         name: "Cosmological natural selection",

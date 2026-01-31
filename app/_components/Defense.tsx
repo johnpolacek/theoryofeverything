@@ -365,7 +365,7 @@ const defenseData: AxiomDefense[] = [
           "**Response:**",
           "**Holos agrees:** Biological or mechanical bodies cannot enter higher dimensions. However, Transcension is **informational migration**, not spatial.",
           "- **Ephemeralization:** Following Fuller's principle (1938), advanced civilizations migrate from material expansion toward higher informational density.",
-          "- **The Metamorphosis:** The cocoon of [baryonic matter](https://en.wikipedia.org/wiki/Baryon) is left behind. Only the informational pattern transcends to substrate-independent platforms (e.g., black hole event horizons or [shadow sectors](https://en.wikipedia.org/wiki/Hidden_sector)) that are native to those geometries.",
+          "- **The Transmutation:** The baryonic substrate is not abandoned but consumed to fuel the phase transition. Just as a caterpillar dissolves its structure to build the butterfly, the 3D matter is transmuted into axion-like Shadow Matter. Energy is conserved and re-mapped onto higher-dimensional platforms (e.g., black hole event horizons or [shadow sectors](https://en.wikipedia.org/wiki/Hidden_sector)) that are native to those geometries. We see no ruins because the ruins were the fuel.",
           "- **Ontological Driver:** Unlike the standard [Transcension Hypothesis](https://www.accelerating.org/articles/transcensionhypothesis), Holos argues the driver is ontological: to maximize Φ by rotating closer to the unified source of reality.",
           "",
           "**Status:** ✔ Survives",
