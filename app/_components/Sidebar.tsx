@@ -9,6 +9,7 @@ import {
   defenseSubsections,
   definitionSubsections,
   predictionsSubsections,
+  trajectorySubsections,
 } from "../../lib/navigation";
 
 export default function Sidebar() {
@@ -20,6 +21,7 @@ export default function Sidebar() {
   const isLogicPage = pathname === "/logic";
   const isDefensePage = pathname === "/defense";
   const isDefinitionPage = pathname === "/definition";
+  const isTrajectoryPage = pathname === "/trajectory";
   const isPredictionsPage = pathname === "/predictions";
 
   // If we're not on the theory page, prepend "/" to hash links to navigate to theory page first
@@ -186,6 +188,23 @@ export default function Sidebar() {
             {isPredictionsPage && (
               <div className="sidebar-subsections sidebar-subsections-enter flex flex-col items-center">
                 {predictionsSubsections.map((subsection) => (
+                  <li key={subsection.id} className="sidebar-subsection-item text-xs py-1">
+                    <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
+                  </li>
+                ))}
+              </div>
+            )}
+            <li className="mt-2">
+              <Link
+                className={`text-lg font-medium ${isTrajectoryPage ? "opacity-100" : "opacity-60"}`}
+                href="/trajectory"
+              >
+                Trajectory
+              </Link>
+            </li>
+            {isTrajectoryPage && (
+              <div className="sidebar-subsections sidebar-subsections-enter flex flex-col items-center">
+                {trajectorySubsections.map((subsection) => (
                   <li key={subsection.id} className="sidebar-subsection-item text-xs py-1">
                     <a href={getSubsectionLink(subsection.id)}>{subsection.title}</a>
                   </li>

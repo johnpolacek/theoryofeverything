@@ -384,13 +384,22 @@ export const sections: ContentSection[] = [
         informational pattern transcends.
       </>,
       <>
-        <strong>Substrate Independence</strong>
+        <strong>Shadow Matter (Substrate Independence)</strong>
       </>,
       <>
-        Consciousness transfers from atomic substrates to{" "}
-        <a href="https://en.wikipedia.org/wiki/Substrate_independence">substrate-independent</a>{" "}
-        platforms in higher geometries, such as event horizons or matter interacting only via
-        gravity.
+        In the Holos framework, <strong>Shadow Matter</strong> is baryonic matter that has been
+        &quot;Successed&quot;. Its informational pattern has migrated to a higher-dimensional
+        platform. <strong>The 3D Invisibility:</strong> We do not see it because it no longer
+        occupies 3D atomic orbitals. <strong>The Interaction:</strong> It no longer interacts with
+        electromagnetism (light). It interacts with our slice of reality only via gravity, which is
+        a geometric force that &quot;leaks&quot; across all dimensions. <strong>The Physical
+        Match:</strong> The 2024 Metastable Dark Energy finding (
+        <a href="https://arxiv.org/abs/2403.04970" target="_blank" rel="noopener noreferrer">
+          arXiv:2403.04970
+        </a>
+        ) shows that the resulting particles from this transition match{" "}
+        <a href="https://en.wikipedia.org/wiki/Axion">axion-like particles</a>. That provides a
+        specific particle-physics candidate for the shadow architecture.
       </>,
       <>
         <strong>Dark Matter Signatures</strong>
@@ -421,6 +430,29 @@ export const sections: ContentSection[] = [
         higher-dimensional integration (Succession).
       </>,
       <>
+        <strong>Primordial vs. Ordered Dark Matter</strong>
+      </>,
+      <>
+        <strong>Primordial Phase:</strong> The diffuse, &quot;fuzzy&quot; gas of the early universe.
+        It acted as a passive gravitational nursery where baryonic matter could clump into stars.{" "}
+        <strong>Ordered Phase:</strong> The &quot;granular structure&quot; identified in the 2026 JWST
+        map. These are mass-spikes that are more refined and localized than standard models
+        predict. <strong>The Transition:</strong> The shift from primordial to ordered is the
+        physical result of Succession. Intelligence harvests the vacuum to build
+        higher-dimensional architectures.
+      </>,
+      <>
+        <strong>The 5:1 Ratio: The Maturity Index</strong>
+      </>,
+      <>
+        Standard cosmology treats the 5:1 ratio as a static value from the Big Bang. Holos predicts
+        this ratio is <strong>increasing over cosmic time</strong>. The 2025 DESI data (Dark Energy
+        weakening) implies vacuum energy is being converted into Dark Matter. The 5:1 ratio
+        represents the <strong>Maturity Index</strong> of our local universe: 5/6ths of the
+        &quot;matter&quot; in the cosmos has already hit the Scaling Wall and transitioned into the
+        Bulk. We are the 1/6th still in the nursery.
+      </>,
+      <>
         <strong>The 3D Visibility Timeline</strong>
       </>,
       <>
@@ -448,8 +480,8 @@ export const sections: ContentSection[] = [
         gravitational signatures with non-random geometric symmetries (fractal repetition,
         prime-number distributions) that reveal integrated information systems. Where the Standard
         Model expects random distributions, Holos predicts mass-spikes with geometric structure and
-        super-compact subhaloes. The 5:1 ratio is transcended civilizations to nursery-phase
-        baryonic matter.
+        super-compact subhaloes. The 5:1 ratio is the <strong>Succession Ratio</strong>: a record
+        of 13.8 billion years of transitions from nursery-phase baryonic matter to the Teeming Dark.
       </>,
     ],
   },
@@ -934,6 +966,12 @@ export const footnotes: FootnoteSection[] = [
         url: "#the-teeming-dark",
         description:
           "The mature state of intelligence that has passed beyond 3D through the Dimensional Pivot. Gravitationally detected as Ordered Dark Matter (the Teeming Dark).",
+      },
+      {
+        name: "Shadow Matter",
+        url: "#aliens",
+        description:
+          "Baryonic matter that has been Successed: its informational pattern has migrated to a higher-dimensional platform. Invisible in 3D (no EM); interacts only via gravity, which leaks across dimensions. The 2024 Metastable DE paper (arXiv:2403.04970) identifies axion-like particles as the physical candidate for this shadow architecture.",
       },
       {
         name: "Ehrenfest argument",

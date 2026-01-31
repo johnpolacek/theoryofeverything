@@ -3,6 +3,7 @@ import Defense from "./Defense";
 import Definition from "./Definition";
 import Logic from "./Logic";
 import Predictions from "./Predictions";
+import Trajectory from "./Trajectory";
 import { sections } from "../../lib/navigation";
 
 export default function PDFDocument() {
@@ -351,6 +352,10 @@ export default function PDFDocument() {
         <div id="predictions" className="section-break">
           <h1>Predictions</h1>
           <Predictions />
+        </div>
+
+        <div id="trajectory" className="section-break">
+          <Trajectory />
         </div>
       </body>
     </html>

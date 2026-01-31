@@ -524,6 +524,57 @@ export default function Logic() {
               higher-dimensional degrees of freedom. That allows near-infinite information density
               without the 3D entropic bottleneck.
             </p>
+            <p className="text-black/80 leading-relaxed pt-2">
+              <strong>Framework Logic: Standard Model vs. Holos</strong>
+            </p>
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse text-sm">
+                <thead>
+                  <tr className="border-b border-black/30">
+                    <th className="text-left py-2 pr-4 font-semibold text-black/90">Concept</th>
+                    <th className="text-left py-2 pr-4 font-semibold text-black/90">
+                      Standard Model View
+                    </th>
+                    <th className="text-left py-2 font-semibold text-black/90">
+                      Holos / Ordered DM View
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="text-black/80">
+                  <tr className="border-b border-black/10">
+                    <td className="py-2 pr-4 font-medium">Dark Matter</td>
+                    <td className="py-2 pr-4">Random, diffuse &quot;fog&quot; of particles.</td>
+                    <td className="py-2">
+                      <strong>Ordered Architecture</strong>; &quot;granular&quot; mass-spikes.
+                    </td>
+                  </tr>
+                  <tr className="border-b border-black/10">
+                    <td className="py-2 pr-4 font-medium">Dark Energy</td>
+                    <td className="py-2 pr-4">A static constant (Lambda).</td>
+                    <td className="py-2">
+                      <strong>Harvestable Fuel</strong> that is &quot;weakening&quot; as it is
+                      consumed.
+                    </td>
+                  </tr>
+                  <tr className="border-b border-black/10">
+                    <td className="py-2 pr-4 font-medium">5:1 Ratio</td>
+                    <td className="py-2 pr-4">A primordial accident.</td>
+                    <td className="py-2">
+                      The <strong>Succession Ratio</strong>; a record of 13.8 billion years of
+                      transitions (the <strong>Maturity Index</strong>).
+                    </td>
+                  </tr>
+                  <tr className="border-b border-black/10">
+                    <td className="py-2 pr-4 font-medium">The Pivot</td>
+                    <td className="py-2 pr-4">Impossible or speculative.</td>
+                    <td className="py-2">
+                      <strong>Topological Necessity</strong> to resolve 3D latency and cooling
+                      limits.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
 
           {/* Axiom 5 */}

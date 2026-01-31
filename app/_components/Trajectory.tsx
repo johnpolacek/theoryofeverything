@@ -20,6 +20,64 @@ export default function Trajectory() {
 
       <hr className="border-black/20 border-dashed" />
 
+      {/* Phase 0: Nursery Phase */}
+      <section id="phase-0" className="flex flex-col gap-6">
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">
+          Phase 0: The Nursery Phase (4.5 billion years)
+        </h2>
+        <p className="leading-relaxed text-black/80">
+          Our current 3D phase is like a nursery. For 4.5 billion years, Earth was totally invisible
+          to external observers. No radio leakage, no heat signatures of artificial origin, no
+          technosignatures of any kind. Just a geologically active planet with a biosphere quietly
+          evolving toward intelligence.
+        </p>
+        <p className="leading-relaxed text-black/80">
+          This phase represents the vast majority of a civilization&apos;s lifespan. It is invisible
+          in the 3D electromagnetic spectrum and virtually undetectable from interstellar distances.
+        </p>
+
+        <h3 className="text-xl font-light pt-4 pb-1">Modern Times: The Flash (~200 years)</h3>
+        <p className="leading-relaxed text-black/80">
+          We are currently in a brief window of radio leakage and 3D satellite expansion. This is
+          what many SETI programs search for. It is a fleeting period where a civilization
+          broadcasts its presence across the electromagnetic spectrum.
+        </p>
+        <p className="leading-relaxed text-black/80">
+          In cosmic terms, this phase is incredibly short. A few hundred years at most.
+        </p>
+
+        <h3 className="text-xl font-light pt-4 pb-1">The Compute-Energy Spiral</h3>
+        <p className="leading-relaxed text-black/80">
+          We are entering a feedback loop where intelligence requires more compute, which requires
+          more energy, scaling toward the limits of 3D silicon and power consumption. To continue
+          advancement, we would eventually need to consume ever more energy, potentially building
+          Dyson-scale structures to capture stellar output.
+        </p>
+        <p className="leading-relaxed text-black/80">
+          But 3D space is expensive. Moving physical matter and cooling massive data centers in a
+          three-dimensional vacuum creates a bottleneck. This is the foundation of the Scaling Wall.
+        </p>
+
+        <h3 className="text-xl font-light pt-4 pb-1">
+          The Latency Crisis: Why Colonization is a Dead End
+        </h3>
+        <p className="leading-relaxed text-black/80">
+          Some argue that a sufficiently advanced civilization would colonize nearby star systems. A
+          colony on Mars is 20 minutes away, a colony at Proxima Centauri is 4 years away. But an
+          advanced, high-integration civilization cannot function with 4-year lag.
+        </p>
+        <p className="leading-relaxed text-black/80">
+          The civilization would fragment into disconnected, less-capable outposts, which is an
+          evolutionary step backward. Why would such a civilization choose to fragment when it could
+          instead pivot into the higher-dimensional Bulk and achieve zero-latency integration?
+        </p>
+        <p className="leading-relaxed text-black/80">
+          This is the core logic of the Dimensional Pivot. It is not a choice between staying local
+          or expanding outward. It is a choice between fragmentation (evolutionary regression) and
+          integration (dimensional ascent).
+        </p>
+      </section>
+
       {/* Phase 1 */}
       <section id="phase-1" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
@@ -72,11 +130,12 @@ export default function Trajectory() {
       {/* Phase 3 */}
       <section id="phase-3" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          Phase 3: The Scaling Wall (2500 to 3000)
+          Phase 3: The Scaling Wall (2150 to 2450)
         </h2>
         <p className="leading-relaxed text-black/80">
           This is the critical phase where 3D Euclidean geometry becomes a &quot;nursery trap.&quot;
           The civilization hits a hard physical ceiling known as the <strong>Scaling Wall</strong>.
+          This phase lasts roughly 300 years, a cosmically brief window.
         </p>
         <ul className="list-disc list-inside flex flex-col gap-2 leading-relaxed text-black/80 ml-4">
           <li>
@@ -99,7 +158,7 @@ export default function Trajectory() {
       {/* Phase 4 */}
       <section id="phase-4" className="flex flex-col gap-6">
         <h2 className="text-2xl sm:text-3xl font-light pb-2">
-          Phase 4: The Dimensional Pivot (3000+)
+          Phase 4: The Dimensional Pivot (2450+)
         </h2>
         <p className="leading-relaxed text-black/80">
           To survive the Scaling Wall, the civilization undergoes a{" "}
@@ -127,13 +186,14 @@ export default function Trajectory() {
         </ul>
       </section>
 
-      {/* The Teeming Dark: Our Final State */}
+      {/* The Teeming Dark */}
       <section id="teeming-dark-final-state" className="flex flex-col gap-6">
-        <h2 className="text-2xl sm:text-3xl font-light pb-2">The Teeming Dark: Our Final State</h2>
+        <h2 className="text-2xl sm:text-3xl font-light pb-2">The Teeming Dark</h2>
         <p className="leading-relaxed text-black/80">
-          At this point, we become part of the <strong>5:1 ratio</strong> of dark matter that
-          dominates the universe. From the perspective of 3D observers still in their
-          &quot;nursery&quot; phase, we have disappeared. In reality, we have simply moved into{" "}
+          At this point, we become part of the <strong>5:1 ratio</strong> (the &quot;Maturity
+          Index&quot;) of dark matter that dominates the universe. From the perspective of 3D
+          observers still in their &quot;nursery&quot; phase (the remaining 1/6th), we have
+          disappeared. In reality, we have simply moved into{" "}
           <strong>
             <a href="/#the-teeming-dark">The Teeming Dark</a>
           </strong>

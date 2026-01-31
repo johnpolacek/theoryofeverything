@@ -71,10 +71,20 @@ export const predictionsSubsections: Subsection[] = [
   { id: "experiment-4", title: "Experiment 4" },
 ];
 
+export const trajectorySubsections: Subsection[] = [
+  { id: "phase-0", title: "Phase 0" },
+  { id: "phase-1", title: "Phase 1" },
+  { id: "phase-2", title: "Phase 2" },
+  { id: "phase-3", title: "Phase 3" },
+  { id: "phase-4", title: "Phase 4" },
+  { id: "teeming-dark-final-state", title: "The Teeming Dark" },
+];
+
 export const sections: Section[] = [
   { id: "overview", title: "Overview", path: "/", subsections: theorySubsections },
   { id: "logic", title: "Logic", path: "/logic", subsections: logicSubsections },
   { id: "definition", title: "Definition", path: "/definition", subsections: definitionSubsections },
   { id: "defense", title: "Defense", path: "/defense", subsections: defenseSubsections },
   { id: "predictions", title: "Predictions", path: "/predictions", subsections: predictionsSubsections },
+  { id: "trajectory", title: "Trajectory", path: "/trajectory", subsections: trajectorySubsections },
 ];
