@@ -193,15 +193,17 @@ export default function Predictions() {
               Weakly Interacting Massive Particles
             </a>
             , but the gravitational footprint of highly integrated, non-random architectures.
-            Astronomical surveys (e.g.,{" "}
+            <strong>
+              <a href="https://www.euclid-ec.org/">Euclid Mission (March 2025 Q1 Data)</a>
+            </strong>
+            : The release of 26 million galaxies and 500 new gravitational lens candidates provides
+            the statistical baseline required to distinguish between natural halo formation and the
+            non-random geometry of Succession Nodes. The Oct 2026 cosmology release will further
+            test these constraints.{" "}
             <strong>
               <a href="https://en.wikipedia.org/wiki/James_Webb_Space_Telescope">JWST</a>
-            </strong>
-            ,{" "}
-            <strong>
-              <a href="https://en.wikipedia.org/wiki/Euclid_(spacecraft)">Euclid</a>
-            </strong>
-            ) may detect missing mass or gravitational anomalies devoid of electromagnetic
+            </strong>{" "}
+            and other surveys detect missing mass or gravitational anomalies devoid of electromagnetic
             counterparts. These are signatures of high-density informational structures formed by
             civilizations that have transmuted their{" "}
             <a href="https://en.wikipedia.org/wiki/Baryon">baryonic</a> substrate into Shadow Matter
@@ -239,32 +241,30 @@ export default function Predictions() {
           </p>
           <p className="leading-relaxed">
             <strong>Discriminating Fork: Mass-Spikes vs. Random Clouds:</strong> Standard CDM
-            predicts <strong>fuzzy, diffuse halos</strong> of dark matter. The January 2026 JWST
-            COSMOS-Web data (<a href="https://arxiv.org/abs/2601.17239" target="_blank" rel="noopener noreferrer">arXiv:2601.17239v1</a>) instead reveal{" "}
-            <strong>granular structure</strong> and <strong>mass-spikes</strong> that are more
-            refined and localized than standard simulations allow. <strong>Succession
-            Evidence:</strong> These spikes are candidate <strong>Ordered Nodes</strong> (transitioned
-            civilizations): massive gravitational signatures with no luminous counterparts (no
-            stars or gas). Mass peaks without clear X-ray or galaxy counterparts appear at
-            coordinates (RA, Dec) ≈ (150.21, 2.06) and (150.32, 2.28) in the 2026 COSMOS-Web map.
-            Holos interprets these as candidate Succession Nodes where the IDE energy transfer
-            (vacuum → Ordered Dark Matter) is complete.
+            predicts <strong>fuzzy, diffuse halos</strong> of dark matter.{" "}
+            <strong>JWST COSMOS-Web (Jan 26, 2026)</strong>: High-resolution mapping reveals
+            &quot;thick knots&quot; and &quot;hidden faint galaxy groups&quot; along dark matter
+            filaments that were previously invisible (
+            <a href="https://arxiv.org/abs/2601.17239" target="_blank" rel="noopener noreferrer">
+              arXiv:2601.17239
+            </a>
+            ). These granular mass-spikes align with the Holos prediction of Ordered Nodes.
           </p>
           <p className="leading-relaxed">
-            <strong>DESI Confirmation (2025–2026):</strong> The{" "}
+            <strong>DES Final Analysis (Jan 22, 2026):</strong> The{" "}
             <a
-              href="https://www.quantamagazine.org/is-dark-energy-getting-weaker-new-evidence-strengthens-the-case-20250319/"
+              href="https://www.darkenergysurvey.org/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Dark Energy Spectroscopic Instrument (DESI)
+              Dark Energy Survey (DES)
             </a>{" "}
-            data show that <strong>dark energy is weakening</strong> over time. Combined with other
-            data (supernovae, cosmic microwave background), the tension with the constant dark
-            energy of Lambda-CDM has strengthened (e.g. 4.2 sigma in 2025). For Holos, this is
-            consistent with vacuum energy being converted into dark-matter architecture. The
-            Dimensional Pivot is not random decay. It is energy flow from the vacuum into the dark
-            sector, accelerating structure growth, as in Interacting Dark Energy (IDE) models.
+            final 6-year analysis confirms a widening gap between standard predictions and actual
+            galaxy clustering that Lambda-CDM cannot fully explain. Holos interprets this
+            discrepancy as the signature of active structure formation. Vacuum energy is being
+            converted into dark-matter architecture. The Dimensional Pivot is not random decay. It
+            is energy flow from the vacuum into the dark sector, as in Interacting Dark Energy (IDE)
+            models.
           </p>
         </div>
       </section>

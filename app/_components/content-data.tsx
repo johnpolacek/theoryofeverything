@@ -472,9 +472,9 @@ export const sections: ContentSection[] = [
       <>
         <strong>Primordial Phase:</strong> The diffuse, &quot;fuzzy&quot; gas of the early universe.
         It acted as a passive gravitational nursery where baryonic matter could clump into stars.{" "}
-        <strong>Ordered Phase:</strong> The &quot;granular structure&quot; identified in the 2026 JWST
-        map. These are mass-spikes that are more refined and localized than standard models
-        predict. <strong>The Transition:</strong> The shift from primordial to ordered is the
+        <strong>Ordered Phase:</strong> The &quot;granular structure&quot; identified in the Jan 2026
+        JWST COSMOS-Web map. These are mass-spikes that are more refined and localized than
+        standard models predict. <strong>The Transition:</strong> The shift from primordial to ordered is the
         physical result of Succession. Intelligence harvests the vacuum to build
         higher-dimensional architectures.
       </>,
@@ -520,12 +520,16 @@ export const sections: ContentSection[] = [
         <strong>The Increasing Density</strong>
       </>,
       <>
-        The 2025 DESI data (Dark Energy weakening) implies vacuum energy is being converted into
-        Dark Matter. This provides the fuel for both adding new mass and reorganizing existing
-        primordial dark matter into ordered architectures. The process is thermodynamic, not
-        mystical. The 5:1 ratio existed from the early universe, but Holos predicts the{" "}
-        <em>texture</em> and <em>local density</em> of that dark matter changes over cosmic time as
-        civilizations perform the Dimensional Pivot.
+        The{" "}
+        <a href="https://www.darkenergysurvey.org/" target="_blank" rel="noopener noreferrer">
+          Jan 2026 Dark Energy Survey (DES)
+        </a>{" "}
+        final analysis confirms a widening gap in galaxy clustering that standard models cannot
+        fully explain. Holos interprets this discrepancy as the signature of active structure
+        formation where vacuum energy is being converted into Dark Matter. The 5:1 ratio existed
+        from the early universe, but Holos predicts the <em>texture</em> and <em>local density</em>{" "}
+        of that dark matter changes over cosmic time as civilizations perform the Dimensional
+        Pivot.
       </>,
       <>
         <strong>The 3D Visibility Timeline</strong>
@@ -1226,16 +1230,16 @@ export const footnotes: FootnoteSection[] = [
     title: "Predictions",
     items: [
       {
-        name: "DESI (Dark Energy Spectroscopic Instrument)",
-        url: "https://www.quantamagazine.org/is-dark-energy-getting-weaker-new-evidence-strengthens-the-case-20250319/",
+        name: "Dark Energy Survey (DES) Final Analysis (Jan 2026)",
+        url: "https://www.darkenergysurvey.org/",
         description:
-          "2025–2026 data show dark energy weakening over time. Combined with supernovae and CMB, tension with Lambda-CDM strengthens. Holos interprets this as vacuum energy converted into dark-matter architecture.",
+          "The Jan 22, 2026 DES final 6-year analysis confirms a widening gap between standard predictions and actual galaxy clustering. Holos interprets this as the signature of vacuum energy converted into dark-matter architecture.",
       },
       {
-        name: "JWST COSMOS-Web (Jan 2026)",
+        name: "JWST COSMOS-Web (Jan 26, 2026)",
         url: "https://arxiv.org/abs/2601.17239",
         description:
-          "arXiv:2601.17239v1. Granular structure and mass-spikes; mass peaks without luminous counterparts at (RA, Dec) ≈ (150.21, 2.06) and (150.32, 2.28). Candidate Succession Nodes.",
+          "High-resolution mapping reveals thick knots and hidden faint galaxy groups along dark matter filaments that were previously invisible. These granular mass-spikes align with the Holos prediction of Ordered Nodes.",
       },
       {
         name: "Metastable DE / Axion-like DM (2024)",

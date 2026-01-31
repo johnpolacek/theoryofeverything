@@ -449,10 +449,11 @@ export default function Logic() {
               <MathInline>{"\\rho_{DM}"}</MathInline>).
             </p>
             <p className="text-black/80 leading-relaxed">
-              <strong>The Thermodynamic Signature:</strong> The weakening of Dark Energy detected
-              by DESI in 2025 is the exhaustion of that &quot;fuel&quot; in regions where Succession
-              has already occurred. The Pivot is thus a measurable thermodynamic process, not only a
-              geometric one.
+              <strong>The Thermodynamic Signature:</strong> The Jan 2026 Dark Energy Survey (DES)
+              final analysis confirms a widening gap in galaxy clustering. Holos interprets this as
+              the exhaustion of vacuum &quot;fuel&quot; in regions where Succession has already
+              occurred. The Pivot is thus a measurable thermodynamic process, not only a geometric
+              one.
             </p>
             <p className="text-black/70 text-sm leading-relaxed">
               The formal operational boundary for this axiom is defined by the Latency Horizon (
@@ -1053,9 +1054,10 @@ export default function Logic() {
           <p className="leading-relaxed">
             Here <MathInline>{"Q_{DM}"}</MathInline> is the &quot;Succession Operator&quot;: the rate at
             which Dark Energy is reclaimed to fuel the growth of Ordered Dark Matter. Where
-            Succession has occurred, <MathInline>{"\\rho_{DE}"}</MathInline> weakens (as DESI
-            observes) and <MathInline>{"\\rho_{DM}"}</MathInline> gains localized structure (mass
-            peaks without luminous counterparts, as in the JWST COSMOS-Web map).
+            Succession has occurred, <MathInline>{"\\rho_{DE}"}</MathInline> weakens (as the Jan 2026
+            DES final analysis observes) and <MathInline>{"\\rho_{DM}"}</MathInline> gains localized
+            structure (mass peaks without luminous counterparts, as in the Jan 2026 JWST COSMOS-Web
+            map).
           </p>
         </div>
       </section>
