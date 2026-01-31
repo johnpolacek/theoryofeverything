@@ -456,6 +456,10 @@ const crossAxiomCheck = [
   { risk: "Requires new forces", result: "❌ No" },
   { risk: "[Anthropocentric](https://en.wikipedia.org/wiki/Anthropocentrism)", result: "❌ No" },
   {
+    risk: '"Space Amish" (Voluntary Stasis)',
+    result: "✔ Survived. Stasis equals invisibility. They produce no technosignatures and eventually succumb to local extinction events.",
+  },
+  {
     risk: "Fully [falsifiable](https://en.wikipedia.org/wiki/Falsifiability)",
     result: "⚠️ Partially (via Ordered Dark Matter signatures and TMS-EEG phase transitions)",
   },

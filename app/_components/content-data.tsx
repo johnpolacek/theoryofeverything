@@ -362,6 +362,27 @@ export const sections: ContentSection[] = [
         middle path of &quot;expanding across the galaxy&quot; while staying coherent.
       </>,
       <>
+        <strong>The Stagnation Trap (The "Space Amish" Argument)</strong>
+      </>,
+      <>
+        A common objection asks: what if a civilization voluntarily halts its growth to remain in
+        the 3D &quot;Nursery&quot; forever? In the Holos framework, these civilizations do not
+        break the Great Silence. They ensure it.
+      </>,
+      <>
+        <strong>Invisibility:</strong> A steady-state civilization optimizes for efficiency, not
+        expansion. They do not build Dyson spheres or emit wasteful high-energy radio signals. To
+        our instruments, they are indistinguishable from a pre-technological biosphere. We do not
+        see them because they have chosen to be quiet.
+      </>,
+      <>
+        <strong>Mortality:</strong> Refusing the Pivot is a long-term death sentence. 3D space is
+        hostile over cosmic timescales. Without the hyper-integrated capabilities accessed through
+        the Bulk, a stagnant civilization remains vulnerable to extinction events (asteroid
+        impacts, stellar instability, gamma-ray bursts). You either grow enough to leave, or you
+        stay long enough to die.
+      </>,
+      <>
         <strong>The Stability Problem (Ehrenfest Argument)</strong>
       </>,
       <>
