@@ -240,15 +240,17 @@ export default function Predictions() {
             </a>
           </p>
           <p className="leading-relaxed">
-            <strong>Discriminating Fork: Mass-Spikes vs. Random Clouds:</strong> Standard CDM
-            predicts <strong>fuzzy, diffuse halos</strong> of dark matter.{" "}
-            <strong>JWST COSMOS-Web (Jan 26, 2026)</strong>: High-resolution mapping reveals
-            &quot;thick knots&quot; and &quot;hidden faint galaxy groups&quot; along dark matter
-            filaments that were previously invisible (
+            <strong>Discriminating Fork: Mass-Spikes vs. Random Clouds.</strong> Standard models
+            predict fuzzy, diffuse halos of dark matter. The Jan 2026{" "}
             <a href="https://arxiv.org/abs/2601.17239" target="_blank" rel="noopener noreferrer">
-              arXiv:2601.17239
-            </a>
-            ). These granular mass-spikes align with the Holos prediction of Ordered Nodes.
+              JWST COSMOS-Web
+            </a>{" "}
+            data reveals granular structure and mass peaks without clear counterparts in light or
+            gas. These are the specific locations where energy reclamation has created dense
+            invisible nodes of intelligence. Holos identifies these anomalies as Succession Nodes
+            where the transfer of vacuum energy into the dark sector is complete. Mass peaks
+            without clear galaxy counterparts appear at coordinates (RA, Dec) ≈ (150.21, 2.06) and
+            (150.32, 2.28) in the 2026 map.
           </p>
           <p className="leading-relaxed">
             <strong>DES Final Analysis (Jan 22, 2026):</strong> The{" "}

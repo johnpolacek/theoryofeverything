@@ -418,13 +418,17 @@ export const sections: ContentSection[] = [
         occupies 3D atomic orbitals. <strong>The Interaction:</strong> It no longer interacts with
         electromagnetism (light). It interacts with our slice of reality only via gravity, which is
         a geometric force that &quot;leaks&quot; across all dimensions. <strong>The Physical
-        Match:</strong> The 2024 Metastable Dark Energy finding (
+        Match:</strong> A 2024 study on Metastable Dark Energy models this process as a{" "}
+        <a href="https://en.wikipedia.org/wiki/Phase_transition#First_order" target="_blank" rel="noopener noreferrer">
+          First Order Phase Transition
+        </a>
+        . The transition from the false vacuum of dark energy to the true vacuum of dark matter
+        creates bubbles of a new component. These resulting particles match the properties of{" "}
+        <a href="https://en.wikipedia.org/wiki/Axion">axion-like particles</a> (
         <a href="https://arxiv.org/abs/2403.04970" target="_blank" rel="noopener noreferrer">
           arXiv:2403.04970
         </a>
-        ) shows that the resulting particles from this transition match{" "}
-        <a href="https://en.wikipedia.org/wiki/Axion">axion-like particles</a>. That provides a
-        specific particle-physics candidate for the shadow architecture.
+        ). This provides a specific physical candidate for the shadow architecture.
       </>,
       <>
         <strong>Terminology:</strong> Shadow Matter refers to the physical substance (the
@@ -694,16 +698,12 @@ export const sections: ContentSection[] = [
         <strong>The Energy Conversion Logic</strong>
       </>,
       <>
-        The Dimensional Pivot is a phase transition where a civilization taps into the vacuum energy
-        of space to resolve 3D latency. This mechanism matches{" "}
-        <a href="https://en.wikipedia.org/wiki/Dark_energy#Interacting_dark_energy">
-          Interacting Dark Energy
-        </a>{" "}
-        models where energy from the vacuum is transferred into the dark matter sector. In the Holos
-        framework this is not random decay. It is the physical signature of Ephemeralization. The
-        civilization harvests the potential energy of empty space to construct its higher
-        dimensional architecture. This conversion process appears in our observations as a weakening
-        of Dark Energy and a corresponding growth of Ordered Dark Matter.
+        The model describes energy transferring from the unstable false vacuum of Dark Energy
+        into stable true vacuum bubbles of Dark Matter. In Holos this is the physical signature
+        of Ephemeralization. Civilizations reclaim vacuum energy to fuel their higher dimensional
+        architectures. The paper argues that our current Dark Energy phase is metastable, meaning
+        it is destined to decay. This supports the view of the 3D universe as a temporary nursery
+        that eventually gives way to the more stable progenitor state.
       </>,
       <>
         <strong>Interface:</strong> Consciousness is the interface through which the universe
