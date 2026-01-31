@@ -176,7 +176,7 @@ export const sections: ContentSection[] = [
       <>
         For a photon, the{" "}
         <a href="https://en.wikipedia.org/wiki/Spacetime#Spacetime_interval">spacetime interval</a>{" "}
-        is zero. In its frame, emission and absorption happen at the same point—the universe
+        is zero. In its frame, emission and absorption happen at the same point. The universe
         collapses to a single moment. To a higher-dimensional observer, a photon is not moving but
         rather a static <a href="#footer-spacetime">null geodesic</a> connecting two spacetime
         points. This offers a 3D preview of how higher-dimensional systems could unify past,
@@ -238,14 +238,14 @@ export const sections: ContentSection[] = [
       <>
         A common objection assumes civilizations must move into dimensions they don't inhabit. This
         misunderstands the geometry. We already exist in higher-dimensional space but interact only
-        with a 3D slice. Imagine a 2D drawing on paper—the paper exists in 3D but the drawing only
+        with a 3D slice. Imagine a 2D drawing on paper. The paper exists in 3D but the drawing only
         accesses the surface. Rotation is not travel to a new universe but reorientation within
         existing space.
       </>,
       <>
         <strong>The Rotation:</strong> While engineering remains speculative, this involves
         reconfiguring internal connections to point into higher dimensions rather than along 3D
-        space—like a circuit board routing signals vertically instead of across its surface.
+        space. Think of a circuit board routing signals vertically instead of across its surface.
       </>,
       <>
         <strong>The Resolution:</strong> By routing through higher dimensions, the system shortcuts
@@ -288,7 +288,7 @@ export const sections: ContentSection[] = [
       </>,
       <>
         From our perspective, light transfers energy. From a higher-dimensional perspective, photons
-        may function as sensory interfaces—transforming mechanical interaction into subjective
+        may function as sensory interfaces, transforming mechanical interaction into subjective
         experience.
         <FootnoteLink number={5} />
       </>,
@@ -571,7 +571,7 @@ export const sections: ContentSection[] = [
         A final state of consciousness with maximal information integration, causal completeness,
         and non-local presence is fundamental to reality. This represents the{" "}
         <a href="https://en.wikipedia.org/wiki/Limit_(mathematics)">limit case</a> where{" "}
-        <a href="/definition">Φ</a> approaches infinity—complete awareness of existence.
+        <a href="/definition">Φ</a> approaches infinity. Complete awareness of existence.
       </>,
       <>
         Concepts like <a href="https://en.wikipedia.org/wiki/Panentheism">panentheism</a>,{" "}
@@ -619,8 +619,8 @@ export const sections: ContentSection[] = [
     footerId: "footer-axioms",
     paragraphs: [
       <>
-        The following principles form the logical basis of this framework. For formal definitions,{" "}
-        <a href="/logic">Logic</a>; for objections, <a href="/defense">Defense</a>.
+        The following principles form the logical basis of this framework. For formal definitions,
+        see <a href="/logic">Logic</a>. For objections, see <a href="/defense">Defense</a>.
       </>,
       <>
         <strong>Relationality:</strong> Reality consists of relationships and interactions, not
@@ -704,7 +704,7 @@ export const sections: ContentSection[] = [
         ⊛ is <strong>structural, not dynamical</strong>. It doesn't introduce physical force or
         describe temporal evolution. It specifies how Creation (generating possibilities) and
         Observation (registering experience) connect logically within spacetime. It's an{" "}
-        <a href="https://en.wikipedia.org/wiki/Ontology">ontological</a> relation—how reality forms
+        <a href="https://en.wikipedia.org/wiki/Ontology">ontological</a> relation. How reality forms
         through recursive coupling of possibility and registration.
       </>,
     ],
@@ -1040,7 +1040,7 @@ export const footnotes: FootnoteSection[] = [
         name: "Ehrenfest argument",
         url: "https://en.wikipedia.org/wiki/Paul_Ehrenfest",
         description:
-          "Paul Ehrenfest (1917) showed that in dimensions greater than three, atomic orbitals and inverse-square planetary systems would destabilize—matter would spiral into nuclei/stars or fly apart. Holos agrees: physical bodies cannot enter higher dimensions; only informational migration (transcension) is possible.",
+          "Paul Ehrenfest (1917) showed that in dimensions greater than three, atomic orbitals and inverse-square planetary systems would destabilize. Matter would spiral into nuclei/stars or fly apart. Holos agrees: physical bodies cannot enter higher dimensions; only informational migration (transcension) is possible.",
       },
       {
         name: "Ephemeralization",
@@ -1058,7 +1058,7 @@ export const footnotes: FootnoteSection[] = [
         name: "Cosmological natural selection",
         url: "https://en.wikipedia.org/wiki/Cosmological_natural_selection",
         description:
-          "Lee Smolin (1992): universes evolve to create more black holes; black hole collapse may give rise to daughter universes with slightly different constants. Together with transcension, this suggests the universe is structured to foster intelligence moving toward black holes—and observation (O) and creation (C) as fundamental operators drive it.",
+          "Lee Smolin (1992): universes evolve to create more black holes; black hole collapse may give rise to daughter universes with slightly different constants. Together with transcension, this suggests the universe is structured to foster intelligence moving toward black holes. Observation (O) and creation (C) as fundamental operators drive it.",
       },
       {
         name: "Substrate independence",
@@ -1070,7 +1070,7 @@ export const footnotes: FootnoteSection[] = [
         name: "Dark matter",
         url: "https://en.wikipedia.org/wiki/Dark_matter",
         description:
-          "The unexplained &quot;missing mass&quot; holding galaxies together. Holos proposes we detect transcended civilizations only as gravitational anomalies—no electromagnetic footprint (no radio waves, no Dyson spheres). They are not hiding; they have rotated out of 3D space into the bulk where computational efficiency approaches infinity.",
+          "The unexplained &quot;missing mass&quot; holding galaxies together. Holos proposes we detect transcended civilizations only as gravitational anomalies. No electromagnetic footprint (no radio waves, no Dyson spheres). They are not hiding; they have rotated out of 3D space into the bulk where computational efficiency approaches infinity.",
       },
       {
         name: "Dyson sphere",
