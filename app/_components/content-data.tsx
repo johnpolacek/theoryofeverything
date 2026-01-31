@@ -505,6 +505,18 @@ export const sections: ContentSection[] = [
         the older the civilization.
       </>,
       <>
+        <strong>The Succession Density Shift</strong>
+      </>,
+      <>
+        This transition creates a measurable change in the galaxy&apos;s gravitational profile
+        known as the Succession Density Shift. Standard cosmology predicts that dark matter halos
+        remain smooth and diffuse over time. Holos predicts that as a civilization matures the
+        local halo becomes granular and highly concentrated. Observational surveys should detect a
+        clear trend where older galaxies exhibit sharp mass spikes while younger galaxies retain
+        fuzzy diffuse profiles. This density shift correlates directly with the age of the galaxy
+        and serves as the primary technosignature of the Teeming Dark.
+      </>,
+      <>
         <strong>The Increasing Density</strong>
       </>,
       <>
