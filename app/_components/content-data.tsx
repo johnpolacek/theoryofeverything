@@ -532,6 +532,18 @@ export const sections: ContentSection[] = [
         Pivot.
       </>,
       <>
+        <strong>Resolving the Hubble Tension</strong>
+      </>,
+      <>
+        The mismatch in the expansion rate known as the{" "}
+        <a href="https://en.wikipedia.org/wiki/Hubble_tension">Hubble Tension</a> is a geometric
+        transition, not a measurement error. Early-universe measurements capture the Primordial
+        Phase, a random low-integration nursery. Local modern measurements capture the Succession
+        Phase, where the growth of Ordered Dark Matter has altered the gravitational landscape.
+        The numbers do not match because the universe has changed its internal connections. It has
+        moved from a random gas state to a highly structured architecture.
+      </>,
+      <>
         <strong>The 3D Visibility Timeline</strong>
       </>,
       <>

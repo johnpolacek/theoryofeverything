@@ -288,6 +288,14 @@ export default function Predictions() {
                 <td className="py-3 text-black/80">CMB Polarization (LiteBIRD)</td>
               </tr>
               <tr className="border-b border-black/10">
+                <td className="py-3 pr-8 text-black/80">Cosmology</td>
+                <td className="py-3 pr-8 text-black/80">
+                  <a href="https://en.wikipedia.org/wiki/Hubble_tension">Hubble Tension</a> is
+                  geometric transition (Primordial vs. Succession Phase), not measurement error.
+                </td>
+                <td className="py-3 text-black/80">Early vs. local expansion-rate measurements</td>
+              </tr>
+              <tr className="border-b border-black/10">
                 <td className="py-3 pr-8 text-black/80">Neuroscience</td>
                 <td className="py-3 pr-8 text-black/80">
                   Consciousness is a phase transition at <MathInline>{"Φ_c"}</MathInline>.
